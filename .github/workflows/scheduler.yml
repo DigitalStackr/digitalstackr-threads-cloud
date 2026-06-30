@@ -1,0 +1,48 @@
+name: Threads Scheduler
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub may delay by up to ~15 min during peak load.
+    - cron: '*/5 * * * *'
+  workflow_dispatch:        # allows manual test runs from the Actions tab
+
+permissions:
+  contents: write           # needed so the job can commit updated queue.json + log.txt
+
+concurrency:
+  group: scheduler
+  cancel-in-progress: false
+
+jobs:
+  run-scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scheduler
+        env:
+          MAIN_TOKEN: ${{ secrets.THREADS_MAIN_TOKEN }}
+          TDS_TOKEN:  ${{ secrets.THREADS_TDS_TOKEN }}
+        run: python scheduler.py
+
+      - name: Commit queue + log changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add queue.json log.txt 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "scheduler: update queue/log [skip ci]"
+            git push
+          else
+            echo "No queue or log changes to commit."
+          fi
