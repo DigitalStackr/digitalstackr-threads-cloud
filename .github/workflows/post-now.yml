@@ -1,0 +1,41 @@
+name: Post Now (immediate, no scheduling)
+
+on:
+  workflow_dispatch:
+    inputs:
+      account:
+        description: 'Which account?'
+        type: choice
+        options:
+          - MAIN
+          - TDS
+        required: true
+      text:
+        description: 'The post text'
+        type: string
+        required: true
+      image_file:
+        description: 'Optional filename from images/ folder (leave blank for text-only)'
+        type: string
+        required: false
+        default: ''
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: Post immediately
+        env:
+          MAIN_TOKEN: ${{ secrets.THREADS_MAIN_TOKEN }}
+          TDS_TOKEN:  ${{ secrets.THREADS_TDS_TOKEN }}
+        run: |
+          python post_now.py "${{ inputs.account }}" "${{ inputs.text }}" "${{ inputs.image_file }}"
