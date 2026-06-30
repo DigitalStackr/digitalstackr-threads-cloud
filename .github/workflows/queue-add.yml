@@ -1,0 +1,50 @@
+name: Add Post to Queue
+
+on:
+  workflow_dispatch:
+    inputs:
+      account:
+        description: 'Which account?'
+        type: choice
+        options:
+          - MAIN
+          - TDS
+        required: true
+      text:
+        description: 'The post text'
+        type: string
+        required: true
+      scheduled_time:
+        description: "When to post (YYYY-MM-DD HH:MM Berlin time, 24h, e.g. 2026-07-01 18:00)"
+        type: string
+        required: true
+      image_file:
+        description: 'Optional filename from images/ folder (leave blank for text-only)'
+        type: string
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Add to queue
+        run: |
+          python queue_add.py "${{ inputs.account }}" "${{ inputs.text }}" "${{ inputs.scheduled_time }}" "${{ inputs.image_file }}"
+
+      - name: Commit queue.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add queue.json
+          git commit -m "queue: add post for ${{ inputs.account }} at ${{ inputs.scheduled_time }}"
+          git push
