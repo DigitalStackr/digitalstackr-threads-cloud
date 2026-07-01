@@ -2,3 +2,7 @@
 2026-06-30 22:54:56 UTC | Queue empty.
 2026-06-30 23:41:35 UTC | === Scheduler tick ===
 2026-06-30 23:41:35 UTC | Nothing due this tick.
+2026-07-01 10:58:50 UTC | === Scheduler tick ===
+2026-07-01 10:58:50 UTC | Post 1: scheduled 2026-07-01T06:45:00+00:00 is older than 20-min catch-up window — marking expired
+2026-07-01 10:58:50 UTC | Post 2: scheduled 2026-07-01T06:55:00+00:00 is older than 20-min catch-up window — marking expired
+2026-07-01 10:58:50 UTC | Queue updated.
