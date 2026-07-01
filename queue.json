@@ -96,8 +96,10 @@
     "account": "TDS",
     "text": "my product is older than most of the bills it pays.\n32 people bought it today. 🤍",
     "image_file": "gumroad dahsbaord ss 556.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18212684098339544",
+    "posted_at": "2026-07-01T21:30:39.360600+00:00"
   },
   {
     "id": 11,
