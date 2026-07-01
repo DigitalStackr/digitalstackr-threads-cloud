@@ -85,8 +85,10 @@
     "account": "MAIN",
     "text": "i don't have a salary.\ni have payouts.\n$1,638 just deposited while i slept. 🤍",
     "image_file": "Gumroad Payout Screenshots.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18094410266346021",
+    "posted_at": "2026-07-01T21:20:33.782516+00:00"
   },
   {
     "id": 10,
