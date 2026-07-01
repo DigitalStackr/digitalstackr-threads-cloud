@@ -6,3 +6,11 @@
 2026-07-01 10:58:50 UTC | Post 1: scheduled 2026-07-01T06:45:00+00:00 is older than 20-min catch-up window — marking expired
 2026-07-01 10:58:50 UTC | Post 2: scheduled 2026-07-01T06:55:00+00:00 is older than 20-min catch-up window — marking expired
 2026-07-01 10:58:50 UTC | Queue updated.
+2026-07-01 13:35:39 UTC | === Scheduler tick ===
+2026-07-01 13:35:39 UTC | Post 3: scheduled 2026-07-01T11:15:00+00:00 is older than 20-min catch-up window — marking expired
+2026-07-01 13:35:39 UTC | Post 4: scheduled 2026-07-01T11:25:00+00:00 is older than 20-min catch-up window — marking expired
+2026-07-01 13:35:39 UTC | Post 5: firing for MAIN (scheduled 2026-07-01T13:18:00+00:00)
+2026-07-01 13:36:20 UTC | Post 5: OK -> thread_id=18086786870411923
+2026-07-01 13:36:20 UTC | Post 6: firing for TDS (scheduled 2026-07-01T13:28:00+00:00)
+2026-07-01 13:37:02 UTC | Post 6: OK -> thread_id=17952108984192972
+2026-07-01 13:37:02 UTC | Queue updated.

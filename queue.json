@@ -23,7 +23,7 @@
     "account": "MAIN",
     "text": "woke up to $856 in sales from yesterday.\nslept 8 hours straight.\nthis is what passive looks like. 😭💸",
     "image_file": "gumrd dashbrd ss 856.png",
-    "status": "pending",
+    "status": "expired",
     "added_at": "2026-07-01T01:31:22+02:00"
   },
   {
@@ -32,7 +32,7 @@
     "account": "TDS",
     "text": "$112 today and i didn't even post.\nthe system runs itself now. 💸",
     "image_file": "gumroad 112day.png",
-    "status": "pending",
+    "status": "expired",
     "added_at": "2026-07-01T01:31:22+02:00"
   },
   {
@@ -41,8 +41,10 @@
     "account": "MAIN",
     "text": "\"you need to be older to be taken seriously online\"\n\n19. $3,898 this month. age is a tax for the people not in the room. 💸",
     "image_file": "3.9k gumroad ss.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18086786870411923",
+    "posted_at": "2026-07-01T13:35:39.570117+00:00"
   },
   {
     "id": 6,
@@ -50,8 +52,10 @@
     "account": "TDS",
     "text": "IT IS OFFICIAL.\n\nThanks to Threads + Gumroad + Claude.\njust paid off another $500 of debt this week. 😭🎉",
     "image_file": "paypal notification ss 1.3k.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17952108984192972",
+    "posted_at": "2026-07-01T13:35:39.570117+00:00"
   },
   {
     "id": 7,
