@@ -217,8 +217,10 @@
     "account": "MAIN",
     "text": "phone died for 5 hours.\ncharged it.\n13 sale notifications stacked up.\nthe system doesn't need me. 😭💸",
     "image_file": "gumroad sales notifications.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17856786540676212",
+    "posted_at": "2026-07-02T21:20:37.363674+00:00"
   },
   {
     "id": 22,
