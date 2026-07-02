@@ -162,8 +162,10 @@
     "account": "TDS",
     "text": "my entire team is me + Claude.\nthat's the whole org chart.\n2 sales came through while i wrote this — $12.65 + $31.05. 💸",
     "image_file": "Gumroad Sales Screenshots.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18087021311435586",
+    "posted_at": "2026-07-02T11:25:23.099285+00:00"
   },
   {
     "id": 17,
