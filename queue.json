@@ -184,8 +184,10 @@
     "account": "TDS",
     "text": "$964 today.\nthat's a monthly salary in some countries.\njust sit with that. 🤍",
     "image_file": "dashbaord ss 964tdy.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18207224206349225",
+    "posted_at": "2026-07-02T13:30:42.851039+00:00"
   },
   {
     "id": 19,
