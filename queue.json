@@ -228,8 +228,10 @@
     "account": "TDS",
     "text": "got a sale notification while paying for groceries.\n$27. paid for the groceries with it. 😭💸",
     "image_file": "gumroad notification screenshot.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18169747816381827",
+    "posted_at": "2026-07-02T21:30:40.914203+00:00"
   },
   {
     "id": 23,
