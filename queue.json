@@ -206,8 +206,10 @@
     "account": "TDS",
     "text": "GUMROAD PAID ME $1,117 TODAY VIA PAYPAL.\n\nSTILL CAN'T BELIEVE IT'S REAL 😭😭💸",
     "image_file": "paypal notification ss from phn.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18330284188284739",
+    "posted_at": "2026-07-02T18:05:24.903409+00:00"
   },
   {
     "id": 21,
