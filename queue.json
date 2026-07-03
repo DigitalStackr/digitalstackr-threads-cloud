@@ -349,8 +349,10 @@
     "account": "MAIN",
     "text": "my product is older than most bills it pays.\n37 people bought it today alone. 🤍",
     "image_file": "sales proof.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18031238834817392",
+    "posted_at": "2026-07-03T21:20:32.188645+00:00"
   },
   {
     "id": 34,
