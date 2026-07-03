@@ -316,8 +316,10 @@
     "account": "TDS",
     "text": "\"you need consistent posting to make sales\"\n\ndidn't post for 4 days. $556 still came in from 32 people. 😭💸",
     "image_file": "gumroad dahsbaord ss 556.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18096802670217282",
+    "posted_at": "2026-07-03T13:30:40.806671+00:00"
   },
   {
     "id": 31,
