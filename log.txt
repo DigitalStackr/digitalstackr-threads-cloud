@@ -1146,3 +1146,7 @@
 2026-07-03 11:05:29 UTC | Nothing due this tick.
 2026-07-03 11:10:35 UTC | === Scheduler tick ===
 2026-07-03 11:10:35 UTC | Nothing due this tick.
+2026-07-03 11:16:34 UTC | === Scheduler tick ===
+2026-07-03 11:16:34 UTC | Post 27: firing for MAIN (scheduled 2026-07-03T11:15:00+00:00)
+2026-07-03 11:17:20 UTC | Post 27: OK -> thread_id=18047368439788512
+2026-07-03 11:17:20 UTC | Queue updated. Fired 1 post(s) this tick.
