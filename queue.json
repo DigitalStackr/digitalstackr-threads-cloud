@@ -327,8 +327,10 @@
     "account": "MAIN",
     "text": "didn't post all weekend.\ncame back to 13 sale notifications stacked in one hour.\nthe machine eats whether i feed it or not. 😭💸",
     "image_file": "gumroad sales notifications.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18156641635475318",
+    "posted_at": "2026-07-03T17:55:24.902546+00:00"
   },
   {
     "id": 32,
