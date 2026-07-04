@@ -481,8 +481,10 @@
     "account": "MAIN",
     "text": "watched a movie tonight.\nchecked my phone in the credits.\n$27 sale during act 3.\ndidn't miss a beat. 😭",
     "image_file": "gumroad notification screenshot.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18022527824681581",
+    "posted_at": "2026-07-04T21:20:29.895432+00:00"
   },
   {
     "id": 46,
