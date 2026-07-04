@@ -448,8 +448,10 @@
     "account": "TDS",
     "text": "my paychecks come from notifications now.\n2 sales in one minute — $12.65 and $31.05.\nit doesn't feel real even when it is. 🤍",
     "image_file": "Gumroad Sales Screenshots.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17888878047588958",
+    "posted_at": "2026-07-04T13:30:42.575291+00:00"
   },
   {
     "id": 43,
