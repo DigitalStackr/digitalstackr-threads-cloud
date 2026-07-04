@@ -459,8 +459,10 @@
     "account": "MAIN",
     "text": "\"paypal won't work with gumroad\"\n\n$1,380 PayPal payout today.\nsomeone update the rumor. 💸",
     "image_file": "paypal notification ss 1.3k.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18003599558761077",
+    "posted_at": "2026-07-04T17:55:22.309909+00:00"
   },
   {
     "id": 44,
