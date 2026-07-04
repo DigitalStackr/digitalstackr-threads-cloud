@@ -415,8 +415,10 @@
     "account": "MAIN",
     "text": "my dad worked 30 years for his car.\nmine cost me one $1,380 PayPal payout.\ndifferent generations. 😭💸",
     "image_file": "paypal notification ss 1.3k.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18115611920306889",
+    "posted_at": "2026-07-04T11:15:24.850393+00:00"
   },
   {
     "id": 40,
