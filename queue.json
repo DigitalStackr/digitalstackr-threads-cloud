@@ -404,8 +404,10 @@
     "account": "TDS",
     "text": "$125 today. starting to feel normal.\n24 people bought.\nthat's the unlock. 💸",
     "image_file": "125 tdy gumroad dahsbaord.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18116730610886930",
+    "posted_at": "2026-07-04T06:55:23.491473+00:00"
   },
   {
     "id": 39,
