@@ -558,8 +558,10 @@
     "account": "TDS",
     "text": "the whole business: phone + Threads + Gumroad.\n$5,612 a month. nothing fancy. 💸",
     "image_file": "gum iphone dashabord w apps.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18017297432851455",
+    "posted_at": "2026-07-05T11:25:22.792236+00:00"
   },
   {
     "id": 53,
