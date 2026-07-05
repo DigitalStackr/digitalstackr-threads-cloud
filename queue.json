@@ -503,8 +503,10 @@
     "account": "MAIN",
     "text": "MY GUMROAD JUST DEPOSITED $1,638 TODAY.\n\n$0 IN ADS. $0 IN SOFTWARE.\n\nONE PDF. THAT'S THE WHOLE STORY 😭😭💸",
     "image_file": "Gumroad Payout Screenshots.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18101592308136925",
+    "posted_at": "2026-07-05T02:25:22.529187+00:00"
   },
   {
     "id": 48,
