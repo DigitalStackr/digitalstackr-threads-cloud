@@ -602,8 +602,10 @@
     "account": "TDS",
     "text": "DIGITAL PRODUCTS BOUGHT ME MY FIRST CAR.\n$1,380 PayPal payout, one of many.\nAT 19. WITHOUT A LOAN 😭💸",
     "image_file": "paypal notification ss 1.3k.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17946572256212801",
+    "posted_at": "2026-07-05T18:05:21.332661+00:00"
   },
   {
     "id": 57,
