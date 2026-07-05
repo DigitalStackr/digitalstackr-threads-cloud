@@ -613,8 +613,10 @@
     "account": "MAIN",
     "text": "submitted my essay at 11:59 PM.\nchecked gumroad at 12:01 AM.\n$11 sale.\ngraduation gift from the universe. 😭",
     "image_file": "my gumroad notification showing threads revenue ladder.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18099422711268079",
+    "posted_at": "2026-07-05T21:20:34.443564+00:00"
   },
   {
     "id": 58,
