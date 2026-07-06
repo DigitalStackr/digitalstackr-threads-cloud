@@ -701,8 +701,10 @@
     "account": "MAIN",
     "text": "\"you need a unique product to stand out\"\n\nmine is basic. $125 today from 24 people.\nuniqueness is a vanity metric. 💸",
     "image_file": "125 tdy gumroad dahsbaord.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:40:16+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18104509388125872",
+    "posted_at": "2026-07-06T13:20:36.376578+00:00"
   },
   {
     "id": 66,
