@@ -668,8 +668,10 @@
     "account": "TDS",
     "text": "Threads paid for my coffee.\nGumroad paid for my dinner.\nyesterday alone.\n13 $27 sales stacked up. wild times. 😭💕",
     "image_file": "gumroad sales notifications.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:40:16+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18358370266246655",
+    "posted_at": "2026-07-06T06:55:27.627685+00:00"
   },
   {
     "id": 63,
