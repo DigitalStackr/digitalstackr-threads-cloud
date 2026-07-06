@@ -657,8 +657,10 @@
     "account": "MAIN",
     "text": "my entire business: a phone + Canva + Gumroad + Threads.\n\ncosts me $0 a month.\nmakes me $5,612 a month. 💸",
     "image_file": "gum iphone dashabord w apps.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:40:16+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "17897415645531341",
+    "posted_at": "2026-07-06T06:45:25.881612+00:00"
   },
   {
     "id": 62,
