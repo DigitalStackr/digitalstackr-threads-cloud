@@ -646,8 +646,10 @@
     "account": "TDS",
     "text": "the wealthiest 20-somethings i know don't have salaries.\nthey have systems.\nmine paid $1,117 today via PayPal.",
     "image_file": "paypal notification ss from phn.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:39:25+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18135438475573358",
+    "posted_at": "2026-07-06T02:35:21.541345+00:00"
   },
   {
     "id": 61,
