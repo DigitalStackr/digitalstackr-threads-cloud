@@ -723,8 +723,10 @@
     "account": "MAIN",
     "text": "\"you need a fancy launch to make sales\"\n\nposted nothing on launch day.\nstill made $112.\nnobody noticed. it didn't matter. 😭💸",
     "image_file": "gumroad 112day.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:40:16+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18081731306661974",
+    "posted_at": "2026-07-06T17:55:25.201063+00:00"
   },
   {
     "id": 68,
