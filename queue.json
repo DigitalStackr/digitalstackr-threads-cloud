@@ -756,8 +756,10 @@
     "account": "TDS",
     "text": "ate dinner with my family.\nchecked my phone after.\n13 $27 sales while we ate.\nnobody knew. 😭",
     "image_file": "gumroad sales notifications.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:40:16+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "17896093587356202",
+    "posted_at": "2026-07-06T21:30:41.126104+00:00"
   },
   {
     "id": 71,
