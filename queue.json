@@ -811,8 +811,10 @@
     "account": "MAIN",
     "text": "phone died overnight.\nplugged it in.\n2 sale notifications came in — $12.65 + $31.05.\nthat's the dream. 😭💸",
     "image_file": "Gumroad Sales Screenshots.PNG",
-    "status": "pending",
-    "added_at": "2026-07-01T01:40:16+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18106149605085560",
+    "posted_at": "2026-07-07T11:15:31.124819+00:00"
   },
   {
     "id": 76,
