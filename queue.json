@@ -1,1172 +1,1174 @@
 [
-    {
-        "id":  1,
-        "scheduled_time":  "2026-07-08T08:45:00+02:00",
-        "account":  "MAIN",
-        "text":  "my entire business runs from one phone.\n4 apps. one bio link.\n$41,639 this year and I still can\u0027t believe it. 🤍",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:31:22+02:00"
-    },
-    {
-        "id":  2,
-        "scheduled_time":  "2026-07-08T08:55:00+02:00",
-        "account":  "TDS",
-        "text":  "DONT STOP ENGAGING ON THREADS!!!\n\n$27 sale at 3:33 AM alone\nliterally paid for my morning coffee 😭💸",
-        "image_file":  "gumroad notification screenshot.PNG",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:31:22+02:00"
-    },
-    {
-        "id":  3,
-        "scheduled_time":  "2026-07-08T13:15:00+02:00",
-        "account":  "MAIN",
-        "text":  "woke up to $856 in sales from a single day.\nfrom 92 people.\nfrom a $27 PDF. 😭💸",
-        "image_file":  "gumrd dashbrd ss 856.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:31:22+02:00"
-    },
-    {
-        "id":  4,
-        "scheduled_time":  "2026-07-08T13:25:00+02:00",
-        "account":  "TDS",
-        "text":  "$112 today and i didn\u0027t even post.\n17 people bought.\nthe system runs itself now. 💸",
-        "image_file":  "gumroad 112day.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:31:22+02:00"
-    },
-    {
-        "id":  5,
-        "scheduled_time":  "2026-07-01T15:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need to be older to be taken seriously online\"\n\n19. $3,898 this month. age is a tax for the people not in the room. 💸",
-        "image_file":  "3.9k gumroad ss.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18086786870411923",
-        "posted_at":  "2026-07-01T13:35:39.570117+00:00"
-    },
-    {
-        "id":  6,
-        "scheduled_time":  "2026-07-01T15:28:00+02:00",
-        "account":  "TDS",
-        "text":  "IT IS OFFICIAL.\n\nThanks to Threads + Gumroad + Claude.\njust paid off another $500 of debt this week. 😭🎉",
-        "image_file":  "paypal notification ss 1.3k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "17952108984192972",
-        "posted_at":  "2026-07-01T13:35:39.570117+00:00"
-    },
-    {
-        "id":  7,
-        "scheduled_time":  "2026-07-01T19:55:00+02:00",
-        "account":  "MAIN",
-        "text":  "my product sold at 3:33 AM last night.\ni was asleep.\n9 notifications waiting when i woke up. 😭💸",
-        "image_file":  "gumroad notification screenshot.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18119704159773756",
-        "posted_at":  "2026-07-01T17:55:25.102188+00:00"
-    },
-    {
-        "id":  8,
-        "scheduled_time":  "2026-07-01T20:05:00+02:00",
-        "account":  "TDS",
-        "text":  "the freedom of not stressing about rent.\n$1,183 dashboard today.\nnever letting this go. 🥹",
-        "image_file":  "gumroad more money dahsbaord.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18126916672726373",
-        "posted_at":  "2026-07-01T18:05:27.308598+00:00"
-    },
-    {
-        "id":  9,
-        "scheduled_time":  "2026-07-01T23:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "i don\u0027t have a salary.\ni have payouts.\n$1,638 just deposited while i slept. 🤍",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18094410266346021",
-        "posted_at":  "2026-07-01T21:20:33.782516+00:00"
-    },
-    {
-        "id":  10,
-        "scheduled_time":  "2026-07-01T23:28:00+02:00",
-        "account":  "TDS",
-        "text":  "my product is older than most of the bills it pays.\n32 people bought it today. 🤍",
-        "image_file":  "gumroad dahsbaord ss 556.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18212684098339544",
-        "posted_at":  "2026-07-01T21:30:39.360600+00:00"
-    },
-    {
-        "id":  11,
-        "scheduled_time":  "2026-07-02T04:25:00+02:00",
-        "account":  "MAIN",
-        "text":  "MY PDF LITERALLY MADE ME $5,612 THIS MONTH.\nTHREADS + GUMROAD + CLAUDE.\nDON\u0027T LET ANYONE TELL YOU IT\u0027S TOO LATE 😭💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18107596009803728",
-        "posted_at":  "2026-07-02T02:25:21.996838+00:00"
-    },
-    {
-        "id":  12,
-        "scheduled_time":  "2026-07-02T04:35:00+02:00",
-        "account":  "TDS",
-        "text":  "wealth doesn\u0027t always look loud.\nsometimes it\u0027s a $11 sale notification at 4am.\nsmall wins compound. 🤍",
-        "image_file":  "my gumroad notification showing threads revenue ladder.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "17936886303272903",
-        "posted_at":  "2026-07-02T02:35:22.160070+00:00"
-    },
-    {
-        "id":  13,
-        "scheduled_time":  "2026-07-02T08:45:00+02:00",
-        "account":  "MAIN",
-        "text":  "paid my own tuition this semester from one PDF.\n$1,380 PayPal payout hit today.\nfirst in my family to do that. 🥹",
-        "image_file":  "paypal notification ss 1.3k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18134741275582382",
-        "posted_at":  "2026-07-02T06:45:28.757387+00:00"
-    },
-    {
-        "id":  14,
-        "scheduled_time":  "2026-07-02T08:55:00+02:00",
-        "account":  "TDS",
-        "text":  "$856 in a single day while i was sleeping.\nfrom 92 people.\nnothing beats that feeling. 😭💸",
-        "image_file":  "gumrd dashbrd ss 856.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "17884234974602389",
-        "posted_at":  "2026-07-02T06:55:22.130186+00:00"
-    },
-    {
-        "id":  15,
-        "scheduled_time":  "2026-07-02T13:15:00+02:00",
-        "account":  "MAIN",
-        "text":  "Threads — FREE\nGumroad — FREE\nClaude — FREE\nCanva — FREE\nNotion — FREE\n\n$5,612 THIS MONTH. no excuses left. 💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18058398665735190",
-        "posted_at":  "2026-07-02T11:15:27.894195+00:00"
-    },
-    {
-        "id":  16,
-        "scheduled_time":  "2026-07-02T13:25:00+02:00",
-        "account":  "TDS",
-        "text":  "my entire team is me + Claude.\nthat\u0027s the whole org chart.\n2 sales came through while i wrote this — $12.65 + $31.05. 💸",
-        "image_file":  "Gumroad Sales Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18087021311435586",
-        "posted_at":  "2026-07-02T11:25:23.099285+00:00"
-    },
-    {
-        "id":  17,
-        "scheduled_time":  "2026-07-02T15:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need expensive software to make money online\"\n\n$0 in software.\n$2,013 this month. 😭💸",
-        "image_file":  "gumroad dashbaord ss 2k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18028273376652550",
-        "posted_at":  "2026-07-02T13:20:32.319962+00:00"
-    },
-    {
-        "id":  18,
-        "scheduled_time":  "2026-07-02T15:28:00+02:00",
-        "account":  "TDS",
-        "text":  "$964 today.\nthat\u0027s a monthly salary in some countries.\njust sit with that. 🤍",
-        "image_file":  "dashbaord ss 964tdy.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18207224206349225",
-        "posted_at":  "2026-07-02T13:30:42.851039+00:00"
-    },
-    {
-        "id":  19,
-        "scheduled_time":  "2026-07-02T19:55:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need to grow your audience first\"\n\n800 followers. $612 in a day.\nfollower count is the lie. 💸",
-        "image_file":  "612 a day gumroad dahsbaord ss.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18174539431422732",
-        "posted_at":  "2026-07-02T17:55:25.517859+00:00"
-    },
-    {
-        "id":  20,
-        "scheduled_time":  "2026-07-02T20:05:00+02:00",
-        "account":  "TDS",
-        "text":  "GUMROAD PAID ME $1,117 TODAY VIA PAYPAL.\n\nSTILL CAN\u0027T BELIEVE IT\u0027S REAL 😭😭💸",
-        "image_file":  "paypal notification ss from phn.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18330284188284739",
-        "posted_at":  "2026-07-02T18:05:24.903409+00:00"
-    },
-    {
-        "id":  21,
-        "scheduled_time":  "2026-07-02T23:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "phone died for 5 hours.\ncharged it.\n13 sale notifications stacked up.\nthe system doesn\u0027t need me. 😭💸",
-        "image_file":  "gumroad sales notifications.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "17856786540676212",
-        "posted_at":  "2026-07-02T21:20:37.363674+00:00"
-    },
-    {
-        "id":  22,
-        "scheduled_time":  "2026-07-02T23:28:00+02:00",
-        "account":  "TDS",
-        "text":  "got a sale notification while paying for groceries.\n$27. paid for the groceries with it. 😭💸",
-        "image_file":  "gumroad notification screenshot.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18169747816381827",
-        "posted_at":  "2026-07-02T21:30:40.914203+00:00"
-    },
-    {
-        "id":  23,
-        "scheduled_time":  "2026-07-03T04:25:00+02:00",
-        "account":  "MAIN",
-        "text":  "they keep asking why i spend so much time on threads.\n\nbecause it pays my rent.\n$1,638 payout says so.",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18604854520015091",
-        "posted_at":  "2026-07-03T02:25:22.432608+00:00"
-    },
-    {
-        "id":  24,
-        "scheduled_time":  "2026-07-03T04:35:00+02:00",
-        "account":  "TDS",
-        "text":  "financial freedom is a mental health upgrade.\nthe panic of \"how am i paying rent\" disappears when $1,117 lands in your account randomly. 🥹",
-        "image_file":  "paypal notification ss from phn.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18108063125073973",
-        "posted_at":  "2026-07-03T02:35:29.078079+00:00"
-    },
-    {
-        "id":  25,
-        "scheduled_time":  "2026-07-03T08:45:00+02:00",
-        "account":  "MAIN",
-        "text":  "a Google Doc.\na Canva cover.\na Gumroad link.\n\nthat\u0027s how i earn $41,639 a year now. 💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "17868957579565139",
-        "posted_at":  "2026-07-03T06:45:36.597133+00:00"
-    },
-    {
-        "id":  26,
-        "scheduled_time":  "2026-07-03T08:55:00+02:00",
-        "account":  "TDS",
-        "text":  "$112 today. wouldn\u0027t trade it for any 9-5 paycheck.\n17 people over $27 saw value in what i made. 💸",
-        "image_file":  "gumroad 112day.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "17910444342430819",
-        "posted_at":  "2026-07-03T06:55:23.749828+00:00"
-    },
-    {
-        "id":  27,
-        "scheduled_time":  "2026-07-03T13:15:00+02:00",
-        "account":  "MAIN",
-        "text":  "i don\u0027t post for views.\ni post for buyers.\nthe algorithm figured out the difference.\n70 sales today. 💸",
-        "image_file":  "gumroad more money dahsbaord.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18047368439788512",
-        "posted_at":  "2026-07-03T11:16:34.423837+00:00"
-    },
-    {
-        "id":  28,
-        "scheduled_time":  "2026-07-03T13:25:00+02:00",
-        "account":  "TDS",
-        "text":  "Threads + Gumroad. that\u0027s it.\nthat\u0027s the entire business.\n$5,612 this month. stop overcomplicating it. 💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18134478682588205",
-        "posted_at":  "2026-07-03T11:25:23.740455+00:00"
-    },
-    {
-        "id":  29,
-        "scheduled_time":  "2026-07-03T15:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need a course before you launch\"\n\nzero courses. $964 today. 😭💸",
-        "image_file":  "dashbaord ss 964tdy.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "17933542668299808",
-        "posted_at":  "2026-07-03T13:20:36.719185+00:00"
-    },
-    {
-        "id":  30,
-        "scheduled_time":  "2026-07-03T15:28:00+02:00",
-        "account":  "TDS",
-        "text":  "\"you need consistent posting to make sales\"\n\ndidn\u0027t post for 4 days. $556 still came in from 32 people. 😭💸",
-        "image_file":  "gumroad dahsbaord ss 556.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18096802670217282",
-        "posted_at":  "2026-07-03T13:30:40.806671+00:00"
-    },
-    {
-        "id":  31,
-        "scheduled_time":  "2026-07-03T19:55:00+02:00",
-        "account":  "MAIN",
-        "text":  "didn\u0027t post all weekend.\ncame back to 13 sale notifications stacked in one hour.\nthe machine eats whether i feed it or not. 😭💸",
-        "image_file":  "gumroad sales notifications.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18156641635475318",
-        "posted_at":  "2026-07-03T17:55:24.902546+00:00"
-    },
-    {
-        "id":  32,
-        "scheduled_time":  "2026-07-03T20:05:00+02:00",
-        "account":  "TDS",
-        "text":  "THREADS LITERALLY PAID ME $1,380 TODAY VIA PAYPAL.\n\nDON\u0027T STOP POSTING. DON\u0027T STOP ENGAGING 😭😭💕",
-        "image_file":  "paypal notification ss 1.3k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18435816013193646",
-        "posted_at":  "2026-07-03T18:05:25.521711+00:00"
-    },
-    {
-        "id":  33,
-        "scheduled_time":  "2026-07-03T23:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "my product is older than most bills it pays.\n37 people bought it today alone. 🤍",
-        "image_file":  "sales proof.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18031238834817392",
-        "posted_at":  "2026-07-03T21:20:32.188645+00:00"
-    },
-    {
-        "id":  34,
-        "scheduled_time":  "2026-07-03T23:28:00+02:00",
-        "account":  "TDS",
-        "text":  "in the doctor\u0027s waiting room.\n5 sale notifications of my DFY, $98 each.\ntried not to smile. failed. 😭",
-        "image_file":  "Gumroad Notificaion screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18012150149860983",
-        "posted_at":  "2026-07-03T21:30:40.402962+00:00"
-    },
-    {
-        "id":  35,
-        "scheduled_time":  "2026-07-04T04:25:00+02:00",
-        "account":  "MAIN",
-        "text":  "i don\u0027t think people understand what passive income does to your nervous system.\n\nthe constant \"how am i paying rent\" anxiety just goes away.\n\nand stays gone. 🥹",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18121603558784329",
-        "posted_at":  "2026-07-04T02:25:25.079226+00:00"
-    },
-    {
-        "id":  36,
-        "scheduled_time":  "2026-07-04T04:35:00+02:00",
-        "account":  "TDS",
-        "text":  "your phone is either a distraction or a business.\n\nmine makes me $41,639 a year.\nyou decide which today.",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:31:22+02:00",
-        "thread_id":  "18157267429417875",
-        "posted_at":  "2026-07-04T02:35:23.356473+00:00"
-    },
-    {
-        "id":  37,
-        "scheduled_time":  "2026-07-04T08:45:00+02:00",
-        "account":  "MAIN",
-        "text":  "no boss. no schedule. no meetings.\n\njust notifications.\nand a system that runs without me. 🤍",
-        "image_file":  "my gumroad notification showing threads revenue ladder.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18034850240816846",
-        "posted_at":  "2026-07-04T06:45:28.922850+00:00"
-    },
-    {
-        "id":  38,
-        "scheduled_time":  "2026-07-04T08:55:00+02:00",
-        "account":  "TDS",
-        "text":  "$125 today. starting to feel normal.\n24 people bought.\nthat\u0027s the unlock. 💸",
-        "image_file":  "125 tdy gumroad dahsbaord.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18116730610886930",
-        "posted_at":  "2026-07-04T06:55:23.491473+00:00"
-    },
-    {
-        "id":  39,
-        "scheduled_time":  "2026-07-04T13:15:00+02:00",
-        "account":  "MAIN",
-        "text":  "my dad worked 30 years for his car.\nmine cost me one $1,380 PayPal payout.\ndifferent generations. 😭💸",
-        "image_file":  "paypal notification ss 1.3k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18115611920306889",
-        "posted_at":  "2026-07-04T11:15:24.850393+00:00"
-    },
-    {
-        "id":  40,
-        "scheduled_time":  "2026-07-04T13:25:00+02:00",
-        "account":  "TDS",
-        "text":  "thanks to Threads + Gumroad + Canva + Claude.\n\ni finally paid off my credit card with a $1,638 payout.\n4 years of weight. gone. 😭🎉",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18145582759521593",
-        "posted_at":  "2026-07-04T11:25:24.198192+00:00"
-    },
-    {
-        "id":  41,
-        "scheduled_time":  "2026-07-04T15:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need a niche to sell digital products\"\n\nsold to everyone. $964 in a day.\n\u0027niche\u0027 is a tax for people who can\u0027t write a hook. 💀",
-        "image_file":  "dashbaord ss 964tdy.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18121141006763339",
-        "posted_at":  "2026-07-04T13:20:32.532671+00:00"
-    },
-    {
-        "id":  42,
-        "scheduled_time":  "2026-07-04T15:28:00+02:00",
-        "account":  "TDS",
-        "text":  "my paychecks come from notifications now.\n2 sales in one minute — $12.65 and $31.05.\nit doesn\u0027t feel real even when it is. 🤍",
-        "image_file":  "Gumroad Sales Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "17888878047588958",
-        "posted_at":  "2026-07-04T13:30:42.575291+00:00"
-    },
-    {
-        "id":  43,
-        "scheduled_time":  "2026-07-04T19:55:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"paypal won\u0027t work with gumroad\"\n\n$1,380 PayPal payout today.\nsomeone update the rumor. 💸",
-        "image_file":  "paypal notification ss 1.3k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18003599558761077",
-        "posted_at":  "2026-07-04T17:55:22.309909+00:00"
-    },
-    {
-        "id":  44,
-        "scheduled_time":  "2026-07-04T20:05:00+02:00",
-        "account":  "TDS",
-        "text":  "DON\u0027T STOP POSTING ON THREADS!!!\n\n$1,109 THIS MONTH FROM 66 SALES.\nEVERY. SINGLE. WEEK. 😭💕",
-        "image_file":  "gum dashbrd ss 1kmon.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18571370080067615",
-        "posted_at":  "2026-07-04T18:05:21.675907+00:00"
-    },
-    {
-        "id":  45,
-        "scheduled_time":  "2026-07-04T23:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "watched a movie tonight.\nchecked my phone in the credits.\n$27 sale during act 3.\ndidn\u0027t miss a beat. 😭",
-        "image_file":  "gumroad notification screenshot.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18022527824681581",
-        "posted_at":  "2026-07-04T21:20:29.895432+00:00"
-    },
-    {
-        "id":  46,
-        "scheduled_time":  "2026-07-04T23:28:00+02:00",
-        "account":  "TDS",
-        "text":  "in the middle of an exam. phone face down.\n5 DFY sales of $98 each came through.\ndidn\u0027t smile until i got home. 😭💸",
-        "image_file":  "Gumroad Notificaion screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18102402482158810",
-        "posted_at":  "2026-07-04T21:30:38.527379+00:00"
-    },
-    {
-        "id":  47,
-        "scheduled_time":  "2026-07-05T04:25:00+02:00",
-        "account":  "MAIN",
-        "text":  "MY GUMROAD JUST DEPOSITED $1,638 TODAY.\n\n$0 IN ADS. $0 IN SOFTWARE.\n\nONE PDF. THAT\u0027S THE WHOLE STORY 😭😭💸",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18101592308136925",
-        "posted_at":  "2026-07-05T02:25:22.529187+00:00"
-    },
-    {
-        "id":  48,
-        "scheduled_time":  "2026-07-05T04:35:00+02:00",
-        "account":  "TDS",
-        "text":  "the kind of money that buys peace, not stuff.\n$1,638 payout.\nthat\u0027s the goal. 🤍",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18117256991497104",
-        "posted_at":  "2026-07-05T02:35:24.226154+00:00"
-    },
-    {
-        "id":  49,
-        "scheduled_time":  "2026-07-05T08:45:00+02:00",
-        "account":  "MAIN",
-        "text":  "8:43 AM.\nchecked my phone.\n13 sales stacked from overnight.\nthis is the only morning routine that matters. 😭💸",
-        "image_file":  "gumroad sales notifications.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "17885105643657827",
-        "posted_at":  "2026-07-05T06:45:27.888306+00:00"
-    },
-    {
-        "id":  50,
-        "scheduled_time":  "2026-07-05T08:55:00+02:00",
-        "account":  "TDS",
-        "text":  "$2,013 this month from one $27 PDF.\n81 people said yes.\naverage side hustle pays $200. let that hit. 😭💸",
-        "image_file":  "gumroad dashbaord ss 2k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "17904588582453825",
-        "posted_at":  "2026-07-05T06:55:21.919730+00:00"
-    },
-    {
-        "id":  51,
-        "scheduled_time":  "2026-07-05T13:15:00+02:00",
-        "account":  "MAIN",
-        "text":  "i don\u0027t have a website.\ni don\u0027t have a logo.\ni don\u0027t have an LLC.\n\ni have a $5,612/month system that runs itself. 💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18103983331925821",
-        "posted_at":  "2026-07-05T11:15:25.591755+00:00"
-    },
-    {
-        "id":  52,
-        "scheduled_time":  "2026-07-05T13:25:00+02:00",
-        "account":  "TDS",
-        "text":  "the whole business: phone + Threads + Gumroad.\n$5,612 a month. nothing fancy. 💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18017297432851455",
-        "posted_at":  "2026-07-05T11:25:22.792236+00:00"
-    },
-    {
-        "id":  53,
-        "scheduled_time":  "2026-07-05T15:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need email automation to make digital products work\"\n\nzero emails. $556 today.\nemails are optional. posting isn\u0027t. 😭💸",
-        "image_file":  "gumroad dahsbaord ss 556.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "17970995901090026",
-        "posted_at":  "2026-07-05T13:20:29.512557+00:00"
-    },
-    {
-        "id":  54,
-        "scheduled_time":  "2026-07-05T15:28:00+02:00",
-        "account":  "TDS",
-        "text":  "\"you need experience first\"\n\n0 experience. $1,109 my first month.\n66 people trusted me anyway. 💸",
-        "image_file":  "gum dashbrd ss 1kmon.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18159150760463269",
-        "posted_at":  "2026-07-05T13:30:38.837686+00:00"
-    },
-    {
-        "id":  55,
-        "scheduled_time":  "2026-07-05T19:55:00+02:00",
-        "account":  "MAIN",
-        "text":  "i\u0027m 19.\n$41,639 in gumroad this year.\nno degree. no parents\u0027 money.\nthat\u0027s the actual unlock. 💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18130460098618544",
-        "posted_at":  "2026-07-05T17:55:24.781604+00:00"
-    },
-    {
-        "id":  56,
-        "scheduled_time":  "2026-07-05T20:05:00+02:00",
-        "account":  "TDS",
-        "text":  "DIGITAL PRODUCTS BOUGHT ME MY FIRST CAR.\n$1,380 PayPal payout, one of many.\nAT 19. WITHOUT A LOAN 😭💸",
-        "image_file":  "paypal notification ss 1.3k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "17946572256212801",
-        "posted_at":  "2026-07-05T18:05:21.332661+00:00"
-    },
-    {
-        "id":  57,
-        "scheduled_time":  "2026-07-05T23:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "submitted my essay at 11:59 PM.\nchecked gumroad at 12:01 AM.\n$11 sale.\ngraduation gift from the universe. 😭",
-        "image_file":  "my gumroad notification showing threads revenue ladder.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18099422711268079",
-        "posted_at":  "2026-07-05T21:20:34.443564+00:00"
-    },
-    {
-        "id":  58,
-        "scheduled_time":  "2026-07-05T23:28:00+02:00",
-        "account":  "TDS",
-        "text":  "professor was mid-lecture.\nphone vibrated.\n$11 sale of my Threads Revenue Ladder.\ncouldn\u0027t keep a straight face. 😭",
-        "image_file":  "my gumroad notification showing threads revenue ladder.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18218786353326060",
-        "posted_at":  "2026-07-05T21:30:37.561467+00:00"
-    },
-    {
-        "id":  59,
-        "scheduled_time":  "2026-07-06T04:25:00+02:00",
-        "account":  "MAIN",
-        "text":  "the panic of \"how am i paying rent this month\" is the worst feeling.\nthe peace of a $1,638 payout landing without you asking is the best.\n\nthat\u0027s the whole game. 🥹",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "17893205181375829",
-        "posted_at":  "2026-07-06T02:25:23.911498+00:00"
-    },
-    {
-        "id":  60,
-        "scheduled_time":  "2026-07-06T04:35:00+02:00",
-        "account":  "TDS",
-        "text":  "the wealthiest 20-somethings i know don\u0027t have salaries.\nthey have systems.\nmine paid $1,117 today via PayPal.",
-        "image_file":  "paypal notification ss from phn.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:39:25+02:00",
-        "thread_id":  "18135438475573358",
-        "posted_at":  "2026-07-06T02:35:21.541345+00:00"
-    },
-    {
-        "id":  61,
-        "scheduled_time":  "2026-07-06T08:45:00+02:00",
-        "account":  "MAIN",
-        "text":  "my entire business: a phone + Canva + Gumroad + Threads.\n\ncosts me $0 a month.\nmakes me $5,612 a month. 💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "17897415645531341",
-        "posted_at":  "2026-07-06T06:45:25.881612+00:00"
-    },
-    {
-        "id":  62,
-        "scheduled_time":  "2026-07-06T08:55:00+02:00",
-        "account":  "TDS",
-        "text":  "Threads paid for my coffee.\nGumroad paid for my dinner.\nyesterday alone.\n13 $27 sales stacked up. wild times. 😭💕",
-        "image_file":  "gumroad sales notifications.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18358370266246655",
-        "posted_at":  "2026-07-06T06:55:27.627685+00:00"
-    },
-    {
-        "id":  63,
-        "scheduled_time":  "2026-07-06T13:15:00+02:00",
-        "account":  "MAIN",
-        "text":  "people ask me what i do for work.\ni don\u0027t know how to answer.\n\u0027i post text on threads and net $41k a year\u0027 undersells it. 💀",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18084986402556402",
-        "posted_at":  "2026-07-06T11:15:33.337938+00:00"
-    },
-    {
-        "id":  64,
-        "scheduled_time":  "2026-07-06T13:25:00+02:00",
-        "account":  "TDS",
-        "text":  "$612 in a single day.\n26 people bought at $27 each.\nused to be my whole rent. now it\u0027s one slow tuesday. 😭💸",
-        "image_file":  "612 a day gumroad dahsbaord ss.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18325193410260486",
-        "posted_at":  "2026-07-06T11:25:24.898687+00:00"
-    },
-    {
-        "id":  65,
-        "scheduled_time":  "2026-07-06T15:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need a unique product to stand out\"\n\nmine is basic. $125 today from 24 people.\nuniqueness is a vanity metric. 💸",
-        "image_file":  "125 tdy gumroad dahsbaord.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18104509388125872",
-        "posted_at":  "2026-07-06T13:20:36.376578+00:00"
-    },
-    {
-        "id":  66,
-        "scheduled_time":  "2026-07-06T15:28:00+02:00",
-        "account":  "TDS",
-        "text":  "i don\u0027t have a side hustle.\ni have an actual business.\n$1,638 payout says so.\nthey\u0027re not the same thing.",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18006159959941156",
-        "posted_at":  "2026-07-06T13:30:40.169707+00:00"
-    },
-    {
-        "id":  67,
-        "scheduled_time":  "2026-07-06T19:55:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need a fancy launch to make sales\"\n\nposted nothing on launch day.\nstill made $112.\nnobody noticed. it didn\u0027t matter. 😭💸",
-        "image_file":  "gumroad 112day.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18081731306661974",
-        "posted_at":  "2026-07-06T17:55:25.201063+00:00"
-    },
-    {
-        "id":  68,
-        "scheduled_time":  "2026-07-06T20:05:00+02:00",
-        "account":  "TDS",
-        "text":  "PAID OFF MY DEBT WITH DIGITAL PRODUCTS.\n$1,380 PAYPAL PAYOUT WAS THE LAST ONE.\n\nTHANK YOU THREADS. THANK YOU GUMROAD 😭🎉💕",
-        "image_file":  "paypal notification ss 1.3k.png",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18077155634330389",
-        "posted_at":  "2026-07-06T18:05:23.065757+00:00"
-    },
-    {
-        "id":  69,
-        "scheduled_time":  "2026-07-06T23:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "in the shower.\nnotification waiting on the counter.\nby the time i checked — 5 sales of my DFY, $98 each.\nwild. 🤍",
-        "image_file":  "Gumroad Notificaion screenshots.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "18329852056248947",
-        "posted_at":  "2026-07-06T21:20:31.924971+00:00"
-    },
-    {
-        "id":  70,
-        "scheduled_time":  "2026-07-06T23:28:00+02:00",
-        "account":  "TDS",
-        "text":  "ate dinner with my family.\nchecked my phone after.\n13 $27 sales while we ate.\nnobody knew. 😭",
-        "image_file":  "gumroad sales notifications.PNG",
-        "status":  "posted",
-        "added_at":  "2026-07-01T01:40:16+02:00",
-        "thread_id":  "17896093587356202",
-        "posted_at":  "2026-07-06T21:30:41.126104+00:00"
-    },
-    {
-        "id":  71,
-        "scheduled_time":  "2026-07-07T04:25:00+02:00",
-        "account":  "MAIN",
-        "text":  "BUILT MY ENTIRE INCOME FROM A SINGLE PDF AND A FREE GUMROAD ACCOUNT.\n\n$1,109 THIS MONTH FROM 66 PEOPLE.\n\nSTOP MAKING THIS COMPLICATED 😭💸",
-        "image_file":  "gum dashbrd ss 1kmon.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  72,
-        "scheduled_time":  "2026-07-07T04:35:00+02:00",
-        "account":  "TDS",
-        "text":  "passive income changes the way you experience time.\nyou stop counting hours.\nyou start counting $1,638 deposits. 🥹",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  73,
-        "scheduled_time":  "2026-07-07T08:45:00+02:00",
-        "account":  "MAIN",
-        "text":  "the gap between \u0027just an idea\u0027 and $3,937 in your account is 47 pages of a PDF and one threads post. 💸",
-        "image_file":  "3.9k gumroad ss.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  74,
-        "scheduled_time":  "2026-07-07T08:55:00+02:00",
-        "account":  "TDS",
-        "text":  "$125 today.\nstill gives me the same dopamine as my first ever sale.\n24 people. one PDF. 😭💸",
-        "image_file":  "125 tdy gumroad dahsbaord.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  75,
-        "scheduled_time":  "2026-07-07T13:15:00+02:00",
-        "account":  "MAIN",
-        "text":  "phone died overnight.\nplugged it in.\n2 sale notifications came in — $12.65 + $31.05.\nthat\u0027s the dream. 😭💸",
-        "image_file":  "Gumroad Sales Screenshots.PNG",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  76,
-        "scheduled_time":  "2026-07-07T13:25:00+02:00",
-        "account":  "TDS",
-        "text":  "the whole stack costs $0.\nthe whole business made $41,639 this year.\nsomeone explain why everyone isn\u0027t doing this. 💀",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  77,
-        "scheduled_time":  "2026-07-07T15:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need to be in the right country to make this work\"\n\nnot in the US.\n$612 yesterday.\nthe internet is the great equalizer. 💸",
-        "image_file":  "612 a day gumroad dahsbaord ss.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  78,
-        "scheduled_time":  "2026-07-07T15:28:00+02:00",
-        "account":  "TDS",
-        "text":  "\"you need to grow first\"\n\nhad 200 followers when i made my first $1,109 in a month.\nfollowers are vanity. 💸",
-        "image_file":  "gum dashbrd ss 1kmon.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  79,
-        "scheduled_time":  "2026-07-07T19:55:00+02:00",
-        "account":  "MAIN",
-        "text":  "\"you need years of experience to charge $27\"\n\nzero. $3,937 in my account today.\n225 people paid. no credentials required. 😭💸",
-        "image_file":  "3.9k gumroad ss.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  80,
-        "scheduled_time":  "2026-07-07T20:05:00+02:00",
-        "account":  "TDS",
-        "text":  "FROM $0 TO $41,639 IN A YEAR.\nONE PDF. ZERO PAID ADS.\nEVERY SINGLE DOLLAR FROM THREADS 😭😭💸",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  81,
-        "scheduled_time":  "2026-07-07T23:18:00+02:00",
-        "account":  "MAIN",
-        "text":  "i don\u0027t celebrate the wins online anymore.\nthey happen too often.\n$1,183 today.\nthe dashboard tells the story. 🤍",
-        "image_file":  "gumroad more money dahsbaord.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  82,
-        "scheduled_time":  "2026-07-07T23:28:00+02:00",
-        "account":  "TDS",
-        "text":  "watching a movie.\nchecked my phone in the credits.\n$460 in sales from 18 people over the runtime. 😭💸",
-        "image_file":  "digistackr sales proof.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  83,
-        "scheduled_time":  "2026-07-08T04:25:00+02:00",
-        "account":  "MAIN",
-        "text":  "the freedom of not checking your bank account with fear is the only metric that matters.\n$1,638 payout just landed.\nthat\u0027s the actual rich. 🥹",
-        "image_file":  "Gumroad Payout Screenshots.PNG",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  84,
-        "scheduled_time":  "2026-07-08T04:35:00+02:00",
-        "account":  "TDS",
-        "text":  "if 19 year old me could see this — $41,639 a year from posts.\nshe wouldn\u0027t believe it.\nbut she would post anyway. so post. 🥹",
-        "image_file":  "gum iphone dashabord w apps.png",
-        "status":  "pending",
-        "added_at":  "2026-07-01T01:40:16+02:00"
-    },
-    {
-        "id":  85,
-        "account":  "MAIN",
-        "text":  "\"pdfs are dead in 2026\"\n\n$964 today says otherwise. 😭💸",
-        "scheduled_time":  "2026-07-08T15:18:00+02:00",
-        "status":  "pending",
-        "image_file":  "dashbaord ss 964tdy.png"
-    },
-    {
-        "id":  86,
-        "account":  "TDS",
-        "text":  "started with 0 followers and a free account.\ntoday: $125 from 24 people.\nthe niche isn\u0027t saturated. you\u0027re just not in it yet. 💸",
-        "scheduled_time":  "2026-07-08T15:28:00+02:00",
-        "status":  "pending",
-        "image_file":  "125 tdy gumroad dahsbaord.png"
-    },
-    {
-        "id":  87,
-        "account":  "MAIN",
-        "text":  "no website.\nno logo.\nno LLC.\nno face.\n\n$2,013 this month from a system that posts and sells.\nstop overbuilding. start selling.",
-        "scheduled_time":  "2026-07-08T19:55:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad dashbaord ss 2k.png"
-    },
-    {
-        "id":  88,
-        "account":  "TDS",
-        "text":  "phone was face down at dinner.\nflipped it over: 13 sale notifications.\nthe internet doesn\u0027t close. 😭💸",
-        "scheduled_time":  "2026-07-08T20:05:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad sales notifications.PNG"
-    },
-    {
-        "id":  89,
-        "account":  "MAIN",
-        "text":  "be honest.\nwhat\u0027s actually stopping you from selling a digital product?\nnot the polished excuse. the real one.\ni\u0027ll reply to every single answer.",
-        "scheduled_time":  "2026-07-08T23:18:00+02:00",
-        "status":  "pending"
-    },
-    {
-        "id":  90,
-        "account":  "TDS",
-        "text":  "$112 today on autopilot.\nnot life-changing money.\nbut it\u0027s rent-helping, grocery-covering, sleep-better money.\nthat\u0027s how it starts. 🤍",
-        "scheduled_time":  "2026-07-08T23:28:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad 112day.png"
-    },
-    {
-        "id":  91,
-        "account":  "MAIN",
-        "text":  "3:33 AM. a $27 sale.\nmy product works the night shift so i don\u0027t have to. 💸",
-        "scheduled_time":  "2026-07-09T04:25:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad notification screenshot.PNG"
-    },
-    {
-        "id":  92,
-        "account":  "TDS",
-        "text":  "an $11 sale at 4am woke me up.\nsmall number. loud signal.\nstrangers pay for value while you sleep. 🤍",
-        "scheduled_time":  "2026-07-09T04:35:00+02:00",
-        "status":  "pending",
-        "image_file":  "my gumroad notification showing threads revenue ladder.PNG"
-    },
-    {
-        "id":  93,
-        "account":  "MAIN",
-        "text":  "no office.\nno team.\nno degree yet.\n\njust a phone and a $5,612/month system.\nthe game changed. most people didn\u0027t.",
-        "scheduled_time":  "2026-07-09T08:45:00+02:00",
-        "status":  "pending",
-        "image_file":  "gum iphone dashabord w apps.png"
-    },
-    {
-        "id":  94,
-        "account":  "TDS",
-        "text":  "\"you need 10k followers to make money\"\n\n92 buyers in one day. $856.\nmost of them weren\u0027t even following me. 😭💸",
-        "scheduled_time":  "2026-07-09T08:55:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumrd dashbrd ss 856.png"
-    },
-    {
-        "id":  95,
-        "account":  "MAIN",
-        "text":  "finish the sentence:\n\nby december i will ______.",
-        "scheduled_time":  "2026-07-09T13:15:00+02:00",
-        "status":  "pending"
-    },
-    {
-        "id":  96,
-        "account":  "TDS",
-        "text":  "threads: free.\ngumroad: free.\ncanva: free.\n\na $27 PDF built with all three: $612 in one day.\nyour excuses: also free. 💸",
-        "scheduled_time":  "2026-07-09T13:25:00+02:00",
-        "status":  "pending",
-        "image_file":  "612 a day gumroad dahsbaord ss.png"
-    },
-    {
-        "id":  97,
-        "account":  "MAIN",
-        "text":  "$1,380 payout landed today.\nfirst thing i did was screenshot it for my mom.\nsome numbers are more than numbers. 🥹",
-        "scheduled_time":  "2026-07-09T15:18:00+02:00",
-        "status":  "pending",
-        "image_file":  "paypal notification ss 1.3k.png"
-    },
-    {
-        "id":  98,
-        "account":  "TDS",
-        "text":  "one PDF. written once.\n37 people bought it today.\nmake something once. let it work forever. 🤍",
-        "scheduled_time":  "2026-07-09T15:28:00+02:00",
-        "status":  "pending",
-        "image_file":  "sales proof.png"
-    },
-    {
-        "id":  99,
-        "account":  "MAIN",
-        "text":  "my parents get salaries.\ni get payouts.\n\n$1,638 deposited while i sat in a lecture.\ndifferent game. same dinner table. 💸",
-        "scheduled_time":  "2026-07-09T19:55:00+02:00",
-        "status":  "pending",
-        "image_file":  "Gumroad Payout Screenshots.PNG"
-    },
-    {
-        "id":  100,
-        "account":  "TDS",
-        "text":  "\"organic reach is dead\"\n\n70 sales today. all organic. $1,183.\ndead for who? 😭💸",
-        "scheduled_time":  "2026-07-09T20:05:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad more money dahsbaord.png"
-    },
-    {
-        "id":  101,
-        "account":  "MAIN",
-        "text":  "drop a 👻 if you\u0027re building something faceless right now.\n\nchecking who\u0027s actually locked in vs who\u0027s just scrolling.",
-        "scheduled_time":  "2026-07-09T23:18:00+02:00",
-        "status":  "pending"
-    },
-    {
-        "id":  102,
-        "account":  "TDS",
-        "text":  "watched a whole movie.\nchecked my phone in the credits.\n$460 from 18 people over the runtime.\nthat used to be a month of groceries. 😭💸",
-        "scheduled_time":  "2026-07-09T23:28:00+02:00",
-        "status":  "pending",
-        "image_file":  "digistackr sales proof.png"
-    },
-    {
-        "id":  103,
-        "account":  "MAIN",
-        "text":  "couldn\u0027t sleep.\nrefreshed gumroad instead of instagram.\n13 sale notifications stacked.\nhealthiest doomscroll of my life. 😭",
-        "scheduled_time":  "2026-07-10T04:25:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad sales notifications.PNG"
-    },
-    {
-        "id":  104,
-        "account":  "TDS",
-        "text":  "3:33 AM.\n$27.\nsomeone across the world bought my PDF while their day was starting.\nthe internet is undefeated. 🤍",
-        "scheduled_time":  "2026-07-10T04:35:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad notification screenshot.PNG"
-    },
-    {
-        "id":  105,
-        "account":  "MAIN",
-        "text":  "month one of selling PDFs: $1,109.\ni reread that sentence about 20 times.\n66 people bought something i almost never published. 🥹",
-        "scheduled_time":  "2026-07-10T08:45:00+02:00",
-        "status":  "pending",
-        "image_file":  "gum dashbrd ss 1kmon.png"
-    },
-    {
-        "id":  106,
-        "account":  "TDS",
-        "text":  "\"the market is too saturated\"\n\n$2,013 this month.\nthe market pays for execution, not originality. 💸",
-        "scheduled_time":  "2026-07-10T08:55:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad dashbaord ss 2k.png"
-    },
-    {
-        "id":  107,
-        "account":  "MAIN",
-        "text":  "if you had 48 hours to make your first $100 online, what would you sell?\n\nwrong answers only. (the right ones might get stolen 👀)",
-        "scheduled_time":  "2026-07-10T13:15:00+02:00",
-        "status":  "pending"
-    },
-    {
-        "id":  108,
-        "account":  "TDS",
-        "text":  "$964 today.\nzero ads. zero face. zero website.\njust posts that make people feel something, and a link. 💸",
-        "scheduled_time":  "2026-07-10T13:25:00+02:00",
-        "status":  "pending",
-        "image_file":  "dashbaord ss 964tdy.png"
-    },
-    {
-        "id":  109,
-        "account":  "MAIN",
-        "text":  "i don\u0027t check my bank app anymore.\ni check gumroad.\n$12.65 and $31.05 came in while i typed this. 🤍",
-        "scheduled_time":  "2026-07-10T15:18:00+02:00",
-        "status":  "pending",
-        "image_file":  "Gumroad Sales Screenshots.PNG"
-    },
-    {
-        "id":  110,
-        "account":  "TDS",
-        "text":  "my screen time report is embarrassing.\nbut $5,612 of it this month was gumroad. 💸",
-        "scheduled_time":  "2026-07-10T15:28:00+02:00",
-        "status":  "pending",
-        "image_file":  "gum iphone dashabord w apps.png"
-    },
-    {
-        "id":  111,
-        "account":  "MAIN",
-        "text":  "rent was due friday.\na $1,117 payout hit thursday.\ni don\u0027t believe in luck. i believe in systems. 😭💸",
-        "scheduled_time":  "2026-07-10T19:55:00+02:00",
-        "status":  "pending",
-        "image_file":  "paypal notification ss from phn.png"
-    },
-    {
-        "id":  112,
-        "account":  "TDS",
-        "text":  "5 people bought my $98 service in one afternoon.\ni was in an exam for most of it.\nbuild things that sell when you can\u0027t. 😭",
-        "scheduled_time":  "2026-07-10T20:05:00+02:00",
-        "status":  "pending",
-        "image_file":  "Gumroad Notificaion screenshots.PNG"
-    },
-    {
-        "id":  113,
-        "account":  "MAIN",
-        "text":  "nobody claps when you write page 1.\nnobody sees draft 4.\nthey only show up for the screenshot.\n\ntag someone who\u0027s still on page 1.",
-        "scheduled_time":  "2026-07-10T23:18:00+02:00",
-        "status":  "pending"
-    },
-    {
-        "id":  114,
-        "account":  "TDS",
-        "text":  "took 4 days fully offline.\ncame back to $556 from 32 buyers.\nthe machine doesn\u0027t take breaks. 🤍",
-        "scheduled_time":  "2026-07-10T23:28:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad dahsbaord ss 556.png"
-    },
-    {
-        "id":  115,
-        "account":  "MAIN",
-        "text":  "the sale that made me believe wasn\u0027t the biggest one.\nit was an $11 notification at 4am from a total stranger.\nproof of concept \u003e profit. 🤍",
-        "scheduled_time":  "2026-07-11T04:25:00+02:00",
-        "status":  "pending",
-        "image_file":  "my gumroad notification showing threads revenue ladder.PNG"
-    },
-    {
-        "id":  116,
-        "account":  "TDS",
-        "text":  "$1,638. deposited. quietly.\nno announcement. no applause.\nghost mode pays different. 👻",
-        "scheduled_time":  "2026-07-11T04:35:00+02:00",
-        "status":  "pending",
-        "image_file":  "Gumroad Payout Screenshots.PNG"
-    },
-    {
-        "id":  117,
-        "account":  "MAIN",
-        "text":  "19 years old. $3,937 in a month. from a PDF.\nnot a prodigy. not lucky. not connected.\ni just didn\u0027t stop posting when it was embarrassing. 😭💸",
-        "scheduled_time":  "2026-07-11T08:45:00+02:00",
-        "status":  "pending",
-        "image_file":  "3.9k gumroad ss.png"
-    },
-    {
-        "id":  118,
-        "account":  "TDS",
-        "text":  "92 strangers bought my PDF in one day.\n$856.\ni still don\u0027t have a business degree. or a business plan. 🤍",
-        "scheduled_time":  "2026-07-11T08:55:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumrd dashbrd ss 856.png"
-    },
-    {
-        "id":  119,
-        "account":  "MAIN",
-        "text":  "the digital product you keep overthinking —\ndescribe it in 5 words or less.\n\ni\u0027ll tell you if it sells.",
-        "scheduled_time":  "2026-07-11T13:15:00+02:00",
-        "status":  "pending"
-    },
-    {
-        "id":  120,
-        "account":  "TDS",
-        "text":  "no employees. no office. no inventory. no ads.\n\n70 sales today anyway. $1,183.\nthe barrier was never money. it was starting. 🤍",
-        "scheduled_time":  "2026-07-11T13:25:00+02:00",
-        "status":  "pending",
-        "image_file":  "gumroad more money dahsbaord.png"
-    }
+  {
+    "id": 1,
+    "scheduled_time": "2026-07-08T08:45:00+02:00",
+    "account": "MAIN",
+    "text": "my entire business runs from one phone.\n4 apps. one bio link.\n$41,639 this year and I still can't believe it. 🤍",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:31:22+02:00"
+  },
+  {
+    "id": 2,
+    "scheduled_time": "2026-07-08T08:55:00+02:00",
+    "account": "TDS",
+    "text": "DONT STOP ENGAGING ON THREADS!!!\n\n$27 sale at 3:33 AM alone\nliterally paid for my morning coffee 😭💸",
+    "image_file": "gumroad notification screenshot.PNG",
+    "status": "pending",
+    "added_at": "2026-07-01T01:31:22+02:00"
+  },
+  {
+    "id": 3,
+    "scheduled_time": "2026-07-08T13:15:00+02:00",
+    "account": "MAIN",
+    "text": "woke up to $856 in sales from a single day.\nfrom 92 people.\nfrom a $27 PDF. 😭💸",
+    "image_file": "gumrd dashbrd ss 856.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:31:22+02:00"
+  },
+  {
+    "id": 4,
+    "scheduled_time": "2026-07-08T13:25:00+02:00",
+    "account": "TDS",
+    "text": "$112 today and i didn't even post.\n17 people bought.\nthe system runs itself now. 💸",
+    "image_file": "gumroad 112day.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:31:22+02:00"
+  },
+  {
+    "id": 5,
+    "scheduled_time": "2026-07-01T15:18:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need to be older to be taken seriously online\"\n\n19. $3,898 this month. age is a tax for the people not in the room. 💸",
+    "image_file": "3.9k gumroad ss.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18086786870411923",
+    "posted_at": "2026-07-01T13:35:39.570117+00:00"
+  },
+  {
+    "id": 6,
+    "scheduled_time": "2026-07-01T15:28:00+02:00",
+    "account": "TDS",
+    "text": "IT IS OFFICIAL.\n\nThanks to Threads + Gumroad + Claude.\njust paid off another $500 of debt this week. 😭🎉",
+    "image_file": "paypal notification ss 1.3k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17952108984192972",
+    "posted_at": "2026-07-01T13:35:39.570117+00:00"
+  },
+  {
+    "id": 7,
+    "scheduled_time": "2026-07-01T19:55:00+02:00",
+    "account": "MAIN",
+    "text": "my product sold at 3:33 AM last night.\ni was asleep.\n9 notifications waiting when i woke up. 😭💸",
+    "image_file": "gumroad notification screenshot.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18119704159773756",
+    "posted_at": "2026-07-01T17:55:25.102188+00:00"
+  },
+  {
+    "id": 8,
+    "scheduled_time": "2026-07-01T20:05:00+02:00",
+    "account": "TDS",
+    "text": "the freedom of not stressing about rent.\n$1,183 dashboard today.\nnever letting this go. 🥹",
+    "image_file": "gumroad more money dahsbaord.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18126916672726373",
+    "posted_at": "2026-07-01T18:05:27.308598+00:00"
+  },
+  {
+    "id": 9,
+    "scheduled_time": "2026-07-01T23:18:00+02:00",
+    "account": "MAIN",
+    "text": "i don't have a salary.\ni have payouts.\n$1,638 just deposited while i slept. 🤍",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18094410266346021",
+    "posted_at": "2026-07-01T21:20:33.782516+00:00"
+  },
+  {
+    "id": 10,
+    "scheduled_time": "2026-07-01T23:28:00+02:00",
+    "account": "TDS",
+    "text": "my product is older than most of the bills it pays.\n32 people bought it today. 🤍",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18212684098339544",
+    "posted_at": "2026-07-01T21:30:39.360600+00:00"
+  },
+  {
+    "id": 11,
+    "scheduled_time": "2026-07-02T04:25:00+02:00",
+    "account": "MAIN",
+    "text": "MY PDF LITERALLY MADE ME $5,612 THIS MONTH.\nTHREADS + GUMROAD + CLAUDE.\nDON'T LET ANYONE TELL YOU IT'S TOO LATE 😭💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18107596009803728",
+    "posted_at": "2026-07-02T02:25:21.996838+00:00"
+  },
+  {
+    "id": 12,
+    "scheduled_time": "2026-07-02T04:35:00+02:00",
+    "account": "TDS",
+    "text": "wealth doesn't always look loud.\nsometimes it's a $11 sale notification at 4am.\nsmall wins compound. 🤍",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17936886303272903",
+    "posted_at": "2026-07-02T02:35:22.160070+00:00"
+  },
+  {
+    "id": 13,
+    "scheduled_time": "2026-07-02T08:45:00+02:00",
+    "account": "MAIN",
+    "text": "paid my own tuition this semester from one PDF.\n$1,380 PayPal payout hit today.\nfirst in my family to do that. 🥹",
+    "image_file": "paypal notification ss 1.3k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18134741275582382",
+    "posted_at": "2026-07-02T06:45:28.757387+00:00"
+  },
+  {
+    "id": 14,
+    "scheduled_time": "2026-07-02T08:55:00+02:00",
+    "account": "TDS",
+    "text": "$856 in a single day while i was sleeping.\nfrom 92 people.\nnothing beats that feeling. 😭💸",
+    "image_file": "gumrd dashbrd ss 856.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17884234974602389",
+    "posted_at": "2026-07-02T06:55:22.130186+00:00"
+  },
+  {
+    "id": 15,
+    "scheduled_time": "2026-07-02T13:15:00+02:00",
+    "account": "MAIN",
+    "text": "Threads — FREE\nGumroad — FREE\nClaude — FREE\nCanva — FREE\nNotion — FREE\n\n$5,612 THIS MONTH. no excuses left. 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18058398665735190",
+    "posted_at": "2026-07-02T11:15:27.894195+00:00"
+  },
+  {
+    "id": 16,
+    "scheduled_time": "2026-07-02T13:25:00+02:00",
+    "account": "TDS",
+    "text": "my entire team is me + Claude.\nthat's the whole org chart.\n2 sales came through while i wrote this — $12.65 + $31.05. 💸",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18087021311435586",
+    "posted_at": "2026-07-02T11:25:23.099285+00:00"
+  },
+  {
+    "id": 17,
+    "scheduled_time": "2026-07-02T15:18:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need expensive software to make money online\"\n\n$0 in software.\n$2,013 this month. 😭💸",
+    "image_file": "gumroad dashbaord ss 2k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18028273376652550",
+    "posted_at": "2026-07-02T13:20:32.319962+00:00"
+  },
+  {
+    "id": 18,
+    "scheduled_time": "2026-07-02T15:28:00+02:00",
+    "account": "TDS",
+    "text": "$964 today.\nthat's a monthly salary in some countries.\njust sit with that. 🤍",
+    "image_file": "dashbaord ss 964tdy.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18207224206349225",
+    "posted_at": "2026-07-02T13:30:42.851039+00:00"
+  },
+  {
+    "id": 19,
+    "scheduled_time": "2026-07-02T19:55:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need to grow your audience first\"\n\n800 followers. $612 in a day.\nfollower count is the lie. 💸",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18174539431422732",
+    "posted_at": "2026-07-02T17:55:25.517859+00:00"
+  },
+  {
+    "id": 20,
+    "scheduled_time": "2026-07-02T20:05:00+02:00",
+    "account": "TDS",
+    "text": "GUMROAD PAID ME $1,117 TODAY VIA PAYPAL.\n\nSTILL CAN'T BELIEVE IT'S REAL 😭😭💸",
+    "image_file": "paypal notification ss from phn.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18330284188284739",
+    "posted_at": "2026-07-02T18:05:24.903409+00:00"
+  },
+  {
+    "id": 21,
+    "scheduled_time": "2026-07-02T23:18:00+02:00",
+    "account": "MAIN",
+    "text": "phone died for 5 hours.\ncharged it.\n13 sale notifications stacked up.\nthe system doesn't need me. 😭💸",
+    "image_file": "gumroad sales notifications.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17856786540676212",
+    "posted_at": "2026-07-02T21:20:37.363674+00:00"
+  },
+  {
+    "id": 22,
+    "scheduled_time": "2026-07-02T23:28:00+02:00",
+    "account": "TDS",
+    "text": "got a sale notification while paying for groceries.\n$27. paid for the groceries with it. 😭💸",
+    "image_file": "gumroad notification screenshot.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18169747816381827",
+    "posted_at": "2026-07-02T21:30:40.914203+00:00"
+  },
+  {
+    "id": 23,
+    "scheduled_time": "2026-07-03T04:25:00+02:00",
+    "account": "MAIN",
+    "text": "they keep asking why i spend so much time on threads.\n\nbecause it pays my rent.\n$1,638 payout says so.",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18604854520015091",
+    "posted_at": "2026-07-03T02:25:22.432608+00:00"
+  },
+  {
+    "id": 24,
+    "scheduled_time": "2026-07-03T04:35:00+02:00",
+    "account": "TDS",
+    "text": "financial freedom is a mental health upgrade.\nthe panic of \"how am i paying rent\" disappears when $1,117 lands in your account randomly. 🥹",
+    "image_file": "paypal notification ss from phn.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18108063125073973",
+    "posted_at": "2026-07-03T02:35:29.078079+00:00"
+  },
+  {
+    "id": 25,
+    "scheduled_time": "2026-07-03T08:45:00+02:00",
+    "account": "MAIN",
+    "text": "a Google Doc.\na Canva cover.\na Gumroad link.\n\nthat's how i earn $41,639 a year now. 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17868957579565139",
+    "posted_at": "2026-07-03T06:45:36.597133+00:00"
+  },
+  {
+    "id": 26,
+    "scheduled_time": "2026-07-03T08:55:00+02:00",
+    "account": "TDS",
+    "text": "$112 today. wouldn't trade it for any 9-5 paycheck.\n17 people over $27 saw value in what i made. 💸",
+    "image_file": "gumroad 112day.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17910444342430819",
+    "posted_at": "2026-07-03T06:55:23.749828+00:00"
+  },
+  {
+    "id": 27,
+    "scheduled_time": "2026-07-03T13:15:00+02:00",
+    "account": "MAIN",
+    "text": "i don't post for views.\ni post for buyers.\nthe algorithm figured out the difference.\n70 sales today. 💸",
+    "image_file": "gumroad more money dahsbaord.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18047368439788512",
+    "posted_at": "2026-07-03T11:16:34.423837+00:00"
+  },
+  {
+    "id": 28,
+    "scheduled_time": "2026-07-03T13:25:00+02:00",
+    "account": "TDS",
+    "text": "Threads + Gumroad. that's it.\nthat's the entire business.\n$5,612 this month. stop overcomplicating it. 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18134478682588205",
+    "posted_at": "2026-07-03T11:25:23.740455+00:00"
+  },
+  {
+    "id": 29,
+    "scheduled_time": "2026-07-03T15:18:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need a course before you launch\"\n\nzero courses. $964 today. 😭💸",
+    "image_file": "dashbaord ss 964tdy.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "17933542668299808",
+    "posted_at": "2026-07-03T13:20:36.719185+00:00"
+  },
+  {
+    "id": 30,
+    "scheduled_time": "2026-07-03T15:28:00+02:00",
+    "account": "TDS",
+    "text": "\"you need consistent posting to make sales\"\n\ndidn't post for 4 days. $556 still came in from 32 people. 😭💸",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18096802670217282",
+    "posted_at": "2026-07-03T13:30:40.806671+00:00"
+  },
+  {
+    "id": 31,
+    "scheduled_time": "2026-07-03T19:55:00+02:00",
+    "account": "MAIN",
+    "text": "didn't post all weekend.\ncame back to 13 sale notifications stacked in one hour.\nthe machine eats whether i feed it or not. 😭💸",
+    "image_file": "gumroad sales notifications.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18156641635475318",
+    "posted_at": "2026-07-03T17:55:24.902546+00:00"
+  },
+  {
+    "id": 32,
+    "scheduled_time": "2026-07-03T20:05:00+02:00",
+    "account": "TDS",
+    "text": "THREADS LITERALLY PAID ME $1,380 TODAY VIA PAYPAL.\n\nDON'T STOP POSTING. DON'T STOP ENGAGING 😭😭💕",
+    "image_file": "paypal notification ss 1.3k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18435816013193646",
+    "posted_at": "2026-07-03T18:05:25.521711+00:00"
+  },
+  {
+    "id": 33,
+    "scheduled_time": "2026-07-03T23:18:00+02:00",
+    "account": "MAIN",
+    "text": "my product is older than most bills it pays.\n37 people bought it today alone. 🤍",
+    "image_file": "sales proof.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18031238834817392",
+    "posted_at": "2026-07-03T21:20:32.188645+00:00"
+  },
+  {
+    "id": 34,
+    "scheduled_time": "2026-07-03T23:28:00+02:00",
+    "account": "TDS",
+    "text": "in the doctor's waiting room.\n5 sale notifications of my DFY, $98 each.\ntried not to smile. failed. 😭",
+    "image_file": "Gumroad Notificaion screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18012150149860983",
+    "posted_at": "2026-07-03T21:30:40.402962+00:00"
+  },
+  {
+    "id": 35,
+    "scheduled_time": "2026-07-04T04:25:00+02:00",
+    "account": "MAIN",
+    "text": "i don't think people understand what passive income does to your nervous system.\n\nthe constant \"how am i paying rent\" anxiety just goes away.\n\nand stays gone. 🥹",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18121603558784329",
+    "posted_at": "2026-07-04T02:25:25.079226+00:00"
+  },
+  {
+    "id": 36,
+    "scheduled_time": "2026-07-04T04:35:00+02:00",
+    "account": "TDS",
+    "text": "your phone is either a distraction or a business.\n\nmine makes me $41,639 a year.\nyou decide which today.",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18157267429417875",
+    "posted_at": "2026-07-04T02:35:23.356473+00:00"
+  },
+  {
+    "id": 37,
+    "scheduled_time": "2026-07-04T08:45:00+02:00",
+    "account": "MAIN",
+    "text": "no boss. no schedule. no meetings.\n\njust notifications.\nand a system that runs without me. 🤍",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18034850240816846",
+    "posted_at": "2026-07-04T06:45:28.922850+00:00"
+  },
+  {
+    "id": 38,
+    "scheduled_time": "2026-07-04T08:55:00+02:00",
+    "account": "TDS",
+    "text": "$125 today. starting to feel normal.\n24 people bought.\nthat's the unlock. 💸",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18116730610886930",
+    "posted_at": "2026-07-04T06:55:23.491473+00:00"
+  },
+  {
+    "id": 39,
+    "scheduled_time": "2026-07-04T13:15:00+02:00",
+    "account": "MAIN",
+    "text": "my dad worked 30 years for his car.\nmine cost me one $1,380 PayPal payout.\ndifferent generations. 😭💸",
+    "image_file": "paypal notification ss 1.3k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18115611920306889",
+    "posted_at": "2026-07-04T11:15:24.850393+00:00"
+  },
+  {
+    "id": 40,
+    "scheduled_time": "2026-07-04T13:25:00+02:00",
+    "account": "TDS",
+    "text": "thanks to Threads + Gumroad + Canva + Claude.\n\ni finally paid off my credit card with a $1,638 payout.\n4 years of weight. gone. 😭🎉",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18145582759521593",
+    "posted_at": "2026-07-04T11:25:24.198192+00:00"
+  },
+  {
+    "id": 41,
+    "scheduled_time": "2026-07-04T15:18:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need a niche to sell digital products\"\n\nsold to everyone. $964 in a day.\n'niche' is a tax for people who can't write a hook. 💀",
+    "image_file": "dashbaord ss 964tdy.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18121141006763339",
+    "posted_at": "2026-07-04T13:20:32.532671+00:00"
+  },
+  {
+    "id": 42,
+    "scheduled_time": "2026-07-04T15:28:00+02:00",
+    "account": "TDS",
+    "text": "my paychecks come from notifications now.\n2 sales in one minute — $12.65 and $31.05.\nit doesn't feel real even when it is. 🤍",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17888878047588958",
+    "posted_at": "2026-07-04T13:30:42.575291+00:00"
+  },
+  {
+    "id": 43,
+    "scheduled_time": "2026-07-04T19:55:00+02:00",
+    "account": "MAIN",
+    "text": "\"paypal won't work with gumroad\"\n\n$1,380 PayPal payout today.\nsomeone update the rumor. 💸",
+    "image_file": "paypal notification ss 1.3k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18003599558761077",
+    "posted_at": "2026-07-04T17:55:22.309909+00:00"
+  },
+  {
+    "id": 44,
+    "scheduled_time": "2026-07-04T20:05:00+02:00",
+    "account": "TDS",
+    "text": "DON'T STOP POSTING ON THREADS!!!\n\n$1,109 THIS MONTH FROM 66 SALES.\nEVERY. SINGLE. WEEK. 😭💕",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18571370080067615",
+    "posted_at": "2026-07-04T18:05:21.675907+00:00"
+  },
+  {
+    "id": 45,
+    "scheduled_time": "2026-07-04T23:18:00+02:00",
+    "account": "MAIN",
+    "text": "watched a movie tonight.\nchecked my phone in the credits.\n$27 sale during act 3.\ndidn't miss a beat. 😭",
+    "image_file": "gumroad notification screenshot.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18022527824681581",
+    "posted_at": "2026-07-04T21:20:29.895432+00:00"
+  },
+  {
+    "id": 46,
+    "scheduled_time": "2026-07-04T23:28:00+02:00",
+    "account": "TDS",
+    "text": "in the middle of an exam. phone face down.\n5 DFY sales of $98 each came through.\ndidn't smile until i got home. 😭💸",
+    "image_file": "Gumroad Notificaion screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18102402482158810",
+    "posted_at": "2026-07-04T21:30:38.527379+00:00"
+  },
+  {
+    "id": 47,
+    "scheduled_time": "2026-07-05T04:25:00+02:00",
+    "account": "MAIN",
+    "text": "MY GUMROAD JUST DEPOSITED $1,638 TODAY.\n\n$0 IN ADS. $0 IN SOFTWARE.\n\nONE PDF. THAT'S THE WHOLE STORY 😭😭💸",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18101592308136925",
+    "posted_at": "2026-07-05T02:25:22.529187+00:00"
+  },
+  {
+    "id": 48,
+    "scheduled_time": "2026-07-05T04:35:00+02:00",
+    "account": "TDS",
+    "text": "the kind of money that buys peace, not stuff.\n$1,638 payout.\nthat's the goal. 🤍",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18117256991497104",
+    "posted_at": "2026-07-05T02:35:24.226154+00:00"
+  },
+  {
+    "id": 49,
+    "scheduled_time": "2026-07-05T08:45:00+02:00",
+    "account": "MAIN",
+    "text": "8:43 AM.\nchecked my phone.\n13 sales stacked from overnight.\nthis is the only morning routine that matters. 😭💸",
+    "image_file": "gumroad sales notifications.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17885105643657827",
+    "posted_at": "2026-07-05T06:45:27.888306+00:00"
+  },
+  {
+    "id": 50,
+    "scheduled_time": "2026-07-05T08:55:00+02:00",
+    "account": "TDS",
+    "text": "$2,013 this month from one $27 PDF.\n81 people said yes.\naverage side hustle pays $200. let that hit. 😭💸",
+    "image_file": "gumroad dashbaord ss 2k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17904588582453825",
+    "posted_at": "2026-07-05T06:55:21.919730+00:00"
+  },
+  {
+    "id": 51,
+    "scheduled_time": "2026-07-05T13:15:00+02:00",
+    "account": "MAIN",
+    "text": "i don't have a website.\ni don't have a logo.\ni don't have an LLC.\n\ni have a $5,612/month system that runs itself. 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18103983331925821",
+    "posted_at": "2026-07-05T11:15:25.591755+00:00"
+  },
+  {
+    "id": 52,
+    "scheduled_time": "2026-07-05T13:25:00+02:00",
+    "account": "TDS",
+    "text": "the whole business: phone + Threads + Gumroad.\n$5,612 a month. nothing fancy. 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18017297432851455",
+    "posted_at": "2026-07-05T11:25:22.792236+00:00"
+  },
+  {
+    "id": 53,
+    "scheduled_time": "2026-07-05T15:18:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need email automation to make digital products work\"\n\nzero emails. $556 today.\nemails are optional. posting isn't. 😭💸",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17970995901090026",
+    "posted_at": "2026-07-05T13:20:29.512557+00:00"
+  },
+  {
+    "id": 54,
+    "scheduled_time": "2026-07-05T15:28:00+02:00",
+    "account": "TDS",
+    "text": "\"you need experience first\"\n\n0 experience. $1,109 my first month.\n66 people trusted me anyway. 💸",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18159150760463269",
+    "posted_at": "2026-07-05T13:30:38.837686+00:00"
+  },
+  {
+    "id": 55,
+    "scheduled_time": "2026-07-05T19:55:00+02:00",
+    "account": "MAIN",
+    "text": "i'm 19.\n$41,639 in gumroad this year.\nno degree. no parents' money.\nthat's the actual unlock. 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18130460098618544",
+    "posted_at": "2026-07-05T17:55:24.781604+00:00"
+  },
+  {
+    "id": 56,
+    "scheduled_time": "2026-07-05T20:05:00+02:00",
+    "account": "TDS",
+    "text": "DIGITAL PRODUCTS BOUGHT ME MY FIRST CAR.\n$1,380 PayPal payout, one of many.\nAT 19. WITHOUT A LOAN 😭💸",
+    "image_file": "paypal notification ss 1.3k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17946572256212801",
+    "posted_at": "2026-07-05T18:05:21.332661+00:00"
+  },
+  {
+    "id": 57,
+    "scheduled_time": "2026-07-05T23:18:00+02:00",
+    "account": "MAIN",
+    "text": "submitted my essay at 11:59 PM.\nchecked gumroad at 12:01 AM.\n$11 sale.\ngraduation gift from the universe. 😭",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18099422711268079",
+    "posted_at": "2026-07-05T21:20:34.443564+00:00"
+  },
+  {
+    "id": 58,
+    "scheduled_time": "2026-07-05T23:28:00+02:00",
+    "account": "TDS",
+    "text": "professor was mid-lecture.\nphone vibrated.\n$11 sale of my Threads Revenue Ladder.\ncouldn't keep a straight face. 😭",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18218786353326060",
+    "posted_at": "2026-07-05T21:30:37.561467+00:00"
+  },
+  {
+    "id": 59,
+    "scheduled_time": "2026-07-06T04:25:00+02:00",
+    "account": "MAIN",
+    "text": "the panic of \"how am i paying rent this month\" is the worst feeling.\nthe peace of a $1,638 payout landing without you asking is the best.\n\nthat's the whole game. 🥹",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "17893205181375829",
+    "posted_at": "2026-07-06T02:25:23.911498+00:00"
+  },
+  {
+    "id": 60,
+    "scheduled_time": "2026-07-06T04:35:00+02:00",
+    "account": "TDS",
+    "text": "the wealthiest 20-somethings i know don't have salaries.\nthey have systems.\nmine paid $1,117 today via PayPal.",
+    "image_file": "paypal notification ss from phn.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:39:25+02:00",
+    "thread_id": "18135438475573358",
+    "posted_at": "2026-07-06T02:35:21.541345+00:00"
+  },
+  {
+    "id": 61,
+    "scheduled_time": "2026-07-06T08:45:00+02:00",
+    "account": "MAIN",
+    "text": "my entire business: a phone + Canva + Gumroad + Threads.\n\ncosts me $0 a month.\nmakes me $5,612 a month. 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "17897415645531341",
+    "posted_at": "2026-07-06T06:45:25.881612+00:00"
+  },
+  {
+    "id": 62,
+    "scheduled_time": "2026-07-06T08:55:00+02:00",
+    "account": "TDS",
+    "text": "Threads paid for my coffee.\nGumroad paid for my dinner.\nyesterday alone.\n13 $27 sales stacked up. wild times. 😭💕",
+    "image_file": "gumroad sales notifications.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18358370266246655",
+    "posted_at": "2026-07-06T06:55:27.627685+00:00"
+  },
+  {
+    "id": 63,
+    "scheduled_time": "2026-07-06T13:15:00+02:00",
+    "account": "MAIN",
+    "text": "people ask me what i do for work.\ni don't know how to answer.\n'i post text on threads and net $41k a year' undersells it. 💀",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18084986402556402",
+    "posted_at": "2026-07-06T11:15:33.337938+00:00"
+  },
+  {
+    "id": 64,
+    "scheduled_time": "2026-07-06T13:25:00+02:00",
+    "account": "TDS",
+    "text": "$612 in a single day.\n26 people bought at $27 each.\nused to be my whole rent. now it's one slow tuesday. 😭💸",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18325193410260486",
+    "posted_at": "2026-07-06T11:25:24.898687+00:00"
+  },
+  {
+    "id": 65,
+    "scheduled_time": "2026-07-06T15:18:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need a unique product to stand out\"\n\nmine is basic. $125 today from 24 people.\nuniqueness is a vanity metric. 💸",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18104509388125872",
+    "posted_at": "2026-07-06T13:20:36.376578+00:00"
+  },
+  {
+    "id": 66,
+    "scheduled_time": "2026-07-06T15:28:00+02:00",
+    "account": "TDS",
+    "text": "i don't have a side hustle.\ni have an actual business.\n$1,638 payout says so.\nthey're not the same thing.",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18006159959941156",
+    "posted_at": "2026-07-06T13:30:40.169707+00:00"
+  },
+  {
+    "id": 67,
+    "scheduled_time": "2026-07-06T19:55:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need a fancy launch to make sales\"\n\nposted nothing on launch day.\nstill made $112.\nnobody noticed. it didn't matter. 😭💸",
+    "image_file": "gumroad 112day.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18081731306661974",
+    "posted_at": "2026-07-06T17:55:25.201063+00:00"
+  },
+  {
+    "id": 68,
+    "scheduled_time": "2026-07-06T20:05:00+02:00",
+    "account": "TDS",
+    "text": "PAID OFF MY DEBT WITH DIGITAL PRODUCTS.\n$1,380 PAYPAL PAYOUT WAS THE LAST ONE.\n\nTHANK YOU THREADS. THANK YOU GUMROAD 😭🎉💕",
+    "image_file": "paypal notification ss 1.3k.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18077155634330389",
+    "posted_at": "2026-07-06T18:05:23.065757+00:00"
+  },
+  {
+    "id": 69,
+    "scheduled_time": "2026-07-06T23:18:00+02:00",
+    "account": "MAIN",
+    "text": "in the shower.\nnotification waiting on the counter.\nby the time i checked — 5 sales of my DFY, $98 each.\nwild. 🤍",
+    "image_file": "Gumroad Notificaion screenshots.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18329852056248947",
+    "posted_at": "2026-07-06T21:20:31.924971+00:00"
+  },
+  {
+    "id": 70,
+    "scheduled_time": "2026-07-06T23:28:00+02:00",
+    "account": "TDS",
+    "text": "ate dinner with my family.\nchecked my phone after.\n13 $27 sales while we ate.\nnobody knew. 😭",
+    "image_file": "gumroad sales notifications.PNG",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "17896093587356202",
+    "posted_at": "2026-07-06T21:30:41.126104+00:00"
+  },
+  {
+    "id": 71,
+    "scheduled_time": "2026-07-07T04:25:00+02:00",
+    "account": "MAIN",
+    "text": "BUILT MY ENTIRE INCOME FROM A SINGLE PDF AND A FREE GUMROAD ACCOUNT.\n\n$1,109 THIS MONTH FROM 66 PEOPLE.\n\nSTOP MAKING THIS COMPLICATED 😭💸",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "status": "posted",
+    "added_at": "2026-07-01T01:40:16+02:00",
+    "thread_id": "18606255484023743",
+    "posted_at": "2026-07-07T02:25:21.290108+00:00"
+  },
+  {
+    "id": 72,
+    "scheduled_time": "2026-07-07T04:35:00+02:00",
+    "account": "TDS",
+    "text": "passive income changes the way you experience time.\nyou stop counting hours.\nyou start counting $1,638 deposits. 🥹",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 73,
+    "scheduled_time": "2026-07-07T08:45:00+02:00",
+    "account": "MAIN",
+    "text": "the gap between 'just an idea' and $3,937 in your account is 47 pages of a PDF and one threads post. 💸",
+    "image_file": "3.9k gumroad ss.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 74,
+    "scheduled_time": "2026-07-07T08:55:00+02:00",
+    "account": "TDS",
+    "text": "$125 today.\nstill gives me the same dopamine as my first ever sale.\n24 people. one PDF. 😭💸",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 75,
+    "scheduled_time": "2026-07-07T13:15:00+02:00",
+    "account": "MAIN",
+    "text": "phone died overnight.\nplugged it in.\n2 sale notifications came in — $12.65 + $31.05.\nthat's the dream. 😭💸",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 76,
+    "scheduled_time": "2026-07-07T13:25:00+02:00",
+    "account": "TDS",
+    "text": "the whole stack costs $0.\nthe whole business made $41,639 this year.\nsomeone explain why everyone isn't doing this. 💀",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 77,
+    "scheduled_time": "2026-07-07T15:18:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need to be in the right country to make this work\"\n\nnot in the US.\n$612 yesterday.\nthe internet is the great equalizer. 💸",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 78,
+    "scheduled_time": "2026-07-07T15:28:00+02:00",
+    "account": "TDS",
+    "text": "\"you need to grow first\"\n\nhad 200 followers when i made my first $1,109 in a month.\nfollowers are vanity. 💸",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 79,
+    "scheduled_time": "2026-07-07T19:55:00+02:00",
+    "account": "MAIN",
+    "text": "\"you need years of experience to charge $27\"\n\nzero. $3,937 in my account today.\n225 people paid. no credentials required. 😭💸",
+    "image_file": "3.9k gumroad ss.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 80,
+    "scheduled_time": "2026-07-07T20:05:00+02:00",
+    "account": "TDS",
+    "text": "FROM $0 TO $41,639 IN A YEAR.\nONE PDF. ZERO PAID ADS.\nEVERY SINGLE DOLLAR FROM THREADS 😭😭💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 81,
+    "scheduled_time": "2026-07-07T23:18:00+02:00",
+    "account": "MAIN",
+    "text": "i don't celebrate the wins online anymore.\nthey happen too often.\n$1,183 today.\nthe dashboard tells the story. 🤍",
+    "image_file": "gumroad more money dahsbaord.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 82,
+    "scheduled_time": "2026-07-07T23:28:00+02:00",
+    "account": "TDS",
+    "text": "watching a movie.\nchecked my phone in the credits.\n$460 in sales from 18 people over the runtime. 😭💸",
+    "image_file": "digistackr sales proof.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 83,
+    "scheduled_time": "2026-07-08T04:25:00+02:00",
+    "account": "MAIN",
+    "text": "the freedom of not checking your bank account with fear is the only metric that matters.\n$1,638 payout just landed.\nthat's the actual rich. 🥹",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 84,
+    "scheduled_time": "2026-07-08T04:35:00+02:00",
+    "account": "TDS",
+    "text": "if 19 year old me could see this — $41,639 a year from posts.\nshe wouldn't believe it.\nbut she would post anyway. so post. 🥹",
+    "image_file": "gum iphone dashabord w apps.png",
+    "status": "pending",
+    "added_at": "2026-07-01T01:40:16+02:00"
+  },
+  {
+    "id": 85,
+    "account": "MAIN",
+    "text": "\"pdfs are dead in 2026\"\n\n$964 today says otherwise. 😭💸",
+    "scheduled_time": "2026-07-08T15:18:00+02:00",
+    "status": "pending",
+    "image_file": "dashbaord ss 964tdy.png"
+  },
+  {
+    "id": 86,
+    "account": "TDS",
+    "text": "started with 0 followers and a free account.\ntoday: $125 from 24 people.\nthe niche isn't saturated. you're just not in it yet. 💸",
+    "scheduled_time": "2026-07-08T15:28:00+02:00",
+    "status": "pending",
+    "image_file": "125 tdy gumroad dahsbaord.png"
+  },
+  {
+    "id": 87,
+    "account": "MAIN",
+    "text": "no website.\nno logo.\nno LLC.\nno face.\n\n$2,013 this month from a system that posts and sells.\nstop overbuilding. start selling.",
+    "scheduled_time": "2026-07-08T19:55:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad dashbaord ss 2k.png"
+  },
+  {
+    "id": 88,
+    "account": "TDS",
+    "text": "phone was face down at dinner.\nflipped it over: 13 sale notifications.\nthe internet doesn't close. 😭💸",
+    "scheduled_time": "2026-07-08T20:05:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad sales notifications.PNG"
+  },
+  {
+    "id": 89,
+    "account": "MAIN",
+    "text": "be honest.\nwhat's actually stopping you from selling a digital product?\nnot the polished excuse. the real one.\ni'll reply to every single answer.",
+    "scheduled_time": "2026-07-08T23:18:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 90,
+    "account": "TDS",
+    "text": "$112 today on autopilot.\nnot life-changing money.\nbut it's rent-helping, grocery-covering, sleep-better money.\nthat's how it starts. 🤍",
+    "scheduled_time": "2026-07-08T23:28:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad 112day.png"
+  },
+  {
+    "id": 91,
+    "account": "MAIN",
+    "text": "3:33 AM. a $27 sale.\nmy product works the night shift so i don't have to. 💸",
+    "scheduled_time": "2026-07-09T04:25:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad notification screenshot.PNG"
+  },
+  {
+    "id": 92,
+    "account": "TDS",
+    "text": "an $11 sale at 4am woke me up.\nsmall number. loud signal.\nstrangers pay for value while you sleep. 🤍",
+    "scheduled_time": "2026-07-09T04:35:00+02:00",
+    "status": "pending",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG"
+  },
+  {
+    "id": 93,
+    "account": "MAIN",
+    "text": "no office.\nno team.\nno degree yet.\n\njust a phone and a $5,612/month system.\nthe game changed. most people didn't.",
+    "scheduled_time": "2026-07-09T08:45:00+02:00",
+    "status": "pending",
+    "image_file": "gum iphone dashabord w apps.png"
+  },
+  {
+    "id": 94,
+    "account": "TDS",
+    "text": "\"you need 10k followers to make money\"\n\n92 buyers in one day. $856.\nmost of them weren't even following me. 😭💸",
+    "scheduled_time": "2026-07-09T08:55:00+02:00",
+    "status": "pending",
+    "image_file": "gumrd dashbrd ss 856.png"
+  },
+  {
+    "id": 95,
+    "account": "MAIN",
+    "text": "finish the sentence:\n\nby december i will ______.",
+    "scheduled_time": "2026-07-09T13:15:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 96,
+    "account": "TDS",
+    "text": "threads: free.\ngumroad: free.\ncanva: free.\n\na $27 PDF built with all three: $612 in one day.\nyour excuses: also free. 💸",
+    "scheduled_time": "2026-07-09T13:25:00+02:00",
+    "status": "pending",
+    "image_file": "612 a day gumroad dahsbaord ss.png"
+  },
+  {
+    "id": 97,
+    "account": "MAIN",
+    "text": "$1,380 payout landed today.\nfirst thing i did was screenshot it for my mom.\nsome numbers are more than numbers. 🥹",
+    "scheduled_time": "2026-07-09T15:18:00+02:00",
+    "status": "pending",
+    "image_file": "paypal notification ss 1.3k.png"
+  },
+  {
+    "id": 98,
+    "account": "TDS",
+    "text": "one PDF. written once.\n37 people bought it today.\nmake something once. let it work forever. 🤍",
+    "scheduled_time": "2026-07-09T15:28:00+02:00",
+    "status": "pending",
+    "image_file": "sales proof.png"
+  },
+  {
+    "id": 99,
+    "account": "MAIN",
+    "text": "my parents get salaries.\ni get payouts.\n\n$1,638 deposited while i sat in a lecture.\ndifferent game. same dinner table. 💸",
+    "scheduled_time": "2026-07-09T19:55:00+02:00",
+    "status": "pending",
+    "image_file": "Gumroad Payout Screenshots.PNG"
+  },
+  {
+    "id": 100,
+    "account": "TDS",
+    "text": "\"organic reach is dead\"\n\n70 sales today. all organic. $1,183.\ndead for who? 😭💸",
+    "scheduled_time": "2026-07-09T20:05:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad more money dahsbaord.png"
+  },
+  {
+    "id": 101,
+    "account": "MAIN",
+    "text": "drop a 👻 if you're building something faceless right now.\n\nchecking who's actually locked in vs who's just scrolling.",
+    "scheduled_time": "2026-07-09T23:18:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 102,
+    "account": "TDS",
+    "text": "watched a whole movie.\nchecked my phone in the credits.\n$460 from 18 people over the runtime.\nthat used to be a month of groceries. 😭💸",
+    "scheduled_time": "2026-07-09T23:28:00+02:00",
+    "status": "pending",
+    "image_file": "digistackr sales proof.png"
+  },
+  {
+    "id": 103,
+    "account": "MAIN",
+    "text": "couldn't sleep.\nrefreshed gumroad instead of instagram.\n13 sale notifications stacked.\nhealthiest doomscroll of my life. 😭",
+    "scheduled_time": "2026-07-10T04:25:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad sales notifications.PNG"
+  },
+  {
+    "id": 104,
+    "account": "TDS",
+    "text": "3:33 AM.\n$27.\nsomeone across the world bought my PDF while their day was starting.\nthe internet is undefeated. 🤍",
+    "scheduled_time": "2026-07-10T04:35:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad notification screenshot.PNG"
+  },
+  {
+    "id": 105,
+    "account": "MAIN",
+    "text": "month one of selling PDFs: $1,109.\ni reread that sentence about 20 times.\n66 people bought something i almost never published. 🥹",
+    "scheduled_time": "2026-07-10T08:45:00+02:00",
+    "status": "pending",
+    "image_file": "gum dashbrd ss 1kmon.png"
+  },
+  {
+    "id": 106,
+    "account": "TDS",
+    "text": "\"the market is too saturated\"\n\n$2,013 this month.\nthe market pays for execution, not originality. 💸",
+    "scheduled_time": "2026-07-10T08:55:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad dashbaord ss 2k.png"
+  },
+  {
+    "id": 107,
+    "account": "MAIN",
+    "text": "if you had 48 hours to make your first $100 online, what would you sell?\n\nwrong answers only. (the right ones might get stolen 👀)",
+    "scheduled_time": "2026-07-10T13:15:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 108,
+    "account": "TDS",
+    "text": "$964 today.\nzero ads. zero face. zero website.\njust posts that make people feel something, and a link. 💸",
+    "scheduled_time": "2026-07-10T13:25:00+02:00",
+    "status": "pending",
+    "image_file": "dashbaord ss 964tdy.png"
+  },
+  {
+    "id": 109,
+    "account": "MAIN",
+    "text": "i don't check my bank app anymore.\ni check gumroad.\n$12.65 and $31.05 came in while i typed this. 🤍",
+    "scheduled_time": "2026-07-10T15:18:00+02:00",
+    "status": "pending",
+    "image_file": "Gumroad Sales Screenshots.PNG"
+  },
+  {
+    "id": 110,
+    "account": "TDS",
+    "text": "my screen time report is embarrassing.\nbut $5,612 of it this month was gumroad. 💸",
+    "scheduled_time": "2026-07-10T15:28:00+02:00",
+    "status": "pending",
+    "image_file": "gum iphone dashabord w apps.png"
+  },
+  {
+    "id": 111,
+    "account": "MAIN",
+    "text": "rent was due friday.\na $1,117 payout hit thursday.\ni don't believe in luck. i believe in systems. 😭💸",
+    "scheduled_time": "2026-07-10T19:55:00+02:00",
+    "status": "pending",
+    "image_file": "paypal notification ss from phn.png"
+  },
+  {
+    "id": 112,
+    "account": "TDS",
+    "text": "5 people bought my $98 service in one afternoon.\ni was in an exam for most of it.\nbuild things that sell when you can't. 😭",
+    "scheduled_time": "2026-07-10T20:05:00+02:00",
+    "status": "pending",
+    "image_file": "Gumroad Notificaion screenshots.PNG"
+  },
+  {
+    "id": 113,
+    "account": "MAIN",
+    "text": "nobody claps when you write page 1.\nnobody sees draft 4.\nthey only show up for the screenshot.\n\ntag someone who's still on page 1.",
+    "scheduled_time": "2026-07-10T23:18:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 114,
+    "account": "TDS",
+    "text": "took 4 days fully offline.\ncame back to $556 from 32 buyers.\nthe machine doesn't take breaks. 🤍",
+    "scheduled_time": "2026-07-10T23:28:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad dahsbaord ss 556.png"
+  },
+  {
+    "id": 115,
+    "account": "MAIN",
+    "text": "the sale that made me believe wasn't the biggest one.\nit was an $11 notification at 4am from a total stranger.\nproof of concept > profit. 🤍",
+    "scheduled_time": "2026-07-11T04:25:00+02:00",
+    "status": "pending",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG"
+  },
+  {
+    "id": 116,
+    "account": "TDS",
+    "text": "$1,638. deposited. quietly.\nno announcement. no applause.\nghost mode pays different. 👻",
+    "scheduled_time": "2026-07-11T04:35:00+02:00",
+    "status": "pending",
+    "image_file": "Gumroad Payout Screenshots.PNG"
+  },
+  {
+    "id": 117,
+    "account": "MAIN",
+    "text": "19 years old. $3,937 in a month. from a PDF.\nnot a prodigy. not lucky. not connected.\ni just didn't stop posting when it was embarrassing. 😭💸",
+    "scheduled_time": "2026-07-11T08:45:00+02:00",
+    "status": "pending",
+    "image_file": "3.9k gumroad ss.png"
+  },
+  {
+    "id": 118,
+    "account": "TDS",
+    "text": "92 strangers bought my PDF in one day.\n$856.\ni still don't have a business degree. or a business plan. 🤍",
+    "scheduled_time": "2026-07-11T08:55:00+02:00",
+    "status": "pending",
+    "image_file": "gumrd dashbrd ss 856.png"
+  },
+  {
+    "id": 119,
+    "account": "MAIN",
+    "text": "the digital product you keep overthinking —\ndescribe it in 5 words or less.\n\ni'll tell you if it sells.",
+    "scheduled_time": "2026-07-11T13:15:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 120,
+    "account": "TDS",
+    "text": "no employees. no office. no inventory. no ads.\n\n70 sales today anyway. $1,183.\nthe barrier was never money. it was starting. 🤍",
+    "scheduled_time": "2026-07-11T13:25:00+02:00",
+    "status": "pending",
+    "image_file": "gumroad more money dahsbaord.png"
+  }
 ]
