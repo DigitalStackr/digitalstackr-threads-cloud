@@ -927,8 +927,10 @@
     "account": "MAIN",
     "text": "\"pdfs are dead in 2026\"\n\n$964 today says otherwise. 😭💸",
     "scheduled_time": "2026-07-08T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "dashbaord ss 964tdy.png"
+    "status": "posted",
+    "image_file": "dashbaord ss 964tdy.png",
+    "thread_id": "18367235761230325",
+    "posted_at": "2026-07-08T13:18:11.157026+00:00"
   },
   {
     "id": 86,
