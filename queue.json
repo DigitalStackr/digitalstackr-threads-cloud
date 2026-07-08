@@ -937,8 +937,10 @@
     "account": "TDS",
     "text": "started with 0 followers and a free account.\ntoday: $125 from 24 people.\nthe niche isn't saturated. you're just not in it yet. 💸",
     "scheduled_time": "2026-07-08T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "125 tdy gumroad dahsbaord.png"
+    "status": "posted",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "thread_id": "17996825987987432",
+    "posted_at": "2026-07-08T13:30:42.694177+00:00"
   },
   {
     "id": 87,
