@@ -37,8 +37,10 @@
     "account": "TDS",
     "text": "$112 today and i didn't even post.\n17 people bought.\nthe system runs itself now. 💸",
     "image_file": "gumroad 112day.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "posted",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "thread_id": "18128022649635366",
+    "posted_at": "2026-07-08T11:25:27.995298+00:00"
   },
   {
     "id": 5,
