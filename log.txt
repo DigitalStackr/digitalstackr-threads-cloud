@@ -4180,3 +4180,7 @@
 2026-07-08 11:05:24 UTC | Nothing due this tick.
 2026-07-08 11:10:35 UTC | === Scheduler tick ===
 2026-07-08 11:10:35 UTC | Nothing due this tick.
+2026-07-08 11:15:26 UTC | === Scheduler tick ===
+2026-07-08 11:15:26 UTC | Post 3: firing for MAIN (scheduled 2026-07-08T11:15:00+00:00)
+2026-07-08 11:15:32 UTC | Post 3: FAILED — 500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/me/threads
+2026-07-08 11:15:32 UTC | Queue updated. Fired 1 post(s) this tick.

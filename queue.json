@@ -27,8 +27,9 @@
     "account": "MAIN",
     "text": "woke up to $856 in sales from a single day.\nfrom 92 people.\nfrom a $27 PDF. 😭💸",
     "image_file": "gumrd dashbrd ss 856.png",
-    "status": "pending",
-    "added_at": "2026-07-01T01:31:22+02:00"
+    "status": "failed",
+    "added_at": "2026-07-01T01:31:22+02:00",
+    "error": "500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/me/threads"
   },
   {
     "id": 4,
