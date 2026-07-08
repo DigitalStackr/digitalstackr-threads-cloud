@@ -4442,3 +4442,7 @@
 2026-07-08 21:20:45 UTC | Queue updated. Fired 1 post(s) this tick.
 2026-07-08 21:25:23 UTC | === Scheduler tick ===
 2026-07-08 21:25:23 UTC | Nothing due this tick.
+2026-07-08 21:30:45 UTC | === Scheduler tick ===
+2026-07-08 21:30:45 UTC | Post 90: firing for TDS (scheduled 2026-07-08T21:28:00+00:00)
+2026-07-08 21:31:26 UTC | Post 90: OK -> thread_id=18107808355798879
+2026-07-08 21:31:26 UTC | Queue updated. Fired 1 post(s) this tick.

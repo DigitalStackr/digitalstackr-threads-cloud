@@ -976,8 +976,10 @@
     "account": "TDS",
     "text": "$112 today on autopilot.\nnot life-changing money.\nbut it's rent-helping, grocery-covering, sleep-better money.\nthat's how it starts. 🤍",
     "scheduled_time": "2026-07-08T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad 112day.png"
+    "status": "posted",
+    "image_file": "gumroad 112day.png",
+    "thread_id": "18107808355798879",
+    "posted_at": "2026-07-08T21:30:45.654186+00:00"
   },
   {
     "id": 91,
