@@ -1026,7 +1026,9 @@
     "account": "MAIN",
     "text": "finish the sentence:\n\nby december i will ______.",
     "scheduled_time": "2026-07-09T13:15:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "thread_id": "18209497642354439",
+    "posted_at": "2026-07-09T11:15:30.466326+00:00"
   },
   {
     "id": 96,
