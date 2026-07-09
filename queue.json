@@ -986,8 +986,10 @@
     "account": "MAIN",
     "text": "3:33 AM. a $27 sale.\nmy product works the night shift so i don't have to. 💸",
     "scheduled_time": "2026-07-09T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "18225654745316978",
+    "posted_at": "2026-07-09T02:25:26.304328+00:00"
   },
   {
     "id": 92,
