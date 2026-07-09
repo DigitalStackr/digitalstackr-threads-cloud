@@ -996,8 +996,10 @@
     "account": "TDS",
     "text": "an $11 sale at 4am woke me up.\nsmall number. loud signal.\nstrangers pay for value while you sleep. 🤍",
     "scheduled_time": "2026-07-09T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "my gumroad notification showing threads revenue ladder.PNG"
+    "status": "posted",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "thread_id": "17896700796482409",
+    "posted_at": "2026-07-09T02:35:30.167244+00:00"
   },
   {
     "id": 93,
