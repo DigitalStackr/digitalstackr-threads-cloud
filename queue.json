@@ -1094,8 +1094,10 @@
     "account": "TDS",
     "text": "watched a whole movie.\nchecked my phone in the credits.\n$460 from 18 people over the runtime.\nthat used to be a month of groceries. 😭💸",
     "scheduled_time": "2026-07-09T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "digistackr sales proof.png"
+    "status": "posted",
+    "image_file": "digistackr sales proof.png",
+    "thread_id": "18109019341994023",
+    "posted_at": "2026-07-09T21:30:47.980493+00:00"
   },
   {
     "id": 103,
