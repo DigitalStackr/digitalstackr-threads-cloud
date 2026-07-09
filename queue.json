@@ -1055,8 +1055,10 @@
     "account": "TDS",
     "text": "one PDF. written once.\n37 people bought it today.\nmake something once. let it work forever. 🤍",
     "scheduled_time": "2026-07-09T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "sales proof.png"
+    "status": "posted",
+    "image_file": "sales proof.png",
+    "thread_id": "18012580349877289",
+    "posted_at": "2026-07-09T13:30:47.955463+00:00"
   },
   {
     "id": 99,
