@@ -1045,8 +1045,10 @@
     "account": "MAIN",
     "text": "$1,380 payout landed today.\nfirst thing i did was screenshot it for my mom.\nsome numbers are more than numbers. 🥹",
     "scheduled_time": "2026-07-09T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss 1.3k.png"
+    "status": "posted",
+    "image_file": "paypal notification ss 1.3k.png",
+    "thread_id": "17873604636535393",
+    "posted_at": "2026-07-09T13:23:54.700971+00:00"
   },
   {
     "id": 98,
