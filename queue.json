@@ -1065,8 +1065,10 @@
     "account": "MAIN",
     "text": "my parents get salaries.\ni get payouts.\n\n$1,638 deposited while i sat in a lecture.\ndifferent game. same dinner table. 💸",
     "scheduled_time": "2026-07-09T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Payout Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "thread_id": "18067168769708356",
+    "posted_at": "2026-07-09T17:55:28.754526+00:00"
   },
   {
     "id": 100,
