@@ -1202,7 +1202,9 @@
     "account": "MAIN",
     "text": "nobody claps when you write page 1.\nnobody sees draft 4.\nthey only show up for the screenshot.\n\ntag someone who's still on page 1.",
     "scheduled_time": "2026-07-10T23:18:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "thread_id": "18079693295285891",
+    "posted_at": "2026-07-10T21:20:37.559730+00:00"
   },
   {
     "id": 114,
