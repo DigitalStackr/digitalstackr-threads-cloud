@@ -1192,8 +1192,10 @@
     "account": "TDS",
     "text": "5 people bought my $98 service in one afternoon.\ni was in an exam for most of it.\nbuild things that sell when you can't. 😭",
     "scheduled_time": "2026-07-10T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Notificaion screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Notificaion screenshots.PNG",
+    "thread_id": "17937077331282363",
+    "posted_at": "2026-07-10T18:05:23.990686+00:00"
   },
   {
     "id": 113,
