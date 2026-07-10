@@ -5292,3 +5292,7 @@
 2026-07-10 11:15:34 UTC | Queue updated. Fired 1 post(s) this tick.
 2026-07-10 11:20:30 UTC | === Scheduler tick ===
 2026-07-10 11:20:30 UTC | Nothing due this tick.
+2026-07-10 11:25:25 UTC | === Scheduler tick ===
+2026-07-10 11:25:25 UTC | Post 108: firing for TDS (scheduled 2026-07-10T11:25:00+00:00)
+2026-07-10 11:26:06 UTC | Post 108: OK -> thread_id=18019188023855858
+2026-07-10 11:26:06 UTC | Queue updated. Fired 1 post(s) this tick.

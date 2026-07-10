@@ -1152,8 +1152,10 @@
     "account": "TDS",
     "text": "$964 today.\nzero ads. zero face. zero website.\njust posts that make people feel something, and a link. 💸",
     "scheduled_time": "2026-07-10T13:25:00+02:00",
-    "status": "pending",
-    "image_file": "dashbaord ss 964tdy.png"
+    "status": "posted",
+    "image_file": "dashbaord ss 964tdy.png",
+    "thread_id": "18019188023855858",
+    "posted_at": "2026-07-10T11:25:25.654612+00:00"
   },
   {
     "id": 109,
