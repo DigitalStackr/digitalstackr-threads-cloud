@@ -1162,8 +1162,10 @@
     "account": "MAIN",
     "text": "i don't check my bank app anymore.\ni check gumroad.\n$12.65 and $31.05 came in while i typed this. 🤍",
     "scheduled_time": "2026-07-10T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Sales Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "thread_id": "18131081443721787",
+    "posted_at": "2026-07-10T13:20:37.948492+00:00"
   },
   {
     "id": 110,
