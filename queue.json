@@ -1182,8 +1182,10 @@
     "account": "MAIN",
     "text": "rent was due friday.\na $1,117 payout hit thursday.\ni don't believe in luck. i believe in systems. 😭💸",
     "scheduled_time": "2026-07-10T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss from phn.png"
+    "status": "posted",
+    "image_file": "paypal notification ss from phn.png",
+    "thread_id": "17912135241243464",
+    "posted_at": "2026-07-10T17:55:25.531325+00:00"
   },
   {
     "id": 112,
