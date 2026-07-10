@@ -1211,8 +1211,10 @@
     "account": "TDS",
     "text": "took 4 days fully offline.\ncame back to $556 from 32 buyers.\nthe machine doesn't take breaks. 🤍",
     "scheduled_time": "2026-07-10T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad dahsbaord ss 556.png"
+    "status": "posted",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "thread_id": "18272363722295144",
+    "posted_at": "2026-07-10T21:30:50.756122+00:00"
   },
   {
     "id": 115,
