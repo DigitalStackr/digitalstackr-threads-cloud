@@ -1114,8 +1114,10 @@
     "account": "TDS",
     "text": "3:33 AM.\n$27.\nsomeone across the world bought my PDF while their day was starting.\nthe internet is undefeated. 🤍",
     "scheduled_time": "2026-07-10T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "18079113086280449",
+    "posted_at": "2026-07-10T02:35:30.678322+00:00"
   },
   {
     "id": 105,
