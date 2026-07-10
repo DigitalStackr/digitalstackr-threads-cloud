@@ -1172,8 +1172,10 @@
     "account": "TDS",
     "text": "my screen time report is embarrassing.\nbut $5,612 of it this month was gumroad. 💸",
     "scheduled_time": "2026-07-10T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "gum iphone dashabord w apps.png"
+    "status": "posted",
+    "image_file": "gum iphone dashabord w apps.png",
+    "thread_id": "18099315614184542",
+    "posted_at": "2026-07-10T13:30:45.341555+00:00"
   },
   {
     "id": 111,
