@@ -5064,3 +5064,7 @@
 2026-07-10 02:15:29 UTC | Nothing due this tick.
 2026-07-10 02:20:36 UTC | === Scheduler tick ===
 2026-07-10 02:20:36 UTC | Nothing due this tick.
+2026-07-10 02:25:30 UTC | === Scheduler tick ===
+2026-07-10 02:25:30 UTC | Post 103: firing for MAIN (scheduled 2026-07-10T02:25:00+00:00)
+2026-07-10 02:26:09 UTC | Post 103: OK -> thread_id=17947649748218377
+2026-07-10 02:26:09 UTC | Queue updated. Fired 1 post(s) this tick.
