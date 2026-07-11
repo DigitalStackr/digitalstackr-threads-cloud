@@ -1221,8 +1221,10 @@
     "account": "MAIN",
     "text": "the sale that made me believe wasn't the biggest one.\nit was an $11 notification at 4am from a total stranger.\nproof of concept > profit. 🤍",
     "scheduled_time": "2026-07-11T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "my gumroad notification showing threads revenue ladder.PNG"
+    "status": "posted",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "thread_id": "18129931348558991",
+    "posted_at": "2026-07-11T02:25:24.093375+00:00"
   },
   {
     "id": 116,
