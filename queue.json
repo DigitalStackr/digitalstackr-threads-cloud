@@ -1321,8 +1321,10 @@
     "account": "TDS",
     "text": "two pings while making tea.\n$12.65 and $31.05.\nsmall sales don't pay rent. they pay belief. 🤍",
     "scheduled_time": "2026-07-11T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Sales Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "thread_id": "17977120248062032",
+    "posted_at": "2026-07-11T21:30:47.884061+00:00"
   },
   {
     "id": 126,
