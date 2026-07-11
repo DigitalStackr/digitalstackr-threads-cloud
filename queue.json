@@ -1312,7 +1312,9 @@
     "account": "MAIN",
     "text": "one year from today — what do you want to be true?\n\nwrite it in the comments. screenshot it. we'll check back.",
     "scheduled_time": "2026-07-11T23:18:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "thread_id": "17896671300351833",
+    "posted_at": "2026-07-11T21:20:37.713196+00:00"
   },
   {
     "id": 125,
