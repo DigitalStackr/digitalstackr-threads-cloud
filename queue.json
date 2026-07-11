@@ -1302,8 +1302,10 @@
     "account": "TDS",
     "text": "a $1,117 payout for posting words and a link.\nstill feels like a glitch.\nit's not. it's distribution. 🤍",
     "scheduled_time": "2026-07-11T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss from phn.png"
+    "status": "posted",
+    "image_file": "paypal notification ss from phn.png",
+    "thread_id": "18088261439410531",
+    "posted_at": "2026-07-11T18:05:24.946384+00:00"
   },
   {
     "id": 124,
