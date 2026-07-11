@@ -1282,8 +1282,10 @@
     "account": "TDS",
     "text": "24 people i've never met paid me $125 today.\nno ads. no begging. just posts.\nthe internet is a vending machine if you stock it. 💸",
     "scheduled_time": "2026-07-11T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "125 tdy gumroad dahsbaord.png"
+    "status": "posted",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "thread_id": "17960871164961702",
+    "posted_at": "2026-07-11T13:30:48.425985+00:00"
   },
   {
     "id": 122,
