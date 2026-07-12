@@ -1351,8 +1351,10 @@
     "account": "MAIN",
     "text": "26 people at $27 each.\n$612 in a single day.\ni checked the math twice. it keeps being real. 😭💸",
     "scheduled_time": "2026-07-12T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "612 a day gumroad dahsbaord ss.png"
+    "status": "posted",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "thread_id": "18115889188857576",
+    "posted_at": "2026-07-12T06:52:43.350339+00:00"
   },
   {
     "id": 129,
