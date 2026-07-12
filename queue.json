@@ -1341,8 +1341,10 @@
     "account": "TDS",
     "text": "$3,937 in a month.\nfrom a file that costs nothing to deliver.\nthe margins on digital are actually unfair. 💸",
     "scheduled_time": "2026-07-12T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "3.9k gumroad ss.png"
+    "status": "posted",
+    "image_file": "3.9k gumroad ss.png",
+    "thread_id": "18027003779837293",
+    "posted_at": "2026-07-12T02:35:22.420163+00:00"
   },
   {
     "id": 128,
