@@ -1430,8 +1430,10 @@
     "account": "MAIN",
     "text": "\"nobody buys anything at night\"\n\n$27 sale at 3:33 AM.\nyour customers live in every timezone. your job is being purchasable. 💸",
     "scheduled_time": "2026-07-12T23:18:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "17902219044308112",
+    "posted_at": "2026-07-12T21:20:39.771736+00:00"
   },
   {
     "id": 137,
