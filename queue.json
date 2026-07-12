@@ -1361,8 +1361,10 @@
     "account": "TDS",
     "text": "3:33 AM. $27.\nsomeone i'll never meet trusted me with their money while i slept.\nthat's the part nobody prepares you for. 🤍",
     "scheduled_time": "2026-07-12T08:55:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "18158358898482400",
+    "posted_at": "2026-07-12T07:00:54.661696+00:00"
   },
   {
     "id": 130,
