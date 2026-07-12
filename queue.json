@@ -1371,7 +1371,9 @@
     "account": "MAIN",
     "text": "reply with ONE word for why you haven't launched yet.\n\ni'll reply with the fix.",
     "scheduled_time": "2026-07-12T13:15:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "thread_id": "18099594548232419",
+    "posted_at": "2026-07-12T11:19:11.683666+00:00"
   },
   {
     "id": 131,
