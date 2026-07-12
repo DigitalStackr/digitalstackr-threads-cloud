@@ -1331,8 +1331,10 @@
     "account": "MAIN",
     "text": "everyone's asleep.\n18 people bought my PDF today. $460.\nquiet hours, loud dashboard. 🤍",
     "scheduled_time": "2026-07-12T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "digistackr sales proof.png"
+    "status": "posted",
+    "image_file": "digistackr sales proof.png",
+    "thread_id": "17948161671228885",
+    "posted_at": "2026-07-12T02:25:25.965414+00:00"
   },
   {
     "id": 127,
