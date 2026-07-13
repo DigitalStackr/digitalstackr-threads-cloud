@@ -1449,8 +1449,10 @@
     "account": "MAIN",
     "text": "can't sleep so i'm rereading a payout notification.\n$1,380. paypal. real.\nsome screenshots are worth more than sleep. 🥹",
     "scheduled_time": "2026-07-13T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss 1.3k.png"
+    "status": "posted",
+    "image_file": "paypal notification ss 1.3k.png",
+    "thread_id": "18107955190822194",
+    "posted_at": "2026-07-13T02:25:27.224194+00:00"
   },
   {
     "id": 139,
