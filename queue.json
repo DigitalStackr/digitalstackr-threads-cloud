@@ -1634,8 +1634,10 @@
     "account": "TDS",
     "text": "$11 isn't rent money.\nit's proof money.\nproof that strangers pay for what you know. everything scales from there. 🤍",
     "scheduled_time": "2026-07-14T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "my gumroad notification showing threads revenue ladder.PNG"
+    "status": "posted",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "thread_id": "18088345019384872",
+    "posted_at": "2026-07-14T18:05:29.011332+00:00"
   },
   {
     "id": 160,
