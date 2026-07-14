@@ -1565,8 +1565,10 @@
     "account": "MAIN",
     "text": "$112 today and i didn't touch the laptop.\nsmall automatic beats big manual.\nevery single time. 💸",
     "scheduled_time": "2026-07-14T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad 112day.png"
+    "status": "posted",
+    "image_file": "gumroad 112day.png",
+    "thread_id": "18208585399356370",
+    "posted_at": "2026-07-14T06:45:27.838075+00:00"
   },
   {
     "id": 153,
