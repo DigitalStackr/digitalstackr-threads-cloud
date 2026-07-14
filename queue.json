@@ -1594,8 +1594,10 @@
     "account": "TDS",
     "text": "$1,380 hit my paypal.\ni reread the notification like a text from a crush. 😭\nthen went back to class like nothing happened.",
     "scheduled_time": "2026-07-14T13:25:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss 1.3k.png"
+    "status": "posted",
+    "image_file": "paypal notification ss 1.3k.png",
+    "thread_id": "18429904207134971",
+    "posted_at": "2026-07-14T11:25:22.198833+00:00"
   },
   {
     "id": 156,
