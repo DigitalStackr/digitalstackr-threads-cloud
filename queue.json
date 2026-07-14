@@ -1604,8 +1604,10 @@
     "account": "MAIN",
     "text": "i don't have a streak.\ni have a system.\nwent quiet for 4 days — $556 from 32 people showed up anyway. 🤍",
     "scheduled_time": "2026-07-14T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad dahsbaord ss 556.png"
+    "status": "posted",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "thread_id": "18093026192114652",
+    "posted_at": "2026-07-14T13:20:36.627664+00:00"
   },
   {
     "id": 157,
