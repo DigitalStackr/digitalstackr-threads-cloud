@@ -1459,7 +1459,7 @@
     "account": "TDS",
     "text": "insomnia used to cost me.\nnow it hands me the dashboard: $1,183 today. 70 sales.\nworst habit, best outcome. 😭",
     "scheduled_time": "2026-07-13T04:35:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "gumroad more money dahsbaord.png"
   },
   {
@@ -1467,7 +1467,7 @@
     "account": "MAIN",
     "text": "my entire office is 6 inches tall.\n4 apps. one link in bio.\n$5,612 this month. 🤍",
     "scheduled_time": "2026-07-13T08:45:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "gum iphone dashabord w apps.png"
   },
   {
@@ -1475,7 +1475,7 @@
     "account": "TDS",
     "text": "\"passive income is a myth\"\n\n$1,638 deposited without a single hour attached to it.\nmyths don't clear the bank. 💸",
     "scheduled_time": "2026-07-13T08:55:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "Gumroad Payout Screenshots.PNG"
   },
   {
@@ -1483,7 +1483,7 @@
     "account": "MAIN",
     "text": "$125 today. 24 buyers.\nnot a jackpot — a pulse.\nconsistency shows up long before the big numbers do. 🤍",
     "scheduled_time": "2026-07-13T13:15:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "125 tdy gumroad dahsbaord.png"
   },
   {
@@ -1491,14 +1491,14 @@
     "account": "TDS",
     "text": "rate your consistency this week, 1-10.\n\nno lying. i'll go first in the comments.",
     "scheduled_time": "2026-07-13T13:25:00+02:00",
-    "status": "pending"
+    "status": "expired"
   },
   {
     "id": 144,
     "account": "MAIN",
     "text": "\"the first month is always $0\"\n\nmine was $1,109 from 66 sales.\nthe difference wasn't talent. it was posting before i felt ready. 💸",
     "scheduled_time": "2026-07-13T15:18:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "gum dashbrd ss 1kmon.png"
   },
   {
@@ -1506,7 +1506,7 @@
     "account": "TDS",
     "text": "18 sales. $460.\nearned during the exact hours i used to spend arguing with strangers online.\nsame apps. different output. 💸",
     "scheduled_time": "2026-07-13T15:28:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "digistackr sales proof.png"
   },
   {
@@ -1514,7 +1514,7 @@
     "account": "MAIN",
     "text": "5 people paid $98 each for a service i deliver from my laptop.\nthat's a $490 afternoon.\nproducts build the floor. services build the ceiling. 💸",
     "scheduled_time": "2026-07-13T19:55:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "Gumroad Notificaion screenshots.PNG"
   },
   {
@@ -1522,7 +1522,7 @@
     "account": "TDS",
     "text": "one good post did $612 in a day.\n26 people at $27.\ni've had jobs that paid less per week and cost me more per soul. 😭",
     "scheduled_time": "2026-07-13T20:05:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "612 a day gumroad dahsbaord ss.png"
   },
   {
@@ -1530,14 +1530,14 @@
     "account": "MAIN",
     "text": "unpopular opinion: most of you don't need more information.\nyou need a deadline.\n\nagree or fight me in the comments.",
     "scheduled_time": "2026-07-13T23:18:00+02:00",
-    "status": "pending"
+    "status": "expired"
   },
   {
     "id": 149,
     "account": "TDS",
     "text": "they upgrade their phone every year.\ni upgraded what my phone does.\n$5,612 this month from the same device you're holding. 🤍",
     "scheduled_time": "2026-07-13T23:28:00+02:00",
-    "status": "pending",
+    "status": "expired",
     "image_file": "gum iphone dashabord w apps.png"
   },
   {
@@ -1545,16 +1545,20 @@
     "account": "MAIN",
     "text": "37 people bought my PDF today.\ni wrote it once. months ago.\nit just keeps going without me. 🤍",
     "scheduled_time": "2026-07-14T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "sales proof.png"
+    "status": "posted",
+    "image_file": "sales proof.png",
+    "thread_id": "18123978238663466",
+    "posted_at": "2026-07-14T02:35:31.061714+00:00"
   },
   {
     "id": 151,
     "account": "TDS",
     "text": "4am thought:\n$2,013 this month from a $27 file.\nmy most profitable skill is finishing things. 💸",
     "scheduled_time": "2026-07-14T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad dashbaord ss 2k.png"
+    "status": "posted",
+    "image_file": "gumroad dashbaord ss 2k.png",
+    "thread_id": "18169561852434749",
+    "posted_at": "2026-07-14T02:35:31.061714+00:00"
   },
   {
     "id": 152,

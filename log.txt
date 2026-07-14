@@ -6876,3 +6876,20 @@
 2026-07-13 02:26:20 UTC | Queue updated. Fired 1 post(s) this tick.
 2026-07-13 02:30:54 UTC | === Scheduler tick ===
 2026-07-13 02:30:54 UTC | Nothing due this tick.
+2026-07-14 02:35:31 UTC | === Scheduler tick ===
+2026-07-14 02:35:31 UTC | Post 139: scheduled 2026-07-13T02:35:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 140: scheduled 2026-07-13T06:45:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 141: scheduled 2026-07-13T06:55:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 142: scheduled 2026-07-13T11:15:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 143: scheduled 2026-07-13T11:25:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 144: scheduled 2026-07-13T13:18:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 145: scheduled 2026-07-13T13:28:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 146: scheduled 2026-07-13T17:55:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 147: scheduled 2026-07-13T18:05:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 148: scheduled 2026-07-13T21:18:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 149: scheduled 2026-07-13T21:28:00+00:00 is older than 90-min catch-up window — marking expired
+2026-07-14 02:35:31 UTC | Post 150: firing for MAIN (scheduled 2026-07-14T02:25:00+00:00)
+2026-07-14 02:36:18 UTC | Post 150: OK -> thread_id=18123978238663466
+2026-07-14 02:36:18 UTC | Post 151: firing for TDS (scheduled 2026-07-14T02:35:00+00:00)
+2026-07-14 02:36:59 UTC | Post 151: OK -> thread_id=18169561852434749
+2026-07-14 02:36:59 UTC | Queue updated. Fired 2 post(s) this tick.
