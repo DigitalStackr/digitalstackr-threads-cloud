@@ -1624,8 +1624,10 @@
     "account": "MAIN",
     "text": "70 sales today. $1,183.\ni replied to every comment for a week straight.\nthe algorithm keeps receipts. 💸",
     "scheduled_time": "2026-07-14T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad more money dahsbaord.png"
+    "status": "posted",
+    "image_file": "gumroad more money dahsbaord.png",
+    "thread_id": "18101815718131822",
+    "posted_at": "2026-07-14T17:55:26.907860+00:00"
   },
   {
     "id": 159,
