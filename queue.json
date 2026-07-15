@@ -1742,8 +1742,10 @@
     "account": "MAIN",
     "text": "a year ago i triple-checked my card balance at checkout.\nthis month: $3,937.\nsame person. different system. 🥹",
     "scheduled_time": "2026-07-15T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "3.9k gumroad ss.png"
+    "status": "posted",
+    "image_file": "3.9k gumroad ss.png",
+    "thread_id": "18094517531385715",
+    "posted_at": "2026-07-15T17:55:26.531171+00:00"
   },
   {
     "id": 171,
