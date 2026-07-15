@@ -1732,8 +1732,10 @@
     "account": "TDS",
     "text": "$1,117 payout.\nno meeting. no invoice. no boss signing off.\njust delivered. 🤍",
     "scheduled_time": "2026-07-15T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss from phn.png"
+    "status": "posted",
+    "image_file": "paypal notification ss from phn.png",
+    "thread_id": "18125158891680469",
+    "posted_at": "2026-07-15T13:30:54.131947+00:00"
   },
   {
     "id": 170,
