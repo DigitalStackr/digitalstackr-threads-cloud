@@ -1771,8 +1771,10 @@
     "account": "TDS",
     "text": "went offline for 4 days.\nthe system didn't.\n$556. 32 buyers. zero posts. 🤍",
     "scheduled_time": "2026-07-15T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad dahsbaord ss 556.png"
+    "status": "posted",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "thread_id": "17977595064060704",
+    "posted_at": "2026-07-15T21:30:51.929069+00:00"
   },
   {
     "id": 174,
