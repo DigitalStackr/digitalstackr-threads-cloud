@@ -1663,8 +1663,10 @@
     "account": "MAIN",
     "text": "$12.65 and $31.05.\nweird little numbers, minutes apart.\nthe unglamorous sales are the ones that compound. 🤍",
     "scheduled_time": "2026-07-15T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Sales Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "thread_id": "17908740105441833",
+    "posted_at": "2026-07-15T02:25:23.094801+00:00"
   },
   {
     "id": 163,
