@@ -1752,8 +1752,10 @@
     "account": "TDS",
     "text": "the 3:33 AM sale is my favorite genre.\n$27 while dreaming.\nghost mode means the shop never shuts. 👻",
     "scheduled_time": "2026-07-15T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "18368163880225354",
+    "posted_at": "2026-07-15T18:05:29.488664+00:00"
   },
   {
     "id": 172,
