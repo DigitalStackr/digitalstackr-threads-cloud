@@ -1683,8 +1683,10 @@
     "account": "MAIN",
     "text": "morning routine:\nwater. sunlight. 13 sale notifications from overnight.\nin that order. 💸",
     "scheduled_time": "2026-07-15T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad sales notifications.PNG"
+    "status": "posted",
+    "image_file": "gumroad sales notifications.PNG",
+    "thread_id": "18112787135315499",
+    "posted_at": "2026-07-15T06:45:28.566761+00:00"
   },
   {
     "id": 165,
