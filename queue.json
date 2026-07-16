@@ -1890,7 +1890,9 @@
     "account": "TDS",
     "text": "finish it:\n\nthe thing actually stopping me is ______.",
     "scheduled_time": "2026-07-16T23:28:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "thread_id": "18058362464763501",
+    "posted_at": "2026-07-16T21:30:39.981649+00:00"
   },
   {
     "id": 186,
