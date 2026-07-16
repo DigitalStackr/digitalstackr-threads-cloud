@@ -1870,8 +1870,10 @@
     "account": "TDS",
     "text": "evening check: 37 sales today.\ni remember refreshing this page when it said 0 for weeks.\nkeep going. the page changes. 🥹",
     "scheduled_time": "2026-07-16T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "sales proof.png"
+    "status": "posted",
+    "image_file": "sales proof.png",
+    "thread_id": "17980101762058586",
+    "posted_at": "2026-07-16T18:05:23.039011+00:00"
   },
   {
     "id": 184,
