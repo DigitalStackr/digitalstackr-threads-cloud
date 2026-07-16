@@ -1781,8 +1781,10 @@
     "account": "MAIN",
     "text": "deposited: $1,638.\nno alarm clock was harmed in the making of this money. 🤍",
     "scheduled_time": "2026-07-16T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Payout Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "thread_id": "18436480075124627",
+    "posted_at": "2026-07-16T02:25:24.349482+00:00"
   },
   {
     "id": 175,
