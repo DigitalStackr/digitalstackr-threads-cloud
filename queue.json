@@ -1830,8 +1830,10 @@
     "account": "TDS",
     "text": "$12.65 + $31.05 back to back.\nnobody frames the small sales.\nthey should. that's where it starts. 🤍",
     "scheduled_time": "2026-07-16T13:25:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Sales Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "thread_id": "18187933000394477",
+    "posted_at": "2026-07-16T11:25:24.902860+00:00"
   },
   {
     "id": 180,
