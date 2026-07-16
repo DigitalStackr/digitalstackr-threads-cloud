@@ -1880,8 +1880,10 @@
     "account": "MAIN",
     "text": "someone bought my PDF at 3:33 AM.\n$27.\ni build during the day so the night can work for me. 🤍",
     "scheduled_time": "2026-07-16T23:18:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "18481603837099355",
+    "posted_at": "2026-07-16T21:20:34.076764+00:00"
   },
   {
     "id": 185,
