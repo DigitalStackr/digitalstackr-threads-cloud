@@ -1978,8 +1978,10 @@
     "account": "MAIN",
     "text": "5 orders. $98 each. one afternoon.\nfirst they buy the $27 product.\nthen they pay you to do it for them.\nthe ladder builds itself. 💸",
     "scheduled_time": "2026-07-17T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Notificaion screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Notificaion screenshots.PNG",
+    "thread_id": "18019282886855976",
+    "posted_at": "2026-07-17T17:55:22.281412+00:00"
   },
   {
     "id": 195,
