@@ -1899,8 +1899,10 @@
     "account": "MAIN",
     "text": "quiet $112 day.\n17 buyers.\nnot every day is a screenshot day. every day is a system day. 🤍",
     "scheduled_time": "2026-07-17T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad 112day.png"
+    "status": "posted",
+    "image_file": "gumroad 112day.png",
+    "thread_id": "18092920445573976",
+    "posted_at": "2026-07-17T02:25:26.226172+00:00"
   },
   {
     "id": 187,
