@@ -2007,8 +2007,10 @@
     "account": "TDS",
     "text": "the $11 notification at 4am is still my favorite screenshot.\nnot because of the amount.\nbecause it was the first time the system worked without me. 🥹",
     "scheduled_time": "2026-07-17T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "my gumroad notification showing threads revenue ladder.PNG"
+    "status": "posted",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "thread_id": "18089404457388016",
+    "posted_at": "2026-07-17T21:30:40.893275+00:00"
   },
   {
     "id": 198,
