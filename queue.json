@@ -1998,7 +1998,9 @@
     "account": "MAIN",
     "text": "describe your dream tuesday in 5 words.\n\nmine: woke up, checked dashboard, smiled.",
     "scheduled_time": "2026-07-17T23:18:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "thread_id": "18127989976725310",
+    "posted_at": "2026-07-17T21:20:34.845414+00:00"
   },
   {
     "id": 197,
