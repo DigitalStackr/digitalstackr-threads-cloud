@@ -2047,8 +2047,10 @@
     "account": "TDS",
     "text": "$1,638 deposited.\nquietly. automatically.\nghost mode isn't hiding. it's building where nobody's watching. 👻",
     "scheduled_time": "2026-07-18T08:55:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Payout Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "thread_id": "17880649458474857",
+    "posted_at": "2026-07-18T06:55:27.376375+00:00"
   },
   {
     "id": 202,
