@@ -2027,8 +2027,10 @@
     "account": "TDS",
     "text": "$125 today from 24 people.\nno alarm. no commute. no meetings that could've been emails.\nthe boring path works. 🤍",
     "scheduled_time": "2026-07-18T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "125 tdy gumroad dahsbaord.png"
+    "status": "posted",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "thread_id": "17973304044113160",
+    "posted_at": "2026-07-18T02:35:27.547445+00:00"
   },
   {
     "id": 200,
