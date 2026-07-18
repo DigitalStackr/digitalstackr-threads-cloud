@@ -2106,8 +2106,10 @@
     "account": "TDS",
     "text": "$1,380 payout day.\nbought nothing. felt everything. 🥹\nsecurity is the real luxury purchase.",
     "scheduled_time": "2026-07-18T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss 1.3k.png"
+    "status": "posted",
+    "image_file": "paypal notification ss 1.3k.png",
+    "thread_id": "18011634563871459",
+    "posted_at": "2026-07-18T18:06:21.350466+00:00"
   },
   {
     "id": 208,
