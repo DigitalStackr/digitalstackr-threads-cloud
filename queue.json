@@ -2037,8 +2037,10 @@
     "account": "MAIN",
     "text": "19 and the dashboard says $3,937 this month.\nnobody gave me permission.\nturns out you don't need it. 💸",
     "scheduled_time": "2026-07-18T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "3.9k gumroad ss.png"
+    "status": "posted",
+    "image_file": "3.9k gumroad ss.png",
+    "thread_id": "18408288709159865",
+    "posted_at": "2026-07-18T06:45:26.829664+00:00"
   },
   {
     "id": 201,
