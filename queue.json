@@ -2076,8 +2076,10 @@
     "account": "MAIN",
     "text": "one day: $856.\n92 people.\nyour product doesn't need everyone. it needs 92 someones. 💸",
     "scheduled_time": "2026-07-18T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "gumrd dashbrd ss 856.png"
+    "status": "posted",
+    "image_file": "gumrd dashbrd ss 856.png",
+    "thread_id": "18088808942561589",
+    "posted_at": "2026-07-18T13:20:28.502383+00:00"
   },
   {
     "id": 205,
