@@ -2017,8 +2017,10 @@
     "account": "MAIN",
     "text": "70 sales today.\n$1,183.\ni was asleep for at least 20 of them. 😭💸",
     "scheduled_time": "2026-07-18T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad more money dahsbaord.png"
+    "status": "posted",
+    "image_file": "gumroad more money dahsbaord.png",
+    "thread_id": "17869281030631781",
+    "posted_at": "2026-07-18T02:25:21.830021+00:00"
   },
   {
     "id": 199,
