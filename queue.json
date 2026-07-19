@@ -2165,8 +2165,10 @@
     "account": "TDS",
     "text": "$12.65. then $31.05. one minute apart.\ntwo people, probably oceans apart, same decision.\nthe internet is magic if you ship. 🤍",
     "scheduled_time": "2026-07-19T08:55:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Sales Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "thread_id": "18181102498406326",
+    "posted_at": "2026-07-19T06:55:24.551610+00:00"
   },
   {
     "id": 214,
