@@ -2155,8 +2155,10 @@
     "account": "MAIN",
     "text": "37 sales today.\nthe PDF i almost didn't publish is now the most reliable thing in my life. 😭",
     "scheduled_time": "2026-07-19T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "sales proof.png"
+    "status": "posted",
+    "image_file": "sales proof.png",
+    "thread_id": "17895732546558303",
+    "posted_at": "2026-07-19T06:48:12.503206+00:00"
   },
   {
     "id": 213,
