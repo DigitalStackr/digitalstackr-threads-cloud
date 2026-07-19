@@ -2135,8 +2135,10 @@
     "account": "MAIN",
     "text": "3:33 AM.\na $27 sale walks in like it owns the place.\nit does. 😭💸",
     "scheduled_time": "2026-07-19T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "18108491666061687",
+    "posted_at": "2026-07-19T02:25:24.891377+00:00"
   },
   {
     "id": 211,
