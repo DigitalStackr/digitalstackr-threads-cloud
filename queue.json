@@ -2194,8 +2194,10 @@
     "account": "MAIN",
     "text": "\"small accounts can't sell\"\n\n$125 today. 24 buyers.\nsize gets views. trust gets sales. 💸",
     "scheduled_time": "2026-07-19T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "125 tdy gumroad dahsbaord.png"
+    "status": "posted",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "thread_id": "18109550020771467",
+    "posted_at": "2026-07-19T13:20:26.408032+00:00"
   },
   {
     "id": 217,
