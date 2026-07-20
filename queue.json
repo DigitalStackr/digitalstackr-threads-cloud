@@ -2322,8 +2322,10 @@
     "account": "TDS",
     "text": "$964 today.\ni used to romanticize the grind.\nnow i romanticize the dashboard. 🤍",
     "scheduled_time": "2026-07-20T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "dashbaord ss 964tdy.png"
+    "status": "posted",
+    "image_file": "dashbaord ss 964tdy.png",
+    "thread_id": "18240081670312213",
+    "posted_at": "2026-07-20T13:30:42.372149+00:00"
   },
   {
     "id": 230,
