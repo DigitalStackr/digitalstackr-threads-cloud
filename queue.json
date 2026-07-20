@@ -2253,8 +2253,10 @@
     "account": "MAIN",
     "text": "the sun isn't up yet.\n13 sale notifications already are.\nbuild once. wake up to receipts. 💸",
     "scheduled_time": "2026-07-20T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad sales notifications.PNG"
+    "status": "posted",
+    "image_file": "gumroad sales notifications.PNG",
+    "thread_id": "17994647178004425",
+    "posted_at": "2026-07-20T02:25:24.038854+00:00"
   },
   {
     "id": 223,
