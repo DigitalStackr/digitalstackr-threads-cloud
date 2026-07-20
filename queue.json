@@ -2342,8 +2342,10 @@
     "account": "TDS",
     "text": "37 buyers today.\nzero of them know my face.\nall of them trust my work. that's the whole model. 🤍",
     "scheduled_time": "2026-07-20T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "sales proof.png"
+    "status": "posted",
+    "image_file": "sales proof.png",
+    "thread_id": "17974291821074856",
+    "posted_at": "2026-07-20T18:05:24.281020+00:00"
   },
   {
     "id": 232,
