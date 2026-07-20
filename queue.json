@@ -2312,8 +2312,10 @@
     "account": "MAIN",
     "text": "\"you need motivation\"\n\nno. you need a $112 day while you're busy living.\nmotivation follows evidence. 💸",
     "scheduled_time": "2026-07-20T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad 112day.png"
+    "status": "posted",
+    "image_file": "gumroad 112day.png",
+    "thread_id": "18109238881992315",
+    "posted_at": "2026-07-20T13:20:30.217061+00:00"
   },
   {
     "id": 229,
