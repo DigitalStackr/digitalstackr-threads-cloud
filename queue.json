@@ -2263,8 +2263,10 @@
     "account": "TDS",
     "text": "3:33 AM sale. $27.\nthe shop has no doors, no hours, no staff.\njust a link that never sleeps. 👻",
     "scheduled_time": "2026-07-20T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "17983840155048394",
+    "posted_at": "2026-07-20T02:35:23.738269+00:00"
   },
   {
     "id": 224,
