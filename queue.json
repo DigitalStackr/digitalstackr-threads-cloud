@@ -2283,8 +2283,10 @@
     "account": "TDS",
     "text": "$1,183. 70 sales. one day.\nposting felt pointless for months.\ncompound interest always looks like nothing at first. 🤍",
     "scheduled_time": "2026-07-20T08:55:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad more money dahsbaord.png"
+    "status": "posted",
+    "image_file": "gumroad more money dahsbaord.png",
+    "thread_id": "18066815048475305",
+    "posted_at": "2026-07-20T06:55:26.915930+00:00"
   },
   {
     "id": 226,
