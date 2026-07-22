@@ -2400,8 +2400,10 @@
     "account": "TDS",
     "text": "a $27 sale at 3:33 AM.\nthe shop has no closing time.\nthat's the whole unlock. 🤍",
     "scheduled_time": "2026-07-22T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "thread_id": "18015038627920576",
+    "posted_at": "2026-07-22T21:30:37.261893+00:00"
   },
   {
     "id": 238,
