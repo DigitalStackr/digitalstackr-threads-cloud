@@ -2391,7 +2391,9 @@
     "account": "MAIN",
     "text": "they told me to get a job.\n\nmy PDF is my job.\n\ntag someone who needs to hear that this week.",
     "scheduled_time": "2026-07-22T23:18:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "thread_id": "17918026410200169",
+    "posted_at": "2026-07-22T21:20:32.969142+00:00"
   },
   {
     "id": 237,
