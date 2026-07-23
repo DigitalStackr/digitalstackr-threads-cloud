@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,15 +44,21 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add queue.json log.txt 2>/dev/null || true
-          if ! git diff --staged --quiet; then
-            git commit -m "scheduler: update queue/log [skip ci]"
-            for i in 1 2 3; do
-              if git push; then exit 0; fi
-              echo "push failed (attempt $i) - rebasing and retrying"
-              git pull --rebase origin main || true
-              sleep 5
-            done
-            git push
-          else
+          if git diff --staged --quiet; then
             echo "No queue or log changes to commit."
+            exit 0
           fi
+          git commit -m "scheduler: update queue/log [skip ci]"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "pushed on attempt $i"; exit 0
+              fi
+            else
+              echo "rebase conflict on attempt $i - aborting, will retry"
+              git rebase --abort || true
+            fi
+            sleep $((RANDOM % 4 + 3))
+          done
+          echo "ERROR: could not push after 5 attempts"; exit 1
