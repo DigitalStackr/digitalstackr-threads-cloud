@@ -2410,8 +2410,10 @@
     "account": "MAIN",
     "text": "woke up. 13 sale notifications stacked overnight.\ni didn't do anything but sleep.\nthe system did the shift. 😭💸",
     "scheduled_time": "2026-07-23T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad sales notifications.PNG"
+    "status": "posted",
+    "image_file": "gumroad sales notifications.PNG",
+    "thread_id": "18436322215130872",
+    "posted_at": "2026-07-23T02:25:26.677595+00:00"
   },
   {
     "id": 239,
