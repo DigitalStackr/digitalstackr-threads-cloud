@@ -2489,8 +2489,17 @@
     "account": "MAIN",
     "text": "my product sold while i was asleep.\n70 times today. $1,183.\n\nthis business is genuinely insane and i mean that. 😭💸",
     "scheduled_time": "2026-07-23T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad more money dahsbaord.png"
+    "status": "posted",
+    "image_file": "gumroad more money dahsbaord.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18025626368899798",
+        "at": "2026-07-23T17:55:24.483773+00:00"
+      }
+    },
+    "posted_at": "2026-07-23T17:55:24.483773+00:00",
+    "thread_id": "18025626368899798"
   },
   {
     "id": 247,
