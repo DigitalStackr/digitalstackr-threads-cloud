@@ -2506,8 +2506,17 @@
     "account": "TDS",
     "text": "$1,380 payout.\nno invoice. no meeting. no boss signing off.\njust value, delivered while i lived my life. 🤍",
     "scheduled_time": "2026-07-23T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss 1.3k.png"
+    "status": "posted",
+    "image_file": "paypal notification ss 1.3k.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18059249609771330",
+        "at": "2026-07-23T18:05:23.529115+00:00"
+      }
+    },
+    "posted_at": "2026-07-23T18:05:23.529115+00:00",
+    "thread_id": "18059249609771330"
   },
   {
     "id": 248,
