@@ -2523,7 +2523,16 @@
     "account": "MAIN",
     "text": "be honest.\n\nis it ideas, time, or fear that's actually stopping you?\n\npick one word. the fix for each is completely different — i'll give you yours.",
     "scheduled_time": "2026-07-23T23:18:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18387215581205503",
+        "at": "2026-07-23T21:20:36.672409+00:00"
+      }
+    },
+    "posted_at": "2026-07-23T21:20:36.672409+00:00",
+    "thread_id": "18387215581205503"
   },
   {
     "id": 249,
