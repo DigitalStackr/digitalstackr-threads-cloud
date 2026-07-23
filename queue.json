@@ -2479,8 +2479,10 @@
     "account": "TDS",
     "text": "$125 today from 24 people.\nnot life-changing.\nbut it's proof the machine works — and proof is all you need to keep going. 🤍",
     "scheduled_time": "2026-07-23T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "125 tdy gumroad dahsbaord.png"
+    "status": "posted",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "thread_id": "17878154346503886",
+    "posted_at": "2026-07-23T13:30:43.530839+00:00"
   },
   {
     "id": 246,
