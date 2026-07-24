@@ -2573,8 +2573,17 @@
     "account": "TDS",
     "text": "everything i run fits in one hand.\n4 apps. one link. $5,612 this month.\nsimplicity scales. 💸",
     "scheduled_time": "2026-07-24T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "gum iphone dashabord w apps.png"
+    "status": "posted",
+    "image_file": "gum iphone dashabord w apps.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17941209726267213",
+        "at": "2026-07-24T02:35:26.995604+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T02:35:26.995604+00:00",
+    "thread_id": "17941209726267213"
   },
   {
     "id": 252,
