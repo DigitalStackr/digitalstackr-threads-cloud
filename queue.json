@@ -2691,8 +2691,17 @@
     "account": "MAIN",
     "text": "$856 in a single day.\n92 strangers said yes.\n\nevery no i collected before this was just noise on the way here. 💸",
     "scheduled_time": "2026-07-24T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "gumrd dashbrd ss 856.png"
+    "status": "posted",
+    "image_file": "gumrd dashbrd ss 856.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17936965488343646",
+        "at": "2026-07-24T17:55:28.212932+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T17:55:28.212932+00:00",
+    "thread_id": "17936965488343646"
   },
   {
     "id": 259,
