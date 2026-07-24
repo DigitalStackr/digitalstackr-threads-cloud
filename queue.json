@@ -2708,8 +2708,17 @@
     "account": "TDS",
     "text": "$1,638. deposited quietly.\nno announcement. no applause.\nghost mode pays different. 👻",
     "scheduled_time": "2026-07-24T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Payout Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18384623737164958",
+        "at": "2026-07-24T18:05:31.276589+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T18:05:31.276589+00:00",
+    "thread_id": "18384623737164958"
   },
   {
     "id": 260,
