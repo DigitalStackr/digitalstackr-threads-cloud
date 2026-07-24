@@ -2607,8 +2607,17 @@
     "account": "TDS",
     "text": "37 people bought my PDF today.\ni wrote it once, months ago.\nit just keeps going without me. 🤍",
     "scheduled_time": "2026-07-24T08:55:00+02:00",
-    "status": "pending",
-    "image_file": "sales proof.png"
+    "status": "posted",
+    "image_file": "sales proof.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18022151288905997",
+        "at": "2026-07-24T06:55:27.909390+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T06:55:27.909390+00:00",
+    "thread_id": "18022151288905997"
   },
   {
     "id": 254,
