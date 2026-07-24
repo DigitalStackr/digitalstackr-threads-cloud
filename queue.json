@@ -2556,8 +2556,17 @@
     "account": "MAIN",
     "text": "couldn't sleep.\nrefreshed gumroad instead of instagram.\n$1,117 payout waiting there.\nhealthiest doomscroll of my life. 😭",
     "scheduled_time": "2026-07-24T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss from phn.png"
+    "status": "posted",
+    "image_file": "paypal notification ss from phn.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18104533622129312",
+        "at": "2026-07-24T02:25:27.789606+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T02:25:27.789606+00:00",
+    "thread_id": "18104533622129312"
   },
   {
     "id": 251,
