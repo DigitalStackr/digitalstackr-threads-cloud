@@ -2725,7 +2725,16 @@
     "account": "MAIN",
     "text": "comment the price you'd charge for your first digital product.\n\ni'll reply and tell you if you're underpricing yourself. (most of you are.)",
     "scheduled_time": "2026-07-24T23:18:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18107480950911912",
+        "at": "2026-07-24T21:20:31.131314+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T21:20:31.131314+00:00",
+    "thread_id": "18107480950911912"
   },
   {
     "id": 261,
