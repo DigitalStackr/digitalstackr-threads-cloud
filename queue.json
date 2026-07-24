@@ -2590,8 +2590,17 @@
     "account": "MAIN",
     "text": "\"you need a big audience first\"\n\n$612 in one day. 26 buyers.\nhad barely 800 followers when it happened.\nfollower count is the lie. 💸",
     "scheduled_time": "2026-07-24T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "612 a day gumroad dahsbaord ss.png"
+    "status": "posted",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18576534904067293",
+        "at": "2026-07-24T06:45:52.220706+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T06:45:52.220706+00:00",
+    "thread_id": "18576534904067293"
   },
   {
     "id": 253,
