@@ -2624,7 +2624,16 @@
     "account": "MAIN",
     "text": "they told me to get a real job.\n\nso i made one. it pays me while i sleep and never asks me to come in.\n\nwhat would you build if nobody could talk you out of it?",
     "scheduled_time": "2026-07-24T13:15:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18462985303116150",
+        "at": "2026-07-24T11:15:31.958068+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T11:15:31.958068+00:00",
+    "thread_id": "18462985303116150"
   },
   {
     "id": 255,
