@@ -2741,8 +2741,17 @@
     "account": "TDS",
     "text": "$112 today. 17 people.\nold me would've called this a miracle.\nnew me calls it a slow tuesday. 🤍",
     "scheduled_time": "2026-07-24T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad 112day.png"
+    "status": "posted",
+    "image_file": "gumroad 112day.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17877188856621561",
+        "at": "2026-07-24T21:30:37.043297+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T21:30:37.043297+00:00",
+    "thread_id": "17877188856621561"
   },
   {
     "id": 262,
