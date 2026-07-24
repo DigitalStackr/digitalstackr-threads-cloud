@@ -2657,8 +2657,17 @@
     "account": "MAIN",
     "text": "\"the market's too saturated now\"\n\n$2,013 this month. 81 buyers.\nsaturated just means proven. the money's already there — go take your slice. 😭💸",
     "scheduled_time": "2026-07-24T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad dashbaord ss 2k.png"
+    "status": "posted",
+    "image_file": "gumroad dashbaord ss 2k.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17957781518982086",
+        "at": "2026-07-24T13:20:29.624835+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T13:20:29.624835+00:00",
+    "thread_id": "17957781518982086"
   },
   {
     "id": 257,
