@@ -2640,8 +2640,17 @@
     "account": "TDS",
     "text": "$964 today.\nfor typing words and attaching a link.\nmy keyboard is the hardest-working thing i own. 💸",
     "scheduled_time": "2026-07-24T13:25:00+02:00",
-    "status": "pending",
-    "image_file": "dashbaord ss 964tdy.png"
+    "status": "posted",
+    "image_file": "dashbaord ss 964tdy.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18128612341642972",
+        "at": "2026-07-24T11:25:32.679923+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T11:25:32.679923+00:00",
+    "thread_id": "18128612341642972"
   },
   {
     "id": 256,
