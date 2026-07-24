@@ -2674,8 +2674,17 @@
     "account": "TDS",
     "text": "phone was face-down all day.\nflipped it over: 13 sale notifications.\nmoney doesn't need my attention to show up. 🤍",
     "scheduled_time": "2026-07-24T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad sales notifications.PNG"
+    "status": "posted",
+    "image_file": "gumroad sales notifications.PNG",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17867626356634620",
+        "at": "2026-07-24T13:30:39.272074+00:00"
+      }
+    },
+    "posted_at": "2026-07-24T13:30:39.272074+00:00",
+    "thread_id": "17867626356634620"
   },
   {
     "id": 258,
