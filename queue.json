@@ -2792,8 +2792,17 @@
     "account": "MAIN",
     "text": "i didn't have a macbook.\ni didn't have fast wifi.\ni had a $200 laptop and a link.\n\n$3,937 this month. the gear is a myth. 💸",
     "scheduled_time": "2026-07-25T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "3.9k gumroad ss.png"
+    "status": "posted",
+    "image_file": "3.9k gumroad ss.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18104635714879606",
+        "at": "2026-07-25T06:45:30.655628+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T06:45:30.655628+00:00",
+    "thread_id": "18104635714879606"
   },
   {
     "id": 265,
