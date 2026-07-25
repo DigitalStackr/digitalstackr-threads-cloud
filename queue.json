@@ -2843,7 +2843,16 @@
     "account": "TDS",
     "text": "describe the digital product you keep overthinking — in 5 words.\n\ni'll tell you if it sells.",
     "scheduled_time": "2026-07-25T13:25:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18074333795661545",
+        "at": "2026-07-25T11:25:27.477877+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T11:25:27.477877+00:00",
+    "thread_id": "18074333795661545"
   },
   {
     "id": 268,
