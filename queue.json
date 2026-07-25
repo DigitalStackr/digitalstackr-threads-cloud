@@ -2758,8 +2758,17 @@
     "account": "MAIN",
     "text": "3:33 AM. a $27 sale walks in like it owns the place.\nit does. the shop never sleeps even when i do. 😭💸",
     "scheduled_time": "2026-07-25T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17940627342278919",
+        "at": "2026-07-25T02:25:24.052063+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T02:25:24.052063+00:00",
+    "thread_id": "17940627342278919"
   },
   {
     "id": 263,
