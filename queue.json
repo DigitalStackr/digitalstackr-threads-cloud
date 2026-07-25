@@ -2826,8 +2826,17 @@
     "account": "MAIN",
     "text": "month ONE of selling PDFs: $1,109. 66 sales.\ni almost deleted the first draft twice.\n\npost the thing. seriously. 😭💸",
     "scheduled_time": "2026-07-25T13:15:00+02:00",
-    "status": "pending",
-    "image_file": "gum dashbrd ss 1kmon.png"
+    "status": "posted",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18073928531355405",
+        "at": "2026-07-25T11:15:34.862615+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T11:15:34.862615+00:00",
+    "thread_id": "18073928531355405"
   },
   {
     "id": 267,
