@@ -2893,8 +2893,17 @@
     "account": "MAIN",
     "text": "my dad measures months in paychecks.\ni measure them in payouts.\n$1,380 this one.\nsame pride. different path. 🥹",
     "scheduled_time": "2026-07-25T19:55:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss 1.3k.png"
+    "status": "posted",
+    "image_file": "paypal notification ss 1.3k.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18421597123183238",
+        "at": "2026-07-25T17:56:23.136740+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T17:56:23.136740+00:00",
+    "thread_id": "18421597123183238"
   },
   {
     "id": 271,
