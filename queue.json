@@ -2775,8 +2775,17 @@
     "account": "TDS",
     "text": "insomnia used to just cost me.\nnow it hands me the dashboard — $1,183 today, 70 sales.\nworst habit, best view. 😭",
     "scheduled_time": "2026-07-25T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad more money dahsbaord.png"
+    "status": "posted",
+    "image_file": "gumroad more money dahsbaord.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18334992460264378",
+        "at": "2026-07-25T02:35:28.557555+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T02:35:28.557555+00:00",
+    "thread_id": "18334992460264378"
   },
   {
     "id": 264,
