@@ -2859,8 +2859,17 @@
     "account": "MAIN",
     "text": "\"skip a few days and the algorithm buries you\"\n\ntook 4 days fully offline. $556 from 32 people showed up anyway.\nbuild assets, not obligations. 💸",
     "scheduled_time": "2026-07-25T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad dahsbaord ss 556.png"
+    "status": "posted",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18114862295300165",
+        "at": "2026-07-25T13:20:35.126292+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T13:20:35.126292+00:00",
+    "thread_id": "18114862295300165"
   },
   {
     "id": 269,
