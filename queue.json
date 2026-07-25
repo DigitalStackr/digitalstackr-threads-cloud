@@ -2910,8 +2910,17 @@
     "account": "TDS",
     "text": "$12.65, then $31.05. a minute apart.\ntwo strangers, probably oceans away from each other.\nthe small sales are where belief is built. 🤍",
     "scheduled_time": "2026-07-25T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Sales Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18092095817455366",
+        "at": "2026-07-25T18:05:31.266537+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T18:05:31.266537+00:00",
+    "thread_id": "18092095817455366"
   },
   {
     "id": 272,
