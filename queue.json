@@ -2927,7 +2927,16 @@
     "account": "MAIN",
     "text": "you get $0, a phone, and 30 days.\n\nwhat's your first move? best answer gets my full honest breakdown in the replies.",
     "scheduled_time": "2026-07-25T23:18:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18131587198623893",
+        "at": "2026-07-25T21:20:35.476154+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T21:20:35.476154+00:00",
+    "thread_id": "18131587198623893"
   },
   {
     "id": 273,
