@@ -2943,8 +2943,17 @@
     "account": "TDS",
     "text": "the $11 sale at 4am is still my favorite screenshot.\nnot the amount.\nit was the first time the system worked with zero help from me. 🥹",
     "scheduled_time": "2026-07-25T23:28:00+02:00",
-    "status": "pending",
-    "image_file": "my gumroad notification showing threads revenue ladder.PNG"
+    "status": "posted",
+    "image_file": "my gumroad notification showing threads revenue ladder.PNG",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17939465262329121",
+        "at": "2026-07-25T21:30:42.230228+00:00"
+      }
+    },
+    "posted_at": "2026-07-25T21:30:42.230228+00:00",
+    "thread_id": "17939465262329121"
   },
   {
     "id": 274,
