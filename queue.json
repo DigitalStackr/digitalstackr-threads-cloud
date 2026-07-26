@@ -3112,8 +3112,17 @@
     "account": "TDS",
     "text": "movie night.\nchecked my phone at the credits: $460 from 18 people.\nthe best part of the film was the notification bar. 😭",
     "scheduled_time": "2026-07-26T20:05:00+02:00",
-    "status": "pending",
-    "image_file": "digistackr sales proof.png"
+    "status": "posted",
+    "image_file": "digistackr sales proof.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18093004202528192",
+        "at": "2026-07-26T18:05:26.895755+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T18:05:26.895755+00:00",
+    "thread_id": "18093004202528192"
   },
   {
     "id": 284,
