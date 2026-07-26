@@ -3061,8 +3061,17 @@
     "account": "MAIN",
     "text": "19 years old. $3,937 in a month. from a PDF.\nnot a genius. not connected. not lucky.\n\ni just didn't stop posting when it was embarrassing. 😭💸",
     "scheduled_time": "2026-07-26T15:18:00+02:00",
-    "status": "pending",
-    "image_file": "3.9k gumroad ss.png"
+    "status": "posted",
+    "image_file": "3.9k gumroad ss.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18050137781564474",
+        "at": "2026-07-26T13:21:28.508251+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T13:21:28.508251+00:00",
+    "thread_id": "18050137781564474"
   },
   {
     "id": 281,
