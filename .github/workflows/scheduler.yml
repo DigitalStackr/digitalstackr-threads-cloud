@@ -7,7 +7,7 @@ on:
   workflow_dispatch:        # allows manual test runs from the Actions tab
 
 permissions:
-  contents: write           # needed so the job can commit updated queue.json + log.txt
+  contents: write           # needed so the job can commit updated queue.json
 
 concurrency:
   group: scheduler
@@ -39,16 +39,19 @@ jobs:
           FB_PAGE_ID:    ${{ secrets.FB_PAGE_ID }}
         run: python scheduler.py
 
-      - name: Commit queue + log changes
+      - name: Commit queue changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add queue.json log.txt 2>/dev/null || true
+          # Only queue.json is committed. The scheduler now logs to stdout (captured
+          # in this run's log), so there is no log.txt to diverge and produce the
+          # deterministic end-of-file rebase conflict that used to fail this step.
+          git add queue.json 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No queue or log changes to commit."
+            echo "No queue changes to commit."
             exit 0
           fi
-          git commit -m "scheduler: update queue/log [skip ci]"
+          git commit -m "scheduler: update queue [skip ci]"
           for i in 1 2 3 4 5; do
             git fetch origin main
             if git rebase origin/main; then

@@ -36,6 +36,13 @@ from post_image import post_image
 from post_facebook import post_facebook
 
 QUEUE_PATH = Path(__file__).parent / "queue.json"
+# NOTE: logging goes to STDOUT only (captured by the GitHub Actions run log).
+# We deliberately no longer commit a log.txt file — two runs both appending to the
+# end of log.txt produced a *deterministic* `git rebase` conflict at EOF, which
+# exhausted the push-back retries and failed the whole run (=> failure emails, and
+# the queue update not being saved => double-post risk on the next tick). Dropping
+# log.txt from git removes that conflict source entirely. LOG_PATH is kept only so
+# the local test harness can still point logging somewhere harmless.
 LOG_PATH = Path(__file__).parent / "log.txt"
 
 # How far back in time we'll still fire a post that was scheduled.
@@ -45,6 +52,13 @@ CATCHUP_WINDOW_MIN = 90
 # (One entry may fan out to several platforms; that still counts as one entry.)
 MAX_POSTS_PER_TICK = 3
 
+# Self-healing: how many times we'll auto-reschedule a post that failed to send or
+# missed its window before we give up on it. Each retry pushes it forward by
+# RETRY_DELAY_MIN minutes so a transient outage (token blip, Threads 5xx, missed
+# cron) recovers on its own instead of the post being silently dropped/expired.
+MAX_RETRIES = 5
+RETRY_DELAY_MIN = 20
+
 # Statuses that are still eligible to fire (partial => retry the failed targets).
 FIREABLE_STATUSES = {"pending", "partial"}
 
@@ -53,10 +67,18 @@ REPO_SLUG = "DigitalStackr/digitalstackr-threads-cloud"
 
 def log(msg: str) -> None:
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    line = f"{stamp} | {msg}"
-    print(line)
-    with open(LOG_PATH, "a", encoding="utf-8") as f:
-        f.write(line + "\n")
+    print(f"{stamp} | {msg}", flush=True)
+
+
+def reschedule(entry: dict, now: datetime, reason: str) -> None:
+    """Self-heal: push a failed/overdue entry forward so it retries later instead of
+    being dropped. Only moves scheduled_time — already-'posted' targets are recorded
+    in entry['results'] and are skipped by fire_entry, so this never double-posts."""
+    entry["attempts"] = entry.get("attempts", 0) + 1
+    new_time = now + timedelta(minutes=RETRY_DELAY_MIN)
+    entry["scheduled_time"] = new_time.astimezone(timezone.utc).isoformat()
+    log(f"Post {entry.get('id', '?')}: {reason} — auto-rescheduled to "
+        f"{entry['scheduled_time']} (attempt {entry['attempts']}/{MAX_RETRIES})")
 
 
 def raw_image_url(image_filename: str) -> str:
@@ -171,9 +193,13 @@ def main() -> None:
             continue
 
         if sched < window_start:
-            log(f"Post {entry['id']}: scheduled {sched.isoformat()} older than "
-                f"{CATCHUP_WINDOW_MIN}-min catch-up window — marking expired")
-            entry["status"] = "expired"
+            # Missed its catch-up window (cron gap / outage). Instead of silently
+            # dropping it, self-heal: reschedule forward and retry — up to MAX_RETRIES.
+            if entry.get("attempts", 0) < MAX_RETRIES:
+                reschedule(entry, now, f"missed {CATCHUP_WINDOW_MIN}-min catch-up window")
+            else:
+                log(f"Post {entry['id']}: exhausted {MAX_RETRIES} retries — marking expired")
+                entry["status"] = "expired"
             changed = True
             continue
 
@@ -190,6 +216,15 @@ def main() -> None:
         if fire_entry(entry, now_iso):
             fired_entries += 1
             changed = True
+            # Self-heal: if every target failed this tick, don't leave it dead —
+            # push it forward and make it fireable again (bounded by MAX_RETRIES).
+            # 'partial' entries are left as-is: they stay FIREABLE and retry only
+            # their not-yet-posted targets on the very next tick (faster than a
+            # 20-min bump), and the window-expiry branch above will reschedule
+            # them forward if they ever fall out of the catch-up window.
+            if entry["status"] == "failed" and entry.get("attempts", 0) < MAX_RETRIES:
+                reschedule(entry, now, "all targets failed this tick")
+                entry["status"] = "pending"
 
     if changed:
         QUEUE_PATH.write_text(
