@@ -3011,8 +3011,17 @@
     "account": "TDS",
     "text": "5 people paid $98 each for a service i deliver from my laptop.\nproducts build the floor. services build the ceiling. 💸",
     "scheduled_time": "2026-07-26T08:55:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Notificaion screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Notificaion screenshots.PNG",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17902670715501442",
+        "at": "2026-07-26T06:56:33.533562+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T06:56:33.533562+00:00",
+    "thread_id": "17902670715501442"
   },
   {
     "id": 278,
