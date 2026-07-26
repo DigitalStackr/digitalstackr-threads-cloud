@@ -3179,8 +3179,17 @@
     "account": "TDS",
     "text": "3:33 AM. a stranger bought my file for $27.\nno store hours. no staff. no alarm.\njust a link that refuses to clock out. 👻",
     "scheduled_time": "2026-07-27T01:40:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad notification screenshot.PNG"
+    "status": "posted",
+    "image_file": "gumroad notification screenshot.PNG",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17958101676181697",
+        "at": "2026-07-26T23:39:52.986847+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T23:39:52.986847+00:00",
+    "thread_id": "17958101676181697"
   },
   {
     "id": 288,
