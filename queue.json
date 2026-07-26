@@ -3145,8 +3145,17 @@
     "account": "TDS",
     "text": "$964. today.\nsome people work a whole month for that number.\ni made it while my phone charged on the nightstand. 🤍",
     "scheduled_time": "2026-07-26T23:40:00+02:00",
-    "status": "pending",
-    "image_file": "dashbaord ss 964tdy.png"
+    "status": "posted",
+    "image_file": "dashbaord ss 964tdy.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18336074746271287",
+        "at": "2026-07-26T21:40:30.942432+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T21:40:30.942432+00:00",
+    "thread_id": "18336074746271287"
   },
   {
     "id": 286,
