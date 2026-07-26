@@ -3129,7 +3129,16 @@
     "account": "MAIN",
     "text": "drop a 👻 if you're quietly building something right now.\n\nno announcement. no \"starting my journey\" post. just building.\ni want to see who's actually in the room vs who's here to watch.",
     "scheduled_time": "2026-07-26T23:30:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17898083037350512",
+        "at": "2026-07-26T21:30:40.082871+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T21:30:40.082871+00:00",
+    "thread_id": "17898083037350512"
   },
   {
     "id": 285,
