@@ -3078,8 +3078,17 @@
     "account": "TDS",
     "text": "\"you need 10 products to make real money\"\n\none PDF. $112 today. 17 buyers.\ndepth beats shelf space. 💸",
     "scheduled_time": "2026-07-26T15:28:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad 112day.png"
+    "status": "posted",
+    "image_file": "gumroad 112day.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18196360204373047",
+        "at": "2026-07-26T13:30:40.025103+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T13:30:40.025103+00:00",
+    "thread_id": "18196360204373047"
   },
   {
     "id": 282,
