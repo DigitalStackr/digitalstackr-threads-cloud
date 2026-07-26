@@ -3044,8 +3044,17 @@
     "account": "TDS",
     "text": "$856 in a day from 92 people.\ni still don't have a business degree.\nor a business plan.\njust a product and a link. 🤍",
     "scheduled_time": "2026-07-26T13:25:00+02:00",
-    "status": "pending",
-    "image_file": "gumrd dashbrd ss 856.png"
+    "status": "posted",
+    "image_file": "gumrd dashbrd ss 856.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18151260901503545",
+        "at": "2026-07-26T11:25:25.144117+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T11:25:25.144117+00:00",
+    "thread_id": "18151260901503545"
   },
   {
     "id": 280,
