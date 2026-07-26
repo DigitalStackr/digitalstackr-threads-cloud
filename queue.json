@@ -2977,8 +2977,17 @@
     "account": "TDS",
     "text": "woke up to 37 sales.\nmy product doesn't know it's the weekend.\nit just works. 😭💸",
     "scheduled_time": "2026-07-26T04:35:00+02:00",
-    "status": "pending",
-    "image_file": "sales proof.png"
+    "status": "posted",
+    "image_file": "sales proof.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18040682453804974",
+        "at": "2026-07-26T02:35:30.563634+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T02:35:30.563634+00:00",
+    "thread_id": "18040682453804974"
   },
   {
     "id": 276,
