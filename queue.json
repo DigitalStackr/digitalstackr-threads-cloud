@@ -2960,8 +2960,17 @@
     "account": "MAIN",
     "text": "i don't get paid on the 1st.\ni get paid when strangers find value.\n$1,638 deposited — turns out that happens a lot more often. 💸",
     "scheduled_time": "2026-07-26T04:25:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Payout Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17912949669429797",
+        "at": "2026-07-26T02:25:59.556387+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T02:25:59.556387+00:00",
+    "thread_id": "17912949669429797"
   },
   {
     "id": 275,
