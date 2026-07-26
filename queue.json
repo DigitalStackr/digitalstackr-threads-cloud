@@ -2994,8 +2994,17 @@
     "account": "MAIN",
     "text": "they upgrade their phone every year.\ni upgraded what my phone does.\n\n$5,612 this month from the same device you're scrolling on. 🤍",
     "scheduled_time": "2026-07-26T08:45:00+02:00",
-    "status": "pending",
-    "image_file": "gum iphone dashabord w apps.png"
+    "status": "posted",
+    "image_file": "gum iphone dashabord w apps.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18078936416492826",
+        "at": "2026-07-26T06:45:32.328819+00:00"
+      }
+    },
+    "posted_at": "2026-07-26T06:45:32.328819+00:00",
+    "thread_id": "18078936416492826"
   },
   {
     "id": 277,
