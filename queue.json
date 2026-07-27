@@ -3196,8 +3196,17 @@
     "account": "MAIN",
     "text": "\"get experience first.\"\ni had zero. 66 strangers still paid me $1,109 my first month.\nexperience is the receipt you get AFTER you start — not the ticket in. 💸",
     "scheduled_time": "2026-07-27T14:00:00+02:00",
-    "status": "pending",
-    "image_file": "gum dashbrd ss 1kmon.png"
+    "status": "posted",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18127881802656741",
+        "at": "2026-07-27T12:00:47.314746+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T12:00:47.314746+00:00",
+    "thread_id": "18127881802656741"
   },
   {
     "id": 289,
