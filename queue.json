@@ -3347,8 +3347,17 @@
     "account": "TDS",
     "text": "went quiet for 4 days. didn't post once.\nthe system didn't take the days off.\n$556. 32 buyers. all of it built while i was gone. 🤍",
     "scheduled_time": "2026-07-28T01:40:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad dahsbaord ss 556.png"
+    "status": "posted",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18363727018213667",
+        "at": "2026-07-27T23:40:35.157460+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T23:40:35.157460+00:00",
+    "thread_id": "18363727018213667"
   },
   {
     "id": 298,
