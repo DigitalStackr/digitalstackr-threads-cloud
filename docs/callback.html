@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Authorization callback — DigitalStackr Poster</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem; line-height: 1.65; }
+  code { background: #8882; padding: .15rem .35rem; border-radius: 4px; word-break: break-all; }
+  #box { margin-top: 1.5rem; padding: 1rem; border: 1px solid #8884; border-radius: 8px; }
+  button { font: inherit; padding: .5rem .9rem; border-radius: 6px; cursor: pointer; }
+  .ok { color: #12813f; font-weight: 600; }
+  .warn { color: #b23c17; font-weight: 600; }
+</style>
+</head>
+<body>
+  <h1>Authorization callback</h1>
+  <p>
+    This page is the OAuth redirect target for DigitalStackr Poster. It does not store,
+    transmit, or process anything &mdash; the authorization code simply appears in your
+    browser's address bar, and this page just makes it easier to copy.
+  </p>
+
+  <div id="box">
+    <div id="out">Reading the address bar&hellip;</div>
+  </div>
+
+  <script>
+    (function () {
+      var p = new URLSearchParams(window.location.search);
+      var code = p.get("code");
+      var err = p.get("error") || p.get("error_description");
+      var out = document.getElementById("out");
+
+      if (err) {
+        out.innerHTML = '<p class="warn">Authorization failed</p><p><code>' +
+          String(err).replace(/[<>&]/g, "") + "</code></p>";
+        return;
+      }
+      if (!code) {
+        out.innerHTML = "<p>No authorization code in this URL yet. " +
+          "Open this page via the authorization link to get one.</p>";
+        return;
+      }
+      out.innerHTML = '<p class="ok">Authorization code received</p>' +
+        "<p><code id=\"c\">" + code.replace(/[<>&]/g, "") + "</code></p>" +
+        '<p><button id="b">Copy code</button></p>' +
+        "<p>Copy this value and paste it back into your setup chat.</p>";
+      document.getElementById("b").onclick = function () {
+        navigator.clipboard.writeText(code).then(function () {
+          document.getElementById("b").textContent = "Copied";
+        });
+      };
+    })();
+  </script>
+
+  <p style="margin-top:2rem"><a href="./">&larr; Back</a></p>
+</body>
+</html>
