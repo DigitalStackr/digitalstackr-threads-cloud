@@ -3213,8 +3213,17 @@
     "account": "TDS",
     "text": "$1,117 landed for posting a few words and a link.\ni keep waiting for someone to tell me it was a mistake.\nit wasn't. it's just leverage nobody around me ever tried. 🤍",
     "scheduled_time": "2026-07-27T14:10:00+02:00",
-    "status": "pending",
-    "image_file": "paypal notification ss from phn.png"
+    "status": "posted",
+    "image_file": "paypal notification ss from phn.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18096584966197864",
+        "at": "2026-07-27T12:10:32.202611+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T12:10:32.202611+00:00",
+    "thread_id": "18096584966197864"
   },
   {
     "id": 290,
