@@ -3314,8 +3314,17 @@
     "account": "TDS",
     "text": "one honest post did $612 in a day.\n26 people at $27.\nyou don't need a bigger audience. you need a better offer. 💸",
     "scheduled_time": "2026-07-27T23:40:00+02:00",
-    "status": "pending",
-    "image_file": "612 a day gumroad dahsbaord ss.png"
+    "status": "posted",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17895805761560498",
+        "at": "2026-07-27T21:40:38.192678+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T21:40:38.192678+00:00",
+    "thread_id": "17895805761560498"
   },
   {
     "id": 296,
