@@ -60,8 +60,29 @@ jobs:
                 echo "pushed on attempt $i"; exit 0
               fi
             else
-              echo "rebase conflict on attempt $i - aborting, will retry"
+              # queue.json cannot be text-merged by git: two overlapping scheduler
+              # runs (github cron + cron-job.org fire seconds apart) each rewrite the
+              # same JSON. Retrying the rebase reproduces the identical conflict, so
+              # we resolve it semantically instead — 'posted' always wins, which can
+              # never lose a publish record and never double-posts.
+              echo "rebase conflict on attempt $i - resolving queue.json semantically"
+              cp queue.json /tmp/ours.json 2>/dev/null || true
               git rebase --abort || true
+              git show origin/main:queue.json > /tmp/theirs.json
+              if python merge_queue.py /tmp/ours.json /tmp/theirs.json /tmp/merged.json; then
+                git reset --hard origin/main
+                cp /tmp/merged.json queue.json
+                git add queue.json
+                if git diff --staged --quiet; then
+                  echo "merge produced no change vs origin - nothing to push"; exit 0
+                fi
+                git commit -m "scheduler: update queue (merged concurrent run) [skip ci]"
+                if git push origin HEAD:main; then
+                  echo "pushed merged queue on attempt $i"; exit 0
+                fi
+              else
+                echo "semantic merge failed on attempt $i"
+              fi
             fi
             sleep $((RANDOM % 4 + 3))
           done

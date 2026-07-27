@@ -245,5 +245,61 @@ threads_after = sum(1 for c in calls if c[0]=="text")
 check("id55 threads NOT re-sent when IG retries (no double-post)", threads_after==threads_before)
 check("id55 fully posted once IG recovers", by_id(q6b,55)["status"]=="posted")
 
+# =====================================================================
+# TEST 7 — queue.json semantic merge (concurrent scheduler runs)
+# =====================================================================
+print("\n[TEST 7] Concurrent-run queue merge")
+import merge_queue
+
+# The real-world race: two runs fire the SAME entry's different targets, or one
+# run posts and the other still thinks it's pending. Merging must never lose a
+# 'posted' record (that's what causes double-posts).
+ours = [
+  {"id":60,"text":"a","scheduled_time":iso(now),"status":"partial",
+   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"}],
+   "results":{"threads:MAIN":{"status":"posted","id":"th_1","at":"t1"},
+              "facebook":{"status":"failed","error":"boom"}}},
+  {"id":61,"text":"b","scheduled_time":iso(now),"status":"pending","account":"MAIN"},
+  {"id":63,"text":"only ours (queue_add)","scheduled_time":iso(now),"status":"pending","account":"TDS"},
+]
+theirs = [
+  {"id":60,"text":"a","scheduled_time":iso(now),"status":"partial",
+   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"}],
+   "results":{"threads:MAIN":{"status":"failed","error":"stale"},
+              "facebook":{"status":"posted","id":"fb_1","at":"t2"}}},
+  {"id":61,"text":"b","scheduled_time":iso(now),"status":"posted","account":"MAIN",
+   "results":{"threads:MAIN":{"status":"posted","id":"th_2","at":"t3"}}},
+  {"id":62,"text":"only theirs","scheduled_time":iso(now),"status":"pending","account":"MAIN"},
+]
+m = merge_queue.merge_queues(ours, theirs)
+mb = {e["id"]: e for e in m}
+
+check("merge keeps BOTH posted records for id60 (no publish lost)",
+      mb[60]["results"]["threads:MAIN"]["status"]=="posted"
+      and mb[60]["results"]["facebook"]["status"]=="posted")
+check("merge upgrades id60 to fully posted", mb[60]["status"]=="posted")
+check("merge never downgrades a posted entry (id61 stays posted)",
+      mb[61]["status"]=="posted" and mb[61]["results"]["threads:MAIN"]["id"]=="th_2")
+check("merge keeps entries only origin had (id62)", 62 in mb)
+check("merge keeps entries only we had (id63, queue_add race)", 63 in mb)
+check("merge preserves total entry count", len(m)==4)
+
+# self-heal interaction: a reschedule must not be undone by the merge
+later = (now + timedelta(minutes=20)).isoformat()
+o2 = [{"id":70,"text":"x","scheduled_time":later,"status":"pending","account":"MAIN","attempts":2}]
+t2 = [{"id":70,"text":"x","scheduled_time":iso(now),"status":"pending","account":"MAIN","attempts":1}]
+m2 = {e["id"]: e for e in merge_queue.merge_queues(o2, t2)}
+check("merge keeps the LATER scheduled_time (self-heal survives)",
+      m2[70]["scheduled_time"]==later)
+check("merge keeps the HIGHER attempts count", m2[70]["attempts"]==2)
+
+# a posted entry must never be resurrected to pending by a stale peer
+o3 = [{"id":71,"text":"y","scheduled_time":iso(now),"status":"pending","account":"MAIN"}]
+t3 = [{"id":71,"text":"y","scheduled_time":iso(now),"status":"posted","account":"MAIN",
+       "results":{"threads:MAIN":{"status":"posted","id":"th_9","at":"t"}}}]
+m3 = {e["id"]: e for e in merge_queue.merge_queues(o3, t3)}
+check("stale 'pending' cannot un-post a published entry (no double-post)",
+      m3[71]["status"]=="posted")
+
 print(f"\n==== RESULT: {PASS} passed, {FAIL} failed ====")
 sys.exit(1 if FAIL else 0)
