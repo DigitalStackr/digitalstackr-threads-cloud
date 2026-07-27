@@ -3263,8 +3263,17 @@
     "account": "MAIN",
     "text": "\"small accounts can't sell.\"\n24 people bought today. $125.\nbig accounts get views. trusted ones get paid. don't confuse the two. 💸",
     "scheduled_time": "2026-07-27T20:00:00+02:00",
-    "status": "pending",
-    "image_file": "125 tdy gumroad dahsbaord.png"
+    "status": "posted",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18050675255563450",
+        "at": "2026-07-27T18:00:53.748661+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T18:00:53.748661+00:00",
+    "thread_id": "18050675255563450"
   },
   {
     "id": 293,
