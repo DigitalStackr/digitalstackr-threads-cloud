@@ -3230,8 +3230,17 @@
     "account": "MAIN",
     "text": "\"you need money to make money.\"\n$3,937 this month. $200 laptop. $0 in ads.\nthe people who repeat that line are the ones who never once tested it. 😭",
     "scheduled_time": "2026-07-27T18:00:00+02:00",
-    "status": "pending",
-    "image_file": "3.9k gumroad ss.png"
+    "status": "posted",
+    "image_file": "3.9k gumroad ss.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18102356429154155",
+        "at": "2026-07-27T16:00:55.447230+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T16:00:55.447230+00:00",
+    "thread_id": "18102356429154155"
   },
   {
     "id": 291,
