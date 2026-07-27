@@ -3297,8 +3297,17 @@
     "account": "MAIN",
     "text": "i stopped opening my banking app.\ni open gumroad now.\n$12.65, then $31.05 landed in the time it took to write this.\nsmall numbers — but they arrive while you do nothing. 💸",
     "scheduled_time": "2026-07-27T23:30:00+02:00",
-    "status": "pending",
-    "image_file": "Gumroad Sales Screenshots.PNG"
+    "status": "posted",
+    "image_file": "Gumroad Sales Screenshots.PNG",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18346903978222137",
+        "at": "2026-07-27T21:30:41.242588+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T21:30:41.242588+00:00",
+    "thread_id": "18346903978222137"
   },
   {
     "id": 295,
