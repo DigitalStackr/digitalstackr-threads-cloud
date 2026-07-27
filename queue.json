@@ -3331,7 +3331,16 @@
     "account": "MAIN",
     "text": "nobody claps for page 1.\nnobody sees draft 4.\nthey only show up for the screenshot at the end.\n\ntag someone still stuck on page 1 — they need to see this.",
     "scheduled_time": "2026-07-28T01:30:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18399805123092595",
+        "at": "2026-07-27T23:30:42.666635+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T23:30:42.666635+00:00",
+    "thread_id": "18399805123092595"
   },
   {
     "id": 297,
