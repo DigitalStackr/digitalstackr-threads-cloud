@@ -1,0 +1,30 @@
+name: Connection Check
+
+# Manual only. Reports which platform accounts/tokens are live and which scopes
+# are granted. Prints identifiers and scope names only — never a token value.
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run connection check
+        env:
+          MAIN_TOKEN: ${{ secrets.THREADS_MAIN_TOKEN }}
+          TDS_TOKEN:  ${{ secrets.THREADS_TDS_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID:    ${{ secrets.FB_PAGE_ID }}
+        run: python check_connections.py
