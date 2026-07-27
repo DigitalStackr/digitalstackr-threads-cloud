@@ -18,6 +18,9 @@ def fake_text(account, text): calls.append(("text", account, text)); return f"th
 def fake_image(account, text, img): calls.append(("image", account, img)); return f"th_{account}_img_{len(calls)}"
 def fake_fb(text, image_url=None): calls.append(("fb", image_url)); return "fb_ok_1"
 def fake_fb_fail(text, image_url=None): raise RuntimeError("FB boom")
+def fake_ig(text, image_url=None, video_url=None, carousel_urls=None, share_to_feed=True):
+    calls.append(("ig", video_url or image_url or tuple(carousel_urls or ()))); return "ig_ok_1"
+def fake_ig_fail(text, **kw): raise RuntimeError("IG boom")
 
 def run_tick(queue_list):
     """Point scheduler at a temp queue, run one tick, return the mutated queue."""
@@ -80,7 +83,11 @@ check("id1 recorded threads:MAIN result", by_id(q,1)["results"]["threads:MAIN"][
 check("id1 legacy thread_id mirrored", "thread_id" in by_id(q,1))
 check("id2 legacy image -> posted via post_image", by_id(q,2)["status"]=="posted" and ("image","TDS","foo.png") in calls)
 check("id3 future entry left pending", by_id(q,3)["status"]=="pending")
-check("id4 old entry expired", by_id(q,4)["status"]=="expired")
+# Self-heal: an overdue post is no longer silently dropped — it's rescheduled forward.
+check("id4 overdue entry rescheduled, not expired",
+      by_id(q,4)["status"]=="pending" and by_id(q,4).get("attempts")==1)
+check("id4 pushed to a future time",
+      datetime.fromisoformat(by_id(q,4)["scheduled_time"]) > now)
 check("id5 multi -> posted (both platforms)", by_id(q,5)["status"]=="posted")
 check("id5 threads:MAIN + facebook both posted",
       by_id(q,5)["results"]["threads:MAIN"]["status"]=="posted" and by_id(q,5)["results"]["facebook"]["status"]=="posted")
@@ -128,6 +135,107 @@ q3 = run_tick(q3)
 check("id20 threads still posted", by_id(q3,20)["results"]["threads:MAIN"]["status"]=="posted")
 check("id20 x failed cleanly (not implemented)", by_id(q3,20)["results"]["x"]["status"]=="failed")
 check("id20 overall partial", by_id(q3,20)["status"]=="partial")
+
+# =====================================================================
+# TEST 5 — self-healing: failed posts auto-reschedule; exhausted ones expire
+# =====================================================================
+print("\n[TEST 5] Self-healing reschedule")
+scheduler.post_text = fake_text
+scheduler.post_image = fake_image
+scheduler.post_facebook = fake_fb_fail   # facebook fails -> a facebook-only entry fully fails
+scheduler.MAX_POSTS_PER_TICK = 100
+calls.clear()
+
+# 5a: an entry whose only target fails is rescheduled forward (not left dead)
+q5 = [{"id":40,"text":"fb only fails","scheduled_time":iso(now),"status":"pending",
+       "targets":[{"platform":"facebook"}]}]
+q5 = run_tick(q5)
+check("id40 fully-failed entry set back to pending (self-heal)", by_id(q5,40)["status"]=="pending")
+check("id40 attempts incremented to 1", by_id(q5,40).get("attempts")==1)
+check("id40 rescheduled into the future", datetime.fromisoformat(by_id(q5,40)["scheduled_time"]) > now)
+
+# 5b: an overdue entry that already exhausted its retries finally expires
+q5b = [{"id":41,"text":"done retrying","scheduled_time":iso(now-timedelta(hours=5)),
+        "status":"pending","attempts":scheduler.MAX_RETRIES}]
+q5b = run_tick(q5b)
+check("id41 expires only after MAX_RETRIES exhausted", by_id(q5b,41)["status"]=="expired")
+
+# 5c: a partial entry (some targets posted) is NOT double-posted on its retry tick
+scheduler.post_facebook = fake_fb_fail
+calls.clear()
+q5c = [{"id":42,"text":"partial","scheduled_time":iso(now),"status":"pending",
+        "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"}]}]
+q5c = run_tick(q5c)
+check("id42 goes partial (threads ok, fb fail)", by_id(q5c,42)["status"]=="partial")
+threads_before = sum(1 for c in calls if c[0]=="text")
+scheduler.post_facebook = fake_fb           # fb recovers
+q5c = run_tick(q5c)
+threads_after = sum(1 for c in calls if c[0]=="text")
+check("id42 threads NOT re-sent on partial retry (no double-post)", threads_after==threads_before)
+check("id42 now fully posted after fb recovers", by_id(q5c,42)["status"]=="posted")
+
+# =====================================================================
+# TEST 6 — Instagram: reels / image / carousel + media-required + isolation
+# =====================================================================
+print("\n[TEST 6] Instagram")
+scheduler.post_text = fake_text
+scheduler.post_image = fake_image
+scheduler.post_facebook = fake_fb
+scheduler.post_instagram = fake_ig
+scheduler.MAX_POSTS_PER_TICK = 100
+calls.clear()
+
+q6 = [
+  {"id":50,"text":"reel caption","video_file":"hook1.mp4","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"instagram"}]},
+  {"id":51,"text":"ig photo","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"instagram"}]},
+  {"id":52,"text":"ig carousel","carousel":["a.png","b.png","c.mp4"],"scheduled_time":iso(now),
+   "status":"pending","targets":[{"platform":"instagram"}]},
+  {"id":53,"text":"no media","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"instagram"}]},
+  {"id":54,"text":"fan out","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"},{"platform":"instagram"}]},
+]
+q6 = run_tick(q6)
+
+check("id50 reel posted via video_url from reels/ folder",
+      by_id(q6,50)["status"]=="posted" and ("ig", scheduler.raw_video_url("hook1.mp4")) in calls)
+check("id51 ig image posted via images/ url",
+      by_id(q6,51)["status"]=="posted" and ("ig", scheduler.raw_image_url("foo.png")) in calls)
+check("id52 carousel mixes image+video urls correctly",
+      ("ig", (scheduler.raw_image_url("a.png"), scheduler.raw_image_url("b.png"),
+              scheduler.raw_video_url("c.mp4"))) in calls)
+# A text-only IG target can never succeed (IG requires media). It fails cleanly with a
+# clear error; self-heal then bounces it back to 'pending' to retry, and it finally
+# expires after MAX_RETRIES rather than ever publishing something wrong.
+check("id53 text-only IG target fails cleanly (media required)",
+      "media" in by_id(q6,53)["results"]["instagram"]["error"].lower()
+      and by_id(q6,53)["results"]["instagram"]["status"]=="failed")
+check("id53 self-heal bounces it to pending for retry (never publishes)",
+      by_id(q6,53)["status"]=="pending" and by_id(q6,53).get("attempts")==1)
+check("id54 one entry fans out to threads+fb+ig", by_id(q6,54)["status"]=="posted")
+check("id54 all three platforms recorded",
+      {"threads:MAIN","facebook","instagram"} <= set(by_id(q6,54)["results"].keys()))
+
+# isolation: IG failing must not stop threads/facebook
+scheduler.post_instagram = fake_ig_fail
+calls.clear()
+q6b = [{"id":55,"text":"iso","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
+        "targets":[{"platform":"threads","account":"MAIN"},{"platform":"instagram"}]}]
+q6b = run_tick(q6b)
+check("id55 threads posted despite IG failing (isolation)",
+      by_id(q6b,55)["results"]["threads:MAIN"]["status"]=="posted")
+check("id55 overall partial, IG marked failed",
+      by_id(q6b,55)["status"]=="partial" and by_id(q6b,55)["results"]["instagram"]["status"]=="failed")
+
+# self-heal + no double-post carries over to IG
+threads_before = sum(1 for c in calls if c[0]=="text")
+scheduler.post_instagram = fake_ig
+q6b = run_tick(q6b)
+threads_after = sum(1 for c in calls if c[0]=="text")
+check("id55 threads NOT re-sent when IG retries (no double-post)", threads_after==threads_before)
+check("id55 fully posted once IG recovers", by_id(q6b,55)["status"]=="posted")
 
 print(f"\n==== RESULT: {PASS} passed, {FAIL} failed ====")
 sys.exit(1 if FAIL else 0)

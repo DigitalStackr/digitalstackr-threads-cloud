@@ -27,4 +27,5 @@ jobs:
           TDS_TOKEN:  ${{ secrets.THREADS_TDS_TOKEN }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FB_PAGE_ID:    ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID:    ${{ secrets.IG_USER_ID }}
         run: python check_connections.py

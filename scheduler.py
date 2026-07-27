@@ -34,6 +34,7 @@ from urllib.parse import quote
 from post_text import post_text
 from post_image import post_image
 from post_facebook import post_facebook
+from post_instagram import post_instagram
 
 QUEUE_PATH = Path(__file__).parent / "queue.json"
 # NOTE: logging goes to STDOUT only (captured by the GitHub Actions run log).
@@ -86,6 +87,12 @@ def raw_image_url(image_filename: str) -> str:
     return f"https://raw.githubusercontent.com/{REPO_SLUG}/main/images/{quote(image_filename)}"
 
 
+def raw_video_url(video_filename: str) -> str:
+    """Public URL for a repo video. Videos live in reels/ (Shawn drops CapCut/Remotion
+    exports there); images stay in images/. Used by IG Reels + FB Reels."""
+    return f"https://raw.githubusercontent.com/{REPO_SLUG}/main/reels/{quote(video_filename)}"
+
+
 def get_targets(entry: dict) -> list:
     """Return the list of targets for an entry. Legacy entries -> single Threads target."""
     targets = entry.get("targets")
@@ -106,6 +113,8 @@ def dispatch(entry: dict, target: dict) -> str:
     platform = target.get("platform", "threads")
     text = target.get("text") if target.get("text") is not None else entry.get("text", "")
     image_file = target.get("image_file") or entry.get("image_file")
+    video_file = target.get("video_file") or entry.get("video_file")
+    carousel = target.get("carousel") or entry.get("carousel")
 
     if platform == "threads":
         account = target["account"]
@@ -116,6 +125,18 @@ def dispatch(entry: dict, target: dict) -> str:
     if platform == "facebook":
         image_url = raw_image_url(image_file) if image_file else None
         return post_facebook(text, image_url)
+
+    if platform == "instagram":
+        # IG cannot publish text-only — every IG target needs media.
+        if carousel:
+            urls = [raw_video_url(f) if f.lower().endswith((".mp4", ".mov"))
+                    else raw_image_url(f) for f in carousel]
+            return post_instagram(text, carousel_urls=urls)
+        if video_file:
+            return post_instagram(text, video_url=raw_video_url(video_file))
+        if image_file:
+            return post_instagram(text, image_url=raw_image_url(image_file))
+        raise ValueError("Instagram target has no media (needs video_file, image_file, or carousel)")
 
     # x / tiktok land here until implemented — isolated as a failed target,
     # never crashes the tick or blocks the other platforms.
