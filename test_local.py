@@ -194,27 +194,34 @@ q6 = [
    "status":"pending","targets":[{"platform":"instagram"}]},
   {"id":53,"text":"no media","scheduled_time":iso(now),"status":"pending",
    "targets":[{"platform":"instagram"}]},
+  # Fan-out: the SAME entry carries a screenshot for threads/fb AND a reel for IG.
   {"id":54,"text":"fan out","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
-   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"},{"platform":"instagram"}]},
+   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"},
+              {"platform":"instagram","video_file":"hook2.mp4"}]},
 ]
 q6 = run_tick(q6)
 
 check("id50 reel posted via video_url from reels/ folder",
       by_id(q6,50)["status"]=="posted" and ("ig", scheduler.raw_video_url("hook1.mp4")) in calls)
-check("id51 ig image posted via images/ url",
-      by_id(q6,51)["status"]=="posted" and ("ig", scheduler.raw_image_url("foo.png")) in calls)
-check("id52 carousel mixes image+video urls correctly",
-      ("ig", (scheduler.raw_image_url("a.png"), scheduler.raw_image_url("b.png"),
-              scheduler.raw_video_url("c.mp4"))) in calls)
-# A text-only IG target can never succeed (IG requires media). It fails cleanly with a
-# clear error; self-heal then bounces it back to 'pending' to retry, and it finally
-# expires after MAX_RETRIES rather than ever publishing something wrong.
-check("id53 text-only IG target fails cleanly (media required)",
-      "media" in by_id(q6,53)["results"]["instagram"]["error"].lower()
-      and by_id(q6,53)["results"]["instagram"]["status"]=="failed")
+# REELS-ONLY POLICY: images and carousels must be refused before hitting the API.
+check("id51 ig IMAGE target refused (reels-only policy)",
+      by_id(q6,51)["results"]["instagram"]["status"]=="failed"
+      and "reels-only" in by_id(q6,51)["results"]["instagram"]["error"].lower())
+check("id51 no image was ever sent to IG",
+      not any(c[0]=="ig" and c[1]==scheduler.raw_image_url("foo.png") for c in calls))
+check("id52 ig CAROUSEL target refused (reels-only policy)",
+      by_id(q6,52)["results"]["instagram"]["status"]=="failed"
+      and "reels-only" in by_id(q6,52)["results"]["instagram"]["error"].lower())
+check("id53 text-only IG target refused with clear reason",
+      by_id(q6,53)["results"]["instagram"]["status"]=="failed"
+      and "video_file" in by_id(q6,53)["results"]["instagram"]["error"])
 check("id53 self-heal bounces it to pending for retry (never publishes)",
       by_id(q6,53)["status"]=="pending" and by_id(q6,53).get("attempts")==1)
-check("id54 one entry fans out to threads+fb+ig", by_id(q6,54)["status"]=="posted")
+check("id54 fan-out: screenshot to threads/fb, reel to IG, all posted",
+      by_id(q6,54)["status"]=="posted")
+check("id54 IG got the REEL url, not the screenshot",
+      ("ig", scheduler.raw_video_url("hook2.mp4")) in calls
+      and ("fb", scheduler.raw_image_url("foo.png")) in calls)
 check("id54 all three platforms recorded",
       {"threads:MAIN","facebook","instagram"} <= set(by_id(q6,54)["results"].keys()))
 
@@ -222,7 +229,8 @@ check("id54 all three platforms recorded",
 scheduler.post_instagram = fake_ig_fail
 calls.clear()
 q6b = [{"id":55,"text":"iso","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
-        "targets":[{"platform":"threads","account":"MAIN"},{"platform":"instagram"}]}]
+        "targets":[{"platform":"threads","account":"MAIN"},
+                   {"platform":"instagram","video_file":"hook3.mp4"}]}]
 q6b = run_tick(q6b)
 check("id55 threads posted despite IG failing (isolation)",
       by_id(q6b,55)["results"]["threads:MAIN"]["status"]=="posted")

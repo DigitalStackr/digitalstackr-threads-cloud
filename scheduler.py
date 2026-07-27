@@ -127,16 +127,19 @@ def dispatch(entry: dict, target: dict) -> str:
         return post_facebook(text, image_url)
 
     if platform == "instagram":
-        # IG cannot publish text-only — every IG target needs media.
-        if carousel:
-            urls = [raw_video_url(f) if f.lower().endswith((".mp4", ".mov"))
-                    else raw_image_url(f) for f in carousel]
-            return post_instagram(text, carousel_urls=urls)
-        if video_file:
-            return post_instagram(text, video_url=raw_video_url(video_file))
-        if image_file:
-            return post_instagram(text, image_url=raw_image_url(image_file))
-        raise ValueError("Instagram target has no media (needs video_file, image_file, or carousel)")
+        # BRAND POLICY: Instagram is REELS ONLY (decided 2026-07-27).
+        # Two reasons this is enforced in code rather than left to convention:
+        #   1. Shawn's explicit call — IG gets video, screenshots stay on Threads/FB.
+        #   2. It's physically true anyway: every proof screenshot in images/ is a
+        #      wide desktop crop (measured 1.91-3.12 aspect) and IG's feed only
+        #      accepts 0.80-1.91, so images would be rejected by Meta regardless.
+        # Failing loudly here beats a confusing 36003 from the API mid-schedule.
+        if not video_file:
+            raise ValueError(
+                "Instagram is Reels-only: target needs video_file (an .mp4 in reels/). "
+                "Images/carousels are not posted to Instagram."
+            )
+        return post_instagram(text, video_url=raw_video_url(video_file))
 
     # x / tiktok land here until implemented — isolated as a failed target,
     # never crashes the tick or blocks the other platforms.

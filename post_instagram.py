@@ -15,9 +15,17 @@ Publishing is ALWAYS 2-step (3 for video, because encoding is async):
   3. publish it                 POST /{ig-user-id}/media_publish
 
 Supported content:
-  REELS    — video_url  (the primary IG format for this brand)
-  IMAGE    — image_url
-  CAROUSEL — list of image/video urls (2-10 items)
+  REELS    — video_url  ** the ONLY format used for this brand **
+  IMAGE    — image_url            (implemented, but NOT used — see policy below)
+  CAROUSEL — list of urls, 2-10   (implemented, but NOT used — see policy below)
+
+BRAND POLICY — Instagram is REELS ONLY (decided 2026-07-27):
+  scheduler.dispatch() rejects any IG target without a video_file, so the image
+  and carousel paths below are unreachable from the queue. They are kept because
+  (a) they're correct and tested, and (b) TikTok carousels will reuse the shape.
+  Do not route images here without Shawn changing the policy first: every proof
+  screenshot in images/ is a wide desktop crop (1.91-3.12 aspect) and Instagram's
+  feed only accepts 0.80-1.91 — Meta rejects them with error 36003 anyway.
 
 Media is passed by PUBLIC URL (raw.githubusercontent.com from this repo), the
 same approach as Facebook photos — no binary upload needed, and it keeps the
@@ -146,7 +154,12 @@ def _looks_like_video(url: str) -> bool:
 
 
 def quota_remaining() -> int:
-    """Posts still allowed in the rolling 24h window (IG caps at 25)."""
+    """Posts still allowed in the rolling 24h window.
+
+    The cap is account-specific and reported by the API — measured at 100 for
+    @digitalstackr on 2026-07-27 (Meta's documented floor is 25, so we read the
+    live value rather than assuming either number).
+    """
     token, ig_user = _creds()
     data = _call("GET", f"{GRAPH}/{ig_user}/content_publishing_limit",
                  {"fields": "config,quota_usage", "access_token": token}, timeout=30)
