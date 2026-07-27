@@ -301,5 +301,61 @@ m3 = {e["id"]: e for e in merge_queue.merge_queues(o3, t3)}
 check("stale 'pending' cannot un-post a published entry (no double-post)",
       m3[71]["status"]=="posted")
 
+# =====================================================================
+# TEST 8 — TikTok routing (audit-gated; uploads local bytes, not a URL)
+# =====================================================================
+print("\n[TEST 8] TikTok")
+def fake_tt(text, video_path, privacy_level=None, disable_comment=False):
+    calls.append(("tt", video_path, privacy_level)); return "tt_pub_1"
+def fake_tt_fail(text, video_path, **kw): raise RuntimeError("TT boom")
+
+scheduler.post_tiktok = fake_tt
+scheduler.post_instagram = fake_ig
+scheduler.MAX_POSTS_PER_TICK = 100
+calls.clear()
+
+q8 = [
+  {"id":80,"text":"tt reel","video_file":"hook1.mp4","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"tiktok"}]},
+  {"id":81,"text":"tt no media","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"tiktok"}]},
+  {"id":82,"text":"tt carousel","carousel":["a.png","b.png"],"scheduled_time":iso(now),
+   "status":"pending","targets":[{"platform":"tiktok"}]},
+  {"id":83,"text":"privacy override","video_file":"hook1.mp4","scheduled_time":iso(now),
+   "status":"pending","targets":[{"platform":"tiktok","privacy_level":"SELF_ONLY"}]},
+  {"id":84,"text":"all platforms","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"},
+              {"platform":"instagram","video_file":"r.mp4"},{"platform":"tiktok","video_file":"r.mp4"}]},
+]
+q8 = run_tick(q8)
+
+check("id80 tiktok posts from a LOCAL reels/ path (not a url)",
+      by_id(q8,80)["status"]=="posted"
+      and any(c[0]=="tt" and str(c[1]).endswith("hook1.mp4") and "http" not in str(c[1]) for c in calls))
+check("id81 tiktok without video refused",
+      by_id(q8,81)["results"]["tiktok"]["status"]=="failed"
+      and "video_file" in by_id(q8,81)["results"]["tiktok"]["error"])
+check("id82 tiktok carousel refused (needs verified domain)",
+      by_id(q8,82)["results"]["tiktok"]["status"]=="failed"
+      and "verified domain" in by_id(q8,82)["results"]["tiktok"]["error"])
+check("id83 per-target privacy_level passed through",
+      any(c[0]=="tt" and c[2]=="SELF_ONLY" for c in calls))
+check("id84 one entry fans out to all four platforms",
+      by_id(q8,84)["status"]=="posted"
+      and {"threads:MAIN","facebook","instagram","tiktok"} <= set(by_id(q8,84)["results"].keys()))
+
+# isolation: TikTok failing must not affect the other three
+scheduler.post_tiktok = fake_tt_fail
+calls.clear()
+q8b = [{"id":85,"text":"iso","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
+        "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"},
+                   {"platform":"tiktok","video_file":"r.mp4"}]}]
+q8b = run_tick(q8b)
+check("id85 threads+fb posted despite TikTok failing (isolation)",
+      by_id(q8b,85)["results"]["threads:MAIN"]["status"]=="posted"
+      and by_id(q8b,85)["results"]["facebook"]["status"]=="posted")
+check("id85 overall partial with tiktok failed",
+      by_id(q8b,85)["status"]=="partial" and by_id(q8b,85)["results"]["tiktok"]["status"]=="failed")
+
 print(f"\n==== RESULT: {PASS} passed, {FAIL} failed ====")
 sys.exit(1 if FAIL else 0)

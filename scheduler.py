@@ -35,8 +35,11 @@ from post_text import post_text
 from post_image import post_image
 from post_facebook import post_facebook
 from post_instagram import post_instagram
+from post_tiktok import post_tiktok
 
 QUEUE_PATH = Path(__file__).parent / "queue.json"
+# Local media dirs on the runner (TikTok uploads bytes rather than fetching a URL).
+REELS_DIR = Path(__file__).parent / "reels"
 # NOTE: logging goes to STDOUT only (captured by the GitHub Actions run log).
 # We deliberately no longer commit a log.txt file — two runs both appending to the
 # end of log.txt produced a *deterministic* `git rebase` conflict at EOF, which
@@ -141,7 +144,22 @@ def dispatch(entry: dict, target: dict) -> str:
             )
         return post_instagram(text, video_url=raw_video_url(video_file))
 
-    # x / tiktok land here until implemented — isolated as a failed target,
+    if platform == "tiktok":
+        # TikTok uploads BYTES (FILE_UPLOAD) rather than fetching a URL like Meta,
+        # because PULL_FROM_URL needs a verified domain and we serve from
+        # raw.githubusercontent.com. The repo is checked out on the runner, so the
+        # file is local. Carousels stay unsupported until a domain is verified.
+        if carousel:
+            raise ValueError(
+                "TikTok carousels need PULL_FROM_URL from a TikTok-verified domain "
+                "(GitHub raw is not verifiable) — not enabled yet."
+            )
+        if not video_file:
+            raise ValueError("TikTok target needs a video_file (an .mp4 in reels/)")
+        return post_tiktok(text, str(REELS_DIR / video_file),
+                           privacy_level=target.get("privacy_level"))
+
+    # x lands here until implemented — isolated as a failed target,
     # never crashes the tick or blocks the other platforms.
     raise ValueError(f"Platform not implemented yet: {platform}")
 

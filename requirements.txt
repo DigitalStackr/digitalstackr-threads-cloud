@@ -1,1 +1,4 @@
 requests==2.32.3
+# Needed to seal a rotated TikTok refresh token back into GitHub Actions secrets
+# (libsodium sealed box). Only used on the TikTok token-rotation path.
+PyNaCl==1.5.0

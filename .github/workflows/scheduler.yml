@@ -38,6 +38,13 @@ jobs:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FB_PAGE_ID:    ${{ secrets.FB_PAGE_ID }}
           IG_USER_ID:    ${{ secrets.IG_USER_ID }}
+          TIKTOK_CLIENT_KEY:    ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          # Lets the run save a rotated TikTok refresh token back into secrets.
+          # Without it, a rotation locks TikTok out until re-authorized by hand.
+          GH_SECRETS_PAT:       ${{ secrets.GH_SECRETS_PAT }}
+          GITHUB_REPOSITORY:    ${{ github.repository }}
         run: python scheduler.py
 
       - name: Commit queue changes
