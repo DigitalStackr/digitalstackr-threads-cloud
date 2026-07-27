@@ -3247,7 +3247,16 @@
     "account": "TDS",
     "text": "be honest — rate your consistency this week, 1 to 10.\n\nno inflating it. i'll go first in the replies.",
     "scheduled_time": "2026-07-27T18:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18609530224050714",
+        "at": "2026-07-27T16:10:36.926095+00:00"
+      }
+    },
+    "posted_at": "2026-07-27T16:10:36.926095+00:00",
+    "thread_id": "18609530224050714"
   },
   {
     "id": 292,
