@@ -3381,8 +3381,17 @@
     "account": "TDS",
     "text": "$3,937 this month.\nfrom one file that costs me nothing to send again.\ndigital margins feel almost illegal once you actually see them. 💸",
     "scheduled_time": "2026-07-28T14:10:00+02:00",
-    "status": "pending",
-    "image_file": "3.9k gumroad ss.png"
+    "status": "posted",
+    "image_file": "3.9k gumroad ss.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18021797528857471",
+        "at": "2026-07-28T12:10:34.147537+00:00"
+      }
+    },
+    "posted_at": "2026-07-28T12:10:34.147537+00:00",
+    "thread_id": "18021797528857471"
   },
   {
     "id": 300,
