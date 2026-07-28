@@ -1,0 +1,84 @@
+{
+  "_comment": [
+    "VERIFIED contents of each screenshot — every entry below was read by opening",
+    "the actual image, never inferred from the filename. A caption may only cite a",
+    "figure that appears in 'numbers' for its attached image.",
+    "'kind' drives rotation: max 1 'dashboard' per 3 image posts.",
+    "'usable' = cleared for the current content rules (small, real, on-strategy).",
+    "Unverified images are listed with verified:false and MUST NOT be used until",
+    "someone opens them and records what they show."
+  ],
+  "verified": {
+    "gumroad notification screenshot.PNG": {
+      "kind": "sale_notification",
+      "numbers": ["$27"],
+      "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 3:33 AM",
+      "usable": true
+    },
+    "gumroad sales notifications.PNG": {
+      "kind": "sale_notification",
+      "numbers": ["$27"],
+      "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 1h ago (badge 13)",
+      "usable": true
+    },
+    "my gumroad notification showing threads revenue ladder.PNG": {
+      "kind": "sale_notification",
+      "numbers": ["$11"],
+      "shows": "Gumroad push: New sale of Threads Revenue Ladder for $11",
+      "usable": false,
+      "blocked_reason": "shows the OLD $11 TRL price; current price is $19 — citing it implies a price we no longer sell"
+    },
+    "Gumroad Notificaion screenshots.PNG": {
+      "kind": "sale_notification",
+      "numbers": ["$98"],
+      "shows": "Gumroad push: New sale of Done-For-You Digital Business Setup for $98, 6:12 AM",
+      "usable": false,
+      "blocked_reason": "shows the OLD $98 DFY price; current price is $147"
+    },
+    "new 01.png": {
+      "kind": "dashboard",
+      "numbers": ["$846.60", "62"],
+      "shows": "Dashboard: $846.60 from 62 sales, TODAY tab selected",
+      "usable": false,
+      "blocked_reason": "a DAILY figure — content rules forbid claiming daily earnings"
+    },
+    "Gumroad Payout Screenshots.PNG": {
+      "kind": "payout",
+      "numbers": ["$1638.53", "$1,638.53"],
+      "shows": "Gmail: 'It's pay day! $1638.53 has been deposited' for sales up until March 20 2026",
+      "usable": false,
+      "blocked_reason": "large historical figure (March payout); conflicts with the current $382/month framing"
+    },
+    "paypal notification ss from phn.png": {
+      "kind": "payout",
+      "numbers": ["$1117.67", "$1,117.67"],
+      "shows": "PayPal push: You received $1117.67 USD from Gumroad Inc",
+      "usable": false,
+      "blocked_reason": "large historical figure; conflicts with the current $382/month framing"
+    },
+    "payout gumroad sales ss.png": {
+      "kind": "dashboard",
+      "numbers": ["$1,109.77", "$1109.77"],
+      "shows": "Gumroad: next payout June 19 2026, activity since June 2 2026, Sales $1,109.77",
+      "usable": false,
+      "blocked_reason": "large historical figure; conflicts with the current $382/month framing"
+    }
+  },
+  "unverified_do_not_use": [
+    "125 tdy gumroad dahsbaord.png",
+    "3.9k gumroad ss.png",
+    "612 a day gumroad dahsbaord ss.png",
+    "Gumroad Sales Screenshots.PNG",
+    "dashbaord ss 964tdy.png",
+    "digistackr sales proof.png",
+    "gum dashbrd ss 1kmon.png",
+    "gum iphone dashabord w apps.png",
+    "gumrd dashbrd ss 856.png",
+    "gumroad 112day.png",
+    "gumroad dahsbaord ss 556.png",
+    "gumroad dashbaord ss 2k.png",
+    "gumroad more money dahsbaord.png",
+    "paypal notification ss 1.3k.png",
+    "sales proof.png"
+  ]
+}
