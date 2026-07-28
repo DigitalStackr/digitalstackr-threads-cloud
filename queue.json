@@ -3448,8 +3448,17 @@
     "account": "TDS",
     "text": "month one: $1,109. 66 sales.\nmy only real regret is the year i spent \"researching\" instead of shipping. 💸",
     "scheduled_time": "2026-07-28T20:10:00+02:00",
-    "status": "pending",
-    "image_file": "gum dashbrd ss 1kmon.png"
+    "status": "posted",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17950136856227817",
+        "at": "2026-07-28T18:10:41.812970+00:00"
+      }
+    },
+    "posted_at": "2026-07-28T18:10:41.812970+00:00",
+    "thread_id": "17950136856227817"
   },
   {
     "id": 304,
