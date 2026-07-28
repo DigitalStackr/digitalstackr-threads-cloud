@@ -3398,8 +3398,17 @@
     "account": "MAIN",
     "text": "70 sales today. $1,183.\nmy mom still asks when i'll get a real job.\n\ni've stopped explaining. the screenshots do it for me now. 😭",
     "scheduled_time": "2026-07-28T18:00:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad more money dahsbaord.png"
+    "status": "posted",
+    "image_file": "gumroad more money dahsbaord.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17955522693192625",
+        "at": "2026-07-28T16:00:54.246933+00:00"
+      }
+    },
+    "posted_at": "2026-07-28T16:00:54.246933+00:00",
+    "thread_id": "17955522693192625"
   },
   {
     "id": 301,
