@@ -3364,8 +3364,17 @@
     "account": "MAIN",
     "text": "everyone i know is asleep.\n18 people bought my PDF today. $460.\nthe quietest hours make the loudest dashboard. this is the part they don't show you. 🤍",
     "scheduled_time": "2026-07-28T14:00:00+02:00",
-    "status": "pending",
-    "image_file": "digistackr sales proof.png"
+    "status": "posted",
+    "image_file": "digistackr sales proof.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18016090139870962",
+        "at": "2026-07-28T12:01:02.393824+00:00"
+      }
+    },
+    "posted_at": "2026-07-28T12:01:02.393824+00:00",
+    "thread_id": "18016090139870962"
   },
   {
     "id": 299,
