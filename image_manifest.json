@@ -1,67 +1,96 @@
 {
   "_comment": [
-    "VERIFIED contents of each screenshot — every entry below was read by opening",
-    "the actual image, never inferred from the filename. A caption may only cite a",
-    "figure that appears in 'numbers' for its attached image.",
+    "VERIFIED contents of each screenshot. Every entry was read by OPENING the image,",
+    "never inferred from the filename. A caption may only cite a figure listed in",
+    "'numbers' for its attached image.",
     "'kind' drives rotation: max 1 'dashboard' per 3 image posts.",
-    "'usable' = cleared for the current content rules (small, real, on-strategy).",
-    "Unverified images are listed with verified:false and MUST NOT be used until",
-    "someone opens them and records what they show."
+    "'tier': 'core' = small real numbers, safe for regular use.",
+    "         'rare' = large figures. Shawn's rule: at most ONCE PER MONTH, and only",
+    "                  framed as what the screenshot literally says (a payout, a past",
+    "                  month) - never as 'today' and never implying current run-rate.",
+    "         'blocked' = never queue.",
+    "Anything not listed here must be opened and recorded before it can be used."
   ],
   "verified": {
+    "IMG_4397.PNG": {
+      "kind": "dashboard", "tier": "core",
+      "numbers": ["$382", "104"],
+      "shows": "Gumroad Dashboard: $382 from 104 sales, MONTH tab selected",
+      "note": "The canonical current-month proof. Matches the approved fact list exactly."
+    },
+    "IMG_4395.PNG": {
+      "kind": "sale_notification", "tier": "core",
+      "numbers": ["$27"],
+      "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 2:24 PM"
+    },
+    "IMG_4274.PNG": {
+      "kind": "sale_notification", "tier": "core",
+      "numbers": ["$147"],
+      "shows": "Gumroad push: New sale of Done-For-You Digital Business Setup for $147, 1h ago",
+      "note": "Current DFY price."
+    },
+    "IMG_3795.PNG": {
+      "kind": "sale_notification", "tier": "core",
+      "numbers": ["$50"],
+      "shows": "Gumroad push: New sale of 2 Week 1 on 1 Digital Mentorship for $50, 56m ago"
+    },
+    "IMG_3944.PNG": {
+      "kind": "payout", "tier": "core",
+      "numbers": ["$181.30"],
+      "shows": "PayPal push: You received $181.30 USD from Gumroad Inc"
+    },
+    "IMG_3909.PNG": {
+      "kind": "phone_notifications", "tier": "core",
+      "numbers": ["$19", "$27", "$50", "$98"],
+      "shows": "iPhone lock screen, stacked Gumroad notifications: Threads Algo Boss Kit downloads (free), TRL $19, DFY $98, FDE $27, Mentorship $50",
+      "note": "Best 'phone-with-notifications' shot. Contains the OLD $98 DFY price in the stack - do not cite $98 in a caption; cite $19/$27/$50 or no figure at all."
+    },
     "gumroad notification screenshot.PNG": {
-      "kind": "sale_notification",
+      "kind": "sale_notification", "tier": "core",
       "numbers": ["$27"],
       "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 3:33 AM",
-      "usable": true
+      "note": "Night-time sale - good for 'sold while I was asleep'."
     },
     "gumroad sales notifications.PNG": {
-      "kind": "sale_notification",
+      "kind": "sale_notification", "tier": "core",
       "numbers": ["$27"],
-      "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 1h ago (badge 13)",
-      "usable": true
+      "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 1h ago (badge 13)"
     },
     "my gumroad notification showing threads revenue ladder.PNG": {
-      "kind": "sale_notification",
+      "kind": "sale_notification", "tier": "blocked",
       "numbers": ["$11"],
       "shows": "Gumroad push: New sale of Threads Revenue Ladder for $11",
-      "usable": false,
-      "blocked_reason": "shows the OLD $11 TRL price; current price is $19 — citing it implies a price we no longer sell"
+      "blocked_reason": "shows the OLD $11 TRL price; current is $19"
     },
     "Gumroad Notificaion screenshots.PNG": {
-      "kind": "sale_notification",
+      "kind": "sale_notification", "tier": "blocked",
       "numbers": ["$98"],
-      "shows": "Gumroad push: New sale of Done-For-You Digital Business Setup for $98, 6:12 AM",
-      "usable": false,
-      "blocked_reason": "shows the OLD $98 DFY price; current price is $147"
-    },
-    "new 01.png": {
-      "kind": "dashboard",
-      "numbers": ["$846.60", "62"],
-      "shows": "Dashboard: $846.60 from 62 sales, TODAY tab selected",
-      "usable": false,
-      "blocked_reason": "a DAILY figure — content rules forbid claiming daily earnings"
+      "shows": "Gumroad push: New sale of Done-For-You setup for $98",
+      "blocked_reason": "shows the OLD $98 DFY price; current is $147 (use IMG_4274 instead)"
     },
     "Gumroad Payout Screenshots.PNG": {
-      "kind": "payout",
+      "kind": "payout", "tier": "rare",
       "numbers": ["$1638.53", "$1,638.53"],
       "shows": "Gmail: 'It's pay day! $1638.53 has been deposited' for sales up until March 20 2026",
-      "usable": false,
-      "blocked_reason": "large historical figure (March payout); conflicts with the current $382/month framing"
+      "note": "Large. Max once per month, framed as a past payout - never as current earnings."
     },
     "paypal notification ss from phn.png": {
-      "kind": "payout",
+      "kind": "payout", "tier": "rare",
       "numbers": ["$1117.67", "$1,117.67"],
       "shows": "PayPal push: You received $1117.67 USD from Gumroad Inc",
-      "usable": false,
-      "blocked_reason": "large historical figure; conflicts with the current $382/month framing"
+      "note": "Large. Max once per month."
     },
     "payout gumroad sales ss.png": {
-      "kind": "dashboard",
+      "kind": "dashboard", "tier": "rare",
       "numbers": ["$1,109.77", "$1109.77"],
       "shows": "Gumroad: next payout June 19 2026, activity since June 2 2026, Sales $1,109.77",
-      "usable": false,
-      "blocked_reason": "large historical figure; conflicts with the current $382/month framing"
+      "note": "Large, June period. Max once per month."
+    },
+    "new 01.png": {
+      "kind": "dashboard", "tier": "blocked",
+      "numbers": ["$846.60", "62"],
+      "shows": "Dashboard: $846.60 from 62 sales, TODAY tab selected",
+      "blocked_reason": "a DAILY figure - content rules forbid claiming daily earnings"
     }
   },
   "unverified_do_not_use": [

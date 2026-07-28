@@ -38,7 +38,10 @@ BAIT_PATTERNS = [
     r"\bunpopular opinion\b", r"\bam i wrong\b", r"\bthoughts\?\s*$",
 ]
 
-# Only the white heart is on-brand.
+# These are the specific emoji that were being stacked on nearly every post
+# (money-wings/sobbing/ghost etc). They read as hype and the posts using them
+# flopped, so they stay banned. Other emoji are allowed but capped at MAX_EMOJI
+# and are only meant on roughly a third of posts — the voice is understated.
 BANNED_EMOJI = ["\U0001f5a4", "\U0001f4b8", "\U0001f62d", "\U0001f47b", "\U0001f979",
                 "\U0001f929", "\U0001f525", "\U0001f4b0", "\U0001f911"]
 
@@ -134,7 +137,7 @@ def validate(queue: list) -> list:
             if not meta:
                 flag(entry, f"image '{img}' missing from manifest")
                 continue
-            if not meta.get("usable", False):
+            if meta.get("tier") == "blocked":
                 flag(entry, f"image '{img}' blocked: {meta.get('blocked_reason')}")
             allowed = set(meta.get("numbers", []))
             for fig in figures:
@@ -198,6 +201,22 @@ def validate(queue: list) -> list:
                     flag(entry, f"more than 1 dashboard in the last {MAX_DASHBOARD_PER} image posts")
             else:
                 run = 0
+
+    # ---- 'rare' (big-number) images: at most once per calendar month, per account ----
+    # Shawn's rule: the large historical figures may appear about once a month, never
+    # as a routine post, because stacking them invites followers to add them up.
+    for account in ("MAIN", "TDS"):
+        by_month = {}
+        for entry in [e for e in upcoming if e.get("account") == account]:
+            img = entry.get("image_file")
+            if not img or verified.get(img, {}).get("tier") != "rare":
+                continue
+            month = str(entry.get("scheduled_time", ""))[:7]
+            by_month.setdefault(month, []).append(entry)
+        for month, entries in by_month.items():
+            if len(entries) > 1:
+                for e in entries[1:]:
+                    flag(e, f"2nd 'rare' big-number image in {month} — limit is 1/month")
 
     return problems
 
