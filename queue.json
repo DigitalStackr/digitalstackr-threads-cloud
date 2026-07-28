@@ -3415,8 +3415,17 @@
     "account": "TDS",
     "text": "$112 came in while i studied.\n17 sales i didn't lift a finger for.\nthe grind was never the flex. the leverage is. 🤍",
     "scheduled_time": "2026-07-28T18:10:00+02:00",
-    "status": "pending",
-    "image_file": "gumroad 112day.png"
+    "status": "posted",
+    "image_file": "gumroad 112day.png",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18095045690263634",
+        "at": "2026-07-28T16:10:35.706952+00:00"
+      }
+    },
+    "posted_at": "2026-07-28T16:10:35.706952+00:00",
+    "thread_id": "18095045690263634"
   },
   {
     "id": 302,
