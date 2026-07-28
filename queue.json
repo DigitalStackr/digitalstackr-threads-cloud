@@ -3432,7 +3432,16 @@
     "account": "MAIN",
     "text": "if i built your first digital product FOR you, start to finish —\nwhat niche would you pick?\n\ndrop it below. i'm genuinely reading every single one.",
     "scheduled_time": "2026-07-28T20:00:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18149257333519521",
+        "at": "2026-07-28T18:00:51.435673+00:00"
+      }
+    },
+    "posted_at": "2026-07-28T18:00:51.435673+00:00",
+    "thread_id": "18149257333519521"
   },
   {
     "id": 303,
