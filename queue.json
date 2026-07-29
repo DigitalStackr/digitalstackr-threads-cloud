@@ -3619,7 +3619,16 @@
     "text": "Most of building this was boring. Writing, uploading, posting, waiting.",
     "image_file": null,
     "scheduled_time": "2026-07-29T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18008727743948712",
+        "at": "2026-07-29T21:40:36.558572+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T21:40:36.558572+00:00",
+    "thread_id": "18008727743948712"
   },
   {
     "id": 405,
