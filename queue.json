@@ -3585,7 +3585,16 @@
     "text": "this is what a normal morning looks like now.\ndownloads, small sales, nothing dramatic. ☕",
     "image_file": "IMG_3909.PNG",
     "scheduled_time": "2026-07-29T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17950640478080646",
+        "at": "2026-07-29T20:10:30.423660+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T20:10:30.423660+00:00",
+    "thread_id": "17950640478080646"
   },
   {
     "id": 404,
