@@ -3636,7 +3636,16 @@
     "text": "19. not a genius. not connected. not lucky.\ni just didn't stop posting when it was embarrassing.\n\n$382 this month. 104 sales. 🤍",
     "image_file": "IMG_4397.PNG",
     "scheduled_time": "2026-07-30T01:30:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17875378194534336",
+        "at": "2026-07-29T23:30:49.663762+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T23:30:49.663762+00:00",
+    "thread_id": "17875378194534336"
   },
   {
     "id": 505,
