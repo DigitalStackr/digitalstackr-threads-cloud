@@ -3653,7 +3653,16 @@
     "text": "$50 mentorship booked. two weeks, one on one.\nstill surprised people ask me. 🤍",
     "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-07-30T01:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18211274362353556",
+        "at": "2026-07-29T23:40:31.204012+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T23:40:31.204012+00:00",
+    "thread_id": "18211274362353556"
   },
   {
     "id": 406,
