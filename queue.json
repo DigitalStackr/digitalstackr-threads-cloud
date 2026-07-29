@@ -3466,7 +3466,16 @@
     "text": "One product. One platform. One person. People overcomplicate making money online.",
     "image_file": null,
     "scheduled_time": "2026-07-29T14:00:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18152966548451157",
+        "at": "2026-07-29T12:00:57.451156+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T12:00:57.451156+00:00",
+    "thread_id": "18152966548451157"
   },
   {
     "id": 500,
