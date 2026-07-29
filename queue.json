@@ -3534,7 +3534,16 @@
     "text": "$27 product. Built once in February. Still selling in July.",
     "image_file": null,
     "scheduled_time": "2026-07-29T20:00:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18018528872857544",
+        "at": "2026-07-29T18:00:49.755634+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T18:00:49.755634+00:00",
+    "thread_id": "18018528872857544"
   },
   {
     "id": 502,
