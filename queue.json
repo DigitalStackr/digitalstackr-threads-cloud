@@ -3551,7 +3551,16 @@
     "text": "People underestimate a $27 product.",
     "image_file": null,
     "scheduled_time": "2026-07-29T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18061986827773172",
+        "at": "2026-07-29T18:10:35.382498+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T18:10:35.382498+00:00",
+    "thread_id": "18061986827773172"
   },
   {
     "id": 403,
