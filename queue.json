@@ -3500,7 +3500,16 @@
     "text": "\"nobody buys PDFs anymore.\"\n$27. this afternoon.",
     "image_file": "IMG_4395.PNG",
     "scheduled_time": "2026-07-29T16:30:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18017190704874764",
+        "at": "2026-07-29T14:30:47.442001+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T14:30:47.442001+00:00",
+    "thread_id": "18017190704874764"
   },
   {
     "id": 501,
