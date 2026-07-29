@@ -3517,7 +3517,16 @@
     "text": "$147 done-for-you order came in.\ni'm building someone else's store this week.",
     "image_file": "IMG_4274.PNG",
     "scheduled_time": "2026-07-29T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17922245028177176",
+        "at": "2026-07-29T14:40:43.319668+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T14:40:43.319668+00:00",
+    "thread_id": "17922245028177176"
   },
   {
     "id": 402,
