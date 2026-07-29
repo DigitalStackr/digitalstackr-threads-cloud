@@ -3602,7 +3602,16 @@
     "text": "A better offer beats a bigger audience. Most people chase the wrong one.",
     "image_file": null,
     "scheduled_time": "2026-07-29T23:30:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18402368185087681",
+        "at": "2026-07-29T21:30:46.073737+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T21:30:46.073737+00:00",
+    "thread_id": "18402368185087681"
   },
   {
     "id": 504,
