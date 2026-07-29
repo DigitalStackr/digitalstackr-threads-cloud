@@ -3568,7 +3568,16 @@
     "text": "they told me to get a job.\nthis is what the PDF paid out. $181.30 🤍",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-07-29T22:00:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18139204225570793",
+        "at": "2026-07-29T20:00:46.095346+00:00"
+      }
+    },
+    "posted_at": "2026-07-29T20:00:46.095346+00:00",
+    "thread_id": "18139204225570793"
   },
   {
     "id": 503,
