@@ -3789,7 +3789,16 @@
     "text": "$181.30 landed from Gumroad.\nsmall, but it's real and it's mine. 🤍",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-07-30T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17900464161538095",
+        "at": "2026-07-30T20:10:34.974135+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T20:10:34.974135+00:00",
+    "thread_id": "17900464161538095"
   },
   {
     "id": 410,
