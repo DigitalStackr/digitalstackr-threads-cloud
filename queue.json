@@ -3823,7 +3823,16 @@
     "text": "Open ChatGPT. Make a planner. Sell it for $9. That's the whole business model.",
     "image_file": null,
     "scheduled_time": "2026-07-30T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18431568511132333",
+        "at": "2026-07-30T21:40:36.841923+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T21:40:36.841923+00:00",
+    "thread_id": "18431568511132333"
   },
   {
     "id": 411,
