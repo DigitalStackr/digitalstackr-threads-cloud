@@ -3704,7 +3704,16 @@
     "text": "someone paid $147 for me to build the whole thing for them.\nthat's the part nobody expects.",
     "image_file": "IMG_4274.PNG",
     "scheduled_time": "2026-07-30T16:30:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18145957918539264",
+        "at": "2026-07-30T14:30:55.637733+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T14:30:55.637733+00:00",
+    "thread_id": "18145957918539264"
   },
   {
     "id": 507,
