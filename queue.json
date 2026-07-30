@@ -3738,7 +3738,16 @@
     "text": "In February this account didn't exist. It's made money most months since. Still doesn't feel real. 🤍",
     "image_file": null,
     "scheduled_time": "2026-07-30T20:00:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18058917908774817",
+        "at": "2026-07-30T18:00:48.066919+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T18:00:48.066919+00:00",
+    "thread_id": "18058917908774817"
   },
   {
     "id": 508,
