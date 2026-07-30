@@ -3670,7 +3670,16 @@
     "text": "Day 1: pick your topic. Day 2: build it in Canva. Day 5: set up Gumroad. Day 6: start selling.\nMost people spend a month thinking about it.",
     "image_file": null,
     "scheduled_time": "2026-07-30T14:00:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18485687188101678",
+        "at": "2026-07-30T12:00:48.926759+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T12:00:48.926759+00:00",
+    "thread_id": "18485687188101678"
   },
   {
     "id": 506,
