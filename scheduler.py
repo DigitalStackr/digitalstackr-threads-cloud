@@ -36,6 +36,7 @@ from post_image import post_image
 from post_facebook import post_facebook
 from post_instagram import post_instagram
 from post_tiktok import post_tiktok
+from post_telegram import post_telegram
 
 QUEUE_PATH = Path(__file__).parent / "queue.json"
 # Local media dirs on the runner (TikTok uploads bytes rather than fetching a URL).
@@ -143,6 +144,12 @@ def dispatch(entry: dict, target: dict) -> str:
                 "Images/carousels are not posted to Instagram."
             )
         return post_instagram(text, video_url=raw_video_url(video_file))
+
+    if platform == "telegram":
+        # Telegram fetches the image server-side from a public URL, same as FB/IG.
+        # Text-only is fine here (unlike Instagram) — the channel is a feed, not a grid.
+        image_url = raw_image_url(image_file) if image_file else None
+        return post_telegram(text, image_url)
 
     if platform == "tiktok":
         # TikTok uploads BYTES (FILE_UPLOAD) rather than fetching a URL like Meta,

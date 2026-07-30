@@ -357,5 +357,78 @@ check("id85 threads+fb posted despite TikTok failing (isolation)",
 check("id85 overall partial with tiktok failed",
       by_id(q8b,85)["status"]=="partial" and by_id(q8b,85)["results"]["tiktok"]["status"]=="failed")
 
+# =====================================================================
+# TEST 9 — Telegram routing + formatting + FAQ bot
+# =====================================================================
+print("\n[TEST 9] Telegram")
+def fake_tg(text, image_url=None): calls.append(("tg", image_url, text)); return "msg_1"
+def fake_tg_fail(text, image_url=None): raise RuntimeError("TG boom")
+
+scheduler.post_telegram = fake_tg
+scheduler.post_tiktok = fake_tt
+scheduler.post_instagram = fake_ig
+scheduler.MAX_POSTS_PER_TICK = 100
+calls.clear()
+
+q9 = [
+  {"id":90,"text":"telegram text only","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"telegram"}]},
+  {"id":91,"text":"telegram with shot","image_file":"foo.png","scheduled_time":iso(now),
+   "status":"pending","targets":[{"platform":"telegram"}]},
+  {"id":92,"text":"everywhere","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"facebook"},
+              {"platform":"telegram"},{"platform":"instagram","video_file":"r.mp4"}]},
+]
+q9 = run_tick(q9)
+
+check("id90 telegram text-only posts (unlike IG, no media needed)",
+      by_id(q9,90)["status"]=="posted" and ("tg",None,"telegram text only") in calls)
+check("id91 telegram photo uses the public images/ url",
+      by_id(q9,91)["status"]=="posted"
+      and any(c[0]=="tg" and c[1]==scheduler.raw_image_url("foo.png") for c in calls))
+check("id92 one entry fans out to threads+fb+telegram+ig",
+      by_id(q9,92)["status"]=="posted"
+      and {"threads:MAIN","facebook","telegram","instagram"} <= set(by_id(q9,92)["results"].keys()))
+
+# isolation + self-heal still hold for the new platform
+scheduler.post_telegram = fake_tg_fail
+calls.clear()
+q9b = [{"id":93,"text":"iso","scheduled_time":iso(now),"status":"pending",
+        "targets":[{"platform":"threads","account":"MAIN"},{"platform":"telegram"}]}]
+q9b = run_tick(q9b)
+check("id93 threads posted despite telegram failing (isolation)",
+      by_id(q9b,93)["results"]["threads:MAIN"]["status"]=="posted")
+threads_before = sum(1 for c in calls if c[0]=="text")
+scheduler.post_telegram = fake_tg
+q9b = run_tick(q9b)
+threads_after = sum(1 for c in calls if c[0]=="text")
+check("id93 threads NOT re-sent when telegram retries (no double-post)",
+      threads_after==threads_before and by_id(q9b,93)["status"]=="posted")
+
+# ---- HTML formatting: escape first, then allow only **bold** / _italic_ ----
+import post_telegram as tg
+check("telegram escapes raw HTML so a stray < can't break the send",
+      tg.to_html("5 < 10 & rising") == "5 &lt; 10 &amp; rising")
+check("telegram **bold** -> <b>", tg.to_html("**$382** this month") == "<b>$382</b> this month")
+check("telegram _italic_ -> <i>", tg.to_html("_quietly_ building") == "<i>quietly</i> building")
+check("telegram leaves snake_case words alone",
+      tg.to_html("image_file stays intact") == "image_file stays intact")
+
+# ---- FAQ bot: answers what it knows, refuses to guess otherwise ----
+import telegram_faq as faq
+check("FAQ answers 'how much'", "$27" in (faq.match_faq("how much is it?") or ""))
+check("FAQ answers 'what is FDE'", "Faceless Digital Empire" in (faq.match_faq("what is FDE") or ""))
+check("FAQ answers 'where do i buy'", "gumroad" in (faq.match_faq("where do i buy it") or "").lower())
+check("FAQ answers 'is this legit'", "Gumroad" in (faq.match_faq("is this a scam?") or ""))
+check("FAQ greets on /start", "bot" in (faq.match_faq("/start") or "").lower())
+check("FAQ REFUSES to guess on an unknown question",
+      faq.match_faq("can you build me a shopify store in france") is None)
+check("FAQ fallback hands off to a human, makes no claim",
+      "message" in faq.FALLBACK.lower() and "{owner}" in faq.FALLBACK)
+# The bot must never state earnings in a DM - nothing backs it up there.
+_allfaq = " ".join(a for _n,_p,a in faq.FAQ) + faq.FALLBACK + faq.GREETING
+check("FAQ quotes prices only, never earnings",
+      not any(t in _allfaq.lower() for t in ["/month","per month","a month","this month","today i made","income"]))
+
 print(f"\n==== RESULT: {PASS} passed, {FAIL} failed ====")
 sys.exit(1 if FAIL else 0)

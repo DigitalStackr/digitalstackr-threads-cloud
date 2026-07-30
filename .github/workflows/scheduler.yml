@@ -45,7 +45,19 @@ jobs:
           # Without it, a rotation locks TikTok out until re-authorized by hand.
           GH_SECRETS_PAT:       ${{ secrets.GH_SECRETS_PAT }}
           GITHUB_REPOSITORY:    ${{ github.repository }}
+          TELEGRAM_BOT_TOKEN:   ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL:     ${{ secrets.TELEGRAM_CHANNEL }}
         run: python scheduler.py
+
+      - name: Answer Telegram DMs (FAQ bot)
+        # Polls getUpdates in the same tick. Never fails the run: the scheduler's
+        # job is publishing, and a Telegram hiccup must not block that or trigger
+        # a failure email.
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER:     ${{ secrets.TELEGRAM_OWNER }}
+        run: python telegram_faq.py
 
       - name: Commit queue changes
         run: |
@@ -54,7 +66,9 @@ jobs:
           # Only queue.json is committed. The scheduler now logs to stdout (captured
           # in this run's log), so there is no log.txt to diverge and produce the
           # deterministic end-of-file rebase conflict that used to fail this step.
-          git add queue.json 2>/dev/null || true
+          # telegram_offset.json must be committed too, otherwise a re-run replays
+          # old DMs and double-answers people.
+          git add queue.json telegram_offset.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No queue changes to commit."
             exit 0
@@ -72,14 +86,30 @@ jobs:
               # same JSON. Retrying the rebase reproduces the identical conflict, so
               # we resolve it semantically instead — 'posted' always wins, which can
               # never lose a publish record and never double-posts.
-              echo "rebase conflict on attempt $i - resolving queue.json semantically"
+              echo "rebase conflict on attempt $i - resolving semantically"
               cp queue.json /tmp/ours.json 2>/dev/null || true
+              cp telegram_offset.json /tmp/ours_offset.json 2>/dev/null || true
               git rebase --abort || true
               git show origin/main:queue.json > /tmp/theirs.json
               if python merge_queue.py /tmp/ours.json /tmp/theirs.json /tmp/merged.json; then
                 git reset --hard origin/main
                 cp /tmp/merged.json queue.json
-                git add queue.json
+                # The Telegram offset is monotonic, so the higher value always wins.
+                # Resolving it this way keeps a second committed file from ever
+                # reintroducing the deterministic-conflict failure we already fixed once.
+                python - <<'PYEOF' || true
+import json, os
+def load(p):
+    try:
+        with open(p, encoding="utf-8") as f: return int(json.load(f).get("offset", 0))
+    except Exception: return 0
+best = max(load("/tmp/ours_offset.json"), load("telegram_offset.json"))
+if best:
+    with open("telegram_offset.json", "w", encoding="utf-8") as f:
+        json.dump({"offset": best}, f, indent=2); f.write("\n")
+    print("merged telegram offset ->", best)
+PYEOF
+                git add queue.json telegram_offset.json
                 if git diff --staged --quiet; then
                   echo "merge produced no change vs origin - nothing to push"; exit 0
                 fi
