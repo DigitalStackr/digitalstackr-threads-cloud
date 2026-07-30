@@ -3721,7 +3721,16 @@
     "text": "$27. 2:24pm. i was doing something else at the time.",
     "image_file": "IMG_4395.PNG",
     "scheduled_time": "2026-07-30T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18081340328272447",
+        "at": "2026-07-30T14:40:38.937480+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T14:40:38.937480+00:00",
+    "thread_id": "18081340328272447"
   },
   {
     "id": 408,
