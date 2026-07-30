@@ -3806,7 +3806,16 @@
     "text": "You'll learn more building something from scratch than any job will teach you.",
     "image_file": null,
     "scheduled_time": "2026-07-30T23:30:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18129351853633579",
+        "at": "2026-07-30T21:30:49.141799+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T21:30:49.141799+00:00",
+    "thread_id": "18129351853633579"
   },
   {
     "id": 510,
