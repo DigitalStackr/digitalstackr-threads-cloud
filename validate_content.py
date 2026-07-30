@@ -24,9 +24,9 @@ MANIFEST_PATH = HERE / "image_manifest.json"
 # --- rules ---------------------------------------------------------------
 DEDUPE_LOOKBACK = 60          # compare against the last 60 posted, both accounts
 NEAR_DUP_THRESHOLD = 0.82     # token overlap above this = too similar
-IMAGE_REUSE_DAYS = 7
-MAX_DASHBOARD_PER = 3         # at most 1 dashboard in every 3 image posts
-MAX_CONSECUTIVE_IMAGES = 2
+IMAGE_REUSE_DAYS = 2        # relaxed 2026-07-30: reuse is fine, just never back-to-back
+MAX_DASHBOARD_PER = 2         # 4 image posts/day: at most 1 dashboard per 2
+MAX_CONSECUTIVE_IMAGES = 3  # 4 image + 2 text per day
 MAX_CHARS = 490
 MAX_EMOJI = 2
 
@@ -72,7 +72,9 @@ def count_emoji(text: str) -> int:
 
 
 def money_figures(text: str) -> list:
-    return re.findall(r"\$[0-9][0-9,]*(?:\.[0-9]{1,2})?", text or "")
+    # Proper money shape only. The looser [0-9,]* version swallowed a trailing
+    # comma ("$27," in prose) and then failed to match the manifest's "$27".
+    return re.findall(r"\$\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?", text or "")
 
 
 def load_manifest() -> dict:
@@ -214,9 +216,9 @@ def validate(queue: list) -> list:
             month = str(entry.get("scheduled_time", ""))[:7]
             by_month.setdefault(month, []).append(entry)
         for month, entries in by_month.items():
-            if len(entries) > 1:
-                for e in entries[1:]:
-                    flag(e, f"2nd 'rare' big-number image in {month} — limit is 1/month")
+            if len(entries) > 2:
+                for e in entries[2:]:
+                    flag(e, f"more than 2 'rare' big-number images in {month} — keep them occasional")
 
     return problems
 

@@ -13,84 +13,247 @@
   ],
   "verified": {
     "IMG_4397.PNG": {
-      "kind": "dashboard", "tier": "core",
-      "numbers": ["$382", "104"],
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$382",
+        "104"
+      ],
       "shows": "Gumroad Dashboard: $382 from 104 sales, MONTH tab selected",
       "note": "The canonical current-month proof. Matches the approved fact list exactly."
     },
     "IMG_4395.PNG": {
-      "kind": "sale_notification", "tier": "core",
-      "numbers": ["$27"],
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$27"
+      ],
       "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 2:24 PM"
     },
     "IMG_4274.PNG": {
-      "kind": "sale_notification", "tier": "core",
-      "numbers": ["$147"],
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$147"
+      ],
       "shows": "Gumroad push: New sale of Done-For-You Digital Business Setup for $147, 1h ago",
       "note": "Current DFY price."
     },
     "IMG_3795.PNG": {
-      "kind": "sale_notification", "tier": "core",
-      "numbers": ["$50"],
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$50"
+      ],
       "shows": "Gumroad push: New sale of 2 Week 1 on 1 Digital Mentorship for $50, 56m ago"
     },
     "IMG_3944.PNG": {
-      "kind": "payout", "tier": "core",
-      "numbers": ["$181.30"],
+      "kind": "payout",
+      "tier": "core",
+      "numbers": [
+        "$181.30"
+      ],
       "shows": "PayPal push: You received $181.30 USD from Gumroad Inc"
     },
     "IMG_3909.PNG": {
-      "kind": "phone_notifications", "tier": "core",
-      "numbers": ["$19", "$27", "$50", "$98"],
+      "kind": "phone_notifications",
+      "tier": "core",
+      "numbers": [
+        "$19",
+        "$27",
+        "$50",
+        "$98"
+      ],
       "shows": "iPhone lock screen, stacked Gumroad notifications: Threads Algo Boss Kit downloads (free), TRL $19, DFY $98, FDE $27, Mentorship $50",
       "note": "Best 'phone-with-notifications' shot. Contains the OLD $98 DFY price in the stack - do not cite $98 in a caption; cite $19/$27/$50 or no figure at all."
     },
     "gumroad notification screenshot.PNG": {
-      "kind": "sale_notification", "tier": "core",
-      "numbers": ["$27"],
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$27"
+      ],
       "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 3:33 AM",
       "note": "Night-time sale - good for 'sold while I was asleep'."
     },
     "gumroad sales notifications.PNG": {
-      "kind": "sale_notification", "tier": "core",
-      "numbers": ["$27"],
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$27"
+      ],
       "shows": "Gumroad push: New sale of Faceless Digital Empire for $27, 1h ago (badge 13)"
     },
     "my gumroad notification showing threads revenue ladder.PNG": {
-      "kind": "sale_notification", "tier": "blocked",
-      "numbers": ["$11"],
+      "kind": "sale_notification",
+      "tier": "blocked",
+      "numbers": [
+        "$11"
+      ],
       "shows": "Gumroad push: New sale of Threads Revenue Ladder for $11",
       "blocked_reason": "shows the OLD $11 TRL price; current is $19"
     },
     "Gumroad Notificaion screenshots.PNG": {
-      "kind": "sale_notification", "tier": "blocked",
-      "numbers": ["$98"],
+      "kind": "sale_notification",
+      "tier": "blocked",
+      "numbers": [
+        "$98"
+      ],
       "shows": "Gumroad push: New sale of Done-For-You setup for $98",
       "blocked_reason": "shows the OLD $98 DFY price; current is $147 (use IMG_4274 instead)"
     },
     "Gumroad Payout Screenshots.PNG": {
-      "kind": "payout", "tier": "rare",
-      "numbers": ["$1638.53", "$1,638.53"],
+      "kind": "payout",
+      "tier": "rare",
+      "numbers": [
+        "$1638.53",
+        "$1,638.53"
+      ],
       "shows": "Gmail: 'It's pay day! $1638.53 has been deposited' for sales up until March 20 2026",
       "note": "Large. Max once per month, framed as a past payout - never as current earnings."
     },
     "paypal notification ss from phn.png": {
-      "kind": "payout", "tier": "rare",
-      "numbers": ["$1117.67", "$1,117.67"],
+      "kind": "payout",
+      "tier": "rare",
+      "numbers": [
+        "$1117.67",
+        "$1,117.67"
+      ],
       "shows": "PayPal push: You received $1117.67 USD from Gumroad Inc",
       "note": "Large. Max once per month."
     },
     "payout gumroad sales ss.png": {
-      "kind": "dashboard", "tier": "rare",
-      "numbers": ["$1,109.77", "$1109.77"],
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$1,109.77",
+        "$1109.77"
+      ],
       "shows": "Gumroad: next payout June 19 2026, activity since June 2 2026, Sales $1,109.77",
       "note": "Large, June period. Max once per month."
     },
     "new 01.png": {
-      "kind": "dashboard", "tier": "blocked",
-      "numbers": ["$846.60", "62"],
+      "kind": "dashboard",
+      "tier": "blocked",
+      "numbers": [
+        "$846.60",
+        "62"
+      ],
       "shows": "Dashboard: $846.60 from 62 sales, TODAY tab selected",
       "blocked_reason": "a DAILY figure - content rules forbid claiming daily earnings"
+    },
+    "Untitled design (8).png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$224.52",
+        "24"
+      ],
+      "shows": "Dashboard $224.52 from 24 sales, TODAY tab"
+    },
+    "Untitled design (17).png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$201",
+        "19"
+      ],
+      "shows": "Dashboard (dark) $201 from 19 sales"
+    },
+    "Untitled design (10).png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$640.80",
+        "32"
+      ],
+      "shows": "Dashboard $640.80 from 32 sales, TODAY tab"
+    },
+    "Untitled design(6).png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$735.29",
+        "88"
+      ],
+      "shows": "Dashboard $735.29 from 88 sales, TODAY tab"
+    },
+    "Untitled design (11).png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$739.50",
+        "65"
+      ],
+      "shows": "Dashboard (dark) $739.50 from 65 sales"
+    },
+    "Untitled design(4).png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$856.23",
+        "92"
+      ],
+      "shows": "Dashboard $856.23 from 92 sales, TODAY tab"
+    },
+    "Untitled design(5).png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$1,163.95",
+        "111"
+      ],
+      "shows": "Dashboard $1,163.95 from 111 sales, TODAY tab",
+      "note": "four figures - space these out"
+    },
+    "Untitled design (13).png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$1,202.11",
+        "52"
+      ],
+      "shows": "Dashboard $1,202.11 from 52 sales, TODAY tab",
+      "note": "four figures - space these out"
+    },
+    "Untitled design (18).png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$1,673.63",
+        "86"
+      ],
+      "shows": "Dashboard (dark) $1,673.63 from 86 sales",
+      "note": "four figures - space these out"
+    },
+    "Untitled design (5).png": {
+      "kind": "phone_notifications",
+      "tier": "core",
+      "numbers": [
+        "$521",
+        "$1,712.41",
+        "$2,275.26",
+        "$9,529.80"
+      ],
+      "shows": "iPhone home screen w/ Gumroad Totals widget: Today $521, Week $1,712.41, Month $2,275.26, Year $9,529.80",
+      "note": "lifestyle/phone shot - strong for 'built on a phone' angles"
+    },
+    "Untitled design (15).png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$19,079.70",
+        "662"
+      ],
+      "shows": "Dashboard $19,079.70 from 662 sales, ALL TIME tab",
+      "note": "ALL-TIME total, not daily - honest framing. Max ~1x/month."
+    },
+    "Untitled design (16).png": {
+      "kind": "broken",
+      "tier": "blocked",
+      "numbers": [],
+      "shows": "NOT AN IMAGE - file is an MP4 with a .png extension (ftyp header)",
+      "blocked_reason": "mislabelled video file; posting it would fail on every platform"
     }
   },
   "unverified_do_not_use": [
