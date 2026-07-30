@@ -37,6 +37,7 @@ from post_facebook import post_facebook
 from post_instagram import post_instagram
 from post_tiktok import post_tiktok
 from post_telegram import post_telegram
+from post_x import post_x
 
 QUEUE_PATH = Path(__file__).parent / "queue.json"
 # Local media dirs on the runner (TikTok uploads bytes rather than fetching a URL).
@@ -166,8 +167,12 @@ def dispatch(entry: dict, target: dict) -> str:
         return post_tiktok(text, str(REELS_DIR / video_file),
                            privacy_level=target.get("privacy_level"))
 
-    # x lands here until implemented — isolated as a failed target,
-    # never crashes the tick or blocks the other platforms.
+    if platform == "x":
+        # post_x strips any URL out of the body into a threaded reply — a link in
+        # the body bills at $0.20 instead of $0.015. Images are not sent (v2 media
+        # upload is a separate flow); text-only keeps the cost predictable.
+        return post_x(text)
+
     raise ValueError(f"Platform not implemented yet: {platform}")
 
 

@@ -430,5 +430,83 @@ _allfaq = " ".join(a for _n,_p,a in faq.FAQ) + faq.FALLBACK + faq.GREETING
 check("FAQ quotes prices only, never earnings",
       not any(t in _allfaq.lower() for t in ["/month","per month","a month","this month","today i made","income"]))
 
+# =====================================================================
+# TEST 10 — X: the URL cost guard ($0.015 vs $0.20 per post)
+# =====================================================================
+print("\n[TEST 10] X / Twitter URL cost guard")
+import post_x as px
+
+# --- URL detection: must catch every form X would auto-link and bill for ---
+check("detects https:// url", px.extract_urls("grab it https://gum.co/fde now") != [])
+check("detects bare www.", px.extract_urls("see www.digitalstackr.com") != [])
+check("detects bare domain (X auto-links these too)",
+      px.extract_urls("it's on digitalstackr.com today") != [])
+check("detects gumroad link", px.extract_urls("digitalstackr.gumroad.com/l/fde") != [])
+check("does NOT flag a plain money figure", px.extract_urls("$382 this month. 104 sales.") == [])
+check("does NOT flag a decimal", px.extract_urls("made $181.30 today") == [])
+check("does NOT flag a sentence end", px.extract_urls("one product. one platform.") == [])
+
+# --- splitting: body must be clean, url preserved for the reply ---
+body, urls = px.split_urls("built one product. get it at digitalstackr.com 🤍")
+check("split removes the url from the body", "digitalstackr.com" not in body)
+check("split keeps the url for the reply", urls and "digitalstackr.com" in urls[0])
+check("split leaves no double spaces or dangling punctuation",
+      "  " not in body and not body.endswith(" ."))
+check("split leaves a url-free post completely untouched",
+      px.split_urls("no links here at all") == ("no links here at all", []))
+
+# --- cost model: the entire reason this module exists ---
+check("url-free post bills at $0.015", abs(px.estimate_cost("plain post")-0.015) < 1e-9)
+check("post WITH url still bills $0.015+$0.015 (not $0.20) because the link is a reply",
+      abs(px.estimate_cost("go to digitalstackr.com")-0.030) < 1e-9)
+
+# --- refuse mode ---
+import os as _os
+_os.environ["X_API_KEY"]="k"; _os.environ["X_API_SECRET"]="s"
+_os.environ["X_ACCESS_TOKEN"]="t"; _os.environ["X_ACCESS_SECRET"]="ts"
+_os.environ["X_URL_POLICY"]="refuse"
+try:
+    px.post_x("buy at digitalstackr.com")
+    check("refuse mode blocks a url post", False)
+except RuntimeError as e:
+    check("refuse mode blocks a url post with a cost explanation",
+          "0.20" in str(e) and "refuse" in str(e).lower())
+_os.environ["X_URL_POLICY"]="reply"
+
+# --- missing creds must name the Bearer-token trap explicitly ---
+for k in ("X_API_KEY","X_API_SECRET","X_ACCESS_TOKEN","X_ACCESS_SECRET"):
+    _os.environ.pop(k, None)
+try:
+    px.post_x("hello")
+    check("missing creds raises", False)
+except RuntimeError as e:
+    check("missing creds explains Bearer token cannot post", "Bearer" in str(e))
+
+# --- scheduler routing + isolation ---
+def fake_x(text): calls.append(("x", text)); return "tweet_1"
+def fake_x_fail(text): raise RuntimeError("X boom")
+scheduler.post_x = fake_x
+scheduler.post_telegram = fake_tg
+scheduler.MAX_POSTS_PER_TICK = 100
+calls.clear()
+q10 = [
+  {"id":100,"text":"one product. one platform.","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"x"}]},
+  {"id":101,"text":"shared","image_file":"foo.png","scheduled_time":iso(now),"status":"pending",
+   "targets":[{"platform":"threads","account":"MAIN"},{"platform":"telegram"},{"platform":"x"}]},
+]
+q10 = run_tick(q10)
+check("id100 x posts", by_id(q10,100)["status"]=="posted" and ("x","one product. one platform.") in calls)
+check("id101 fans out to threads+telegram+x",
+      {"threads:MAIN","telegram","x"} <= set(by_id(q10,101)["results"].keys()))
+
+scheduler.post_x = fake_x_fail
+calls.clear()
+q10b = [{"id":102,"text":"iso","scheduled_time":iso(now),"status":"pending",
+         "targets":[{"platform":"threads","account":"MAIN"},{"platform":"x"}]}]
+q10b = run_tick(q10b)
+check("id102 threads posted despite X failing (isolation)",
+      by_id(q10b,102)["results"]["threads:MAIN"]["status"]=="posted")
+
 print(f"\n==== RESULT: {PASS} passed, {FAIL} failed ====")
 sys.exit(1 if FAIL else 0)
