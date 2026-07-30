@@ -3772,7 +3772,16 @@
     "text": "no ads. no team. no capital.\ni woke up to this.",
     "image_file": "IMG_3909.PNG",
     "scheduled_time": "2026-07-30T22:00:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18190934806386059",
+        "at": "2026-07-30T20:00:46.902523+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T20:00:46.902523+00:00",
+    "thread_id": "18190934806386059"
   },
   {
     "id": 509,
