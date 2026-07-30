@@ -3755,7 +3755,16 @@
     "text": "Nobody talks about how success looks like failing 80% of the time.",
     "image_file": null,
     "scheduled_time": "2026-07-30T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17992604522991223",
+        "at": "2026-07-30T18:10:30.879077+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T18:10:30.879077+00:00",
+    "thread_id": "17992604522991223"
   },
   {
     "id": 409,
