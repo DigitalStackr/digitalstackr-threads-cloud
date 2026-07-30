@@ -3687,7 +3687,16 @@
     "text": "I don't have a team. I have a phone and a Gumroad account.",
     "image_file": null,
     "scheduled_time": "2026-07-30T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18329642002260027",
+        "at": "2026-07-30T12:10:37.347695+00:00"
+      }
+    },
+    "posted_at": "2026-07-30T12:10:37.347695+00:00",
+    "thread_id": "18329642002260027"
   },
   {
     "id": 407,
