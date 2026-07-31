@@ -35,15 +35,20 @@ def upload_to_uguu(image_path: Path) -> str:
     return data["files"][0]["url"]
 
 
-def post_image(account: str, text: str, image_filename: str) -> str:
-    """Post image+text to Threads. Returns the published thread ID."""
+def post_image(account: str, text: str, image_filename: str, image_dir: str = "images") -> str:
+    """Post image+text to Threads. Returns the published thread ID.
+
+    image_dir lets each brand keep its own screenshots: DigitalStackr uses
+    images/, Novina uses novina_images/. Mixing them is a credibility problem —
+    a Novina post must never show a screenshot naming a DigitalStackr product.
+    """
     token = get_token(account)
 
-    image_path = IMAGES_DIR / image_filename
+    image_path = IMAGES_DIR.parent / image_dir / image_filename
     if not image_path.exists():
         raise RuntimeError(
-            f"Image not found in repo: images/{image_filename} "
-            f"(make sure you committed it to the repo's images/ folder)"
+            f"Image not found in repo: {image_dir}/{image_filename} "
+            f"(make sure you committed it to the repo's {image_dir}/ folder)"
         )
 
     # Step 1: upload image to public host

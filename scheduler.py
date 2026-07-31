@@ -87,9 +87,32 @@ def reschedule(entry: dict, now: datetime, reason: str) -> None:
         f"{entry['scheduled_time']} (attempt {entry['attempts']}/{MAX_RETRIES})")
 
 
-def raw_image_url(image_filename: str) -> str:
+# Each brand keeps its screenshots in its own folder. A Novina post must never
+# show a DigitalStackr screenshot (they name FDE / Done-For-You by product), so
+# the folder is chosen per account rather than shared.
+IMAGE_DIRS = {
+    "MAIN": "images",
+    "TDS": "images",
+    "NOVINA": "novina_images",
+}
+DEFAULT_IMAGE_DIR = "images"
+
+
+def image_dir_for(entry: dict, target: dict = None) -> str:
+    """Which repo folder this entry's screenshot lives in.
+    Explicit entry/target 'image_dir' wins; otherwise it's derived from the account."""
+    if target and target.get("image_dir"):
+        return target["image_dir"]
+    if entry.get("image_dir"):
+        return entry["image_dir"]
+    account = (target or {}).get("account") or entry.get("account") or ""
+    return IMAGE_DIRS.get(account, DEFAULT_IMAGE_DIR)
+
+
+def raw_image_url(image_filename: str, image_dir: str = DEFAULT_IMAGE_DIR) -> str:
     """Public URL for a repo image (used by platforms that fetch images by URL)."""
-    return f"https://raw.githubusercontent.com/{REPO_SLUG}/main/images/{quote(image_filename)}"
+    return (f"https://raw.githubusercontent.com/{REPO_SLUG}/main/"
+            f"{image_dir}/{quote(image_filename)}")
 
 
 def raw_video_url(video_filename: str) -> str:
@@ -121,14 +144,16 @@ def dispatch(entry: dict, target: dict) -> str:
     video_file = target.get("video_file") or entry.get("video_file")
     carousel = target.get("carousel") or entry.get("carousel")
 
+    img_dir = image_dir_for(entry, target)
+
     if platform == "threads":
         account = target["account"]
         if image_file:
-            return post_image(account, text, image_file)
+            return post_image(account, text, image_file, image_dir=img_dir)
         return post_text(account, text)
 
     if platform == "facebook":
-        image_url = raw_image_url(image_file) if image_file else None
+        image_url = raw_image_url(image_file, img_dir) if image_file else None
         return post_facebook(text, image_url)
 
     if platform == "instagram":
@@ -149,7 +174,7 @@ def dispatch(entry: dict, target: dict) -> str:
     if platform == "telegram":
         # Telegram fetches the image server-side from a public URL, same as FB/IG.
         # Text-only is fine here (unlike Instagram) — the channel is a feed, not a grid.
-        image_url = raw_image_url(image_file) if image_file else None
+        image_url = raw_image_url(image_file, img_dir) if image_file else None
         return post_telegram(text, image_url)
 
     if platform == "tiktok":
