@@ -4058,7 +4058,16 @@
     "text": "A $27 product does more than people expect when you actually keep showing up.",
     "image_file": null,
     "scheduled_time": "2026-07-31T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17910456453445283",
+        "at": "2026-07-31T21:40:35.579101+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T21:40:35.579101+00:00",
+    "thread_id": "17910456453445283"
   },
   {
     "id": 605,
