@@ -27,7 +27,14 @@ NEAR_DUP_THRESHOLD = 0.82     # token overlap above this = too similar
 IMAGE_REUSE_DAYS = 2        # relaxed 2026-07-30: reuse is fine, just never back-to-back
 MAX_DASHBOARD_PER = 2         # 4 image posts/day: at most 1 dashboard per 2
 MAX_CONSECUTIVE_IMAGES = 3  # 4 image + 2 text per day
-MAX_CHARS = 490
+MAX_CHARS = 490               # Threads limit; other platforms differ (see limit_for)
+PLATFORM_MAX_CHARS = {        # per-platform caps, checked against an entry's targets
+    "threads": 490,
+    "facebook": 5000,
+    "telegram": 4096,         # 1024 when a photo is attached
+    "telegram_photo": 1024,
+    "x": 280,
+}
 MAX_EMOJI = 2
 
 # Engagement bait — every one of these formats measurably flopped (0-2 likes).
@@ -104,8 +111,15 @@ def validate(queue: list) -> list:
         text = entry.get("text", "") or ""
         img = entry.get("image_file")
 
-        if len(text) > MAX_CHARS:
-            flag(entry, f"caption {len(text)} chars > {MAX_CHARS}")
+        # Char limit is per-platform: a Telegram essay is fine, the same text
+        # would be rejected by Threads and truncated by X.
+        targets = entry.get("targets") or [{"platform": "threads"}]
+        for t in targets:
+            plat = t.get("platform", "threads")
+            key = "telegram_photo" if (plat == "telegram" and img) else plat
+            cap = PLATFORM_MAX_CHARS.get(key, MAX_CHARS)
+            if len(text) > cap:
+                flag(entry, f"caption {len(text)} chars > {cap} for {plat}")
 
         for pat in BAIT_PATTERNS:
             if re.search(pat, text, re.I):

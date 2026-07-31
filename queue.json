@@ -4883,5 +4883,101 @@
     "image_file": "IMG_4397.PNG",
     "scheduled_time": "2026-08-07T01:40:00+02:00",
     "status": "pending"
+  },
+  {
+    "id": 900,
+    "text": "**How to launch a digital product from zero**\n\n1. **Research** — pick a problem you already understand. Boring beats clever.\n2. **Build** — Canva for design, Notion for anything interactive.\n3. **Upload** — Gumroad handles payment and delivery for you.\n4. **Link** — Beacons as your storefront, one link in bio.\n5. **Post** — daily, about the problem, not the product.\n6. **Repeat** — the same product can sell for months.\n\nMost people stall on step 1 for weeks. The research is not the hard part. Publishing something imperfect is.",
+    "image_file": null,
+    "scheduled_time": "2026-08-04T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 901,
+    "text": "**The whole stack costs nothing to start**\n\n• **Claude / ChatGPT** — outline and draft\n• **Canva** — design (free tier is enough)\n• **Gumroad** — hosting, checkout, delivery, refunds\n• **Beacons** — link in bio\n• **Threads** — traffic\n\nNo website. No LLC. No inventory. No ads.\n\nThe barrier was never money. It was deciding what to make.",
+    "image_file": null,
+    "scheduled_time": "2026-08-08T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 902,
+    "text": "**A prompt that actually helps**\n\nPaste this into Claude or ChatGPT:\n\n_You are my content strategist. My product is [X] and it solves [problem] for [audience]. Give me 20 hooks written as statements, not questions. No engagement bait. Then give me a 7-day posting plan where 5 posts build trust and 2 mention the product._\n\nThe reason it works: it forces statements instead of questions. Questions asking for replies underperform badly on Threads.",
+    "image_file": null,
+    "scheduled_time": "2026-08-11T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 903,
+    "text": "**Pricing, honestly**\n\n$9 feels disposable. People buy it and never open it.\n$97 needs trust you have not built yet.\n\n**$27 is the range where a stranger will take a chance on you.**\n\nOur own products sit at $19, $27, and $147 for done-for-you. The $27 one does the most volume by a distance.\n\nStart there. Raise it once you have reviews, not before.",
+    "image_file": null,
+    "scheduled_time": "2026-08-15T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 904,
+    "text": "**What a normal week actually looks like**\n\nNot the highlight version:\n\n• Most days are quiet. Some days there are zero sales.\n• The same product keeps selling with nothing new built.\n• Posting feels pointless for weeks before it does not.\n• The boring posts outperform the clever ones consistently.\n\nAnyone showing you only good days is selling you something. The quiet days are most of it, and they still compound.",
+    "image_file": null,
+    "scheduled_time": "2026-08-18T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 905,
+    "text": "**The mistake that costs the most time**\n\nBuilding for a month before showing anyone.\n\nPost the idea first. Talk about the problem for a week. See if anyone responds before you build the thing.\n\nIf nobody cares about the problem, a beautiful product will not fix that. If people do care, you will build a better version because you heard them first.\n\nValidation is a week. Building blind is a month.",
+    "image_file": null,
+    "scheduled_time": "2026-08-22T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 906,
+    "text": "**How to not run out of things to post**\n\nFour angles, rotate them:\n\n• **The objection** — something people say, then what actually happened\n• **The contrast** — what you do not have, next to what you built anyway\n• **The receipt** — a real screenshot, no exaggeration\n• **The plain truth** — one sentence, no metaphor\n\nThat is four posts. Rotate them and you have a month.\n\nYou do not need new ideas. You need the same idea said plainly, often.",
+    "image_file": null,
+    "scheduled_time": "2026-08-25T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 907,
+    "text": "**Why faceless works**\n\nYou are not the product. The solution is.\n\nNo face means no personal brand to maintain, no pressure to perform, and no ceiling based on how comfortable you are on camera.\n\nPeople buy the outcome. They do not need to know what you look like — they need to believe you have actually done the thing.\n\nThat is what screenshots are for. Not vanity. Evidence.",
+    "image_file": null,
+    "scheduled_time": "2026-08-29T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
   }
 ]
