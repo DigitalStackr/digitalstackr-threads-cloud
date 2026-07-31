@@ -3964,7 +3964,16 @@
     "text": "$201 from 19 people.\nthis is a normal day here, not a highlight.",
     "image_file": "Untitled design (17).png",
     "scheduled_time": "2026-07-31T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18110239628063366",
+        "at": "2026-07-31T18:10:41.563784+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T18:10:41.563784+00:00",
+    "thread_id": "18110239628063366"
   },
   {
     "id": 603,
