@@ -4028,7 +4028,7 @@
     "text": "Nobody claps when you start. That is exactly why so few people do.",
     "image_file": null,
     "scheduled_time": "2026-07-31T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4037,7 +4037,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18331499017258964",
+        "at": "2026-07-31T21:30:50.332335+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083304433413152913",
+        "at": "2026-07-31T21:30:50.332335+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T21:30:50.332335+00:00"
   },
   {
     "id": 704,
