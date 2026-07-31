@@ -3870,7 +3870,16 @@
     "text": "$27 came in an hour ago.\nstill the same file i uploaded back in february. ☕",
     "image_file": "gumroad sales notifications.PNG",
     "scheduled_time": "2026-07-31T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18110676619988915",
+        "at": "2026-07-31T12:10:42.671326+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T12:10:42.671326+00:00",
+    "thread_id": "18110676619988915"
   },
   {
     "id": 601,
