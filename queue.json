@@ -3934,7 +3934,7 @@
     "text": "$201 from 19 strangers.\nnone of them know my name. all of them paid me.",
     "image_file": "Untitled design (17).png",
     "scheduled_time": "2026-07-31T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -3943,7 +3943,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18178566889419967",
+        "at": "2026-07-31T18:00:50.895171+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083251722776944828",
+        "at": "2026-07-31T18:00:50.895171+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T18:00:50.895171+00:00"
   },
   {
     "id": 702,
