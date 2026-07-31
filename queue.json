@@ -3981,7 +3981,7 @@
     "text": "no office. no staff. no overhead.\nthe entire business runs off this one screen. 🤍",
     "image_file": "Untitled design (5).png",
     "scheduled_time": "2026-07-31T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -3990,7 +3990,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17905942977459742",
+        "at": "2026-07-31T20:00:00.739109+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083281713451475374",
+        "at": "2026-07-31T20:00:00.739109+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T20:00:00.739109+00:00"
   },
   {
     "id": 703,
