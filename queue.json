@@ -3887,7 +3887,7 @@
     "text": "Most people are one finished product away. They just keep restarting instead.",
     "image_file": null,
     "scheduled_time": "2026-07-31T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -3896,7 +3896,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18087230477648534",
+        "at": "2026-07-31T14:30:47.284650+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083198723836834099",
+        "at": "2026-07-31T14:30:47.284650+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T14:30:47.284650+00:00"
   },
   {
     "id": 701,
