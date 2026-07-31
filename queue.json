@@ -3840,7 +3840,7 @@
     "text": "\"why are you always on threads.\"\nbecause it quietly paid my rent this month. 🤍",
     "image_file": "gumroad notification screenshot.PNG",
     "scheduled_time": "2026-07-31T14:00:00+02:00",
-    "status": "pending",
+    "status": "partial",
     "targets": [
       {
         "platform": "threads",
@@ -3849,7 +3849,19 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "failed",
+        "error": "500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/me/threads"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083160982466228718",
+        "at": "2026-07-31T12:00:51.689068+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T12:00:51.689068+00:00"
   },
   {
     "id": 700,
