@@ -15,7 +15,7 @@ def iso(dt): return dt.isoformat()
 # ---- mock posters ----
 calls = []
 def fake_text(account, text): calls.append(("text", account, text)); return f"th_{account}_{len(calls)}"
-def fake_image(account, text, img): calls.append(("image", account, img)); return f"th_{account}_img_{len(calls)}"
+def fake_image(account, text, img, image_dir="images"): calls.append(("image", account, img, image_dir)); return f"th_{account}_img_{len(calls)}"
 def fake_fb(text, image_url=None): calls.append(("fb", image_url)); return "fb_ok_1"
 def fake_fb_fail(text, image_url=None): raise RuntimeError("FB boom")
 def fake_ig(text, image_url=None, video_url=None, carousel_urls=None, share_to_feed=True):
@@ -81,7 +81,7 @@ q = run_tick(q)
 check("id1 legacy text -> posted", by_id(q,1)["status"]=="posted")
 check("id1 recorded threads:MAIN result", by_id(q,1)["results"]["threads:MAIN"]["status"]=="posted")
 check("id1 legacy thread_id mirrored", "thread_id" in by_id(q,1))
-check("id2 legacy image -> posted via post_image", by_id(q,2)["status"]=="posted" and ("image","TDS","foo.png") in calls)
+check("id2 legacy image -> posted via post_image", by_id(q,2)["status"]=="posted" and ("image","TDS","foo.png","images") in calls)
 check("id3 future entry left pending", by_id(q,3)["status"]=="pending")
 # Self-heal: an overdue post is no longer silently dropped — it's rescheduled forward.
 check("id4 overdue entry rescheduled, not expired",
