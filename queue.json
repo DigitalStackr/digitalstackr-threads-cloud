@@ -4011,7 +4011,16 @@
     "text": "this is the whole operation. one screen, no team, no office. ☕",
     "image_file": "Untitled design (5).png",
     "scheduled_time": "2026-07-31T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18079805057308392",
+        "at": "2026-07-31T20:10:34.347581+00:00"
+      }
+    },
+    "posted_at": "2026-07-31T20:10:34.347581+00:00",
+    "thread_id": "18079805057308392"
   },
   {
     "id": 604,
