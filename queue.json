@@ -4310,7 +4310,7 @@
     "text": "I stopped trying to go viral and started trying to be useful. That was the shift.",
     "image_file": null,
     "scheduled_time": "2026-08-01T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4319,7 +4319,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18090419351414678",
+        "at": "2026-08-01T21:30:45.382257+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083666803591365083",
+        "at": "2026-08-01T21:30:45.382257+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T21:30:45.382257+00:00"
   },
   {
     "id": 710,
