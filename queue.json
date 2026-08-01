@@ -4340,7 +4340,16 @@
     "text": "The unglamorous part is most of it. Writing, uploading, posting, waiting, repeating.",
     "image_file": null,
     "scheduled_time": "2026-08-01T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18125647786738758",
+        "at": "2026-08-01T21:40:31.193107+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T21:40:31.193107+00:00",
+    "thread_id": "18125647786738758"
   },
   {
     "id": 611,
