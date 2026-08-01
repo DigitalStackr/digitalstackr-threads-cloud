@@ -4152,7 +4152,16 @@
     "text": "a sale at 3:33am while i was asleep.\nfound it when i woke up. 🤍",
     "image_file": "gumroad notification screenshot.PNG",
     "scheduled_time": "2026-08-01T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17910131562446899",
+        "at": "2026-08-01T12:10:07.544540+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T12:10:07.544540+00:00",
+    "thread_id": "17910131562446899"
   },
   {
     "id": 607,
