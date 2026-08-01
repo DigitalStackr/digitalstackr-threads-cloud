@@ -4293,7 +4293,16 @@
     "text": "$50 mentorship booked.\nsomeone trusted a 19 year old with their launch. 🤍",
     "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-08-01T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18318632653262994",
+        "at": "2026-08-01T20:10:31.194403+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T20:10:31.194403+00:00",
+    "thread_id": "18318632653262994"
   },
   {
     "id": 610,
