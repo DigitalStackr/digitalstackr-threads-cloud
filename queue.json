@@ -4122,7 +4122,7 @@
     "text": "$27 landed at 2:24pm.\ni found out three hours later. that is the whole appeal.",
     "image_file": "IMG_4395.PNG",
     "scheduled_time": "2026-08-01T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4131,7 +4131,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18619087894045727",
+        "at": "2026-08-01T12:00:49.978736+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083523519338647611",
+        "at": "2026-08-01T12:00:49.978736+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T12:00:49.978736+00:00"
   },
   {
     "id": 706,
