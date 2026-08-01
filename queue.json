@@ -4263,7 +4263,7 @@
     "text": "$181.30 hit my account while i was out.\nfirst money i ever made without trading an hour for it.",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-08-01T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4272,7 +4272,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18136250707610255",
+        "at": "2026-08-01T20:00:47.527920+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083644306565325307",
+        "at": "2026-08-01T20:00:47.527920+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T20:00:47.527920+00:00"
   },
   {
     "id": 709,
