@@ -4246,7 +4246,16 @@
     "text": "$739.50 from 65 people.\nfebruary me would not have believed this one.",
     "image_file": "Untitled design (11).png",
     "scheduled_time": "2026-08-01T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18137269504586547",
+        "at": "2026-08-01T18:10:35.095195+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T18:10:35.095195+00:00",
+    "thread_id": "18137269504586547"
   },
   {
     "id": 609,
