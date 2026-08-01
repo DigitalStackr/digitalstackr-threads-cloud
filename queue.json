@@ -4199,7 +4199,16 @@
     "text": "No team here. Just a phone, a Gumroad tab, and a lot of repetition.",
     "image_file": null,
     "scheduled_time": "2026-08-01T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18031712894836008",
+        "at": "2026-08-01T14:40:34.957880+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T14:40:34.957880+00:00",
+    "thread_id": "18031712894836008"
   },
   {
     "id": 608,
