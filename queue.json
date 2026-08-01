@@ -4216,7 +4216,7 @@
     "text": "$224.52 from 24 people.\nsmall numbers still change what your week feels like.",
     "image_file": "Untitled design (8).png",
     "scheduled_time": "2026-08-01T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4225,7 +4225,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18095419208038775",
+        "at": "2026-08-01T18:00:50.932656+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083614103113777259",
+        "at": "2026-08-01T18:00:50.932656+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T18:00:50.932656+00:00"
   },
   {
     "id": 708,
