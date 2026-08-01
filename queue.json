@@ -4169,7 +4169,7 @@
     "text": "Your first product will be bad. Sell it anyway. Version two is where the money is.",
     "image_file": null,
     "scheduled_time": "2026-08-01T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4178,7 +4178,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18168847420450736",
+        "at": "2026-08-01T14:30:39.012495+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083561080417038767",
+        "at": "2026-08-01T14:30:39.012495+00:00"
+      }
+    },
+    "posted_at": "2026-08-01T14:30:39.012495+00:00"
   },
   {
     "id": 707,
