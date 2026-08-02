@@ -4434,7 +4434,16 @@
     "text": "$181.30 from Gumroad.\nnot a lot. but it is money i did not trade hours for.",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-08-02T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18117506908922370",
+        "at": "2026-08-02T12:10:37.876437+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T12:10:37.876437+00:00",
+    "thread_id": "18117506908922370"
   },
   {
     "id": 613,
