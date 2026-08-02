@@ -4639,7 +4639,7 @@
     "text": "$856.23 from 92 people who have never seen my face.",
     "image_file": "Untitled design(4).png",
     "scheduled_time": "2026-08-03T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4648,7 +4648,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18092863913622963",
+        "at": "2026-08-02T23:30:47.537716+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084059531936686438",
+        "at": "2026-08-02T23:30:47.537716+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T23:30:47.537716+00:00"
   },
   {
     "id": 717,
