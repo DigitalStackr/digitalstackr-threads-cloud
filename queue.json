@@ -4498,7 +4498,7 @@
     "text": "\"digital products don't sell anymore.\"\n$640.80. 32 people. same week you said that.",
     "image_file": "Untitled design (10).png",
     "scheduled_time": "2026-08-02T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4507,7 +4507,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18175768612424004",
+        "at": "2026-08-02T18:00:50.458986+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083976502262264109",
+        "at": "2026-08-02T18:00:50.458986+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T18:00:50.458986+00:00"
   },
   {
     "id": 714,
