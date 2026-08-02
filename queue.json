@@ -4404,7 +4404,7 @@
     "text": "a sale came in at 3:33am.\nasleep. phone face down. still paid. 🤍",
     "image_file": "gumroad notification screenshot.PNG",
     "scheduled_time": "2026-08-02T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4413,7 +4413,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18091092326179895",
+        "at": "2026-08-02T12:00:48.372753+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083885888237449299",
+        "at": "2026-08-02T12:00:48.372753+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T12:00:48.372753+00:00"
   },
   {
     "id": 712,
