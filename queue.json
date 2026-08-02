@@ -4669,7 +4669,16 @@
     "text": "$382 this month. 104 sales.\nmonths of it felt pointless right up until it did not. 🤍",
     "image_file": "IMG_4397.PNG",
     "scheduled_time": "2026-08-03T01:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17912958084245613",
+        "at": "2026-08-02T23:40:36.446778+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T23:40:36.446778+00:00",
+    "thread_id": "17912958084245613"
   },
   {
     "id": 618,
