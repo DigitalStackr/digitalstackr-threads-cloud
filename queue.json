@@ -4481,7 +4481,16 @@
     "text": "No logo. No website. No company. One file and a link in bio.",
     "image_file": null,
     "scheduled_time": "2026-08-02T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18279249436290854",
+        "at": "2026-08-02T14:40:31.975408+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T14:40:31.975408+00:00",
+    "thread_id": "18279249436290854"
   },
   {
     "id": 614,
