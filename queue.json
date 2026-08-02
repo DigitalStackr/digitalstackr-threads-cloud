@@ -4451,7 +4451,7 @@
     "text": "Pick the boring topic you already understand. That is the one people will pay for.",
     "image_file": null,
     "scheduled_time": "2026-08-02T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4460,7 +4460,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18102259309936117",
+        "at": "2026-08-02T14:30:43.346273+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2083923484036780209",
+        "at": "2026-08-02T14:30:43.346273+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T14:30:43.346273+00:00"
   },
   {
     "id": 713,
