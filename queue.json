@@ -4545,7 +4545,7 @@
     "text": "this is the entire company.\none screen, no office, nobody on payroll. 🤍",
     "image_file": "Untitled design (5).png",
     "scheduled_time": "2026-08-02T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4554,7 +4554,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17986751357849260",
+        "at": "2026-08-02T20:00:58.205051+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084006734721622080",
+        "at": "2026-08-02T20:00:58.205051+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T20:00:58.205051+00:00"
   },
   {
     "id": 715,
