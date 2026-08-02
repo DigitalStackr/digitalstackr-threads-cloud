@@ -4575,7 +4575,16 @@
     "text": "notifications stacked up overnight again. free downloads, small sales.\nthe boring middle. ☕",
     "image_file": "IMG_3909.PNG",
     "scheduled_time": "2026-08-02T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18119642281659571",
+        "at": "2026-08-02T20:10:35.306252+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T20:10:35.306252+00:00",
+    "thread_id": "18119642281659571"
   },
   {
     "id": 616,
