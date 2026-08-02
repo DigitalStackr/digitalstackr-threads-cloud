@@ -4528,7 +4528,16 @@
     "text": "$856.23 from 92 people.\nnone of them have seen my face.",
     "image_file": "Untitled design(4).png",
     "scheduled_time": "2026-08-02T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18133845871613982",
+        "at": "2026-08-02T18:10:35.759420+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T18:10:35.759420+00:00",
+    "thread_id": "18133845871613982"
   },
   {
     "id": 615,
