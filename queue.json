@@ -4622,7 +4622,16 @@
     "text": "Posting screenshots still makes me uncomfortable. I do it because it is the proof.",
     "image_file": null,
     "scheduled_time": "2026-08-02T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17971046058103190",
+        "at": "2026-08-02T21:40:33.257933+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T21:40:33.257933+00:00",
+    "thread_id": "17971046058103190"
   },
   {
     "id": 617,
