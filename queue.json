@@ -4592,7 +4592,7 @@
     "text": "There is no version of this where you get paid before you publish something.",
     "image_file": null,
     "scheduled_time": "2026-08-02T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4601,7 +4601,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18113920319485515",
+        "at": "2026-08-02T21:30:44.245077+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084029187158090013",
+        "at": "2026-08-02T21:30:44.245077+00:00"
+      }
+    },
+    "posted_at": "2026-08-02T21:30:44.245077+00:00"
   },
   {
     "id": 716,
