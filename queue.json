@@ -4686,7 +4686,7 @@
     "text": "someone paid $50 for two weeks of my time.\ni am 19 and still surprised anyone asks.",
     "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-08-03T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4695,7 +4695,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18080783054304344",
+        "at": "2026-08-03T11:59:59.868319+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084248069655437400",
+        "at": "2026-08-03T11:59:59.868319+00:00"
+      }
+    },
+    "posted_at": "2026-08-03T11:59:59.868319+00:00"
   },
   {
     "id": 718,
