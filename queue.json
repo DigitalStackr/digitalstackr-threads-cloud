@@ -4733,7 +4733,7 @@
     "text": "Attention is not the hard part. Having something worth buying is the hard part.",
     "image_file": null,
     "scheduled_time": "2026-08-03T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4742,7 +4742,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17919056646203768",
+        "at": "2026-08-03T14:30:48.510389+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084285894119305371",
+        "at": "2026-08-03T14:30:48.510389+00:00"
+      }
+    },
+    "posted_at": "2026-08-03T14:30:48.510389+00:00"
   },
   {
     "id": 719,
