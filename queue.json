@@ -4763,7 +4763,16 @@
     "text": "A viral post feels good for a day. The consistent ones pay for the month.",
     "image_file": null,
     "scheduled_time": "2026-08-03T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18091874819565740",
+        "at": "2026-08-03T14:40:35.165337+00:00"
+      }
+    },
+    "posted_at": "2026-08-03T14:40:35.165337+00:00",
+    "thread_id": "18091874819565740"
   },
   {
     "id": 620,
