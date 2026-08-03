@@ -4716,7 +4716,16 @@
     "text": "$27 an hour ago.\none sale at a time really is the entire business.",
     "image_file": "gumroad sales notifications.PNG",
     "scheduled_time": "2026-08-03T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17972073779917368",
+        "at": "2026-08-03T12:10:42.972238+00:00"
+      }
+    },
+    "posted_at": "2026-08-03T12:10:42.972238+00:00",
+    "thread_id": "17972073779917368"
   },
   {
     "id": 619,
