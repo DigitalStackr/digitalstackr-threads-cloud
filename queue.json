@@ -4775,110 +4775,10 @@
     "thread_id": "18091874819565740"
   },
   {
-    "id": 620,
+    "id": 1000,
     "account": "MAIN",
-    "text": "\"you're wasting your time on threads.\"\nthat waste of time covered my bills. $735.29.",
-    "image_file": "Untitled design(6).png",
-    "scheduled_time": "2026-08-03T20:00:00+02:00",
-    "status": "pending",
-    "targets": [
-      {
-        "platform": "threads",
-        "account": "MAIN"
-      },
-      {
-        "platform": "x"
-      }
-    ]
-  },
-  {
-    "id": 720,
-    "account": "TDS",
-    "text": "$735.29 from 88 people.\ni was studying through most of that week.",
-    "image_file": "Untitled design(6).png",
-    "scheduled_time": "2026-08-03T20:10:00+02:00",
-    "status": "pending"
-  },
-  {
-    "id": 621,
-    "account": "MAIN",
-    "text": "free downloads and small sales stacking up overnight.\nnobody posts this part. ☕",
+    "text": "my mum asked what i actually do all day.\ni showed her my lock screen and she went quiet. 🤍",
     "image_file": "IMG_3909.PNG",
-    "scheduled_time": "2026-08-03T22:00:00+02:00",
-    "status": "pending",
-    "targets": [
-      {
-        "platform": "threads",
-        "account": "MAIN"
-      },
-      {
-        "platform": "x"
-      }
-    ]
-  },
-  {
-    "id": 721,
-    "account": "TDS",
-    "text": "this is the whole setup. one screen, nothing else. ☕",
-    "image_file": "Untitled design (5).png",
-    "scheduled_time": "2026-08-03T22:10:00+02:00",
-    "status": "pending"
-  },
-  {
-    "id": 622,
-    "account": "MAIN",
-    "text": "Everyone is waiting to feel ready. Ready shows up about two months after you start.",
-    "image_file": null,
-    "scheduled_time": "2026-08-03T23:30:00+02:00",
-    "status": "pending",
-    "targets": [
-      {
-        "platform": "threads",
-        "account": "MAIN"
-      },
-      {
-        "platform": "x"
-      }
-    ]
-  },
-  {
-    "id": 722,
-    "account": "TDS",
-    "text": "Month one was almost nothing. I kept going because the work was already finished.",
-    "image_file": null,
-    "scheduled_time": "2026-08-03T23:40:00+02:00",
-    "status": "pending"
-  },
-  {
-    "id": 623,
-    "account": "MAIN",
-    "text": "$1,673.63 from 86 people.\ni almost stopped at week three when nothing was happening.",
-    "image_file": "Untitled design (18).png",
-    "scheduled_time": "2026-08-04T01:30:00+02:00",
-    "status": "pending",
-    "targets": [
-      {
-        "platform": "threads",
-        "account": "MAIN"
-      },
-      {
-        "platform": "x"
-      }
-    ]
-  },
-  {
-    "id": 723,
-    "account": "TDS",
-    "text": "$1,163.95 from 111 people.\nposting the good week too, not just the quiet ones.",
-    "image_file": "Untitled design(5).png",
-    "scheduled_time": "2026-08-04T01:40:00+02:00",
-    "status": "pending"
-  },
-  {
-    "id": 624,
-    "account": "MAIN",
-    "text": "$27, an hour ago.\nsame file i nearly binned for being too simple. 🤍",
-    "image_file": "gumroad sales notifications.PNG",
     "scheduled_time": "2026-08-04T14:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -4892,17 +4792,17 @@
     ]
   },
   {
-    "id": 724,
+    "id": 1100,
     "account": "TDS",
-    "text": "$147 done-for-you came through again.\npeople pay to skip the part i had to learn slowly.",
-    "image_file": "IMG_4274.PNG",
+    "text": "$201 from 19 people today.\nnot a big day. i'm posting it anyway because most days look like this.",
+    "image_file": "Untitled design (17).png",
     "scheduled_time": "2026-08-04T14:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 625,
+    "id": 1001,
     "account": "MAIN",
-    "text": "A small audience that trusts you beats a big one that scrolls past. Every time.",
+    "text": "i deleted the app for four days last month because i was convinced it wasn't working.\ncame back to sales i'd missed the notifications for.\n\nthe quitting point is always right before it moves.",
     "image_file": null,
     "scheduled_time": "2026-08-04T16:30:00+02:00",
     "status": "pending",
@@ -4917,18 +4817,18 @@
     ]
   },
   {
-    "id": 725,
+    "id": 1101,
     "account": "TDS",
-    "text": "You do not need followers. You need one thing somebody actually wants to buy.",
+    "text": "i started this account with 0 followers and one file i wasn't sure about.\nstill not sure about it most days.\n\nit keeps selling regardless.",
     "image_file": null,
     "scheduled_time": "2026-08-04T16:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 626,
+    "id": 1002,
     "account": "MAIN",
-    "text": "$640.80 from 32 people.\nno ads. i still have never run one.",
-    "image_file": "Untitled design (10).png",
+    "text": "someone paid $147 for me to build their store while i was in a lecture.\ni checked my phone after and just sat there. 🤍",
+    "image_file": "IMG_4274.PNG",
     "scheduled_time": "2026-08-04T20:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -4942,18 +4842,18 @@
     ]
   },
   {
-    "id": 726,
+    "id": 1102,
     "account": "TDS",
-    "text": "$201. 19 sales. friday.\nnot every day is a big one and that is fine. 🤍",
-    "image_file": "Untitled design (17).png",
+    "text": "$27 at 2:24pm.\ni was doing dishes. found out later. that's the bit that still gets me.",
+    "image_file": "IMG_4395.PNG",
     "scheduled_time": "2026-08-04T20:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 627,
+    "id": 1003,
     "account": "MAIN",
-    "text": "$147 came in before i had breakfast.\nthey told me to go get a real job. 🤍",
-    "image_file": "IMG_4274.PNG",
+    "text": "$27. 3:33am. phone face down on the floor.\ni was asleep for the entire transaction.",
+    "image_file": "gumroad notification screenshot.PNG",
     "scheduled_time": "2026-08-04T22:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -4967,17 +4867,17 @@
     ]
   },
   {
-    "id": 727,
+    "id": 1103,
     "account": "TDS",
-    "text": "$27 again. same file since february.\nnothing new built, still selling. ☕",
-    "image_file": "IMG_4395.PNG",
+    "text": "$181.30 landed this afternoon.\nsome days it is a tenth of that. i post the same either way.",
+    "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-08-04T22:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 628,
+    "id": 1004,
     "account": "MAIN",
-    "text": "Build it once. Improve it forever. That is the whole difference from a normal job.",
+    "text": "i wrote the product in the notes app on a bus.\nno desk, no laptop, no plan.\n\nit has now sold more than anything i made properly.",
     "image_file": null,
     "scheduled_time": "2026-08-04T23:30:00+02:00",
     "status": "pending",
@@ -4992,18 +4892,18 @@
     ]
   },
   {
-    "id": 728,
+    "id": 1104,
     "account": "TDS",
-    "text": "Checking in with God before checking Threads changes how the whole day goes. 🤍",
+    "text": "the boring truth: i write the post, upload the file, and wait.\nthat's the whole job.\n\nnobody makes a course about the waiting.",
     "image_file": null,
     "scheduled_time": "2026-08-04T23:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 629,
+    "id": 1005,
     "account": "MAIN",
-    "text": "$201 from 19 people on a friday.\nquiet days still count. they just do not trend.",
-    "image_file": "Untitled design (17).png",
+    "text": "$224.52 today. 24 people.\nsix months ago i'd have called that impossible. now it's a tuesday.",
+    "image_file": "Untitled design (8).png",
     "scheduled_time": "2026-08-05T01:30:00+02:00",
     "status": "pending",
     "targets": [
@@ -5017,17 +4917,17 @@
     ]
   },
   {
-    "id": 729,
+    "id": 1105,
     "account": "TDS",
-    "text": "$224.52 from 24 people while i was asleep.",
-    "image_file": "Untitled design (8).png",
+    "text": "$640.80 from 32 people. no ads, no team.\ni genuinely still don't know how ads work.",
+    "image_file": "Untitled design (10).png",
     "scheduled_time": "2026-08-05T01:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 630,
+    "id": 1006,
     "account": "MAIN",
-    "text": "$181.30. saturday. i was not online for any of it.",
+    "text": "$181.30 landed while i was queuing for coffee.\nfirst time i properly understood what people mean by passive. ☕",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-08-05T14:00:00+02:00",
     "status": "pending",
@@ -5042,17 +4942,17 @@
     ]
   },
   {
-    "id": 730,
+    "id": 1106,
     "account": "TDS",
-    "text": "$181.30 landed. rent-helping money.\nthat is genuinely how this starts for everyone.",
-    "image_file": "IMG_3944.PNG",
+    "text": "$224.52 from 24 people overnight.\nfound it at breakfast like a note someone left. 🤍",
+    "image_file": "Untitled design (8).png",
     "scheduled_time": "2026-08-05T14:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 631,
+    "id": 1007,
     "account": "MAIN",
-    "text": "Nobody is coming to fix your bank balance. That part was always going to be yours.",
+    "text": "i almost didn't publish it.\nit was 19 pages and i thought it was too thin to charge for.\n\n104 people have bought it since.",
     "image_file": null,
     "scheduled_time": "2026-08-05T16:30:00+02:00",
     "status": "pending",
@@ -5067,18 +4967,18 @@
     ]
   },
   {
-    "id": 731,
+    "id": 1107,
     "account": "TDS",
-    "text": "I am 19, working off a phone, with no startup money. There was never a plan B.",
+    "text": "month one i made almost nothing and kept going purely because the work was already done.\n\nthat's the only reason. not discipline.",
     "image_file": null,
     "scheduled_time": "2026-08-05T16:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 632,
+    "id": 1008,
     "account": "MAIN",
-    "text": "\"organic reach is dead.\"\nevery sale i have ever made came from a free post. $224.52.",
-    "image_file": "Untitled design (8).png",
+    "text": "$856.23 from 92 people.\nnot one of them has seen my face or knows my name.",
+    "image_file": "Untitled design(4).png",
     "scheduled_time": "2026-08-05T20:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -5092,18 +4992,18 @@
     ]
   },
   {
-    "id": 732,
+    "id": 1108,
     "account": "TDS",
-    "text": "$739.50 from 65 people.\ni nearly deleted this product before publishing it.",
-    "image_file": "Untitled design (11).png",
+    "text": "$50 for two weeks of mentoring.\nshe could have asked anyone. she asked me. i did not expect that.",
+    "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-08-05T20:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 633,
+    "id": 1009,
     "account": "MAIN",
-    "text": "$27 while the rest of the house was asleep.\nstill has not worn off. 🤍",
-    "image_file": "gumroad notification screenshot.PNG",
+    "text": "$50 for two weeks of my time.\nsomeone trusted a 19 year old with their launch. still sitting with that. 🤍",
+    "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-08-05T22:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -5117,17 +5017,17 @@
     ]
   },
   {
-    "id": 733,
+    "id": 1109,
     "account": "TDS",
-    "text": "free downloads arriving overnight.\npeople find you while you sleep once it is built. ☕",
-    "image_file": "IMG_3909.PNG",
+    "text": "$27, an hour ago.\nsmall. but nobody paid me for hours to get it.",
+    "image_file": "gumroad sales notifications.PNG",
     "scheduled_time": "2026-08-05T22:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 634,
+    "id": 1010,
     "account": "MAIN",
-    "text": "The work compounds long before the numbers do. That gap is where most people quit.",
+    "text": "my whole business is a file, a link, and a phone.\nno office, no staff, no stock, no rent.\n\ni keep waiting for someone to tell me it's not allowed.",
     "image_file": null,
     "scheduled_time": "2026-08-05T23:30:00+02:00",
     "status": "pending",
@@ -5142,18 +5042,18 @@
     ]
   },
   {
-    "id": 734,
+    "id": 1110,
     "account": "TDS",
-    "text": "Nobody hands you a second income. You build it badly first and improve it after.",
+    "text": "i post screenshots because words are cheap and everyone online is lying.\n\nfeels uncomfortable every time. doing it anyway.",
     "image_file": null,
     "scheduled_time": "2026-08-05T23:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 635,
+    "id": 1011,
     "account": "MAIN",
-    "text": "$856.23 from 92 people.\ni did not work harder that week. i just had the right thing built.",
-    "image_file": "Untitled design(4).png",
+    "text": "$739.50 from 65 people in a day.\ni still check the dashboard twice because i assume it's a glitch.",
+    "image_file": "Untitled design (11).png",
     "scheduled_time": "2026-08-06T01:30:00+02:00",
     "status": "pending",
     "targets": [
@@ -5167,18 +5067,18 @@
     ]
   },
   {
-    "id": 735,
+    "id": 1111,
     "account": "TDS",
-    "text": "$856.23 from 92 people.\nno face, no ads, no team. posts and one product.",
+    "text": "$856.23 in a day from 92 people.\ni have never spoken to a single one of them.",
     "image_file": "Untitled design(4).png",
     "scheduled_time": "2026-08-06T01:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 636,
+    "id": 1012,
     "account": "MAIN",
-    "text": "the whole thing lives on this screen.\nno staff, no office, no overhead. 🤍",
-    "image_file": "Untitled design (5).png",
+    "text": "\"you need ads for this.\"\n$640.80 in a day and i have genuinely never run one. i don't know how.",
+    "image_file": "Untitled design (10).png",
     "scheduled_time": "2026-08-06T14:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -5192,17 +5092,17 @@
     ]
   },
   {
-    "id": 736,
+    "id": 1112,
     "account": "TDS",
-    "text": "a $27 sale on a sunday morning.\nbuild once, sell repeatedly is not just a slogan. 🤍",
-    "image_file": "gumroad sales notifications.PNG",
+    "text": "$147 order came in this morning.\nspending the week building someone else's store instead of mine. ☕",
+    "image_file": "IMG_4274.PNG",
     "scheduled_time": "2026-08-06T14:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 637,
+    "id": 1013,
     "account": "MAIN",
-    "text": "Make something useful. Charge for it. Tell people daily. That is the whole strategy.",
+    "text": "the first month i made $0.\nthe second month barely covered a coffee.\ni told nobody either time.\n\nit was month four before i said it out loud.",
     "image_file": null,
     "scheduled_time": "2026-08-06T16:30:00+02:00",
     "status": "pending",
@@ -5217,18 +5117,18 @@
     ]
   },
   {
-    "id": 737,
+    "id": 1113,
     "account": "TDS",
-    "text": "One offer. One platform. Repeated until it is boring. That is the whole plan.",
+    "text": "i wrote the thing in the notes app.\nno software, no template, no design skills.\n\npeople care that it solves the problem, not what you made it in.",
     "image_file": null,
     "scheduled_time": "2026-08-06T16:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 638,
+    "id": 1014,
     "account": "MAIN",
-    "text": "$19,079.70. 662 sales. all time.\nin february this account did not exist. 🤍",
-    "image_file": "Untitled design (15).png",
+    "text": "$27 while someone was arguing with me about whether this actually works.",
+    "image_file": "IMG_4395.PNG",
     "scheduled_time": "2026-08-06T20:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -5242,18 +5142,18 @@
     ]
   },
   {
-    "id": 738,
+    "id": 1114,
     "account": "TDS",
-    "text": "$640.80 from 32 people.\nsunday. barely opened my phone.",
-    "image_file": "Untitled design (10).png",
+    "text": "$739.50 from 65 people.\ni would have scrolled past this a year ago and called it a lie.",
+    "image_file": "Untitled design (11).png",
     "scheduled_time": "2026-08-06T20:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 639,
+    "id": 1015,
     "account": "MAIN",
-    "text": "$27, again, on a sunday.\nbuilt once in february. still selling in august.",
-    "image_file": "gumroad sales notifications.PNG",
+    "text": "this is the entire company.\nfour apps and a link. that's the whole thing. 🤍",
+    "image_file": "Untitled design (5).png",
     "scheduled_time": "2026-08-06T22:00:00+02:00",
     "status": "pending",
     "targets": [
@@ -5267,17 +5167,17 @@
     ]
   },
   {
-    "id": 739,
+    "id": 1115,
     "account": "TDS",
-    "text": "$50 for two weeks of my time.\nstill the strangest part of all of this. 🤍",
-    "image_file": "IMG_3795.PNG",
+    "text": "the whole operation. one screen, four apps.\nthat is genuinely all of it. 🤍",
+    "image_file": "Untitled design (5).png",
     "scheduled_time": "2026-08-06T22:10:00+02:00",
     "status": "pending"
   },
   {
-    "id": 640,
+    "id": 1016,
     "account": "MAIN",
-    "text": "You are not behind. You are earlier than the people you keep comparing yourself to.",
+    "text": "nobody warns you the hardest part is posting when nothing is happening.\nweek three had 40 views and zero sales.\n\ni almost stopped there.",
     "image_file": null,
     "scheduled_time": "2026-08-06T23:30:00+02:00",
     "status": "pending",
@@ -5292,18 +5192,18 @@
     ]
   },
   {
-    "id": 740,
+    "id": 1116,
     "account": "TDS",
-    "text": "Consistency is not posting daily. It is not quitting when nothing happens for weeks.",
+    "text": "someone asked how long before it worked.\nhonestly? about eleven weeks of posting into nothing.\n\ni just didn't have a better plan.",
     "image_file": null,
     "scheduled_time": "2026-08-06T23:40:00+02:00",
     "status": "pending"
   },
   {
-    "id": 641,
+    "id": 1017,
     "account": "MAIN",
-    "text": "$382 this month from 104 sales.\nnot life changing. but it started at zero, and it is real. 🤍",
-    "image_file": "IMG_4397.PNG",
+    "text": "$1,163.95 from 111 people.\nbest week i've had. posting this before i talk myself out of it.",
+    "image_file": "Untitled design(5).png",
     "scheduled_time": "2026-08-07T01:30:00+02:00",
     "status": "pending",
     "targets": [
@@ -5317,11 +5217,161 @@
     ]
   },
   {
-    "id": 741,
+    "id": 1117,
     "account": "TDS",
-    "text": "$382 this month from 104 sales.\nstarted february at zero. that is the only comparison that matters.",
-    "image_file": "IMG_4397.PNG",
+    "text": "$735.29 from 88 people.\ni built this in february and have not touched it since.",
+    "image_file": "Untitled design(6).png",
     "scheduled_time": "2026-08-07T01:40:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 1018,
+    "account": "MAIN",
+    "text": "$201 today from 19 people.\nquiet day. still more than my last shift ever paid me.",
+    "image_file": "Untitled design (17).png",
+    "scheduled_time": "2026-08-07T14:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      },
+      {
+        "platform": "x"
+      }
+    ]
+  },
+  {
+    "id": 1118,
+    "account": "TDS",
+    "text": "$1,673.63 from 86 people.\nmy best stretch so far. posting it because i post the quiet ones too.",
+    "image_file": "Untitled design (18).png",
+    "scheduled_time": "2026-08-07T14:10:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 1019,
+    "account": "MAIN",
+    "text": "someone messaged asking if i'd teach them.\ni'm 19 and still figuring it out and said yes anyway.\n\nturns out you only need to be a few steps ahead.",
+    "image_file": null,
+    "scheduled_time": "2026-08-07T16:30:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      },
+      {
+        "platform": "x"
+      }
+    ]
+  },
+  {
+    "id": 1119,
+    "account": "TDS",
+    "text": "i'm 19, working off a phone, with no startup money and no backup plan.\n\nthat's not a flex. that's just why i couldn't afford to quit.",
+    "image_file": null,
+    "scheduled_time": "2026-08-07T16:40:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 1020,
+    "account": "MAIN",
+    "text": "$27, an hour ago, from a file i wrote in february and haven't touched since.",
+    "image_file": "gumroad sales notifications.PNG",
+    "scheduled_time": "2026-08-07T20:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      },
+      {
+        "platform": "x"
+      }
+    ]
+  },
+  {
+    "id": 1120,
+    "account": "TDS",
+    "text": "free downloads coming in overnight.\npeople find you while you sleep once the thing exists. ☕",
+    "image_file": "IMG_3909.PNG",
+    "scheduled_time": "2026-08-07T20:10:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 1021,
+    "account": "MAIN",
+    "text": "$735.29 from 88 people.\ni was in class for most of it. 🤍",
+    "image_file": "Untitled design(6).png",
+    "scheduled_time": "2026-08-07T22:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      },
+      {
+        "platform": "x"
+      }
+    ]
+  },
+  {
+    "id": 1121,
+    "account": "TDS",
+    "text": "$201 today. 19 sales.\nsmall day. rent-helping money. that's still the point.",
+    "image_file": "Untitled design (17).png",
+    "scheduled_time": "2026-08-07T22:10:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 1022,
+    "account": "MAIN",
+    "text": "i used to check my bank app hoping the number changed.\nnow i check a dashboard knowing it did.\n\nsame anxiety, completely different direction.",
+    "image_file": null,
+    "scheduled_time": "2026-08-07T23:30:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      },
+      {
+        "platform": "x"
+      }
+    ]
+  },
+  {
+    "id": 1122,
+    "account": "TDS",
+    "text": "nobody talks about the eleven weeks where nothing happens.\nthey only post the week it does.\n\nthat gap is where almost everyone quits.",
+    "image_file": null,
+    "scheduled_time": "2026-08-07T23:40:00+02:00",
+    "status": "pending"
+  },
+  {
+    "id": 1023,
+    "account": "MAIN",
+    "text": "free downloads stacking up overnight while i slept.\nthe free thing is what makes the paid thing work. ☕",
+    "image_file": "IMG_3909.PNG",
+    "scheduled_time": "2026-08-08T01:30:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      },
+      {
+        "platform": "x"
+      }
+    ]
+  },
+  {
+    "id": 1123,
+    "account": "TDS",
+    "text": "a sale while i was asleep.\nstill feels like i am getting away with something. 🤍",
+    "image_file": "gumroad notification screenshot.PNG",
+    "scheduled_time": "2026-08-08T01:40:00+02:00",
     "status": "pending"
   },
   {
@@ -5340,7 +5390,7 @@
     "id": 901,
     "text": "**The whole stack costs nothing to start**\n\n• **Claude / ChatGPT** — outline and draft\n• **Canva** — design (free tier is enough)\n• **Gumroad** — hosting, checkout, delivery, refunds\n• **Beacons** — link in bio\n• **Threads** — traffic\n\nNo website. No LLC. No inventory. No ads.\n\nThe barrier was never money. It was deciding what to make.",
     "image_file": null,
-    "scheduled_time": "2026-08-08T18:00:00+02:00",
+    "scheduled_time": "2026-08-05T18:00:00+02:00",
     "status": "pending",
     "targets": [
       {
@@ -5352,7 +5402,7 @@
     "id": 902,
     "text": "**A prompt that actually helps**\n\nPaste this into Claude or ChatGPT:\n\n_You are my content strategist. My product is [X] and it solves [problem] for [audience]. Give me 20 hooks written as statements, not questions. No engagement bait. Then give me a 7-day posting plan where 5 posts build trust and 2 mention the product._\n\nThe reason it works: it forces statements instead of questions. Questions asking for replies underperform badly on Threads.",
     "image_file": null,
-    "scheduled_time": "2026-08-11T18:00:00+02:00",
+    "scheduled_time": "2026-08-06T18:00:00+02:00",
     "status": "pending",
     "targets": [
       {
@@ -5364,7 +5414,7 @@
     "id": 903,
     "text": "**Pricing, honestly**\n\n$9 feels disposable. People buy it and never open it.\n$97 needs trust you have not built yet.\n\n**$27 is the range where a stranger will take a chance on you.**\n\nOur own products sit at $19, $27, and $147 for done-for-you. The $27 one does the most volume by a distance.\n\nStart there. Raise it once you have reviews, not before.",
     "image_file": null,
-    "scheduled_time": "2026-08-15T18:00:00+02:00",
+    "scheduled_time": "2026-08-07T18:00:00+02:00",
     "status": "pending",
     "targets": [
       {
@@ -5376,7 +5426,7 @@
     "id": 904,
     "text": "**What a normal week actually looks like**\n\nNot the highlight version:\n\n• Most days are quiet. Some days there are zero sales.\n• The same product keeps selling with nothing new built.\n• Posting feels pointless for weeks before it does not.\n• The boring posts outperform the clever ones consistently.\n\nAnyone showing you only good days is selling you something. The quiet days are most of it, and they still compound.",
     "image_file": null,
-    "scheduled_time": "2026-08-18T18:00:00+02:00",
+    "scheduled_time": "2026-08-08T18:00:00+02:00",
     "status": "pending",
     "targets": [
       {
@@ -5388,7 +5438,7 @@
     "id": 905,
     "text": "**The mistake that costs the most time**\n\nBuilding for a month before showing anyone.\n\nPost the idea first. Talk about the problem for a week. See if anyone responds before you build the thing.\n\nIf nobody cares about the problem, a beautiful product will not fix that. If people do care, you will build a better version because you heard them first.\n\nValidation is a week. Building blind is a month.",
     "image_file": null,
-    "scheduled_time": "2026-08-22T18:00:00+02:00",
+    "scheduled_time": "2026-08-11T18:00:00+02:00",
     "status": "pending",
     "targets": [
       {
@@ -5400,7 +5450,7 @@
     "id": 906,
     "text": "**How to not run out of things to post**\n\nFour angles, rotate them:\n\n• **The objection** — something people say, then what actually happened\n• **The contrast** — what you do not have, next to what you built anyway\n• **The receipt** — a real screenshot, no exaggeration\n• **The plain truth** — one sentence, no metaphor\n\nThat is four posts. Rotate them and you have a month.\n\nYou do not need new ideas. You need the same idea said plainly, often.",
     "image_file": null,
-    "scheduled_time": "2026-08-25T18:00:00+02:00",
+    "scheduled_time": "2026-08-12T18:00:00+02:00",
     "status": "pending",
     "targets": [
       {
@@ -5412,7 +5462,91 @@
     "id": 907,
     "text": "**Why faceless works**\n\nYou are not the product. The solution is.\n\nNo face means no personal brand to maintain, no pressure to perform, and no ceiling based on how comfortable you are on camera.\n\nPeople buy the outcome. They do not need to know what you look like — they need to believe you have actually done the thing.\n\nThat is what screenshots are for. Not vanity. Evidence.",
     "image_file": null,
-    "scheduled_time": "2026-08-29T18:00:00+02:00",
+    "scheduled_time": "2026-08-13T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 908,
+    "text": "**Where the first buyers actually come from**\n\nNot your followers. Strangers who saw one post.\n\nMost of our sales come from people who found a single post, clicked the profile, and bought within about ten minutes. They never followed first.\n\nThat is why every post has to make sense on its own to someone who has never heard of you. No inside jokes, no 'as I mentioned yesterday'.",
+    "image_file": null,
+    "scheduled_time": "2026-08-14T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 909,
+    "text": "**The Canva part, plainly**\n\nYou do not need design skills.\n\n• Pick a blank doc, 1080x1350\n• One heading font, one body font, that is it\n• Lots of white space. Crowded looks cheap\n• Export as PDF\n\nThe product sells because it solves something, not because it is pretty. Pretty just stops people from asking for a refund.",
+    "image_file": null,
+    "scheduled_time": "2026-08-15T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 910,
+    "text": "**What to do when nothing sells for a week**\n\nDo not rebuild the product. Do not lower the price.\n\nChange the hook. Nine times out of ten the product is fine and the post is what is failing — people never got far enough to see the offer.\n\nWrite five different first lines for the same product. Post one a day. One of them will move.",
+    "image_file": null,
+    "scheduled_time": "2026-08-18T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 911,
+    "text": "**Free things are not lost revenue**\n\nWe give away a free download. It is the single best thing we made.\n\nPeople who take the free thing already trust you a little. That is the hardest part of a sale, and it is done before you have asked for anything.\n\nGive away the thing that shows you know what you are doing. Sell the thing that saves them the time.",
+    "image_file": null,
+    "scheduled_time": "2026-08-19T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 912,
+    "text": "**Posting times, from our own data**\n\nWe post six times a day and track every one.\n\nThe clear winner is late evening US time. Early morning is the worst slot by a distance — good content, nobody awake to see it.\n\nIf you only post once a day, post when your buyers are on their phone with nothing to do. Not when you happen to be free.",
+    "image_file": null,
+    "scheduled_time": "2026-08-20T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 913,
+    "text": "**Nobody is thinking about your post as much as you are**\n\nThe post you agonised over gets scrolled past in half a second.\n\nThat cuts both ways. The embarrassing one nobody remembers either. The cost of posting something imperfect is far lower than you think, and the cost of posting nothing is total.\n\nPublish it. Fix it in version two.",
+    "image_file": null,
+    "scheduled_time": "2026-08-21T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 914,
+    "text": "**One product, priced three ways**\n\nThe same knowledge sold at three levels:\n\n• **$27** — the file. They do it themselves.\n• **$50** — time with you. You answer their questions.\n• **$147** — you do it for them.\n\nSame expertise, three amounts of your time. Most people only ever build the first one and leave the other two on the table.",
+    "image_file": null,
+    "scheduled_time": "2026-08-22T18:00:00+02:00",
     "status": "pending",
     "targets": [
       {

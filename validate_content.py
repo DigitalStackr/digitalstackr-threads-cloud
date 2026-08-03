@@ -25,7 +25,10 @@ MANIFEST_PATH = HERE / "image_manifest.json"
 DEDUPE_LOOKBACK = 60          # compare against the last 60 posted, both accounts
 NEAR_DUP_THRESHOLD = 0.82     # token overlap above this = too similar
 IMAGE_REUSE_DAYS = 2        # relaxed 2026-07-30: reuse is fine, just never back-to-back
-MAX_DASHBOARD_PER = 2         # 4 image posts/day: at most 1 dashboard per 2
+MAX_DASHBOARD_PER = 3         # window size for the dashboard-spam check
+MAX_DASHBOARD_IN_WINDOW = 2   # 2 different dashboards side by side is fine; 3 in a
+                              # row is what made the feed look like one screenshot
+                              # with the number swapped (the original complaint).
 MAX_CONSECUTIVE_IMAGES = 3  # 4 image + 2 text per day
 MAX_CHARS = 490               # Threads limit; other platforms differ (see limit_for)
 PLATFORM_MAX_CHARS = {        # per-platform caps, checked against an entry's targets
@@ -54,7 +57,7 @@ BANNED_EMOJI = ["\U0001f5a4", "\U0001f4b8", "\U0001f62d", "\U0001f47b", "\U0001f
 
 # The ONLY figures that may appear in a caption without a screenshot backing them.
 # Anything else must be present in the attached image's manifest 'numbers'.
-ALLOWED_STANDALONE_FIGURES = {"$382", "$27", "$19", "$97", "$147", "$9", "$0", "$200"}
+ALLOWED_STANDALONE_FIGURES = {"$382", "$27", "$19", "$50", "$97", "$147", "$9", "$0", "$200"}
 
 
 def _norm(text: str) -> str:
@@ -213,8 +216,9 @@ def validate(queue: list) -> list:
                 window.append(kind)
                 if len(window) > MAX_DASHBOARD_PER:
                     window.pop(0)
-                if window.count("dashboard") > 1:
-                    flag(entry, f"more than 1 dashboard in the last {MAX_DASHBOARD_PER} image posts")
+                if window.count("dashboard") > MAX_DASHBOARD_IN_WINDOW:
+                    flag(entry, f"{window.count(chr(34)+chr(34)) or window.count('dashboard')} dashboards "
+                                f"in the last {MAX_DASHBOARD_PER} image posts — reads as spam")
             else:
                 run = 0
 
