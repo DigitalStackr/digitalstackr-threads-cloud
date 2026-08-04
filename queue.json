@@ -5015,7 +5015,7 @@
     "text": "$224.52 today. 24 people.\nsix months ago i'd have called that impossible. now it's a tuesday.",
     "image_file": "Untitled design (8).png",
     "scheduled_time": "2026-08-05T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5024,7 +5024,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18110393542990509",
+        "at": "2026-08-04T23:30:45.509458+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084784306808103049",
+        "at": "2026-08-04T23:30:45.509458+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T23:30:45.509458+00:00"
   },
   {
     "id": 1105,
