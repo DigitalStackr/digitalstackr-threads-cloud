@@ -4921,7 +4921,7 @@
     "text": "$27. 3:33am. phone face down on the floor.\ni was asleep for the entire transaction.",
     "image_file": "gumroad notification screenshot.PNG",
     "scheduled_time": "2026-08-04T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4930,7 +4930,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18121418491769844",
+        "at": "2026-08-04T20:01:41.106349+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084731687209214460",
+        "at": "2026-08-04T20:01:41.106349+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T20:01:41.106349+00:00"
   },
   {
     "id": 1103,
