@@ -4951,7 +4951,16 @@
     "text": "$181.30 landed this afternoon.\nsome days it is a tenth of that. i post the same either way.",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-08-04T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18124410661766222",
+        "at": "2026-08-04T20:10:43.112194+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T20:10:43.112194+00:00",
+    "thread_id": "18124410661766222"
   },
   {
     "id": 1004,
