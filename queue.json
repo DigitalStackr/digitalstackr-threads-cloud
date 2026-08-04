@@ -5423,12 +5423,20 @@
     "text": "**How to launch a digital product from zero**\n\n1. **Research** — pick a problem you already understand. Boring beats clever.\n2. **Build** — Canva for design, Notion for anything interactive.\n3. **Upload** — Gumroad handles payment and delivery for you.\n4. **Link** — Beacons as your storefront, one link in bio.\n5. **Post** — daily, about the problem, not the product.\n6. **Repeat** — the same product can sell for months.\n\nMost people stall on step 1 for weeks. The research is not the hard part. Publishing something imperfect is.",
     "image_file": null,
     "scheduled_time": "2026-08-04T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "7",
+        "at": "2026-08-04T16:00:59.330066+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T16:00:59.330066+00:00"
   },
   {
     "id": 901,
