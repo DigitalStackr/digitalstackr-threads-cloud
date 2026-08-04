@@ -4998,7 +4998,16 @@
     "text": "the boring truth: i write the post, upload the file, and wait.\nthat's the whole job.\n\nnobody makes a course about the waiting.",
     "image_file": null,
     "scheduled_time": "2026-08-04T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17973692259091267",
+        "at": "2026-08-04T21:40:31.615442+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T21:40:31.615442+00:00",
+    "thread_id": "17973692259091267"
   },
   {
     "id": 1005,
