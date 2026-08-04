@@ -4904,7 +4904,16 @@
     "text": "$27 at 2:24pm.\ni was doing dishes. found out later. that's the bit that still gets me.",
     "image_file": "IMG_4395.PNG",
     "scheduled_time": "2026-08-04T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18433354564120950",
+        "at": "2026-08-04T18:10:37.892483+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T18:10:37.892483+00:00",
+    "thread_id": "18433354564120950"
   },
   {
     "id": 1003,
