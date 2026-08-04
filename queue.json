@@ -4994,7 +4994,7 @@
   {
     "id": 1108,
     "account": "TDS",
-    "text": "$50 for two weeks of mentoring.\nshe could have asked anyone. she asked me. i did not expect that.",
+    "text": "two weeks of mentoring booked.\nshe could have asked anyone. she asked me. i did not expect that.",
     "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-08-05T20:10:00+02:00",
     "status": "pending"
@@ -5002,7 +5002,7 @@
   {
     "id": 1009,
     "account": "MAIN",
-    "text": "$50 for two weeks of my time.\nsomeone trusted a 19 year old with their launch. still sitting with that. 🤍",
+    "text": "someone booked two weeks of my time.\nthey trusted a 19 year old with their launch. still sitting with that. 🤍",
     "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-08-05T22:00:00+02:00",
     "status": "pending",
@@ -5412,7 +5412,7 @@
   },
   {
     "id": 903,
-    "text": "**Pricing, honestly**\n\n$9 feels disposable. People buy it and never open it.\n$97 needs trust you have not built yet.\n\n**$27 is the range where a stranger will take a chance on you.**\n\nOur own products sit at $19, $27, and $147 for done-for-you. The $27 one does the most volume by a distance.\n\nStart there. Raise it once you have reviews, not before.",
+    "text": "**Pricing, honestly**\n\nPrice is not a reward for how hard you worked. It is a signal about who the product is for.\n\n**Single digits** gets impulse buys from people who may never open it.\n**Around $27** is where a stranger will take a chance on you with no reviews.\n**Three figures** needs either a track record or your actual time attached.\n\nOur own ladder runs $9, $27, $97 and $147 — cheapest is the narrow tactical guide, dearest is us doing the work for you.\n\nStart in the middle. Move up when you have proof, not when you feel like it.",
     "image_file": null,
     "scheduled_time": "2026-08-07T18:00:00+02:00",
     "status": "pending",
@@ -5544,7 +5544,7 @@
   },
   {
     "id": 914,
-    "text": "**One product, priced three ways**\n\nThe same knowledge sold at three levels:\n\n• **$27** — the file. They do it themselves.\n• **$50** — time with you. You answer their questions.\n• **$147** — you do it for them.\n\nSame expertise, three amounts of your time. Most people only ever build the first one and leave the other two on the table.",
+    "text": "**One product, priced three ways**\n\nThe same knowledge sold at three levels:\n\n• **$27** — the file. They do it themselves.\n• **$97** — two weeks of your time. You answer their questions.\n• **$147** — you do the whole build for them.\n\nSame expertise, three amounts of your time. Most people only ever build the first one and leave the other two on the table.",
     "image_file": null,
     "scheduled_time": "2026-08-22T18:00:00+02:00",
     "status": "pending",

@@ -57,7 +57,10 @@ BANNED_EMOJI = ["\U0001f5a4", "\U0001f4b8", "\U0001f62d", "\U0001f47b", "\U0001f
 
 # The ONLY figures that may appear in a caption without a screenshot backing them.
 # Anything else must be present in the attached image's manifest 'numbers'.
-ALLOWED_STANDALONE_FIGURES = {"$382", "$27", "$19", "$50", "$97", "$147", "$9", "$0", "$200"}
+# Current prices only. $19 (old TRL) and $50 (old mentorship) are deliberately NOT
+# here: they are still valid on a post whose screenshot shows that historical sale,
+# but a text-only post must never quote them as if they were the price today.
+ALLOWED_STANDALONE_FIGURES = {"$382", "$27", "$9", "$97", "$147", "$0", "$200"}
 
 
 def _norm(text: str) -> str:

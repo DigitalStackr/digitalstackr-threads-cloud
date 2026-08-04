@@ -36,6 +36,12 @@ API = "https://api.telegram.org"
 OFFSET_PATH = Path(__file__).parent / "telegram_offset.json"
 
 GUMROAD = "https://digitalstackr.gumroad.com"
+LINKS = {
+    "fde":  GUMROAD + "/l/faceless-digital-empire",
+    "trl":  GUMROAD + "/l/threads-hunter-blueprint",
+    "ment": GUMROAD + "/l/mentorship",
+    "dfy":  GUMROAD + "/l/doneforyou-business",
+}
 
 # Each entry: (name, [keyword patterns], answer).
 # Answers are plain, honest, and price-accurate. No earnings claims anywhere.
@@ -54,8 +60,8 @@ FAQ = [
         [r"\bhow much\b", r"\bprice\b", r"\bcost\b", r"\bpricing\b", r"\bhow much is\b"],
         "Current prices:\n\n"
         "• <b>Faceless Digital Empire</b> — $27\n"
-        "• <b>Threads Revenue Ladder</b> — $19\n"
-        "• <b>1-on-1 mentorship</b> — from $50\n"
+        "• <b>Threads Revenue Ladder</b> — $9\n"
+        "• <b>1-on-1 mentorship</b> — $97\n"
         "• <b>Done-For-You setup</b> — $147\n\n"
         "All one-time payments.",
     ),
@@ -63,8 +69,12 @@ FAQ = [
         "where_buy",
         [r"\bwhere\b.*\bbuy\b", r"\bhow.*\b(buy|purchase|get it|order)\b", r"\blink\b",
          r"\bcheckout\b", r"\bwhere can i\b"],
-        f"Everything is on Gumroad:\n{GUMROAD}\n\n"
-        "Pick the product, pay, and the file downloads straight away.",
+        "Direct links:\n\n"
+        f"• <b>Faceless Digital Empire</b> ($27)\n{LINKS['fde']}\n\n"
+        f"• <b>Threads Revenue Ladder</b> ($9)\n{LINKS['trl']}\n\n"
+        f"• <b>Mentorship</b> ($97)\n{LINKS['ment']}\n\n"
+        f"• <b>Done-For-You</b> ($147)\n{LINKS['dfy']}\n\n"
+        "Pay and the file downloads straight away.",
     ),
     (
         "is_it_legit",
@@ -96,7 +106,7 @@ FAQ = [
         [r"\bdone.?for.?you\b", r"\bdfy\b", r"\bdo it for me\b", r"\bset.?up for me\b"],
         "<b>Done-For-You ($147)</b> is where the store gets built for you — the product, "
         "the store copy, the pricing, and a delivery page.\n\n"
-        f"You still run the account and post. Details on Gumroad: {GUMROAD}",
+        f"You still run the account and post.\n{LINKS['dfy']}",
     ),
 ]
 

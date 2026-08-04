@@ -45,7 +45,8 @@
       "numbers": [
         "$50"
       ],
-      "shows": "Gumroad push: New sale of 2 Week 1 on 1 Digital Mentorship for $50, 56m ago"
+      "shows": "Gumroad push: New sale of 2 Week 1 on 1 Digital Mentorship for $50, 56m ago",
+      "note": "Shows a $50 mentorship sale. Mentorship is now $97 — this is a HISTORICAL sale. Do not present $50 as the current price."
     },
     "IMG_3944.PNG": {
       "kind": "payout",
@@ -65,7 +66,7 @@
         "$98"
       ],
       "shows": "iPhone lock screen, stacked Gumroad notifications: Threads Algo Boss Kit downloads (free), TRL $19, DFY $98, FDE $27, Mentorship $50",
-      "note": "Best 'phone-with-notifications' shot. Contains the OLD $98 DFY price in the stack - do not cite $98 in a caption; cite $19/$27/$50 or no figure at all."
+      "note": "Best 'phone-with-notifications' shot. Contains OLD prices in the stack (TRL $19, DFY $98) - current are $9 and $147. Cite $27 or no figure at all; never quote $19/$98 as today's price."
     },
     "gumroad notification screenshot.PNG": {
       "kind": "sale_notification",
@@ -91,7 +92,7 @@
         "$11"
       ],
       "shows": "Gumroad push: New sale of Threads Revenue Ladder for $11",
-      "blocked_reason": "shows the OLD $11 TRL price; current is $19"
+      "blocked_reason": "shows an old TRL price ($11); current is $9"
     },
     "Gumroad Notificaion screenshots.PNG": {
       "kind": "sale_notification",
