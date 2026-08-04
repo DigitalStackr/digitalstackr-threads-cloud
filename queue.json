@@ -4827,7 +4827,7 @@
     "text": "i deleted the app for four days last month because i was convinced it wasn't working.\ncame back to sales i'd missed the notifications for.\n\nthe quitting point is always right before it moves.",
     "image_file": null,
     "scheduled_time": "2026-08-04T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4836,7 +4836,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18128860135639353",
+        "at": "2026-08-04T14:30:47.139469+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084648271515889912",
+        "at": "2026-08-04T14:30:47.139469+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T14:30:47.139469+00:00"
   },
   {
     "id": 1101,
