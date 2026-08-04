@@ -5045,7 +5045,16 @@
     "text": "$640.80 from 32 people. no ads, no team.\ni genuinely still don't know how ads work.",
     "image_file": "Untitled design (10).png",
     "scheduled_time": "2026-08-05T01:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17892207375398291",
+        "at": "2026-08-04T23:40:36.683334+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T23:40:36.683334+00:00",
+    "thread_id": "17892207375398291"
   },
   {
     "id": 1006,
