@@ -4874,7 +4874,7 @@
     "text": "someone paid $147 for me to build their store while i was in a lecture.\ni checked my phone after and just sat there. 🤍",
     "image_file": "IMG_4274.PNG",
     "scheduled_time": "2026-08-04T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4883,7 +4883,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18029559587837081",
+        "at": "2026-08-04T18:00:51.502136+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084701283986903526",
+        "at": "2026-08-04T18:00:51.502136+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T18:00:51.502136+00:00"
   },
   {
     "id": 1102,
