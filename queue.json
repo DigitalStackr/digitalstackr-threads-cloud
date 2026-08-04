@@ -4810,7 +4810,16 @@
     "text": "$201 from 19 people today.\nnot a big day. i'm posting it anyway because most days look like this.",
     "image_file": "Untitled design (17).png",
     "scheduled_time": "2026-08-04T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18114419987512994",
+        "at": "2026-08-04T12:10:46.542390+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T12:10:46.542390+00:00",
+    "thread_id": "18114419987512994"
   },
   {
     "id": 1001,
