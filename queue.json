@@ -4857,7 +4857,16 @@
     "text": "i started this account with 0 followers and one file i wasn't sure about.\nstill not sure about it most days.\n\nit keeps selling regardless.",
     "image_file": null,
     "scheduled_time": "2026-08-04T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17901476559524489",
+        "at": "2026-08-04T14:40:40.943920+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T14:40:40.943920+00:00",
+    "thread_id": "17901476559524489"
   },
   {
     "id": 1002,
