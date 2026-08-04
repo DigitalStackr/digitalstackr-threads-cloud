@@ -4968,7 +4968,7 @@
     "text": "i wrote the product in the notes app on a bus.\nno desk, no laptop, no plan.\n\nit has now sold more than anything i made properly.",
     "image_file": null,
     "scheduled_time": "2026-08-04T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4977,7 +4977,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18111957433951006",
+        "at": "2026-08-04T21:30:39.613689+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084753939539296691",
+        "at": "2026-08-04T21:30:39.613689+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T21:30:39.613689+00:00"
   },
   {
     "id": 1104,
