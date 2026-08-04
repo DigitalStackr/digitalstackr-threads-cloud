@@ -4780,7 +4780,7 @@
     "text": "my mum asked what i actually do all day.\ni showed her my lock screen and she went quiet. 🤍",
     "image_file": "IMG_3909.PNG",
     "scheduled_time": "2026-08-04T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -4789,7 +4789,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17949433260232995",
+        "at": "2026-08-04T12:00:54.541414+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084610692603060673",
+        "at": "2026-08-04T12:00:54.541414+00:00"
+      }
+    },
+    "posted_at": "2026-08-04T12:00:54.541414+00:00"
   },
   {
     "id": 1100,
