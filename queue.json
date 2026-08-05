@@ -5330,7 +5330,16 @@
     "text": "$856.23 in a day from 92 people.\ni have never spoken to a single one of them.",
     "image_file": "Untitled design(4).png",
     "scheduled_time": "2026-08-06T01:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18088968944446015",
+        "at": "2026-08-05T23:40:32.680507+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T23:40:32.680507+00:00",
+    "thread_id": "18088968944446015"
   },
   {
     "id": 1012,
