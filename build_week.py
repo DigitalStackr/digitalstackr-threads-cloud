@@ -3,20 +3,27 @@ Builds one week of queue entries on the new format split (2026-08-05 reset).
 
 WHAT CHANGED AND WHY
   Until now every post was a single short post - the format that averages 729
-  views in the July data, against 12,899 for a long-form thread. We had never
-  published a thread because post_text() had no reply_to_id.
+  views in the July 2026 data, against 12,899 for a long-form thread. We had
+  never published a thread because post_text() had no reply_to_id.
 
-  Weekday (6):  3 threads + 2 screenshots + 1 short
+  Weekday (6):  2 threads + 3 screenshots + 1 short
   Weekend (8):  3 threads + 4 screenshots + 1 short   <- Sat/Sun reach ~35% higher
 
-  Thread topics run 2 utility : 1 identity. Utility lists get saved and shared
-  (reach); identity lists get replies (growth, and replies tracked growth at every
-  rung of the July report). Topics stay in money/beginner territory - broad enough
-  to travel, close enough that the followers gained can actually buy.
+  Two threads on a weekday rather than three: 3/day is 21 unique threads a week
+  per account, and a thread recycled three times is exactly the duplication the
+  content reset existed to stop. 16 real ones beat 21 slots of reruns.
 
-  TDS mirrors MAIN with an angle shift, 10 min behind, so the two are comparable.
+  Thread topics run roughly 2 utility : 1 identity. Utility lists get saved and
+  shared (reach); identity lists get replies (growth - replies tracked growth at
+  every rung of the July report). Topics stay in money/beginner territory: broad
+  enough to travel, close enough that the followers gained can actually buy.
 
-Run:  python build_week.py            (writes week_batch.json)
+  TDS runs the same screenshots with a different ANGLE, 10 min behind, so a gap in
+  performance is the angle rather than the content. Threads are identical on both
+  accounts on purpose - that test is about the format, and changing two variables
+  at once tells us nothing.
+
+Run:  python build_week.py
       python validate_content.py week_batch.json
 """
 import json
@@ -26,11 +33,8 @@ from pathlib import Path
 HERE = Path(__file__).parent
 TZ = timezone(timedelta(hours=2))          # Berlin CEST; US Eastern = Berlin - 6
 
-# Slots chosen for US hours (see CLAUDE.md 4.2). Threads take the slots with the
-# most runway ahead of them; the 01:30 US-prime slot always gets a receipt.
-# 2 threads on weekdays, 3 at the weekend. Not 3 flat: 3/day is 21 unique threads
-# a week per account, and a repeated thread is exactly the duplication the content
-# reset was about. 16 real ones beats 21 slots filled with reruns.
+# Slots chosen for US hours (CLAUDE.md 4.2). The 01:30 US-prime slot always gets
+# a receipt rather than a thread.
 WEEKDAY = [("14:00", "thread"), ("16:30", "image"), ("20:00", "image"),
            ("22:00", "short"),  ("23:30", "thread"), ("01:30", "image")]
 WEEKEND = [("14:00", "thread"), ("16:30", "image"), ("18:00", "image"),
@@ -44,7 +48,8 @@ CTA = ("getting a lot of dms asking how this works.\n\n"
        "https://digitalstackr.gumroad.com/l/faceless-digital-empire")
 
 # ---------------------------------------------------------------- threads
-# Every hook is one declarative line. Every list item is concrete. No maxims.
+# Every hook is one declarative line. Every list item is concrete. No maxims -
+# abstract one-liners were the measured failures.
 THREADS = [
     {"kind": "utility", "parts": [
         "10 DIGITAL PRODUCTS YOU CAN BUILD IN A WEEKEND.\n\n(all of these are just a doc and a bit of thought)",
@@ -211,66 +216,105 @@ THREADS = [
         "8. you're more excited about the branding than the contents.\n\nall of these are fixable. none of them fix themselves."]},
 ]
 
-# ------------------------------------------------------- screenshots + shorts
-# Figures MUST match the attached image exactly (image_manifest.json).
-IMAGES = [
-    ("IMG_4397.PNG", "$382 this month from 104 people.\nnot life changing. but it's the first money i've made that didn't need me awake for it."),
-    ("gumroad notification screenshot.PNG", "a sale came in at 3:33am.\nphone face down, dead asleep. woke up to it already done."),
-    ("Untitled design (10).png", "$640.80 from 32 people.\nzero ads. i genuinely do not know how to run them."),
-    ("IMG_3944.PNG", "$181.30.\ni was walking home. it had already happened without me."),
-    ("IMG_4395.PNG", "someone bought the $27 guide at 2:24pm.\ni was doing something else entirely. that still feels strange."),
-    ("Untitled design (17).png", "$201 from 19 people.\nquiet day. i'll take a quiet day that still pays."),
-    ("Untitled design (8).png", "$224.52 from 24 people.\nsix months ago i'd have said that was made up."),
-    ("IMG_4274.PNG", "someone paid $147 for me to build their store for them.\ni'm 19. that one took a minute to process."),
-    ("Untitled design(6).png", "88 separate people decided this was worth paying for.\n$735.29. my phone was in a bag under a desk for most of it. 🤍"),
-    ("Untitled design (11).png", "$739.50 from 65 people.\n65 strangers trusted a guide written by a teenager."),
-    ("gumroad sales notifications.PNG", "$27, again.\nthe same guide i almost didn't publish because it felt too simple."),
-    ("Untitled design(4).png", "$856.23 from 92 people.\nno face, no name, no ads. just a doc that solved one thing."),
-    ("IMG_3795.PNG", "someone paid $50 for two weeks of my time back when that was the price.\n19 years old and somebody trusted me with their launch."),
-    ("Untitled design (5).png", "the whole business is on this phone.\nno office, no laptop, no staff. just the one screen."),
-    # Second pass over the same screenshots, different angle each time. Images may
-    # repeat after IMAGE_REUSE_DAYS; captions never repeat.
-    ("IMG_4397.PNG", "104 people bought something i made in canva.\nstill the part i find hardest to explain to people at home."),
-    ("Untitled design (10).png", "someone told me this market was saturated.\n$640.80 from 32 people that same week."),
-    ("IMG_3944.PNG", "$181.30.\ni checked my phone expecting a bill."),
-    ("Untitled design (8).png", "$224.52 from 24 people.\nnone of them asked how old i was."),
-    ("gumroad notification screenshot.PNG", "$27 at 3:33am.\nthe store doesn't know what time it is and that's the entire point."),
-    ("Untitled design (17).png", "$201 from 19 people.\nsmall enough that i think anyone reading this could do it. that's why i'm posting it."),
-    ("IMG_4274.PNG", "$147 for a done-for-you store.\ni built someone their whole business while mine ran itself."),
-    ("Untitled design (11).png", "$739.50 from 65 people.\nno face, no ads, no team. i keep waiting for the catch."),
-    ("Untitled design(4).png", "$856.23 from 92 people.\ni started this with nothing but a phone and a lot of free evenings."),
-]
+# ------------------------------------------------------- screenshots
+# 'kind' is the SHAPE of the screenshot. build() rotates through kinds so two
+# image posts in a row never look like the same screen with a new number on it -
+# a wall of Gumroad dashboards was the original complaint behind the content
+# reset. Every figure below was checked against image_manifest.json.
+IMAGE_KINDS = ["dashboard", "sale_notification", "payout", "phone_notifications"]
 
-# TDS runs the SAME screenshot with a different angle on it. MAIN states the
-# result; TDS narrates the moment around it. Same proof, same slot order, so any
-# gap in performance is the ANGLE, not the content - which is the thing we
-# actually want to learn. Threads themselves stay identical across both accounts:
-# that test is about the format, and changing two variables at once tells us
-# nothing.
-IMAGES_TDS = [
-    "$382 this month. 104 people.\nchecked it twice on the way to class because it didn't look real.",
-    "3:33am. phone face down.\nwoke up and it had already happened without me.",
-    "$640.80 from 32 people.\nsomeone asked what my ad budget is. i don't have one.",
-    "$181.30 while i was out.\nfirst time money turned up that i hadn't traded an hour for.",
-    "$27, 2:24pm.\ni was in the middle of something else. it still went through.",
-    "$201 from 19 people.\nnot a big day. still a day that paid.",
-    "$224.52 from 24 people.\nsix months ago this screenshot would have annoyed me.",
-    "$147 for a store i built for someone else.\nthey trusted a 19 year old with their launch.",
-    "$735.29 from 88 people.\nphone was in my bag the whole time. 🤍",
-    "$739.50 from 65 people.\ni've refreshed it about four times.",
-    "$27 again.\nsame guide. the one that felt too simple to charge for.",
-    "$856.23 from 92 people.\nnone of them know my name and it doesn't matter.",
-    "$50 for two weeks of my time, back when that was the price.\nsomebody's launch, in my hands, at 19.",
-    "the entire business fits on this screen.\nno office. no team. no laptop.",
-    "104 people. one guide.\ni made it in canva on a weekend and almost binned it.",
-    "somebody told me digital products were finished.\n$640.80 that same week, from 32 people.",
-    "$181.30 turned up and my first thought was that something had gone wrong.",
-    "$224.52 from 24 people.\nnobody asked my age. nobody asked for my face.",
-    "$27 at 3:33am.\nthe store kept working while i was unconscious.",
-    "$201 from 19 people.\nposting the small ones because those are the believable ones.",
-    "$147 to build someone else's store.\nmine was running in another tab.",
-    "$739.50 from 65 people.\nstill waiting for someone to tell me it's a mistake.",
-    "$856.23 from 92 people.\nstarted with a phone and empty evenings. that's genuinely it.",
+
+def D(kind, image, main, tds):
+    return {"kind": kind, "image": image, "main": main, "tds": tds}
+
+
+POOL = [
+    D("dashboard", "IMG_4397.PNG",
+      "$382 this month from 104 people.\nnot life changing. but it's the first money i've made that didn't need me awake for it.",
+      "$382 this month. 104 people.\nchecked it twice on the way to class because it didn't look real."),
+    D("sale_notification", "gumroad notification screenshot.PNG",
+      "a sale came in at 3:33am.\nphone face down, dead asleep. woke up to it already done.",
+      "3:33am. phone face down.\nwoke up and it had already happened without me."),
+    D("payout", "IMG_3944.PNG",
+      "$181.30.\ni was walking home. it had already happened without me.",
+      "$181.30 while i was out.\nfirst time money turned up that i hadn't traded an hour for."),
+    D("phone_notifications", "IMG_3909.PNG",
+      "woke up to a lock screen like this.\nthe $27 one is the guide. the rest stacked up overnight.",
+      "lock screen this morning.\nthe $27 is the guide. i was asleep for all of them."),
+
+    D("dashboard", "Untitled design (10).png",
+      "$640.80 from 32 people.\nzero ads. i genuinely do not know how to run them.",
+      "$640.80 from 32 people.\nsomeone asked what my ad budget is. i don't have one."),
+    D("sale_notification", "IMG_4395.PNG",
+      "someone bought the $27 guide at 2:24pm.\ni was doing something else entirely. that still feels strange.",
+      "$27, 2:24pm.\ni was in the middle of something else. it still went through."),
+    D("payout", "Gumroad Payout Screenshots.PNG",
+      "an email that just says \"it's pay day\".\n$1638.53 deposited, for everything up to march 20th. i read it about four times.",
+      "\"it's pay day.\"\n$1638.53, covering everything up to march 20th. i've still got the email saved."),
+    D("phone_notifications", "Untitled design (5).png",
+      "no laptop in this photo. there isn't one.\nthe whole thing runs off the screen i'm holding.",
+      "the entire business fits on this screen.\nno office. no team. no laptop."),
+
+    D("dashboard", "Untitled design (17).png",
+      "$201 from 19 people.\nquiet day. i'll take a quiet day that still pays.",
+      "$201 from 19 people.\nnot a big day. still a day that paid."),
+    D("sale_notification", "IMG_4274.PNG",
+      "someone paid $147 for me to build their store for them.\ni'm 19. that one took a minute to process.",
+      "$147 for a store i built for someone else.\nthey trusted a 19 year old with their launch."),
+    D("payout", "paypal notification ss from phn.png",
+      "$1117.67 from gumroad into paypal.\nmoney i made explaining something i'd only learned the year before.",
+      "$1117.67 landed in paypal.\nfor a thing i wrote about six months after learning it."),
+
+    D("dashboard", "Untitled design (8).png",
+      "$224.52 from 24 people.\nsix months ago i'd have said that was made up.",
+      "$224.52 from 24 people.\nsix months ago this screenshot would have annoyed me."),
+    D("sale_notification", "gumroad sales notifications.PNG",
+      "$27, again.\nthe same guide i almost didn't publish because it felt too simple.",
+      "$27 again.\nsame guide. the one that felt too simple to charge for."),
+
+    D("dashboard", "Untitled design(6).png",
+      "88 separate people decided this was worth paying for.\n$735.29, and my phone was in a bag under a desk for most of it. \U0001f90d",
+      "$735.29 from 88 people.\nphone was in my bag the whole time. \U0001f90d"),
+    D("sale_notification", "IMG_3795.PNG",
+      "someone paid $50 for two weeks of my time back when that was the price.\n19 years old and somebody trusted me with their launch.",
+      "$50 for two weeks of my time, back when that was the price.\nsomebody's launch, in my hands, at 19."),
+
+    D("dashboard", "Untitled design (11).png",
+      "$739.50 from 65 people.\n65 strangers trusted a guide written by a teenager.",
+      "$739.50 from 65 people.\ni've refreshed it about four times."),
+    D("dashboard", "Untitled design(4).png",
+      "$856.23 from 92 people.\nno face, no name, no ads. just a doc that solved one thing.",
+      "$856.23 from 92 people.\nnone of them know my name and it doesn't matter."),
+
+    # Second angle on screenshots already used above. The image may repeat after
+    # IMAGE_REUSE_DAYS; the caption never does.
+    D("dashboard", "IMG_4397.PNG",
+      "104 people bought something i made in canva.\nstill the part i find hardest to explain to people at home.",
+      "104 people. one guide.\ni made it in canva on a weekend and almost binned it."),
+    D("sale_notification", "gumroad notification screenshot.PNG",
+      "$27 at 3:33am.\nthe store doesn't know what time it is and that's the entire point.",
+      "$27 at 3:33am.\nthe store kept working while i was unconscious."),
+    D("payout", "IMG_3944.PNG",
+      "$181.30.\ni checked my phone expecting a bill.",
+      "$181.30 turned up and my first thought was that something had gone wrong."),
+    D("dashboard", "Untitled design (10).png",
+      "someone told me this market was saturated.\n$640.80 from 32 people that same week.",
+      "somebody told me digital products were finished.\n$640.80 that same week, from 32 people."),
+    D("dashboard", "Untitled design (8).png",
+      "$224.52 from 24 people.\nnone of them asked how old i was.",
+      "$224.52 from 24 people.\nnobody asked my age. nobody asked for my face."),
+    D("sale_notification", "IMG_4274.PNG",
+      "$147 for a done-for-you store.\ni built someone their whole business while mine ran itself.",
+      "$147 to build someone else's store.\nmine was running in another tab."),
+    D("dashboard", "Untitled design (17).png",
+      "$201 from 19 people.\nsmall enough that anyone reading this could do it. that's why i post them.",
+      "$201 from 19 people.\nposting the small ones because those are the believable ones."),
+    D("dashboard", "Untitled design (11).png",
+      "$739.50 from 65 people.\nno face, no ads, no team. i keep waiting for the catch.",
+      "$739.50 from 65 people.\nstill waiting for someone to tell me it's a mistake."),
+    D("dashboard", "Untitled design(4).png",
+      "$856.23 from 92 people.\ni started this with nothing but a phone and a lot of free evenings.",
+      "$856.23 from 92 people.\nstarted with a phone and empty evenings. that's genuinely it."),
 ]
 
 SHORTS = [
@@ -284,9 +328,31 @@ SHORTS = [
 ]
 
 
+def next_image(used, cursor):
+    """Round-robin across screenshot TYPES, returning (index, next_cursor).
+
+    Round-robin rather than 'anything but the last kind': the naive version just
+    ping-ponged dashboard/sale forever and never reached payout or phone shots,
+    which is the variety this exists to produce. Falls back to any unused caption
+    once a kind is exhausted - varying the proof matters, but not enough to start
+    repeating captions."""
+    for step in range(len(IMAGE_KINDS)):
+        want = IMAGE_KINDS[(cursor + step) % len(IMAGE_KINDS)]
+        for i, item in enumerate(POOL):
+            if i not in used and item["kind"] == want:
+                return i, (cursor + step + 1) % len(IMAGE_KINDS)
+    for i in range(len(POOL)):
+        if i not in used:
+            return i, cursor
+    used.clear()
+    return 0, cursor
+
+
 def build(start_date, days=7, start_id=2000):
     entries, eid = [], start_id
-    ti = ii = si = 0
+    ti = si = 0
+    used, cursor = set(), 0
+
     for d in range(days):
         day = start_date + timedelta(days=d)
         slots = WEEKEND if day.weekday() >= 5 else WEEKDAY
@@ -298,8 +364,8 @@ def build(start_date, days=7, start_id=2000):
                 when += timedelta(days=1)
 
             entry = {"id": eid, "scheduled_time": when.isoformat(), "status": "pending"}
-
             tds_text = None
+
             if kind == "thread":
                 t = THREADS[ti % len(THREADS)]; ti += 1
                 entry["thread_parts"] = t["parts"]
@@ -308,13 +374,14 @@ def build(start_date, days=7, start_id=2000):
                 if t["kind"] == "utility":
                     entry["auto_plug"] = {"status": "pending", "account": "MAIN", "text": CTA}
             elif kind == "image":
-                idx = ii % len(IMAGES)
-                img, cap = IMAGES[idx]; ii += 1
-                entry["text"] = cap
-                entry["image_file"] = img
+                i, cursor = next_image(used, cursor)
+                item = POOL[i]
+                used.add(i)
+                entry["text"] = item["main"]
+                entry["image_file"] = item["image"]
                 entry["targets"] = [{"platform": "threads", "account": "MAIN"},
                                     {"platform": "x"}]
-                tds_text = IMAGES_TDS[idx]
+                tds_text = item["tds"]
             else:
                 entry["text"] = SHORTS[si % len(SHORTS)]; si += 1
                 entry["targets"] = [{"platform": "threads", "account": "MAIN"},
@@ -322,8 +389,7 @@ def build(start_date, days=7, start_id=2000):
 
             entries.append(entry); eid += 1
 
-            # TDS mirror, 10 minutes behind. Same content, so a difference in
-            # performance is a difference in AUDIENCE, not in what was posted.
+            # TDS mirror, 10 minutes behind.
             tds = json.loads(json.dumps(entry))
             tds["id"] = eid; eid += 1
             tds["scheduled_time"] = (when + timedelta(minutes=10)).isoformat()
@@ -342,8 +408,8 @@ if __name__ == "__main__":
     batch = build(start)
     out = HERE / "week_batch.json"
     out.write_text(json.dumps(batch, indent=2, ensure_ascii=False), encoding="utf-8")
-    threads = sum(1 for e in batch if e.get("thread_parts"))
+    n_thread = sum(1 for e in batch if e.get("thread_parts"))
+    n_image = sum(1 for e in batch if e.get("image_file"))
     print(f"{len(batch)} entries -> {out.name}")
-    print(f"  {threads} threads, {sum(1 for e in batch if e.get('image_file'))} screenshots, "
-          f"{len(batch) - threads - sum(1 for e in batch if e.get('image_file'))} shorts")
+    print(f"  {n_thread} threads, {n_image} screenshots, {len(batch) - n_thread - n_image} shorts")
     print(f"  {start.date()} -> {(start + timedelta(days=6)).date()}")
