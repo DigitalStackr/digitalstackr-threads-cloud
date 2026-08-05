@@ -5140,7 +5140,16 @@
     "text": "month one i made almost nothing and kept going purely because the work was already done.\n\nthat's the only reason. not discipline.",
     "image_file": null,
     "scheduled_time": "2026-08-05T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18102301876919710",
+        "at": "2026-08-05T14:40:34.398177+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T14:40:34.398177+00:00",
+    "thread_id": "18102301876919710"
   },
   {
     "id": 1008,
