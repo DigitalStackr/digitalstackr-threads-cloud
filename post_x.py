@@ -90,13 +90,40 @@ def _create(auth, payload: dict) -> str:
     return tid
 
 
+def upload_media(auth, image_url: str) -> str:
+    """Fetch a repo screenshot and upload it to X. Returns a media_id string.
+
+    WHY THIS EXISTS: X posts used to go out text-only, so a caption reading
+    "$224.52 today" published with NOTHING backing it - a bare income claim, and a
+    straight violation of the rule that every figure must match an attached
+    screenshot. Text-only was never a decision, just an unbuilt flow.
+
+    Billing note: the $0.20 surcharge is specifically for a LINK IN THE BODY, not
+    for media, so attaching an image should leave a post at the $0.015 base rate.
+    'Should' - confirm against the billing dashboard after the first image post
+    before queueing a week of them.
+    """
+    img = requests.get(image_url, timeout=60)
+    img.raise_for_status()
+    r = requests.post(
+        "https://upload.twitter.com/1.1/media/upload.json",
+        files={"media": img.content},
+        auth=auth,
+        timeout=120,
+    )
+    if r.status_code >= 300:
+        raise RuntimeError(f"X media upload failed (status {r.status_code}): {r.text[:300]}")
+    media_id = (r.json() or {}).get("media_id_string")
+    if not media_id:
+        raise RuntimeError(f"X media upload returned no media_id: {r.text[:300]}")
+    return media_id
+
+
 def post_x(text: str, image_url: str = None) -> str:
     """Publish to X. Returns the tweet id of the main post.
 
     Any URL is moved out of the body into a threaded reply so the post bills at
-    $0.015 instead of $0.20. image_url is accepted for interface symmetry with the
-    other platforms but is NOT posted — v2 media upload is a separate flow we have
-    not built, and silently dropping to text is better than a surprise cost.
+    $0.015 instead of $0.20. image_url, when given, is uploaded and attached.
     """
     auth = _auth()
     policy = os.environ.get("X_URL_POLICY", "reply").lower()
@@ -114,7 +141,13 @@ def post_x(text: str, image_url: str = None) -> str:
     if not body:
         raise RuntimeError("X post body is empty after removing URLs")
 
-    tweet_id = _create(auth, {"text": body})
+    payload = {"text": body}
+    if image_url:
+        # Deliberately NOT wrapped in try/except: if the screenshot can't be
+        # attached, the post must fail rather than publish a figure with no proof.
+        payload["media"] = {"media_ids": [upload_media(auth, image_url)]}
+
+    tweet_id = _create(auth, payload)
 
     # Link goes in a reply, never the body — this is the cost guard doing its job.
     if urls:
