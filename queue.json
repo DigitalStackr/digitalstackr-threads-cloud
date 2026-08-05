@@ -5157,7 +5157,7 @@
     "text": "$856.23 from 92 people.\nnot one of them has seen my face or knows my name.",
     "image_file": "Untitled design(4).png",
     "scheduled_time": "2026-08-05T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5167,7 +5167,20 @@
         "platform": "x",
         "text": "not one person who has bought from me has seen my face or knows my name."
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17961873345153662",
+        "at": "2026-08-05T18:01:01.234420+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085063710952026425",
+        "at": "2026-08-05T18:01:01.234420+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T18:01:01.234420+00:00"
   },
   {
     "id": 1108,
