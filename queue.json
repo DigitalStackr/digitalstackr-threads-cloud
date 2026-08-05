@@ -5188,7 +5188,16 @@
     "text": "two weeks of mentoring booked.\nshe could have asked anyone. she asked me. i did not expect that.",
     "image_file": "IMG_3795.PNG",
     "scheduled_time": "2026-08-05T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18488348983103755",
+        "at": "2026-08-05T18:10:34.067025+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T18:10:34.067025+00:00",
+    "thread_id": "18488348983103755"
   },
   {
     "id": 1009,
