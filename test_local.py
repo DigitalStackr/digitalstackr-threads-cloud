@@ -483,8 +483,8 @@ except RuntimeError as e:
     check("missing creds explains Bearer token cannot post", "Bearer" in str(e))
 
 # --- scheduler routing + isolation ---
-def fake_x(text): calls.append(("x", text)); return "tweet_1"
-def fake_x_fail(text): raise RuntimeError("X boom")
+def fake_x(text, image_url=None): calls.append(("x", text, image_url)); return "tweet_1"
+def fake_x_fail(text, image_url=None): raise RuntimeError("X boom")
 scheduler.post_x = fake_x
 scheduler.post_telegram = fake_tg
 scheduler.MAX_POSTS_PER_TICK = 100
@@ -496,7 +496,10 @@ q10 = [
    "targets":[{"platform":"threads","account":"MAIN"},{"platform":"telegram"},{"platform":"x"}]},
 ]
 q10 = run_tick(q10)
-check("id100 x posts", by_id(q10,100)["status"]=="posted" and ("x","one product. one platform.") in calls)
+check("id100 x posts", by_id(q10,100)["status"]=="posted" and ("x","one product. one platform.",None) in calls)
+# id101 has image_file: X must now RECEIVE that screenshot, not silently drop it.
+check("id101 x post carries the screenshot url",
+      any(c[0]=="x" and c[2] and c[2].endswith("/images/foo.png") for c in calls))
 check("id101 fans out to threads+telegram+x",
       {"threads:MAIN","telegram","x"} <= set(by_id(q10,101)["results"].keys()))
 
@@ -507,6 +510,137 @@ q10b = [{"id":102,"text":"iso","scheduled_time":iso(now),"status":"pending",
 q10b = run_tick(q10b)
 check("id102 threads posted despite X failing (isolation)",
       by_id(q10b,102)["results"]["threads:MAIN"]["status"]=="posted")
+
+# =====================================================================
+print("\n[TEST 11] Long-form threads (reply chains)")
+import post_thread as pt
+
+chain = []
+def fake_ptext(account, text, reply_to_id=None):
+    chain.append((text, reply_to_id))
+    return f"p{len(chain)}"
+def fake_pimage(account, text, image_file, image_dir="images"):
+    chain.append((text, f"IMG:{image_file}"))
+    return f"p{len(chain)}"
+pt.post_text, pt.post_image = fake_ptext, fake_pimage
+
+chain.clear()
+ids = pt.post_thread("MAIN", ["hook", "1. one", "2. two"], delay=0)
+check("thread publishes every part", ids == ["p1", "p2", "p3"])
+check("part 1 is a root (no parent)", chain[0][1] is None)
+check("part 2 replies to part 1", chain[1][1] == "p1")
+check("part 3 replies to part 2 (chain, not all-to-root)", chain[2][1] == "p2")
+
+chain.clear()
+pt.post_thread("MAIN", ["hook", "1. one"], image_file="foo.png", delay=0)
+check("only the root carries the image", chain[0][1] == "IMG:foo.png" and chain[1][1] == "p1")
+
+# Mid-thread failure must surface what already published, or the retry doubles part 1.
+calls_n = {"n": 0}
+def flaky(account, text, reply_to_id=None):
+    calls_n["n"] += 1
+    if calls_n["n"] == 3:
+        raise RuntimeError("threads 500")
+    return f"q{calls_n['n']}"
+pt.post_text = flaky
+try:
+    pt.post_thread("MAIN", ["a", "b", "c", "d"], delay=0)
+    check("partial thread raises", False)
+except pt.ThreadPartialError as e:
+    check("partial thread raises ThreadPartialError", True)
+    check("partial thread reports the live parts", e.published == ["q1", "q2"])
+    check("partial thread names the failing part", e.failed_index == 2)
+
+# Resume: must NOT republish parts 1-2, and must re-parent onto part 2.
+pt.post_text = fake_ptext
+chain.clear()
+ids2 = pt.post_thread("MAIN", ["a", "b", "c", "d"], published=["q1", "q2"], delay=0)
+check("resume skips already-live parts", [c[0] for c in chain] == ["c", "d"])
+check("resume re-parents onto the last live part", chain[0][1] == "q2")
+check("resume returns the full id list", ids2[:2] == ["q1", "q2"] and len(ids2) == 4)
+check("fully-published thread is a no-op",
+      pt.post_thread("MAIN", ["a", "b"], published=["x1", "x2"], delay=0) == ["x1", "x2"])
+
+# --- scheduler integration ---
+scheduler.post_thread = pt.post_thread
+q11 = [{"id": 200, "thread_parts": ["HOOK LINE", "1. first", "2. second"],
+        "scheduled_time": iso(now), "status": "pending",
+        "targets": [{"platform": "threads", "account": "MAIN"}]}]
+chain.clear()
+q11 = run_tick(q11)
+r11 = by_id(q11, 200)["results"]["threads:MAIN"]
+check("scheduler publishes a thread entry", by_id(q11, 200)["status"] == "posted")
+check("scheduler stores every part id", len(r11.get("thread_ids", [])) == 3)
+check("scheduler stores the ROOT as id (what the plug hangs off)",
+      r11["id"] == r11["thread_ids"][0])
+
+# =====================================================================
+print("\n[TEST 12] Auto-plug (CTA only on posts that earned it)")
+import auto_plug as ap
+from datetime import datetime as _dt, timezone as _tz
+
+stats_by_id, plugged = {}, []
+ap.get_insights = lambda account, pid: stats_by_id.get(pid, {})
+ap.post_text = lambda account, text, reply_to_id=None: (
+    plugged.append((reply_to_id, text)) or f"plug{len(plugged)}")
+NOW = _dt(2026, 8, 5, 12, 0, tzinfo=_tz.utc)
+
+def plug_entry(eid, root, text="cta"):
+    return {"id": eid, "status": "posted",
+            "results": {"threads:MAIN": {"status": "posted", "id": root,
+                                         "thread_ids": [root, root + "b"]}},
+            "auto_plug": {"status": "pending", "account": "MAIN", "text": text}}
+
+check("threshold: 1499 views does not qualify", not ap.qualifies({"views": 1499, "likes": 0}))
+check("threshold: 1500 views qualifies", ap.qualifies({"views": 1500, "likes": 0}))
+check("threshold: 20 likes qualifies on its own", ap.qualifies({"views": 10, "likes": 20}))
+
+plugged.clear()
+stats_by_id = {"r1": {"views": 300, "likes": 2}}
+q12 = [plug_entry(300, "r1")]
+ap.run(q12, now=NOW, log=lambda *a: None)
+check("flop gets NO cta", plugged == [] and q12[0]["auto_plug"]["status"] == "pending")
+
+plugged.clear()
+stats_by_id = {"r2": {"views": 4000, "likes": 60}}
+q12 = [plug_entry(301, "r2")]
+changed = ap.run(q12, now=NOW, log=lambda *a: None)
+check("winner gets a cta", len(plugged) == 1 and changed)
+check("cta replies to the thread ROOT", plugged[0][0] == "r2")
+check("plugged entry is marked posted", q12[0]["auto_plug"]["status"] == "posted")
+
+plugged.clear()
+ap.run(q12, now=NOW, log=lambda *a: None)
+check("a plugged post is never plugged twice", plugged == [])
+
+# Daily cap: three winners on one day still sell exactly once.
+plugged.clear()
+stats_by_id = {"a1": {"views": 9000}, "b1": {"views": 9000}, "c1": {"views": 9000}}
+q12b = [plug_entry(310, "a1"), plug_entry(311, "b1"), plug_entry(312, "c1")]
+ap.run(q12b, now=NOW, log=lambda *a: None)
+check("daily cap holds: 3 winners -> 1 cta", len(plugged) == 1)
+ap.run(q12b, now=NOW, log=lambda *a: None)
+check("cap still holds on a later tick the same day", len(plugged) == 1)
+tomorrow = _dt(2026, 8, 6, 12, 0, tzinfo=_tz.utc)
+ap.run(q12b, now=tomorrow, log=lambda *a: None)
+check("cap resets the next day", len(plugged) == 2)
+
+# An unpublished / failed post must never be plugged.
+plugged.clear()
+q12c = [{"id": 320, "status": "failed",
+         "results": {"threads:MAIN": {"status": "failed", "error": "boom"}},
+         "auto_plug": {"status": "pending", "account": "MAIN", "text": "cta"}}]
+ap.run(q12c, now=NOW, log=lambda *a: None)
+check("failed post is never plugged", plugged == [])
+
+# Insights outage must not crash the tick or fire a blind plug.
+plugged.clear()
+def boom(a, b): raise RuntimeError("insights down")
+ap.get_insights = boom
+q12d = [plug_entry(330, "r9")]
+ap.run(q12d, now=NOW, log=lambda *a: None)
+check("insights outage: no plug, no crash",
+      plugged == [] and q12d[0]["auto_plug"]["status"] == "pending")
 
 print(f"\n==== RESULT: {PASS} passed, {FAIL} failed ====")
 sys.exit(1 if FAIL else 0)
