@@ -5252,7 +5252,7 @@
     "text": "my whole business is a file, a link, and a phone.\nno office, no staff, no stock, no rent.\n\ni keep waiting for someone to tell me it's not allowed.",
     "image_file": null,
     "scheduled_time": "2026-08-05T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5261,7 +5261,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17995868240798815",
+        "at": "2026-08-05T21:30:53.926460+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085116392563761417",
+        "at": "2026-08-05T21:30:53.926460+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T21:30:53.926460+00:00"
   },
   {
     "id": 1110,
