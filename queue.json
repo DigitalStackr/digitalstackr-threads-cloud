@@ -5110,7 +5110,7 @@
     "text": "i almost didn't publish it.\nit was 19 pages and i thought it was too thin to charge for.\n\n104 people have bought it since.",
     "image_file": null,
     "scheduled_time": "2026-08-05T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5119,7 +5119,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17982024030103443",
+        "at": "2026-08-05T14:30:53.137339+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085010688393572858",
+        "at": "2026-08-05T14:30:53.137339+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T14:30:53.137339+00:00"
   },
   {
     "id": 1107,
