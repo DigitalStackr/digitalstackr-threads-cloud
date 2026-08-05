@@ -31,8 +31,10 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote
 
+import auto_plug
 from post_text import post_text
 from post_image import post_image
+from post_thread import post_thread, ThreadPartialError
 from post_facebook import post_facebook
 from post_instagram import post_instagram
 from post_tiktok import post_tiktok
@@ -136,18 +138,31 @@ def target_key(t: dict) -> str:
     return platform
 
 
-def dispatch(entry: dict, target: dict) -> str:
-    """Fire ONE target. Returns the platform's post id. Raises on failure."""
+def dispatch(entry: dict, target: dict, prior: dict = None) -> str:
+    """Fire ONE target. Returns the platform's post id. Raises on failure.
+
+    For a Threads target carrying thread_parts, returns a LIST of ids (part 1
+    first) instead of a single id - see fire_entry, which unpacks it.
+    `prior` is that target's previous result, used to resume a thread that only
+    half-published rather than restarting it and duplicating part 1.
+    """
     platform = target.get("platform", "threads")
     text = target.get("text") if target.get("text") is not None else entry.get("text", "")
     image_file = target.get("image_file") or entry.get("image_file")
     video_file = target.get("video_file") or entry.get("video_file")
     carousel = target.get("carousel") or entry.get("carousel")
+    parts = target.get("thread_parts") or entry.get("thread_parts")
 
     img_dir = image_dir_for(entry, target)
 
     if platform == "threads":
         account = target["account"]
+        if parts:
+            # Long-form thread: root + replies. Resumes from whatever already
+            # published, so a mid-thread failure never re-sends part 1.
+            return post_thread(account, parts, image_file=image_file,
+                               image_dir=img_dir,
+                               published=(prior or {}).get("thread_ids"))
         if image_file:
             return post_image(account, text, image_file, image_dir=img_dir)
         return post_text(account, text)
@@ -194,9 +209,9 @@ def dispatch(entry: dict, target: dict) -> str:
 
     if platform == "x":
         # post_x strips any URL out of the body into a threaded reply — a link in
-        # the body bills at $0.20 instead of $0.015. Images are not sent (v2 media
-        # upload is a separate flow); text-only keeps the cost predictable.
-        return post_x(text)
+        # the body bills at $0.20 instead of $0.015. The screenshot IS now sent:
+        # text-only X posts were publishing bare dollar figures with no proof.
+        return post_x(text, raw_image_url(image_file, img_dir) if image_file else None)
 
     raise ValueError(f"Platform not implemented yet: {platform}")
 
@@ -213,12 +228,30 @@ def fire_entry(entry: dict, now_iso: str) -> bool:
             continue  # already delivered on a previous tick — never double-post
         attempted = True
         log(f"Post {entry['id']}: firing -> {key}")
+        prior = results.get(key) or {}
         try:
-            post_id = dispatch(entry, t)
-            results[key] = {"status": "posted", "id": post_id, "at": now_iso}
-            log(f"Post {entry['id']}: OK {key} -> {post_id}")
+            post_id = dispatch(entry, t, prior=prior)
+            if isinstance(post_id, list):
+                # Long-form thread: keep every part id. thread_ids[0] is the root,
+                # which is what auto_plug hangs the CTA off and what insights read.
+                results[key] = {"status": "posted", "id": post_id[0],
+                                "thread_ids": post_id, "at": now_iso}
+                log(f"Post {entry['id']}: OK {key} -> thread of {len(post_id)} parts, "
+                    f"root {post_id[0]}")
+            else:
+                results[key] = {"status": "posted", "id": post_id, "at": now_iso}
+                log(f"Post {entry['id']}: OK {key} -> {post_id}")
+        except ThreadPartialError as e:
+            # Some parts are live. Record them so the next tick resumes mid-thread
+            # rather than publishing part 1 a second time.
+            results[key] = {"status": "failed", "error": str(e),
+                            "thread_ids": e.published}
+            log(f"Post {entry['id']}: PARTIAL THREAD {key} — {e}")
         except Exception as e:
-            results[key] = {"status": "failed", "error": str(e)}
+            failed = {"status": "failed", "error": str(e)}
+            if prior.get("thread_ids"):
+                failed["thread_ids"] = prior["thread_ids"]
+            results[key] = failed
             log(f"Post {entry['id']}: FAILED {key} — {e}")
 
     entry["results"] = results
@@ -304,6 +337,15 @@ def main() -> None:
             if entry["status"] == "failed" and entry.get("attempts", 0) < MAX_RETRIES:
                 reschedule(entry, now, "all targets failed this tick")
                 entry["status"] = "pending"
+
+    # Auto-plug runs after publishing, on posts from EARLIER ticks that have had
+    # time to accumulate views. Wrapped because selling is secondary: a failure
+    # here must never fail a run whose actual job is publishing.
+    try:
+        if auto_plug.run(queue, now=now, log=log):
+            changed = True
+    except Exception as e:
+        log(f"auto-plug pass failed (publishing unaffected) — {e}")
 
     if changed:
         QUEUE_PATH.write_text(
