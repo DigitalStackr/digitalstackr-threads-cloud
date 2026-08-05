@@ -5282,7 +5282,16 @@
     "text": "i post screenshots because words are cheap and everyone online is lying.\n\nfeels uncomfortable every time. doing it anyway.",
     "image_file": null,
     "scheduled_time": "2026-08-05T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18112174087770779",
+        "at": "2026-08-05T21:40:31.888574+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T21:40:31.888574+00:00",
+    "thread_id": "18112174087770779"
   },
   {
     "id": 1011,
