@@ -5299,7 +5299,7 @@
     "text": "$739.50 from 65 people in a day.\ni still check the dashboard twice because i assume it's a glitch.",
     "image_file": "Untitled design (11).png",
     "scheduled_time": "2026-08-06T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5309,7 +5309,20 @@
         "platform": "x",
         "text": "sales came in all day.\ni still check the dashboard twice because i assume it's a glitch."
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17908457622460133",
+        "at": "2026-08-05T23:30:50.401038+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085146706006638809",
+        "at": "2026-08-05T23:30:50.401038+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T23:30:50.401038+00:00"
   },
   {
     "id": 1111,
