@@ -93,7 +93,12 @@ def count_emoji(text: str) -> int:
 def money_figures(text: str) -> list:
     # Proper money shape only. The looser [0-9,]* version swallowed a trailing
     # comma ("$27," in prose) and then failed to match the manifest's "$27".
-    return re.findall(r"\$\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?", text or "")
+    #
+    # The comma-grouped alternative MUST come first, and the un-grouped one must
+    # allow any digit count: the earlier \d{1,3}(?:,\d{3})* pattern matched only
+    # the first three digits of an un-grouped figure, so "$1638.53" was read as
+    # "$163" and then reported as not matching its own screenshot.
+    return re.findall(r"\$\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|\$\d+(?:\.\d{1,2})?", text or "")
 
 
 def load_manifest() -> dict:
