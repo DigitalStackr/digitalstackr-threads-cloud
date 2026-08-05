@@ -5235,7 +5235,16 @@
     "text": "$27, an hour ago.\nsmall. but nobody paid me for hours to get it.",
     "image_file": "gumroad sales notifications.PNG",
     "scheduled_time": "2026-08-05T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17913841521439004",
+        "at": "2026-08-05T20:10:33.548709+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T20:10:33.548709+00:00",
+    "thread_id": "17913841521439004"
   },
   {
     "id": 1010,
