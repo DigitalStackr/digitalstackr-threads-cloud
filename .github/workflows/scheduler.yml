@@ -87,9 +87,13 @@ jobs:
               # we resolve semantically instead - 'posted' always wins for the queue,
               # and the higher offset always wins for Telegram.
               echo "rebase conflict on attempt $i - resolving semantically"
-              cp queue.json /tmp/ours.json 2>/dev/null || true
-              cp telegram_offset.json /tmp/ours_offset.json 2>/dev/null || true
+              # Abort FIRST, then read our side from the commit. Copying the
+              # working-tree file here instead would capture git's conflict
+              # markers (<<<<<<< / ======= ), and merge_queue.py would die on
+              # invalid JSON - which is exactly what every failure email was.
               git rebase --abort || true
+              git show HEAD:queue.json > /tmp/ours.json
+              git show HEAD:telegram_offset.json > /tmp/ours_offset.json 2>/dev/null || true
               git show origin/main:queue.json > /tmp/theirs.json
               if python merge_queue.py /tmp/ours.json /tmp/theirs.json /tmp/merged.json; then
                 git reset --hard origin/main
