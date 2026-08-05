@@ -5062,7 +5062,7 @@
     "text": "$181.30 landed while i was queuing for coffee.\nfirst time i properly understood what people mean by passive. ☕",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-08-05T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5072,7 +5072,20 @@
         "platform": "x",
         "text": "money landed while i was queuing for coffee.\nfirst time i properly understood what people mean by passive. ☕"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18020583356702762",
+        "at": "2026-08-05T12:00:54.245367+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2084973088429744237",
+        "at": "2026-08-05T12:00:54.245367+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T12:00:54.245367+00:00"
   },
   {
     "id": 1106,
