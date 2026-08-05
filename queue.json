@@ -5582,12 +5582,20 @@
     "text": "**The whole stack costs nothing to start**\n\n• **Claude / ChatGPT** — outline and draft\n• **Canva** — design (free tier is enough)\n• **Gumroad** — hosting, checkout, delivery, refunds\n• **Beacons** — link in bio\n• **Threads** — traffic\n\nNo website. No LLC. No inventory. No ads.\n\nThe barrier was never money. It was deciding what to make.",
     "image_file": null,
     "scheduled_time": "2026-08-05T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "8",
+        "at": "2026-08-05T16:00:58.649856+00:00"
+      }
+    },
+    "posted_at": "2026-08-05T16:00:58.649856+00:00"
   },
   {
     "id": 902,
