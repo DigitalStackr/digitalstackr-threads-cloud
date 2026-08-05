@@ -62,6 +62,12 @@ BANNED_EMOJI = ["\U0001f5a4", "\U0001f4b8", "\U0001f62d", "\U0001f47b", "\U0001f
 # but a text-only post must never quote them as if they were the price today.
 ALLOWED_STANDALONE_FIGURES = {"$382", "$27", "$9", "$97", "$147", "$0", "$200"}
 
+# Platforms that publish the caption WITHOUT the entry's image, so a money figure
+# there has no screenshot behind it. X came OFF this list on 2026-08-05 when media
+# upload shipped. Instagram is Reels-only and carries no screenshots at all.
+# Add a platform here the moment its media path is unavailable, not after.
+MEDIA_LESS_PLATFORMS = {"instagram"}
+
 
 def _norm(text: str) -> str:
     text = unicodedata.normalize("NFKC", (text or "").lower())
@@ -114,14 +120,31 @@ def validate(queue: list) -> list:
 
     # ---- per-entry checks ----
     for entry in upcoming:
-        text = entry.get("text", "") or ""
+        # A long-form thread carries its words in thread_parts, not text. Without
+        # this the validator would wave a whole thread through unread - no dedupe,
+        # no bait check, no figure check on any part after the hook.
+        parts = entry.get("thread_parts")
+        text = "\n".join(parts) if parts else (entry.get("text", "") or "")
         img = entry.get("image_file")
+
+        if parts:
+            if len(parts) > 12:
+                flag(entry, f"thread has {len(parts)} parts, max 12")
+            for i, p in enumerate(parts, 1):
+                if len(p) > MAX_CHARS:
+                    flag(entry, f"thread part {i} is {len(p)} chars > {MAX_CHARS}")
+                if not p.strip():
+                    flag(entry, f"thread part {i} is empty")
 
         # Char limit is per-platform: a Telegram essay is fine, the same text
         # would be rejected by Threads and truncated by X.
         targets = entry.get("targets") or [{"platform": "threads"}]
         for t in targets:
             plat = t.get("platform", "threads")
+            # Threads entries are length-checked per part above; the joined text is
+            # meant to exceed a single post's limit, that's the point of a thread.
+            if parts and plat == "threads":
+                continue
             key = "telegram_photo" if (plat == "telegram" and img) else plat
             cap = PLATFORM_MAX_CHARS.get(key, MAX_CHARS)
             if len(text) > cap:
@@ -144,10 +167,31 @@ def validate(queue: list) -> list:
         if n_emoji > MAX_EMOJI:
             flag(entry, f"{n_emoji} emoji > {MAX_EMOJI}")
 
-        caps = [w for w in re.findall(r"\b[A-Z]{2,}\b", text)
-                if w not in {"AM", "PM", "PDF", "LLC", "DM", "US", "OK", "ID"}]
-        if len(caps) > 1:
-            flag(entry, f"{len(caps)} ALL-CAPS phrases > 1 ({caps})")
+        # ALL-CAPS cap removed 2026-08-05 (Shawn's call). The winning long-form
+        # thread format opens on a full-caps declarative hook — every top post in
+        # the July report does — so the old "1 caps phrase max" rule blocked the
+        # format we're moving to. Earlier measurement that full caps died on TDS
+        # is superseded: TDS now mirrors MAIN so the two can be compared directly.
+
+        # Every target is judged against the media IT will actually carry, not
+        # against the entry as a whole. 15 X posts shipped bare dollar figures
+        # because the entry looked fine - image_file was set, but only Threads
+        # sent it. A per-target variant text is also invisible to the entry-level
+        # check below, so it is validated here.
+        for t in targets:
+            plat = t.get("platform", "threads")
+            ttext = t.get("text") if t.get("text") is not None else text
+            timg = (t.get("image_file") or entry.get("image_file")) \
+                if plat not in MEDIA_LESS_PLATFORMS else None
+            for fig in money_figures(ttext):
+                if fig in ALLOWED_STANDALONE_FIGURES:
+                    continue
+                if not timg:
+                    flag(entry, f"{plat} target cites {fig} with no image attached "
+                                f"- unbacked income claim")
+                elif fig not in set(verified.get(timg, {}).get("numbers", [])):
+                    flag(entry, f"{plat} target cites {fig} but its image {timg!r} "
+                                f"shows {sorted(verified.get(timg, {}).get('numbers', []))}")
 
         # number / image matching
         figures = money_figures(text)
@@ -170,20 +214,32 @@ def validate(queue: list) -> list:
                 if fig not in ALLOWED_STANDALONE_FIGURES:
                     flag(entry, f"text-only post cites unbacked figure {fig}")
 
-    # ---- dedupe against history AND within the batch ----
-    history = [(e.get("id"), e.get("text", "")) for e in recent_posted]
+    # ---- dedupe against history AND within the batch, PER ACCOUNT ----
+    # Scoped to the account on purpose: the rule protects a reader from seeing the
+    # same post twice in one feed. MAIN and TDS deliberately run the same content
+    # so the two audiences can be compared, and a cross-account match is that
+    # design working, not a fault.
+    def accounts_of(e):
+        accts = {t.get("account") for t in (e.get("targets") or [])
+                 if t.get("platform", "threads") == "threads" and t.get("account")}
+        return accts or {e.get("account") or "MAIN"}
+
+    def body(e):
+        return "\n".join(e["thread_parts"]) if e.get("thread_parts") else e.get("text", "")
+
     seen = []
     for entry in upcoming:
-        text = entry.get("text", "")
-        for pid, ptext in history:
-            if similarity(text, ptext) >= NEAR_DUP_THRESHOLD:
+        text = body(entry)
+        mine = accounts_of(entry)
+        for pid, ptext, pacct in [(e.get("id"), body(e), accounts_of(e)) for e in recent_posted]:
+            if (mine & pacct) and similarity(text, ptext) >= NEAR_DUP_THRESHOLD:
                 flag(entry, f"duplicate/near-duplicate of already-posted id{pid}")
                 break
-        for sid, stext in seen:
-            if similarity(text, stext) >= NEAR_DUP_THRESHOLD:
+        for sid, stext, sacct in seen:
+            if (mine & sacct) and similarity(text, stext) >= NEAR_DUP_THRESHOLD:
                 flag(entry, f"duplicate/near-duplicate of queued id{sid}")
                 break
-        seen.append((entry.get("id"), text))
+        seen.append((entry.get("id"), text, mine))
 
     # ---- image reuse window + dashboard ratio + consecutive images (per account) ----
     for account in ("MAIN", "TDS"):
