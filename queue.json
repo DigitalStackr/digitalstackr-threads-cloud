@@ -5583,7 +5583,7 @@
     "text": "$1,163.95 from 111 people.\nbest week i've had. posting this before i talk myself out of it.",
     "image_file": "Untitled design(5).png",
     "scheduled_time": "2026-08-07T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5593,7 +5593,20 @@
         "platform": "x",
         "text": "best week i've had.\nposting this before i talk myself out of it."
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17909108598449413",
+        "at": "2026-08-06T23:30:46.593449+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085509079573619033",
+        "at": "2026-08-06T23:30:46.593449+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T23:30:46.593449+00:00"
   },
   {
     "id": 1117,
