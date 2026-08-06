@@ -5425,7 +5425,16 @@
     "text": "i wrote the thing in the notes app.\nno software, no template, no design skills.\n\npeople care that it solves the problem, not what you made it in.",
     "image_file": null,
     "scheduled_time": "2026-08-06T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18374363944227962",
+        "at": "2026-08-06T14:40:36.333779+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T14:40:36.333779+00:00",
+    "thread_id": "18374363944227962"
   },
   {
     "id": 1014,
