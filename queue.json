@@ -5378,7 +5378,16 @@
     "text": "$147 order came in this morning.\nspending the week building someone else's store instead of mine. ☕",
     "image_file": "IMG_4274.PNG",
     "scheduled_time": "2026-08-06T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18109095410102440",
+        "at": "2026-08-06T12:10:36.540902+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T12:10:36.540902+00:00",
+    "thread_id": "18109095410102440"
   },
   {
     "id": 1013,
