@@ -5734,12 +5734,20 @@
     "text": "**A prompt that actually helps**\n\nPaste this into Claude or ChatGPT:\n\n_You are my content strategist. My product is [X] and it solves [problem] for [audience]. Give me 20 hooks written as statements, not questions. No engagement bait. Then give me a 7-day posting plan where 5 posts build trust and 2 mention the product._\n\nThe reason it works: it forces statements instead of questions. Questions asking for replies underperform badly on Threads.",
     "image_file": null,
     "scheduled_time": "2026-08-06T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "9",
+        "at": "2026-08-06T16:27:01.444860+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T16:27:01.444860+00:00"
   },
   {
     "id": 903,
