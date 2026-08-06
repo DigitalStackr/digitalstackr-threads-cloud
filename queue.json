@@ -5489,7 +5489,7 @@
     "text": "this is the entire company.\nfour apps and a link. that's the whole thing. 🤍",
     "image_file": "Untitled design (5).png",
     "scheduled_time": "2026-08-06T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5498,7 +5498,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17937190509344881",
+        "at": "2026-08-06T20:05:41.134942+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085457480356954134",
+        "at": "2026-08-06T20:05:41.134942+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T20:05:41.134942+00:00"
   },
   {
     "id": 1115,
