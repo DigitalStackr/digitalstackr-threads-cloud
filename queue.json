@@ -5442,7 +5442,7 @@
     "text": "$27 while someone was arguing with me about whether this actually works.",
     "image_file": "IMG_4395.PNG",
     "scheduled_time": "2026-08-06T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5451,7 +5451,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18191776333387621",
+        "at": "2026-08-06T18:34:30.667439+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085434523354083456",
+        "at": "2026-08-06T18:34:30.667439+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T18:34:30.667439+00:00"
   },
   {
     "id": 1114,
@@ -5459,7 +5472,16 @@
     "text": "$739.50 from 65 people.\ni would have scrolled past this a year ago and called it a lie.",
     "image_file": "Untitled design (11).png",
     "scheduled_time": "2026-08-06T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18116474489482041",
+        "at": "2026-08-06T18:34:30.667439+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T18:34:30.667439+00:00",
+    "thread_id": "18116474489482041"
   },
   {
     "id": 1015,
