@@ -5519,7 +5519,16 @@
     "text": "the whole operation. one screen, four apps.\nthat is genuinely all of it. 🤍",
     "image_file": "Untitled design (5).png",
     "scheduled_time": "2026-08-06T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18090230603539376",
+        "at": "2026-08-06T20:10:42.305291+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T20:10:42.305291+00:00",
+    "thread_id": "18090230603539376"
   },
   {
     "id": 1016,
