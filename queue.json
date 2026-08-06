@@ -5536,7 +5536,7 @@
     "text": "nobody warns you the hardest part is posting when nothing is happening.\nweek three had 40 views and zero sales.\n\ni almost stopped there.",
     "image_file": null,
     "scheduled_time": "2026-08-06T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5545,7 +5545,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18127038811679711",
+        "at": "2026-08-06T21:55:38.889085+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085485017010929948",
+        "at": "2026-08-06T21:55:38.889085+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T21:55:38.889085+00:00"
   },
   {
     "id": 1116,
@@ -5553,7 +5566,16 @@
     "text": "someone asked how long before it worked.\nhonestly? about eleven weeks of posting into nothing.\n\ni just didn't have a better plan.",
     "image_file": null,
     "scheduled_time": "2026-08-06T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18132945667539863",
+        "at": "2026-08-06T21:55:38.889085+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T21:55:38.889085+00:00",
+    "thread_id": "18132945667539863"
   },
   {
     "id": 1017,
