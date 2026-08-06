@@ -5395,7 +5395,7 @@
     "text": "the first month i made $0.\nthe second month barely covered a coffee.\ni told nobody either time.\n\nit was month four before i said it out loud.",
     "image_file": null,
     "scheduled_time": "2026-08-06T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5404,7 +5404,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17877081042529507",
+        "at": "2026-08-06T14:30:45.461503+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085373054163767448",
+        "at": "2026-08-06T14:30:45.461503+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T14:30:45.461503+00:00"
   },
   {
     "id": 1113,
