@@ -5614,7 +5614,16 @@
     "text": "$735.29 from 88 people.\ni built this in february and have not touched it since.",
     "image_file": "Untitled design(6).png",
     "scheduled_time": "2026-08-07T01:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18110810548967418",
+        "at": "2026-08-06T23:40:37.269152+00:00"
+      }
+    },
+    "posted_at": "2026-08-06T23:40:37.269152+00:00",
+    "thread_id": "18110810548967418"
   },
   {
     "id": 1018,
