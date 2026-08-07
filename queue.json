@@ -5631,7 +5631,7 @@
     "text": "$201 today from 19 people.\nquiet day. still more than my last shift ever paid me.",
     "image_file": "Untitled design (17).png",
     "scheduled_time": "2026-08-07T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5641,7 +5641,20 @@
         "platform": "x",
         "text": "quiet day. still more than my last shift ever paid me."
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18153630913506782",
+        "at": "2026-08-07T12:00:48.722061+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085697834712535219",
+        "at": "2026-08-07T12:00:48.722061+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T12:00:48.722061+00:00"
   },
   {
     "id": 1118,
