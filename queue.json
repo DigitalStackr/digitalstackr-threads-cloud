@@ -5756,7 +5756,16 @@
     "text": "free downloads coming in overnight.\npeople find you while you sleep once the thing exists. ☕",
     "image_file": "IMG_3909.PNG",
     "scheduled_time": "2026-08-07T20:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18011852414937790",
+        "at": "2026-08-07T18:10:35.057436+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T18:10:35.057436+00:00",
+    "thread_id": "18011852414937790"
   },
   {
     "id": 1021,
