@@ -5662,7 +5662,16 @@
     "text": "$1,673.63 from 86 people.\nmy best stretch so far. posting it because i post the quiet ones too.",
     "image_file": "Untitled design (18).png",
     "scheduled_time": "2026-08-07T14:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18102583541179472",
+        "at": "2026-08-07T12:10:35.265591+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T12:10:35.265591+00:00",
+    "thread_id": "18102583541179472"
   },
   {
     "id": 1019,
