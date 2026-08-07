@@ -5851,7 +5851,16 @@
     "text": "nobody talks about the eleven weeks where nothing happens.\nthey only post the week it does.\n\nthat gap is where almost everyone quits.",
     "image_file": null,
     "scheduled_time": "2026-08-07T23:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17977407558111463",
+        "at": "2026-08-07T21:40:41.821762+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T21:40:41.821762+00:00",
+    "thread_id": "17977407558111463"
   },
   {
     "id": 1023,
