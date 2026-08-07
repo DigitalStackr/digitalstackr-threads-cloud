@@ -5773,7 +5773,7 @@
     "text": "$735.29 from 88 people.\ni was in class for most of it. 🤍",
     "image_file": "Untitled design(6).png",
     "scheduled_time": "2026-08-07T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5783,7 +5783,20 @@
         "platform": "x",
         "text": "sales came in while i was in class for most of it. 🤍"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17888794788606565",
+        "at": "2026-08-07T20:00:55.607201+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085818672807891095",
+        "at": "2026-08-07T20:00:55.607201+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T20:00:55.607201+00:00"
   },
   {
     "id": 1121,
