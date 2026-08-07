@@ -5898,7 +5898,16 @@
     "text": "a sale while i was asleep.\nstill feels like i am getting away with something. 🤍",
     "image_file": "gumroad notification screenshot.PNG",
     "scheduled_time": "2026-08-08T01:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18063615611749096",
+        "at": "2026-08-07T23:40:40.407898+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T23:40:40.407898+00:00",
+    "thread_id": "18063615611749096"
   },
   {
     "id": 900,
