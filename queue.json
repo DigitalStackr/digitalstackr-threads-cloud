@@ -5821,7 +5821,7 @@
     "text": "i used to check my bank app hoping the number changed.\nnow i check a dashboard knowing it did.\n\nsame anxiety, completely different direction.",
     "image_file": null,
     "scheduled_time": "2026-08-07T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5830,7 +5830,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18099337187252869",
+        "at": "2026-08-07T21:30:41.765500+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085841114964062228",
+        "at": "2026-08-07T21:30:41.765500+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T21:30:41.765500+00:00"
   },
   {
     "id": 1122,
