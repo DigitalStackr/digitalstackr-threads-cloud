@@ -5804,7 +5804,16 @@
     "text": "$201 today. 19 sales.\nsmall day. rent-helping money. that's still the point.",
     "image_file": "Untitled design (17).png",
     "scheduled_time": "2026-08-07T22:10:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18090768110639489",
+        "at": "2026-08-07T20:10:36.124654+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T20:10:36.124654+00:00",
+    "thread_id": "18090768110639489"
   },
   {
     "id": 1022,
