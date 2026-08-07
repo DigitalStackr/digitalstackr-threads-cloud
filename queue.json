@@ -5886,12 +5886,20 @@
     "text": "**Pricing, honestly**\n\nPrice is not a reward for how hard you worked. It is a signal about who the product is for.\n\n**Single digits** gets impulse buys from people who may never open it.\n**Around $27** is where a stranger will take a chance on you with no reviews.\n**Three figures** needs either a track record or your actual time attached.\n\nOur own ladder runs $9, $27, $97 and $147 — cheapest is the narrow tactical guide, dearest is us doing the work for you.\n\nStart in the middle. Move up when you have proof, not when you feel like it.",
     "image_file": null,
     "scheduled_time": "2026-08-07T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "11",
+        "at": "2026-08-07T16:00:58.109742+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T16:00:58.109742+00:00"
   },
   {
     "id": 904,
