@@ -5726,7 +5726,7 @@
     "text": "$27, an hour ago, from a file i wrote in february and haven't touched since.",
     "image_file": "gumroad sales notifications.PNG",
     "scheduled_time": "2026-08-07T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5735,7 +5735,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18123764719696005",
+        "at": "2026-08-07T18:00:52.894632+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085788444576628976",
+        "at": "2026-08-07T18:00:52.894632+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T18:00:52.894632+00:00"
   },
   {
     "id": 1120,
