@@ -5709,7 +5709,16 @@
     "text": "i'm 19, working off a phone, with no startup money and no backup plan.\n\nthat's not a flex. that's just why i couldn't afford to quit.",
     "image_file": null,
     "scheduled_time": "2026-08-07T16:40:00+02:00",
-    "status": "pending"
+    "status": "posted",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18082103264286474",
+        "at": "2026-08-07T14:40:33.107856+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T14:40:33.107856+00:00",
+    "thread_id": "18082103264286474"
   },
   {
     "id": 1020,
