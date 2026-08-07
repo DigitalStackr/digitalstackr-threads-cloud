@@ -5868,7 +5868,7 @@
     "text": "free downloads stacking up overnight while i slept.\nthe free thing is what makes the paid thing work. ☕",
     "image_file": "IMG_3909.PNG",
     "scheduled_time": "2026-08-08T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5877,7 +5877,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18347497405223004",
+        "at": "2026-08-07T23:30:46.287144+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085871473533800840",
+        "at": "2026-08-07T23:30:46.287144+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T23:30:46.287144+00:00"
   },
   {
     "id": 1123,
