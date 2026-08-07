@@ -5679,7 +5679,7 @@
     "text": "someone messaged asking if i'd teach them.\ni'm 19 and still figuring it out and said yes anyway.\n\nturns out you only need to be a few steps ahead.",
     "image_file": null,
     "scheduled_time": "2026-08-07T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -5688,7 +5688,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18451452415190006",
+        "at": "2026-08-07T14:30:50.316573+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2085735453760934025",
+        "at": "2026-08-07T14:30:50.316573+00:00"
+      }
+    },
+    "posted_at": "2026-08-07T14:30:50.316573+00:00"
   },
   {
     "id": 1119,
