@@ -6618,7 +6618,7 @@
   {
     "id": 2014,
     "scheduled_time": "2026-08-09T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "woke up to a lock screen like this.\nthe $27 one is the guide. the rest stacked up overnight.",
     "image_file": "IMG_3909.PNG",
     "targets": [
@@ -6629,7 +6629,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18120450421777338",
+        "at": "2026-08-08T23:30:42.408959+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086233857825653113",
+        "at": "2026-08-08T23:30:42.408959+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T23:30:42.408959+00:00"
   },
   {
     "id": 2015,
