@@ -6528,7 +6528,7 @@
   {
     "id": 2012,
     "scheduled_time": "2026-08-08T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "thread_parts": [
       "7 REASONS YOUR POSTS GET VIEWS BUT NO SALES.",
       "1. you're posting the product, not the problem.\nnobody wakes up wanting a pdf.",
@@ -6549,7 +6549,26 @@
       "status": "pending",
       "account": "MAIN",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18112299254075894",
+        "thread_ids": [
+          "18112299254075894",
+          "18114329780294512",
+          "18205271134363580",
+          "18610731046030043",
+          "18145002157545284",
+          "17984790495044333",
+          "18624697207022341",
+          "18185883505399958"
+        ],
+        "at": "2026-08-08T21:30:44.924733+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T21:30:44.924733+00:00",
+    "thread_id": "18112299254075894"
   },
   {
     "id": 2013,
