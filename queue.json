@@ -6477,7 +6477,7 @@
   {
     "id": 2010,
     "scheduled_time": "2026-08-08T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$181.30.\ni was walking home. it had already happened without me.",
     "image_file": "IMG_3944.PNG",
     "targets": [
@@ -6488,7 +6488,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17876567904533740",
+        "at": "2026-08-08T21:00:51.477694+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086196115339456770",
+        "at": "2026-08-08T21:00:51.477694+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T21:00:51.477694+00:00"
   },
   {
     "id": 2011,
