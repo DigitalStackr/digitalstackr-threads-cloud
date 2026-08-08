@@ -6647,7 +6647,7 @@
   {
     "id": 2015,
     "scheduled_time": "2026-08-09T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "lock screen this morning.\nthe $27 is the guide. i was asleep for all of them.",
     "image_file": "IMG_3909.PNG",
     "targets": [
@@ -6655,7 +6655,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18108213134018224",
+        "at": "2026-08-08T23:40:31.652279+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T23:40:31.652279+00:00",
+    "thread_id": "18108213134018224"
   },
   {
     "id": 2016,
