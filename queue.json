@@ -6255,7 +6255,7 @@
   {
     "id": 2003,
     "scheduled_time": "2026-08-08T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$382 this month. 104 people.\nchecked it twice on the way to class because it didn't look real.",
     "image_file": "IMG_4397.PNG",
     "targets": [
@@ -6263,7 +6263,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17907219282459476",
+        "at": "2026-08-08T14:40:37.676966+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T14:40:37.676966+00:00",
+    "thread_id": "17907219282459476"
   },
   {
     "id": 2004,
