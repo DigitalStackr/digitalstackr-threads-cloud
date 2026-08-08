@@ -6226,7 +6226,7 @@
   {
     "id": 2002,
     "scheduled_time": "2026-08-08T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$382 this month from 104 people.\nnot life changing. but it's the first money i've made that didn't need me awake for it.",
     "image_file": "IMG_4397.PNG",
     "targets": [
@@ -6237,7 +6237,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18093119501093299",
+        "at": "2026-08-08T14:30:49.891856+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086097970303222159",
+        "at": "2026-08-08T14:30:49.891856+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T14:30:49.891856+00:00"
   },
   {
     "id": 2003,
