@@ -6314,7 +6314,7 @@
   {
     "id": 2005,
     "scheduled_time": "2026-08-08T18:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "3:33am. phone face down.\nwoke up and it had already happened without me.",
     "image_file": "gumroad notification screenshot.PNG",
     "targets": [
@@ -6322,7 +6322,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17919276345411277",
+        "at": "2026-08-08T16:10:43.885059+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T16:10:43.885059+00:00",
+    "thread_id": "17919276345411277"
   },
   {
     "id": 2006,
