@@ -6456,14 +6456,23 @@
   {
     "id": 2009,
     "scheduled_time": "2026-08-08T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "i almost didn't publish the guide because it felt too simple.\nsimple is what people were stuck on.",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17975005935109425",
+        "at": "2026-08-08T20:10:36.064345+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T20:10:36.064345+00:00",
+    "thread_id": "17975005935109425"
   },
   {
     "id": 2010,
