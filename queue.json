@@ -5994,12 +5994,20 @@
     "text": "**What a normal week actually looks like**\n\nNot the highlight version:\n\n• Most days are quiet. Some days there are zero sales.\n• The same product keeps selling with nothing new built.\n• Posting feels pointless for weeks before it does not.\n• The boring posts outperform the clever ones consistently.\n\nAnyone showing you only good days is selling you something. The quiet days are most of it, and they still compound.",
     "image_file": null,
     "scheduled_time": "2026-08-08T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "12",
+        "at": "2026-08-08T16:00:46.886862+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T16:00:46.886862+00:00"
   },
   {
     "id": 905,
@@ -6277,7 +6285,7 @@
   {
     "id": 2004,
     "scheduled_time": "2026-08-08T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "a sale came in at 3:33am.\nphone face down, dead asleep. woke up to it already done.",
     "image_file": "gumroad notification screenshot.PNG",
     "targets": [
@@ -6288,7 +6296,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17878911519510989",
+        "at": "2026-08-08T16:00:46.886862+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086120609956679727",
+        "at": "2026-08-08T16:00:46.886862+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T16:00:46.886862+00:00"
   },
   {
     "id": 2005,
