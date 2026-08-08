@@ -6124,7 +6124,7 @@
   {
     "id": 2000,
     "scheduled_time": "2026-08-08T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "thread_parts": [
       "10 DIGITAL PRODUCTS YOU CAN BUILD IN A WEEKEND.\n\n(all of these are just a doc and a bit of thought)",
       "1. a checklist for something you already do properly.\npeople pay to skip the part where they forget a step.",
@@ -6148,7 +6148,29 @@
       "status": "pending",
       "account": "MAIN",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18124844515704504",
+        "thread_ids": [
+          "18124844515704504",
+          "17862692514658685",
+          "18136920874608607",
+          "18074881922373761",
+          "18169747162451127",
+          "18043694867803881",
+          "18170019007453218",
+          "18075354827704051",
+          "18330790852259909",
+          "18334023562284149",
+          "18384666001207349"
+        ],
+        "at": "2026-08-08T12:00:49.112049+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T12:00:49.112049+00:00",
+    "thread_id": "18124844515704504"
   },
   {
     "id": 2001,
