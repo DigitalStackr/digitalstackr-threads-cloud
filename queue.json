@@ -6506,7 +6506,7 @@
   {
     "id": 2011,
     "scheduled_time": "2026-08-08T23:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$181.30 while i was out.\nfirst time money turned up that i hadn't traded an hour for.",
     "image_file": "IMG_3944.PNG",
     "targets": [
@@ -6514,7 +6514,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17900912130503793",
+        "at": "2026-08-08T21:10:36.645208+00:00"
+      }
+    },
+    "posted_at": "2026-08-08T21:10:36.645208+00:00",
+    "thread_id": "17900912130503793"
   },
   {
     "id": 2012,
