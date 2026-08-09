@@ -7005,7 +7005,7 @@
   {
     "id": 2026,
     "scheduled_time": "2026-08-09T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "an email that just says \"it's pay day\".\n$1638.53 deposited, for everything up to march 20th. i read it about four times.",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "targets": [
@@ -7016,7 +7016,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18124778383706164",
+        "at": "2026-08-09T21:00:48.186066+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086558504412684604",
+        "at": "2026-08-09T21:00:48.186066+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T21:00:48.186066+00:00"
   },
   {
     "id": 2027,
