@@ -7179,7 +7179,7 @@
   {
     "id": 2031,
     "scheduled_time": "2026-08-10T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "the entire business fits on this screen.\nno office. no team. no laptop.",
     "image_file": "Untitled design (5).png",
     "targets": [
@@ -7187,7 +7187,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17937555339339020",
+        "at": "2026-08-09T23:40:35.997119+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T23:40:35.997119+00:00",
+    "thread_id": "17937555339339020"
   },
   {
     "id": 2032,
