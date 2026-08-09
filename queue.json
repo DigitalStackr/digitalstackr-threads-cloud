@@ -6766,7 +6766,7 @@
   {
     "id": 2018,
     "scheduled_time": "2026-08-09T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$640.80 from 32 people.\nzero ads. i genuinely do not know how to run them.",
     "image_file": "Untitled design (10).png",
     "targets": [
@@ -6777,7 +6777,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18104749643142748",
+        "at": "2026-08-09T14:30:42.349679+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086460331510096341",
+        "at": "2026-08-09T14:30:42.349679+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T14:30:42.349679+00:00"
   },
   {
     "id": 2019,
