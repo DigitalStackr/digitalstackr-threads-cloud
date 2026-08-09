@@ -6721,7 +6721,7 @@
   {
     "id": 2017,
     "scheduled_time": "2026-08-09T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "thread_parts": [
       "EVERY TOOL I USED TO BUILD MY FIRST DIGITAL PRODUCT.\n\n(free, all of it)",
       "1. canva - made the actual product. free plan.",
@@ -6742,7 +6742,26 @@
       "status": "pending",
       "account": "TDS",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18132235909714632",
+        "thread_ids": [
+          "18132235909714632",
+          "17938960518315596",
+          "18138175348608509",
+          "18095143265056609",
+          "18241349302313421",
+          "18027344792888834",
+          "18110823653048061",
+          "17953653903205603"
+        ],
+        "at": "2026-08-09T12:10:35.037418+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T12:10:35.037418+00:00",
+    "thread_id": "18132235909714632"
   },
   {
     "id": 2018,
