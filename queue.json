@@ -6817,7 +6817,7 @@
   {
     "id": 2020,
     "scheduled_time": "2026-08-09T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something else entirely. that still feels strange.",
     "image_file": "IMG_4395.PNG",
     "targets": [
@@ -6828,7 +6828,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18621680137059778",
+        "at": "2026-08-09T16:00:46.773266+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086482991182725261",
+        "at": "2026-08-09T16:00:46.773266+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T16:00:46.773266+00:00"
   },
   {
     "id": 2021,
