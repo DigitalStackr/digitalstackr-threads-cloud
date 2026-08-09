@@ -7034,7 +7034,7 @@
   {
     "id": 2027,
     "scheduled_time": "2026-08-09T23:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "\"it's pay day.\"\n$1638.53, covering everything up to march 20th. i've still got the email saved.",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "targets": [
@@ -7042,7 +7042,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18462185983118585",
+        "at": "2026-08-09T21:10:35.848433+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T21:10:35.848433+00:00",
+    "thread_id": "18462185983118585"
   },
   {
     "id": 2028,
