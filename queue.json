@@ -6153,9 +6153,16 @@
       }
     ],
     "auto_plug": {
-      "status": "pending",
+      "status": "posted",
       "account": "MAIN",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire",
+      "id": "18115652825310628",
+      "at": "2026-08-09T09:20:36.750372+00:00",
+      "stats_at_fire": {
+        "views": 1521,
+        "likes": 14,
+        "replies": 10
+      }
     },
     "results": {
       "threads:MAIN": {
