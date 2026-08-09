@@ -6956,7 +6956,7 @@
   {
     "id": 2024,
     "scheduled_time": "2026-08-09T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "spent three weeks making a product nobody wanted, then two days making one that sold.\nthe difference was asking first.",
     "targets": [
       {
@@ -6966,7 +6966,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17860307883677680",
+        "at": "2026-08-09T20:00:46.677479+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086543256976851424",
+        "at": "2026-08-09T20:00:46.677479+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T20:00:46.677479+00:00"
   },
   {
     "id": 2025,
