@@ -7150,7 +7150,7 @@
   {
     "id": 2030,
     "scheduled_time": "2026-08-10T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "no laptop in this photo. there isn't one.\nthe whole thing runs off the screen i'm holding.",
     "image_file": "Untitled design (5).png",
     "targets": [
@@ -7161,7 +7161,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17910468132452020",
+        "at": "2026-08-09T23:30:40.011007+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086596208424783913",
+        "at": "2026-08-09T23:30:40.011007+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T23:30:40.011007+00:00"
   },
   {
     "id": 2031,
