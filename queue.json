@@ -6912,7 +6912,7 @@
   {
     "id": 2023,
     "scheduled_time": "2026-08-09T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "thread_parts": [
       "9 THINGS I STOPPED DOING WHEN I DECIDED TO ACTUALLY BUILD SOMETHING.",
       "1. researching instead of starting. i knew enough by week two.",
@@ -6930,7 +6930,28 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18109849538278982",
+        "thread_ids": [
+          "18109849538278982",
+          "18073032881707126",
+          "18084755621226675",
+          "17953063551012102",
+          "18627274063059162",
+          "18182149324409508",
+          "18130100590636975",
+          "18366127825242527",
+          "17991220869033054",
+          "18106674134132849"
+        ],
+        "at": "2026-08-09T18:10:35.717429+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T18:10:35.717429+00:00",
+    "thread_id": "18109849538278982"
   },
   {
     "id": 2024,
