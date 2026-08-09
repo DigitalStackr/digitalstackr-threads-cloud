@@ -7103,7 +7103,7 @@
   {
     "id": 2029,
     "scheduled_time": "2026-08-09T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "thread_parts": [
       "8 THINGS NOBODY TELLS BEGINNERS ABOUT SELLING DIGITAL PRODUCTS.",
       "1. the first sale takes longer than the next twenty.",
@@ -7125,7 +7125,27 @@
       "status": "pending",
       "account": "TDS",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18119831452856867",
+        "thread_ids": [
+          "18119831452856867",
+          "18054155549543712",
+          "18069313067474035",
+          "18099031184198882",
+          "18116487052903002",
+          "17896553511575436",
+          "17877530001639675",
+          "18109435892141287",
+          "18107219855028094"
+        ],
+        "at": "2026-08-09T21:40:36.733260+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T21:40:36.733260+00:00",
+    "thread_id": "18119831452856867"
   },
   {
     "id": 2030,
