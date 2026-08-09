@@ -6795,7 +6795,7 @@
   {
     "id": 2019,
     "scheduled_time": "2026-08-09T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$640.80 from 32 people.\nsomeone asked what my ad budget is. i don't have one.",
     "image_file": "Untitled design (10).png",
     "targets": [
@@ -6803,7 +6803,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18097691027106688",
+        "at": "2026-08-09T14:40:31.730948+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T14:40:31.730948+00:00",
+    "thread_id": "18097691027106688"
   },
   {
     "id": 2020,
