@@ -6846,7 +6846,7 @@
   {
     "id": 2021,
     "scheduled_time": "2026-08-09T18:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$27, 2:24pm.\ni was in the middle of something else. it still went through.",
     "image_file": "IMG_4395.PNG",
     "targets": [
@@ -6854,7 +6854,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18437380315131527",
+        "at": "2026-08-09T16:10:35.060088+00:00"
+      }
+    },
+    "posted_at": "2026-08-09T16:10:35.060088+00:00",
+    "thread_id": "18437380315131527"
   },
   {
     "id": 2022,
