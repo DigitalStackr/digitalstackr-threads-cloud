@@ -7344,7 +7344,7 @@
   {
     "id": 2036,
     "scheduled_time": "2026-08-10T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "someone paid $147 for me to build their store for them.\ni'm 19. that one took a minute to process.",
     "image_file": "IMG_4274.PNG",
     "targets": [
@@ -7355,7 +7355,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18006152237767942",
+        "at": "2026-08-10T18:01:02.126516+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086875659071291799",
+        "at": "2026-08-10T18:01:02.126516+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T18:01:02.126516+00:00"
   },
   {
     "id": 2037,
