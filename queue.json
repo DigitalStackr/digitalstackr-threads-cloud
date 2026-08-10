@@ -7567,7 +7567,7 @@
   {
     "id": 2043,
     "scheduled_time": "2026-08-11T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$1117.67 landed in paypal.\nfor a thing i wrote about six months after learning it.",
     "image_file": "paypal notification ss from phn.png",
     "targets": [
@@ -7575,7 +7575,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18083555936254806",
+        "at": "2026-08-10T23:40:40.378567+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T23:40:40.378567+00:00",
+    "thread_id": "18083555936254806"
   },
   {
     "id": 2044,
