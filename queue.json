@@ -7322,7 +7322,7 @@
   {
     "id": 2035,
     "scheduled_time": "2026-08-10T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$201 from 19 people.\nnot a big day. still a day that paid.",
     "image_file": "Untitled design (17).png",
     "targets": [
@@ -7330,7 +7330,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18196658773372630",
+        "at": "2026-08-10T14:40:42.949984+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T14:40:42.949984+00:00",
+    "thread_id": "18196658773372630"
   },
   {
     "id": 2036,
