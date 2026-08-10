@@ -7491,7 +7491,7 @@
   {
     "id": 2041,
     "scheduled_time": "2026-08-10T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "thread_parts": [
       "8 WAYS TO FIND SOMETHING TO SELL WHEN YOU THINK YOU KNOW NOTHING.",
       "1. what do people already ask you for help with. that's the list.",
@@ -7513,7 +7513,27 @@
       "status": "pending",
       "account": "TDS",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18098361398237877",
+        "thread_ids": [
+          "18098361398237877",
+          "17929293909381660",
+          "17959706018984422",
+          "17961549558159766",
+          "18024037313893376",
+          "18115881292939554",
+          "18085852148201172",
+          "18366080740208318",
+          "18109603790035125"
+        ],
+        "at": "2026-08-10T21:40:37.079704+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T21:40:37.079704+00:00",
+    "thread_id": "18098361398237877"
   },
   {
     "id": 2042,
