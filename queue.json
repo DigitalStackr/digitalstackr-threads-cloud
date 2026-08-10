@@ -7293,7 +7293,7 @@
   {
     "id": 2034,
     "scheduled_time": "2026-08-10T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$201 from 19 people.\nquiet day. i'll take a quiet day that still pays.",
     "image_file": "Untitled design (17).png",
     "targets": [
@@ -7304,7 +7304,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18014694731921287",
+        "at": "2026-08-10T14:30:44.545787+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086822722475118703",
+        "at": "2026-08-10T14:30:44.545787+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T14:30:44.545787+00:00"
   },
   {
     "id": 2035,
