@@ -7395,7 +7395,7 @@
   {
     "id": 2038,
     "scheduled_time": "2026-08-10T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "the first sale took six weeks. the second took a day.\nnobody warns you the gap is that uneven.",
     "targets": [
       {
@@ -7405,7 +7405,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18109793477471137",
+        "at": "2026-08-10T20:00:51.500865+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086905672029876275",
+        "at": "2026-08-10T20:00:51.500865+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T20:00:51.500865+00:00"
   },
   {
     "id": 2039,
