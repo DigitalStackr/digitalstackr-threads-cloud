@@ -7373,7 +7373,7 @@
   {
     "id": 2037,
     "scheduled_time": "2026-08-10T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$147 for a store i built for someone else.\nthey trusted a 19 year old with their launch.",
     "image_file": "IMG_4274.PNG",
     "targets": [
@@ -7381,7 +7381,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18000721913978419",
+        "at": "2026-08-10T18:10:37.185553+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T18:10:37.185553+00:00",
+    "thread_id": "18000721913978419"
   },
   {
     "id": 2038,
