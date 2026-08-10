@@ -7423,14 +7423,23 @@
   {
     "id": 2039,
     "scheduled_time": "2026-08-10T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "the first sale took six weeks. the second took a day.\nnobody warns you the gap is that uneven.",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18426011818179363",
+        "at": "2026-08-10T20:10:32.955865+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T20:10:32.955865+00:00",
+    "thread_id": "18426011818179363"
   },
   {
     "id": 2040,
