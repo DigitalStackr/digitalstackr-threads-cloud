@@ -7538,7 +7538,7 @@
   {
     "id": 2042,
     "scheduled_time": "2026-08-11T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$1117.67 from gumroad into paypal.\nmoney i made explaining something i'd only learned the year before.",
     "image_file": "paypal notification ss from phn.png",
     "targets": [
@@ -7549,7 +7549,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17860225959675390",
+        "at": "2026-08-10T23:29:59.617050+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2086958436651282790",
+        "at": "2026-08-10T23:29:59.617050+00:00"
+      }
+    },
+    "posted_at": "2026-08-10T23:29:59.617050+00:00"
   },
   {
     "id": 2043,
