@@ -7590,43 +7590,33 @@
     "id": 2044,
     "scheduled_time": "2026-08-11T14:00:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "7 THINGS THAT CHANGED WHEN I STOPPED CARING IF IT LOOKED PROFESSIONAL.",
-      "1. i shipped in days instead of weeks.",
-      "2. people replied like i was a person, because i was.",
-      "3. the posts got shorter and did better.",
-      "4. i stopped rewriting things nobody was going to read twice.",
-      "5. i stopped comparing my page to companies with teams.",
-      "6. mistakes cost an hour instead of a month.",
-      "7. i actually enjoyed it, which is the only reason i kept going."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "3.9k gumroad ss.png",
+    "text": "19 years old.\n$3,937.55 from 225 people. from a PDF.\n\nnot a genius. not connected. not lucky. i just didn't stop posting when it was embarrassing."
   },
   {
     "id": 2045,
     "scheduled_time": "2026-08-11T14:10:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "7 THINGS THAT CHANGED WHEN I STOPPED CARING IF IT LOOKED PROFESSIONAL.",
-      "1. i shipped in days instead of weeks.",
-      "2. people replied like i was a person, because i was.",
-      "3. the posts got shorter and did better.",
-      "4. i stopped rewriting things nobody was going to read twice.",
-      "5. i stopped comparing my page to companies with teams.",
-      "6. mistakes cost an hour instead of a month.",
-      "7. i actually enjoyed it, which is the only reason i kept going."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "3.9k gumroad ss.png",
+    "text": "225 people bought a PDF from a 19 year old.\n$3,937.55.\n\ni was not smarter than anyone. i just kept going past the embarrassing part."
   },
   {
     "id": 2046,
@@ -7717,57 +7707,33 @@
     "id": 2052,
     "scheduled_time": "2026-08-11T23:30:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "9 THINGS TO FIX ON YOUR PROFILE BEFORE POSTING ANYTHING ELSE.",
-      "1. your bio says what you do, not what you are.",
-      "2. one link. not four. they only click one anyway.",
-      "3. a pinned post that shows a result, not an introduction.",
-      "4. the same name people can actually search for.",
-      "5. a picture that reads at thumbnail size.",
-      "6. no 'coming soon'. nobody sets a reminder.",
-      "7. proof visible without scrolling.",
-      "8. one clear thing to do next.",
-      "9. open it on someone else's phone. it's never what you think it is."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "MAIN",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "IMG_4274.PNG",
+    "text": "someone paid $147 for me to build the whole thing for them.\nthat's the part nobody expects."
   },
   {
     "id": 2053,
     "scheduled_time": "2026-08-11T23:40:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "9 THINGS TO FIX ON YOUR PROFILE BEFORE POSTING ANYTHING ELSE.",
-      "1. your bio says what you do, not what you are.",
-      "2. one link. not four. they only click one anyway.",
-      "3. a pinned post that shows a result, not an introduction.",
-      "4. the same name people can actually search for.",
-      "5. a picture that reads at thumbnail size.",
-      "6. no 'coming soon'. nobody sets a reminder.",
-      "7. proof visible without scrolling.",
-      "8. one clear thing to do next.",
-      "9. open it on someone else's phone. it's never what you think it is."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "TDS",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "IMG_4274.PNG",
+    "text": "$147 to build someone else's store.\ni'm 19 and they trusted me with their launch anyway."
   },
   {
     "id": 2054,
@@ -7802,53 +7768,33 @@
     "id": 2056,
     "scheduled_time": "2026-08-12T14:00:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "7 MISTAKES THAT COST ME MY FIRST TWO MONTHS.",
-      "1. building the product before checking anyone wanted it.",
-      "2. posting on four platforms badly instead of one properly.",
-      "3. copying someone else's price without knowing why they picked it.",
-      "4. treating every quiet day as a verdict.",
-      "5. writing for people already doing this instead of people starting.",
-      "6. redesigning instead of publishing.",
-      "7. not asking the people who bought why they bought.\n\nall seven were free to fix. i just didn't know."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "MAIN",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "Untitled design (10).png",
+    "text": "\"you need ads for this.\"\n$640.80 from 32 people. i have genuinely never run one."
   },
   {
     "id": 2057,
     "scheduled_time": "2026-08-12T14:10:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "7 MISTAKES THAT COST ME MY FIRST TWO MONTHS.",
-      "1. building the product before checking anyone wanted it.",
-      "2. posting on four platforms badly instead of one properly.",
-      "3. copying someone else's price without knowing why they picked it.",
-      "4. treating every quiet day as a verdict.",
-      "5. writing for people already doing this instead of people starting.",
-      "6. redesigning instead of publishing.",
-      "7. not asking the people who bought why they bought.\n\nall seven were free to fix. i just didn't know."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "TDS",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "Untitled design (10).png",
+    "text": "$640.80 from 32 people.\nzero ads. i wouldn't know how to start one."
   },
   {
     "id": 2058,
@@ -7939,45 +7885,33 @@
     "id": 2064,
     "scheduled_time": "2026-08-12T23:30:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "8 THINGS THAT ARE TRUE AT 19 THAT NOBODY SAYS OUT LOUD.",
-      "1. everyone assumes you're guessing. mostly you are.",
-      "2. having no money makes you decide faster.",
-      "3. nobody your age is as sorted as their posts suggest.",
-      "4. adults take you seriously about 30 seconds after you show them something real.",
-      "5. the time you have is the only advantage you actually own.",
-      "6. being underestimated is easier than being watched.",
-      "7. you can start something badly and fix it later. that's most of it.",
-      "8. nobody is coming to tell you it's allowed."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "IMG_3944.PNG",
+    "text": "they told me to get a job.\nthis is what the PDF paid out. $181.30 🤍"
   },
   {
     "id": 2065,
     "scheduled_time": "2026-08-12T23:40:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "8 THINGS THAT ARE TRUE AT 19 THAT NOBODY SAYS OUT LOUD.",
-      "1. everyone assumes you're guessing. mostly you are.",
-      "2. having no money makes you decide faster.",
-      "3. nobody your age is as sorted as their posts suggest.",
-      "4. adults take you seriously about 30 seconds after you show them something real.",
-      "5. the time you have is the only advantage you actually own.",
-      "6. being underestimated is easier than being watched.",
-      "7. you can start something badly and fix it later. that's most of it.",
-      "8. nobody is coming to tell you it's allowed."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "IMG_3944.PNG",
+    "text": "$181.30 landed while i was out.\nfirst money i ever made that didn't cost me an hour."
   },
   {
     "id": 2066,
@@ -8012,59 +7946,33 @@
     "id": 2068,
     "scheduled_time": "2026-08-13T14:00:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "10 POSTS THAT SELL WITHOUT EVER MENTIONING A PRODUCT.",
-      "1. the mistake you made and what it cost.",
-      "2. the thing you believed a year ago that was wrong.",
-      "3. a number, and how you felt about it.",
-      "4. the boring habit that actually did it.",
-      "5. the objection you get most, answered honestly.",
-      "6. what you'd do differently starting today.",
-      "7. the part everyone skips.",
-      "8. a small win that felt bigger than it was.",
-      "9. what nobody warned you about.",
-      "10. the day you nearly stopped.\n\npeople buy after they trust you. none of these ask for anything."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "MAIN",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "Untitled design(4).png",
+    "text": "$856.23 from 92 people.\nnot one of them has seen my face or knows my name."
   },
   {
     "id": 2069,
     "scheduled_time": "2026-08-13T14:10:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "10 POSTS THAT SELL WITHOUT EVER MENTIONING A PRODUCT.",
-      "1. the mistake you made and what it cost.",
-      "2. the thing you believed a year ago that was wrong.",
-      "3. a number, and how you felt about it.",
-      "4. the boring habit that actually did it.",
-      "5. the objection you get most, answered honestly.",
-      "6. what you'd do differently starting today.",
-      "7. the part everyone skips.",
-      "8. a small win that felt bigger than it was.",
-      "9. what nobody warned you about.",
-      "10. the day you nearly stopped.\n\npeople buy after they trust you. none of these ask for anything."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "TDS",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "Untitled design(4).png",
+    "text": "92 people. $856.23.\nnone of them know what i look like. it never came up."
   },
   {
     "id": 2070,
@@ -8155,51 +8063,33 @@
     "id": 2076,
     "scheduled_time": "2026-08-13T23:30:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "6 THINGS TO DO IN YOUR FIRST WEEK, IN ORDER.",
-      "1. pick one problem you've personally solved. one. write it at the top of a doc.",
-      "2. list the ten steps you took to solve it. that's your contents page.",
-      "3. write it plainly. no intro, no mindset chapter, no filler.",
-      "4. put it in canva. one hour, not one week.",
-      "5. upload to gumroad. price it low. you can raise it later.",
-      "6. post about the problem every day. not the product.\n\nthat's the whole first week. most people spend it choosing a name."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "MAIN",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "IMG_4395.PNG",
+    "text": "\"nobody buys PDFs anymore.\"\n$27. this afternoon."
   },
   {
     "id": 2077,
     "scheduled_time": "2026-08-13T23:40:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "6 THINGS TO DO IN YOUR FIRST WEEK, IN ORDER.",
-      "1. pick one problem you've personally solved. one. write it at the top of a doc.",
-      "2. list the ten steps you took to solve it. that's your contents page.",
-      "3. write it plainly. no intro, no mindset chapter, no filler.",
-      "4. put it in canva. one hour, not one week.",
-      "5. upload to gumroad. price it low. you can raise it later.",
-      "6. post about the problem every day. not the product.\n\nthat's the whole first week. most people spend it choosing a name."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "TDS",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "IMG_4395.PNG",
+    "text": "someone bought the $27 guide this afternoon.\ni was doing something else entirely."
   },
   {
     "id": 2078,
@@ -8234,43 +8124,33 @@
     "id": 2080,
     "scheduled_time": "2026-08-14T14:00:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "7 THINGS I THOUGHT WOULD HAPPEN WHEN I MADE MY FIRST SALE.",
-      "1. i thought i'd feel finished. it lasted about an hour.",
-      "2. i thought people would ask how. they didn't, for weeks.",
-      "3. i thought it meant the hard part was done. it was the easiest part.",
-      "4. i thought i'd want to tell everyone. i told nobody.",
-      "5. i thought the next one would come fast. it took six days.",
-      "6. i thought $27 would feel small. it didn't.",
-      "7. i thought i'd stop checking. i still check."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "Untitled design(6).png",
+    "text": "i didn't have a macbook.\ni didn't have fast wifi.\ni had a phone and a link.\n\n$735.29 from 88 people. the gear is a myth."
   },
   {
     "id": 2081,
     "scheduled_time": "2026-08-14T14:10:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "7 THINGS I THOUGHT WOULD HAPPEN WHEN I MADE MY FIRST SALE.",
-      "1. i thought i'd feel finished. it lasted about an hour.",
-      "2. i thought people would ask how. they didn't, for weeks.",
-      "3. i thought it meant the hard part was done. it was the easiest part.",
-      "4. i thought i'd want to tell everyone. i told nobody.",
-      "5. i thought the next one would come fast. it took six days.",
-      "6. i thought $27 would feel small. it didn't.",
-      "7. i thought i'd stop checking. i still check."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "Untitled design(6).png",
+    "text": "$735.29 from 88 people.\nbuilt on a phone, in gaps between other things."
   },
   {
     "id": 2082,
@@ -8361,55 +8241,33 @@
     "id": 2088,
     "scheduled_time": "2026-08-14T23:30:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "8 SIGNS THE THING YOU'RE BUILDING WON'T SELL.",
-      "1. you can't say who it's for in one sentence.",
-      "2. it solves a problem people don't know they have.",
-      "3. you're describing it with adjectives instead of outcomes.",
-      "4. it needs explaining before it's wanted.",
-      "5. you've been building it for more than three weeks.",
-      "6. you'd feel awkward showing it to someone specific.",
-      "7. everything about it is 'comprehensive'.",
-      "8. you're more excited about the branding than the contents.\n\nall of these are fixable. none of them fix themselves."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "MAIN",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "gumroad notification screenshot.PNG",
+    "text": "a sale came in at 3:33am.\nphone face down, dead asleep. it happened without me."
   },
   {
     "id": 2089,
     "scheduled_time": "2026-08-14T23:40:00+02:00",
     "status": "pending",
-    "thread_parts": [
-      "8 SIGNS THE THING YOU'RE BUILDING WON'T SELL.",
-      "1. you can't say who it's for in one sentence.",
-      "2. it solves a problem people don't know they have.",
-      "3. you're describing it with adjectives instead of outcomes.",
-      "4. it needs explaining before it's wanted.",
-      "5. you've been building it for more than three weeks.",
-      "6. you'd feel awkward showing it to someone specific.",
-      "7. everything about it is 'comprehensive'.",
-      "8. you're more excited about the branding than the contents.\n\nall of these are fixable. none of them fix themselves."
-    ],
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ],
-    "auto_plug": {
-      "status": "pending",
-      "account": "TDS",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    "image_file": "gumroad notification screenshot.PNG",
+    "text": "3:33am. asleep.\nthe store doesn't know what time it is and that's the whole point."
   },
   {
     "id": 2090,
