@@ -7785,14 +7785,23 @@
   {
     "id": 2051,
     "scheduled_time": "2026-08-11T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "i still write posts i think are too obvious. those are the ones that land.",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18070897091457365",
+        "at": "2026-08-11T20:10:36.825591+00:00"
+      }
+    },
+    "posted_at": "2026-08-11T20:10:36.825591+00:00",
+    "thread_id": "18070897091457365"
   },
   {
     "id": 2052,
