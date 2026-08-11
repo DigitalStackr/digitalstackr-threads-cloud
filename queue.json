@@ -7835,7 +7835,7 @@
   {
     "id": 2053,
     "scheduled_time": "2026-08-11T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -7846,7 +7846,20 @@
       }
     ],
     "image_file": "IMG_4274.PNG",
-    "text": "$147 to build someone else's store.\ni'm 19 and they trusted me with their launch anyway."
+    "text": "$147 to build someone else's store.\ni'm 19 and they trusted me with their launch anyway.",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18107610560324727",
+        "at": "2026-08-11T21:40:47.081618+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087293337808326979",
+        "at": "2026-08-11T21:40:47.081618+00:00"
+      }
+    },
+    "posted_at": "2026-08-11T21:40:47.081618+00:00"
   },
   {
     "id": 2054,
