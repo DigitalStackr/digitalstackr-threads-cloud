@@ -6014,12 +6014,20 @@
     "text": "**The mistake that costs the most time**\n\nBuilding for a month before showing anyone.\n\nPost the idea first. Talk about the problem for a week. See if anyone responds before you build the thing.\n\nIf nobody cares about the problem, a beautiful product will not fix that. If people do care, you will build a better version because you heard them first.\n\nValidation is a week. Building blind is a month.",
     "image_file": null,
     "scheduled_time": "2026-08-11T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "13",
+        "at": "2026-08-11T16:00:57.250645+00:00"
+      }
+    },
+    "posted_at": "2026-08-11T16:00:57.250645+00:00"
   },
   {
     "id": 906,
