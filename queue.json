@@ -7806,7 +7806,7 @@
   {
     "id": 2052,
     "scheduled_time": "2026-08-11T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -7817,7 +7817,20 @@
       }
     ],
     "image_file": "IMG_4274.PNG",
-    "text": "someone paid $147 for me to build the whole thing for them.\nthat's the part nobody expects."
+    "text": "someone paid $147 for me to build the whole thing for them.\nthat's the part nobody expects.",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18103327553591844",
+        "at": "2026-08-11T21:30:47.350751+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087290828557275578",
+        "at": "2026-08-11T21:30:47.350751+00:00"
+      }
+    },
+    "posted_at": "2026-08-11T21:30:47.350751+00:00"
   },
   {
     "id": 2053,
