@@ -7647,7 +7647,7 @@
   {
     "id": 2046,
     "scheduled_time": "2026-08-11T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$224.52 from 24 people.\nsix months ago i'd have said that was made up.",
     "image_file": "Untitled design (8).png",
     "targets": [
@@ -7658,7 +7658,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18116863369901521",
+        "at": "2026-08-11T14:30:44.090646+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087185110655254747",
+        "at": "2026-08-11T14:30:44.090646+00:00"
+      }
+    },
+    "posted_at": "2026-08-11T14:30:44.090646+00:00"
   },
   {
     "id": 2047,
