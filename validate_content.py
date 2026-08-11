@@ -48,12 +48,19 @@ BAIT_PATTERNS = [
     r"\bunpopular opinion\b", r"\bam i wrong\b", r"\bthoughts\?\s*$",
 ]
 
-# These are the specific emoji that were being stacked on nearly every post
-# (money-wings/sobbing/ghost etc). They read as hype and the posts using them
-# flopped, so they stay banned. Other emoji are allowed but capped at MAX_EMOJI
-# and are only meant on roughly a third of posts — the voice is understated.
-BANNED_EMOJI = ["\U0001f5a4", "\U0001f4b8", "\U0001f62d", "\U0001f47b", "\U0001f979",
+# Still banned outright: black heart, ghost, pleading face, star-eyes, fire,
+# money bag, money-mouth. These read as hype and nothing using them performed.
+BANNED_EMOJI = ["\U0001f5a4", "\U0001f47b", "\U0001f979",
                 "\U0001f929", "\U0001f525", "\U0001f4b0", "\U0001f911"]
+
+# 😭 and 💸 came OFF the ban list 2026-08-11. The blanket ban was wrong on the
+# evidence: the two highest-reach posts this account has ever had (26,423 and
+# 13,019 views) both used the pair. But they only work as an occasional
+# exclamation - on every post they are exactly the hype-spam the reset was
+# about. So: rate-limited, not banned. Shawn's rule is "once in a while, and
+# only when you think the post will go viral", which means the big-swing posts.
+HYPE_EMOJI = {"\U0001f62d", "\U0001f4b8"}      # 😭 💸
+HYPE_EVERY = 8          # at most one hype post per 8 upcoming posts, per account
 
 # The ONLY figures that may appear in a caption without a screenshot backing them.
 # Anything else must be present in the attached image's manifest 'numbers'.
@@ -245,6 +252,20 @@ def validate(queue: list) -> list:
                 flag(entry, f"duplicate/near-duplicate of queued id{sid}")
                 break
         seen.append((entry.get("id"), text, mine))
+
+    # ---- hype emoji spacing (per account) ----
+    # Allowed, but rationed. Spam is what killed them last time, not the glyphs.
+    for account in ("MAIN", "TDS"):
+        acct = [e for e in upcoming if account in accounts_of(e)]
+        last_hype = None
+        for i, entry in enumerate(acct):
+            text = body(entry)
+            if not any(g in text for g in HYPE_EMOJI):
+                continue
+            if last_hype is not None and (i - last_hype) < HYPE_EVERY:
+                flag(entry, f"hype emoji used {i - last_hype} posts after the last one "
+                            f"— keep at least {HYPE_EVERY} apart")
+            last_hype = i
 
     # ---- image reuse window + dashboard ratio + consecutive images (per account) ----
     for account in ("MAIN", "TDS"):
