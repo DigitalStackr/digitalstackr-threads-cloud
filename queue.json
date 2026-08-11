@@ -7893,7 +7893,7 @@
   {
     "id": 2055,
     "scheduled_time": "2026-08-12T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$181.30 turned up and my first thought was that something had gone wrong.",
     "image_file": "IMG_3944.PNG",
     "targets": [
@@ -7901,7 +7901,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18139257538595205",
+        "at": "2026-08-11T23:40:32.127400+00:00"
+      }
+    },
+    "posted_at": "2026-08-11T23:40:32.127400+00:00",
+    "thread_id": "18139257538595205"
   },
   {
     "id": 2056,
