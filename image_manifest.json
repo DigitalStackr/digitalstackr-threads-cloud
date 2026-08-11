@@ -249,6 +249,32 @@
       "shows": "Dashboard $19,079.70 from 662 sales, ALL TIME tab",
       "note": "ALL-TIME total, not daily - honest framing. Max ~1x/month."
     },
+    "3.9k gumroad ss.png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$3,937.55",
+        "$3937.55",
+        "$3,937",
+        "$3937",
+        "225"
+      ],
+      "shows": "Gumroad Dashboard: $3,937.55 from 225 sales. Period tab is CROPPED OUT of the shot.",
+      "note": "Opened and verified 2026-08-11. Highest-performing image on the account by a distance (median 3,870 views, best post ever at 26,423). Was sitting in unverified_do_not_use. CAUTION: the tab is not visible, so the image cannot back a 'this month' or 'today' claim - cite the figure without a period."
+    },
+    "gumroad more money dahsbaord.png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$1,183.32",
+        "$1183.32",
+        "$1,183",
+        "$1183",
+        "70"
+      ],
+      "shows": "Gumroad Dashboard: $1,183.32 from 70 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-11. Produced the 2nd-best post ever (13,019 views). It is a DAILY figure, which the content rules forbid claiming - see CLAUDE.md 4.4a. Recorded honestly here; whether it may be used is Shawn's call, not the manifest's."
+    },
     "Untitled design (16).png": {
       "kind": "broken",
       "tier": "blocked",
@@ -259,7 +285,6 @@
   },
   "unverified_do_not_use": [
     "125 tdy gumroad dahsbaord.png",
-    "3.9k gumroad ss.png",
     "612 a day gumroad dahsbaord ss.png",
     "Gumroad Sales Screenshots.PNG",
     "dashbaord ss 964tdy.png",
@@ -270,7 +295,6 @@
     "gumroad 112day.png",
     "gumroad dahsbaord ss 556.png",
     "gumroad dashbaord ss 2k.png",
-    "gumroad more money dahsbaord.png",
     "paypal notification ss 1.3k.png",
     "sales proof.png"
   ]
