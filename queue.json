@@ -8190,7 +8190,7 @@
   {
     "id": 2066,
     "scheduled_time": "2026-08-13T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$739.50 from 65 people.\n65 strangers trusted a guide written by a teenager.",
     "image_file": "Untitled design (11).png",
     "targets": [
@@ -8201,7 +8201,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17897797116579304",
+        "at": "2026-08-12T23:30:45.674774+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087683405324415016",
+        "at": "2026-08-12T23:30:45.674774+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T23:30:45.674774+00:00"
   },
   {
     "id": 2067,
