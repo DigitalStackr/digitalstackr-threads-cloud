@@ -8002,7 +8002,7 @@
   {
     "id": 2059,
     "scheduled_time": "2026-08-12T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$735.29 from 88 people.\nphone was in my bag the whole time. 🤍",
     "image_file": "Untitled design(6).png",
     "targets": [
@@ -8010,7 +8010,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18121791265849907",
+        "at": "2026-08-12T14:40:38.599351+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T14:40:38.599351+00:00",
+    "thread_id": "18121791265849907"
   },
   {
     "id": 2060,
