@@ -7944,7 +7944,7 @@
   {
     "id": 2057,
     "scheduled_time": "2026-08-12T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -7955,7 +7955,20 @@
       }
     ],
     "image_file": "Untitled design (10).png",
-    "text": "$640.80 from 32 people.\nzero ads. i wouldn't know how to start one."
+    "text": "$640.80 from 32 people.\nzero ads. i wouldn't know how to start one.",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17910546879453536",
+        "at": "2026-08-12T12:10:39.245281+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087512264798572672",
+        "at": "2026-08-12T12:10:39.245281+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T12:10:39.245281+00:00"
   },
   {
     "id": 2058,
