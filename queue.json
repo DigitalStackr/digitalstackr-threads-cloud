@@ -8161,7 +8161,7 @@
   {
     "id": 2065,
     "scheduled_time": "2026-08-12T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8172,7 +8172,20 @@
       }
     ],
     "image_file": "IMG_3944.PNG",
-    "text": "$181.30 landed while i was out.\nfirst money i ever made that didn't cost me an hour."
+    "text": "$181.30 landed while i was out.\nfirst money i ever made that didn't cost me an hour.",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18047261549803572",
+        "at": "2026-08-12T21:40:35.297057+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087655674972938590",
+        "at": "2026-08-12T21:40:35.297057+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T21:40:35.297057+00:00"
   },
   {
     "id": 2066,
