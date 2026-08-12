@@ -7915,7 +7915,7 @@
   {
     "id": 2056,
     "scheduled_time": "2026-08-12T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -7926,7 +7926,20 @@
       }
     ],
     "image_file": "Untitled design (10).png",
-    "text": "\"you need ads for this.\"\n$640.80 from 32 people. i have genuinely never run one."
+    "text": "\"you need ads for this.\"\n$640.80 from 32 people. i have genuinely never run one.",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18218824231330636",
+        "at": "2026-08-12T12:00:54.901163+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087509803690299755",
+        "at": "2026-08-12T12:00:54.901163+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T12:00:54.901163+00:00"
   },
   {
     "id": 2057,
