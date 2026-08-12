@@ -7973,7 +7973,7 @@
   {
     "id": 2058,
     "scheduled_time": "2026-08-12T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "88 separate people decided this was worth paying for.\n$735.29, and my phone was in a bag under a desk for most of it. 🤍",
     "image_file": "Untitled design(6).png",
     "targets": [
@@ -7984,7 +7984,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18127051426671128",
+        "at": "2026-08-12T14:30:45.218593+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087547499359642111",
+        "at": "2026-08-12T14:30:45.218593+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T14:30:45.218593+00:00"
   },
   {
     "id": 2059,
