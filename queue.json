@@ -8061,7 +8061,7 @@
   {
     "id": 2061,
     "scheduled_time": "2026-08-12T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$50 for two weeks of my time, back when that was the price.\nsomebody's launch, in my hands, at 19.",
     "image_file": "IMG_3795.PNG",
     "targets": [
@@ -8069,7 +8069,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18102436151625293",
+        "at": "2026-08-12T18:10:35.119570+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T18:10:35.119570+00:00",
+    "thread_id": "18102436151625293"
   },
   {
     "id": 2062,
