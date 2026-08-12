@@ -8219,7 +8219,7 @@
   {
     "id": 2067,
     "scheduled_time": "2026-08-13T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$739.50 from 65 people.\ni've refreshed it about four times.",
     "image_file": "Untitled design (11).png",
     "targets": [
@@ -8227,7 +8227,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17923014768407309",
+        "at": "2026-08-12T23:40:37.943388+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T23:40:37.943388+00:00",
+    "thread_id": "17923014768407309"
   },
   {
     "id": 2068,
