@@ -8132,7 +8132,7 @@
   {
     "id": 2064,
     "scheduled_time": "2026-08-12T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8143,7 +8143,20 @@
       }
     ],
     "image_file": "IMG_3944.PNG",
-    "text": "they told me to get a job.\nthis is what the PDF paid out. $181.30 🤍"
+    "text": "they told me to get a job.\nthis is what the PDF paid out. $181.30 🤍",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18626851822015187",
+        "at": "2026-08-12T21:30:41.503783+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087653191575908498",
+        "at": "2026-08-12T21:30:41.503783+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T21:30:41.503783+00:00"
   },
   {
     "id": 2065,
