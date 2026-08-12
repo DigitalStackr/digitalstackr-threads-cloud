@@ -8083,7 +8083,7 @@
   {
     "id": 2062,
     "scheduled_time": "2026-08-12T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "no ads. no face. no idea what i was doing for the first month.",
     "targets": [
       {
@@ -8093,7 +8093,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18456159379186217",
+        "at": "2026-08-12T20:00:54.286303+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087630456544198891",
+        "at": "2026-08-12T20:00:54.286303+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T20:00:54.286303+00:00"
   },
   {
     "id": 2063,
