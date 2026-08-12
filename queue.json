@@ -8032,7 +8032,7 @@
   {
     "id": 2060,
     "scheduled_time": "2026-08-12T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "someone paid $50 for two weeks of my time back when that was the price.\n19 years old and somebody trusted me with their launch.",
     "image_file": "IMG_3795.PNG",
     "targets": [
@@ -8043,7 +8043,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18372985381236315",
+        "at": "2026-08-12T18:01:01.304021+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087600430331355647",
+        "at": "2026-08-12T18:01:01.304021+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T18:01:01.304021+00:00"
   },
   {
     "id": 2061,
