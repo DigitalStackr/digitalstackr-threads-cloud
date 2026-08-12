@@ -6034,12 +6034,20 @@
     "text": "**How to not run out of things to post**\n\nFour angles, rotate them:\n\n• **The objection** — something people say, then what actually happened\n• **The contrast** — what you do not have, next to what you built anyway\n• **The receipt** — a real screenshot, no exaggeration\n• **The plain truth** — one sentence, no metaphor\n\nThat is four posts. Rotate them and you have a month.\n\nYou do not need new ideas. You need the same idea said plainly, often.",
     "image_file": null,
     "scheduled_time": "2026-08-12T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "14",
+        "at": "2026-08-12T16:00:53.053003+00:00"
+      }
+    },
+    "posted_at": "2026-08-12T16:00:53.053003+00:00"
   },
   {
     "id": 907,
