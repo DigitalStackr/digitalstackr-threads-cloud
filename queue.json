@@ -8496,7 +8496,7 @@
   {
     "id": 2077,
     "scheduled_time": "2026-08-13T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8507,7 +8507,20 @@
       }
     ],
     "image_file": "IMG_4274.PNG",
-    "text": "$147 from someone who found me through one post.\nthey never asked for a call. they just trusted it."
+    "text": "$147 from someone who found me through one post.\nthey never asked for a call. they just trusted it.",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18422135272195411",
+        "at": "2026-08-13T21:40:45.390736+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088018118430126196",
+        "at": "2026-08-13T21:40:45.390736+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T21:40:45.390736+00:00"
   },
   {
     "id": 2078,
