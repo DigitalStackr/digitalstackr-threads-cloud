@@ -8409,7 +8409,7 @@
   {
     "id": 2074,
     "scheduled_time": "2026-08-13T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "IT'S OFFICIAL.\n\n$3,937.55. 225 people.\n\ni started this on a phone with 49 followers and no idea what i was doing. still can't quite say it out loud. 🥹",
     "targets": [
       {
@@ -8420,7 +8420,20 @@
         "platform": "x"
       }
     ],
-    "image_file": "3.9k gumroad ss.png"
+    "image_file": "3.9k gumroad ss.png",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18076010840695547",
+        "at": "2026-08-13T20:00:49.776736+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087992971043991697",
+        "at": "2026-08-13T20:00:49.776736+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T20:00:49.776736+00:00"
   },
   {
     "id": 2075,
