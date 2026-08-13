@@ -8299,7 +8299,7 @@
   {
     "id": 2070,
     "scheduled_time": "2026-08-13T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$27 at 3:33am.\nthe store doesn't know what time it is and that's the entire point.",
     "image_file": "gumroad notification screenshot.PNG",
     "targets": [
@@ -8310,7 +8310,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17942020542321603",
+        "at": "2026-08-13T14:30:46.164271+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087909893697139063",
+        "at": "2026-08-13T14:30:46.164271+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T14:30:46.164271+00:00"
   },
   {
     "id": 2071,
