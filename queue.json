@@ -8241,7 +8241,7 @@
   {
     "id": 2068,
     "scheduled_time": "2026-08-13T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8252,7 +8252,20 @@
       }
     ],
     "image_file": "Untitled design(4).png",
-    "text": "$856.23 from 92 people.\nnot one of them has seen my face or knows my name."
+    "text": "$856.23 from 92 people.\nnot one of them has seen my face or knows my name.",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18008496749955050",
+        "at": "2026-08-13T12:00:48.959237+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087872157141385364",
+        "at": "2026-08-13T12:00:48.959237+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T12:00:48.959237+00:00"
   },
   {
     "id": 2069,
