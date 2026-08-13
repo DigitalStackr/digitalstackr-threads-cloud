@@ -8270,7 +8270,7 @@
   {
     "id": 2069,
     "scheduled_time": "2026-08-13T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8281,7 +8281,20 @@
       }
     ],
     "image_file": "Untitled design(4).png",
-    "text": "92 people. $856.23.\nnone of them know what i look like. it never came up."
+    "text": "92 people. $856.23.\nnone of them know what i look like. it never came up.",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18076668320380746",
+        "at": "2026-08-13T12:10:39.866828+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087874644825317599",
+        "at": "2026-08-13T12:10:39.866828+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T12:10:39.866828+00:00"
   },
   {
     "id": 2070,
