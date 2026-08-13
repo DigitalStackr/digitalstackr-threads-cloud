@@ -8387,7 +8387,7 @@
   {
     "id": 2073,
     "scheduled_time": "2026-08-13T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$856.23 from 92 people.\nnone of them know my name and it doesn't matter.",
     "image_file": "Untitled design(4).png",
     "targets": [
@@ -8395,7 +8395,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18126190687759766",
+        "at": "2026-08-13T18:10:38.647669+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T18:10:38.647669+00:00",
+    "thread_id": "18126190687759766"
   },
   {
     "id": 2074,
