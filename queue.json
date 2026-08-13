@@ -6054,12 +6054,20 @@
     "text": "**Why faceless works**\n\nYou are not the product. The solution is.\n\nNo face means no personal brand to maintain, no pressure to perform, and no ceiling based on how comfortable you are on camera.\n\nPeople buy the outcome. They do not need to know what you look like — they need to believe you have actually done the thing.\n\nThat is what screenshots are for. Not vanity. Evidence.",
     "image_file": null,
     "scheduled_time": "2026-08-13T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "15",
+        "at": "2026-08-13T16:00:57.780494+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T16:00:57.780494+00:00"
   },
   {
     "id": 908,
