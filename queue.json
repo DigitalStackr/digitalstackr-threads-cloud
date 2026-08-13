@@ -8328,7 +8328,7 @@
   {
     "id": 2071,
     "scheduled_time": "2026-08-13T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$27 at 3:33am.\nthe store kept working while i was unconscious.",
     "image_file": "gumroad notification screenshot.PNG",
     "targets": [
@@ -8336,7 +8336,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18129508711647986",
+        "at": "2026-08-13T14:45:33.215430+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T14:45:33.215430+00:00",
+    "thread_id": "18129508711647986"
   },
   {
     "id": 2072,
