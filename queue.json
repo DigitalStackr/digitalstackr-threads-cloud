@@ -8410,7 +8410,7 @@
     "id": 2074,
     "scheduled_time": "2026-08-13T22:00:00+02:00",
     "status": "pending",
-    "text": "the store made money while i was in a lecture. that's the entire pitch.",
+    "text": "IT'S OFFICIAL.\n\n$3,937.55. 225 people.\n\ni started this on a phone with 49 followers and no idea what i was doing. still can't quite say it out loud. 🥹",
     "targets": [
       {
         "platform": "threads",
@@ -8419,19 +8419,24 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "image_file": "3.9k gumroad ss.png"
   },
   {
     "id": 2075,
     "scheduled_time": "2026-08-13T22:10:00+02:00",
     "status": "pending",
-    "text": "the store made money while i was in a lecture. that's the entire pitch.",
+    "text": "it's official.\n\n$3,937.55 from 225 people.\n\n49 followers when i started. i genuinely thought nothing would come of it.",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "3.9k gumroad ss.png"
   },
   {
     "id": 2076,
@@ -8446,8 +8451,8 @@
         "platform": "x"
       }
     ],
-    "image_file": "IMG_4395.PNG",
-    "text": "\"nobody buys PDFs anymore.\"\n$27. this afternoon."
+    "image_file": "IMG_4274.PNG",
+    "text": "a stranger sent me $147 to build their store.\nwe have never spoken. i'm 19. that still doesn't feel normal."
   },
   {
     "id": 2077,
@@ -8462,15 +8467,15 @@
         "platform": "x"
       }
     ],
-    "image_file": "IMG_4395.PNG",
-    "text": "someone bought the $27 guide this afternoon.\ni was doing something else entirely."
+    "image_file": "IMG_4274.PNG",
+    "text": "$147 from someone who found me through one post.\nthey never asked for a call. they just trusted it."
   },
   {
     "id": 2078,
     "scheduled_time": "2026-08-14T01:30:00+02:00",
     "status": "pending",
-    "text": "$147 for a done-for-you store.\ni built someone their whole business while mine ran itself.",
-    "image_file": "IMG_4274.PNG",
+    "text": "a sale came in at 3:33am.\nphone face down, dead asleep. it happened without me.",
+    "image_file": "gumroad notification screenshot.PNG",
     "targets": [
       {
         "platform": "threads",
@@ -8485,12 +8490,15 @@
     "id": 2079,
     "scheduled_time": "2026-08-14T01:40:00+02:00",
     "status": "pending",
-    "text": "$147 to build someone else's store.\nmine was running in another tab.",
-    "image_file": "IMG_4274.PNG",
+    "text": "3:33am. asleep.\nthe store doesn't know what time it is and that's the whole point.",
+    "image_file": "gumroad notification screenshot.PNG",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ]
   },
@@ -8507,8 +8515,8 @@
         "platform": "x"
       }
     ],
-    "image_file": "Untitled design(6).png",
-    "text": "i didn't have a macbook.\ni didn't have fast wifi.\ni had a phone and a link.\n\n$735.29 from 88 people. the gear is a myth."
+    "image_file": "Untitled design(4).png",
+    "text": "19 years old.\n$856.23 from 92 people who have never seen my face.\n\nnot a genius. not connected. not lucky. i just didn't stop."
   },
   {
     "id": 2081,
@@ -8523,15 +8531,15 @@
         "platform": "x"
       }
     ],
-    "image_file": "Untitled design(6).png",
-    "text": "$735.29 from 88 people.\nbuilt on a phone, in gaps between other things."
+    "image_file": "Untitled design(4).png",
+    "text": "$856.23 from 92 buyers.\ni could walk past every one of them in the street and neither of us would know."
   },
   {
     "id": 2082,
     "scheduled_time": "2026-08-14T16:30:00+02:00",
     "status": "pending",
-    "text": "104 people bought something i made in canva.\nstill the part i find hardest to explain to people at home.",
-    "image_file": "IMG_4397.PNG",
+    "text": "\"organic doesn't work anymore.\"\n\n$640.80 from 32 people, every one of them off a free post.",
+    "image_file": "Untitled design (10).png",
     "targets": [
       {
         "platform": "threads",
@@ -8546,12 +8554,15 @@
     "id": 2083,
     "scheduled_time": "2026-08-14T16:40:00+02:00",
     "status": "pending",
-    "text": "104 people. one guide.\ni made it in canva on a weekend and almost binned it.",
-    "image_file": "IMG_4397.PNG",
+    "text": "someone told me this market was saturated.\n$640.80 from 32 people that same week.",
+    "image_file": "Untitled design (10).png",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ]
   },
@@ -8559,8 +8570,8 @@
     "id": 2084,
     "scheduled_time": "2026-08-14T20:00:00+02:00",
     "status": "pending",
-    "text": "someone told me this market was saturated.\n$640.80 from 32 people that same week.",
-    "image_file": "Untitled design (10).png",
+    "text": "i can finally say it.\n\n$382 this month. 104 people.\n\nnot life changing money. but it's the first i've earned that didn't cost me an hour of my life. 🥹",
+    "image_file": "IMG_4397.PNG",
     "targets": [
       {
         "platform": "threads",
@@ -8575,12 +8586,15 @@
     "id": 2085,
     "scheduled_time": "2026-08-14T20:10:00+02:00",
     "status": "pending",
-    "text": "somebody told me digital products were finished.\n$640.80 that same week, from 32 people.",
-    "image_file": "Untitled design (10).png",
+    "text": "$382 this month. 104 people.\n\nsmall. but it's the first money i've made that kept coming while i did other things.",
+    "image_file": "IMG_4397.PNG",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ]
   },
@@ -8588,7 +8602,7 @@
     "id": 2086,
     "scheduled_time": "2026-08-14T22:00:00+02:00",
     "status": "pending",
-    "text": "quiet week. still built. that's most of it, honestly.",
+    "text": "someone booked two weeks of my time.\nthey trusted a 19 year old with their launch. still sitting with that.",
     "targets": [
       {
         "platform": "threads",
@@ -8597,19 +8611,24 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "image_file": "IMG_3795.PNG"
   },
   {
     "id": 2087,
     "scheduled_time": "2026-08-14T22:10:00+02:00",
     "status": "pending",
-    "text": "quiet week. still built. that's most of it, honestly.",
+    "text": "somebody paid for two weeks of my time.\ni'm 19. i keep waiting for them to ask for a refund.",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
-    ]
+    ],
+    "image_file": "IMG_3795.PNG"
   },
   {
     "id": 2088,
@@ -8624,8 +8643,8 @@
         "platform": "x"
       }
     ],
-    "image_file": "gumroad notification screenshot.PNG",
-    "text": "a sale came in at 3:33am.\nphone face down, dead asleep. it happened without me."
+    "image_file": "IMG_3944.PNG",
+    "text": "$181.30 landed while i was walking home.\nit had already happened. i just found out afterwards."
   },
   {
     "id": 2089,
@@ -8640,15 +8659,15 @@
         "platform": "x"
       }
     ],
-    "image_file": "gumroad notification screenshot.PNG",
-    "text": "3:33am. asleep.\nthe store doesn't know what time it is and that's the whole point."
+    "image_file": "IMG_3944.PNG",
+    "text": "$181.30 turned up while i was out.\nfirst money i ever made that i didn't have to be present for."
   },
   {
     "id": 2090,
     "scheduled_time": "2026-08-15T01:30:00+02:00",
     "status": "pending",
-    "text": "$224.52 from 24 people.\nnone of them asked how old i was.",
-    "image_file": "Untitled design (8).png",
+    "text": "they told me to get a job.\n\n$735.29 from 88 people, off a file i wrote once.\n\nthe PDF is the job.",
+    "image_file": "Untitled design(6).png",
     "targets": [
       {
         "platform": "threads",
@@ -8663,12 +8682,15 @@
     "id": 2091,
     "scheduled_time": "2026-08-15T01:40:00+02:00",
     "status": "pending",
-    "text": "$224.52 from 24 people.\nnobody asked my age. nobody asked for my face.",
-    "image_file": "Untitled design (8).png",
+    "text": "$735.29 from 88 people.\nbuilt on a phone, in the gaps between other things.",
+    "image_file": "Untitled design(6).png",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
+      },
+      {
+        "platform": "x"
       }
     ]
   }
