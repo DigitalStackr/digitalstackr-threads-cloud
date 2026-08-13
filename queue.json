@@ -8525,7 +8525,7 @@
   {
     "id": 2078,
     "scheduled_time": "2026-08-14T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "a sale came in at 3:33am.\nphone face down, dead asleep. it happened without me.",
     "image_file": "gumroad notification screenshot.PNG",
     "targets": [
@@ -8536,7 +8536,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18191821834388193",
+        "at": "2026-08-13T23:30:44.587522+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088045785166549114",
+        "at": "2026-08-13T23:30:44.587522+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T23:30:44.587522+00:00"
   },
   {
     "id": 2079,
