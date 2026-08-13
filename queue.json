@@ -8554,7 +8554,7 @@
   {
     "id": 2079,
     "scheduled_time": "2026-08-14T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "3:33am. asleep.\nthe store doesn't know what time it is and that's the whole point.",
     "image_file": "gumroad notification screenshot.PNG",
     "targets": [
@@ -8565,7 +8565,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18109251775945834",
+        "at": "2026-08-13T23:40:37.347508+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088048279858618414",
+        "at": "2026-08-13T23:40:37.347508+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T23:40:37.347508+00:00"
   },
   {
     "id": 2080,
