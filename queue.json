@@ -8467,7 +8467,7 @@
   {
     "id": 2076,
     "scheduled_time": "2026-08-13T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8478,7 +8478,20 @@
       }
     ],
     "image_file": "IMG_4274.PNG",
-    "text": "a stranger sent me $147 to build their store.\nwe have never spoken. i'm 19. that still doesn't feel normal."
+    "text": "a stranger sent me $147 to build their store.\nwe have never spoken. i'm 19. that still doesn't feel normal.",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18111887014993204",
+        "at": "2026-08-13T21:30:42.826986+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088015574987079779",
+        "at": "2026-08-13T21:30:42.826986+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T21:30:42.826986+00:00"
   },
   {
     "id": 2077,
