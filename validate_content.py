@@ -48,9 +48,9 @@ BAIT_PATTERNS = [
     r"\bunpopular opinion\b", r"\bam i wrong\b", r"\bthoughts\?\s*$",
 ]
 
-# Still banned outright: black heart, ghost, pleading face, star-eyes, fire,
-# money bag, money-mouth. These read as hype and nothing using them performed.
-BANNED_EMOJI = ["\U0001f5a4", "\U0001f47b", "\U0001f979",
+# Still banned outright: black heart, ghost, star-eyes, fire, money bag,
+# money-mouth. These read as hype and nothing using them performed.
+BANNED_EMOJI = ["\U0001f5a4", "\U0001f47b",
                 "\U0001f929", "\U0001f525", "\U0001f4b0", "\U0001f911"]
 
 # 😭 and 💸 came OFF the ban list 2026-08-11. The blanket ban was wrong on the
@@ -59,8 +59,12 @@ BANNED_EMOJI = ["\U0001f5a4", "\U0001f47b", "\U0001f979",
 # exclamation - on every post they are exactly the hype-spam the reset was
 # about. So: rate-limited, not banned. Shawn's rule is "once in a while, and
 # only when you think the post will go viral", which means the big-swing posts.
-HYPE_EMOJI = {"\U0001f62d", "\U0001f4b8"}      # 😭 💸
-HYPE_EVERY = 8          # at most one hype post per 8 upcoming posts, per account
+# 🥹 joined them 2026-08-13 on the same evidence: two of the five best posts in
+# the last 30 days use it, and those two took the most FOLLOWS of any post on the
+# account (54 and 50). It reads as genuine emotion on a milestone, which is the
+# one place hype is earned.
+HYPE_EMOJI = {"\U0001f62d", "\U0001f4b8", "\U0001f979"}      # 😭 💸 🥹
+HYPE_EVERY = 6          # at most one hype post per 6 upcoming posts, per account
 
 # The ONLY figures that may appear in a caption without a screenshot backing them.
 # Anything else must be present in the attached image's manifest 'numbers'.
