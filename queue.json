@@ -8358,7 +8358,7 @@
   {
     "id": 2072,
     "scheduled_time": "2026-08-13T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$856.23 from 92 people.\nno face, no name, no ads. just a doc that solved one thing.",
     "image_file": "Untitled design(4).png",
     "targets": [
@@ -8369,7 +8369,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18072728729415470",
+        "at": "2026-08-13T18:00:54.705510+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2087962782260183241",
+        "at": "2026-08-13T18:00:54.705510+00:00"
+      }
+    },
+    "posted_at": "2026-08-13T18:00:54.705510+00:00"
   },
   {
     "id": 2073,
