@@ -8670,7 +8670,7 @@
   {
     "id": 2083,
     "scheduled_time": "2026-08-14T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "someone told me this market was saturated.\n$640.80 from 32 people that same week.",
     "image_file": "Untitled design (10).png",
     "targets": [
@@ -8681,7 +8681,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18331414123276574",
+        "at": "2026-08-14T14:40:34.871318+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088274762099290184",
+        "at": "2026-08-14T14:40:34.871318+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T14:40:34.871318+00:00"
   },
   {
     "id": 2084,
