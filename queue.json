@@ -8823,7 +8823,7 @@
   {
     "id": 2088,
     "scheduled_time": "2026-08-14T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8834,7 +8834,20 @@
       }
     ],
     "image_file": "IMG_3944.PNG",
-    "text": "$181.30 landed while i was walking home.\nit had already happened. i just found out afterwards."
+    "text": "$181.30 landed while i was walking home.\nit had already happened. i just found out afterwards.",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17959145883190471",
+        "at": "2026-08-14T21:30:44.283656+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088377974588309716",
+        "at": "2026-08-14T21:30:44.283656+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T21:30:44.283656+00:00"
   },
   {
     "id": 2089,
