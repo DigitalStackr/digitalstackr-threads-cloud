@@ -8583,7 +8583,7 @@
   {
     "id": 2080,
     "scheduled_time": "2026-08-14T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8594,7 +8594,20 @@
       }
     ],
     "image_file": "Untitled design(4).png",
-    "text": "19 years old.\n$856.23 from 92 people who have never seen my face.\n\nnot a genius. not connected. not lucky. i just didn't stop."
+    "text": "19 years old.\n$856.23 from 92 people who have never seen my face.\n\nnot a genius. not connected. not lucky. i just didn't stop.",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18090024068141950",
+        "at": "2026-08-14T12:00:51.500567+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088234562602111398",
+        "at": "2026-08-14T12:00:51.500567+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T12:00:51.500567+00:00"
   },
   {
     "id": 2081,
