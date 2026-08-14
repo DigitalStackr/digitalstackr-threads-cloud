@@ -8765,7 +8765,7 @@
   {
     "id": 2086,
     "scheduled_time": "2026-08-14T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "someone booked two weeks of my time.\nthey trusted a 19 year old with their launch. still sitting with that.",
     "targets": [
       {
@@ -8776,7 +8776,20 @@
         "platform": "x"
       }
     ],
-    "image_file": "IMG_3795.PNG"
+    "image_file": "IMG_3795.PNG",
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18074487686381192",
+        "at": "2026-08-14T20:00:50.546601+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088355349078171882",
+        "at": "2026-08-14T20:00:50.546601+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T20:00:50.546601+00:00"
   },
   {
     "id": 2087,
