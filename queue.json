@@ -6074,12 +6074,20 @@
     "text": "**Where the first buyers actually come from**\n\nNot your followers. Strangers who saw one post.\n\nMost of our sales come from people who found a single post, clicked the profile, and bought within about ten minutes. They never followed first.\n\nThat is why every post has to make sense on its own to someone who has never heard of you. No inside jokes, no 'as I mentioned yesterday'.",
     "image_file": null,
     "scheduled_time": "2026-08-14T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "16",
+        "at": "2026-08-14T16:00:52.558968+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T16:00:52.558968+00:00"
   },
   {
     "id": 909,
