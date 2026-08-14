@@ -8707,7 +8707,7 @@
   {
     "id": 2084,
     "scheduled_time": "2026-08-14T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "i can finally say it.\n\n$382 this month. 104 people.\n\nnot life changing money. but it's the first i've earned that didn't cost me an hour of my life. 🥹",
     "image_file": "IMG_4397.PNG",
     "targets": [
@@ -8718,7 +8718,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18384634738164888",
+        "at": "2026-08-14T18:00:50.995710+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088325149997015394",
+        "at": "2026-08-14T18:00:50.995710+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T18:00:50.995710+00:00"
   },
   {
     "id": 2085,
