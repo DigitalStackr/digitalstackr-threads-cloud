@@ -8736,7 +8736,7 @@
   {
     "id": 2085,
     "scheduled_time": "2026-08-14T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$382 this month. 104 people.\n\nsmall. but it's the first money i've made that kept coming while i did other things.",
     "image_file": "IMG_4397.PNG",
     "targets": [
@@ -8747,7 +8747,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18412501315158817",
+        "at": "2026-08-14T18:10:38.450755+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088327630953349225",
+        "at": "2026-08-14T18:10:38.450755+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T18:10:38.450755+00:00"
   },
   {
     "id": 2086,
