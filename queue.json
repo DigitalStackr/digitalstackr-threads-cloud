@@ -8612,7 +8612,7 @@
   {
     "id": 2081,
     "scheduled_time": "2026-08-14T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8623,7 +8623,20 @@
       }
     ],
     "image_file": "Untitled design(4).png",
-    "text": "$856.23 from 92 buyers.\ni could walk past every one of them in the street and neither of us would know."
+    "text": "$856.23 from 92 buyers.\ni could walk past every one of them in the street and neither of us would know.",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18101919763948994",
+        "at": "2026-08-14T12:10:38.856987+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088237027531911606",
+        "at": "2026-08-14T12:10:38.856987+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T12:10:38.856987+00:00"
   },
   {
     "id": 2082,
