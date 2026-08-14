@@ -8852,7 +8852,7 @@
   {
     "id": 2089,
     "scheduled_time": "2026-08-14T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
@@ -8863,7 +8863,20 @@
       }
     ],
     "image_file": "IMG_3944.PNG",
-    "text": "$181.30 turned up while i was out.\nfirst money i ever made that i didn't have to be present for."
+    "text": "$181.30 turned up while i was out.\nfirst money i ever made that i didn't have to be present for.",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18048051677753617",
+        "at": "2026-08-14T21:40:33.844120+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088380446014894203",
+        "at": "2026-08-14T21:40:33.844120+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T21:40:33.844120+00:00"
   },
   {
     "id": 2090,
