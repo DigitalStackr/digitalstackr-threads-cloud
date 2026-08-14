@@ -8881,7 +8881,7 @@
   {
     "id": 2090,
     "scheduled_time": "2026-08-15T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "they told me to get a job.\n\n$735.29 from 88 people, off a file i wrote once.\n\nthe PDF is the job.",
     "image_file": "Untitled design(6).png",
     "targets": [
@@ -8892,7 +8892,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18086508791451925",
+        "at": "2026-08-14T23:29:51.936470+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088407955662336179",
+        "at": "2026-08-14T23:29:51.936470+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T23:29:51.936470+00:00"
   },
   {
     "id": 2091,
