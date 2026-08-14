@@ -8641,7 +8641,7 @@
   {
     "id": 2082,
     "scheduled_time": "2026-08-14T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "\"organic doesn't work anymore.\"\n\n$640.80 from 32 people, every one of them off a free post.",
     "image_file": "Untitled design (10).png",
     "targets": [
@@ -8652,7 +8652,20 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18145222633536248",
+        "at": "2026-08-14T14:30:45.953368+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088272293642289437",
+        "at": "2026-08-14T14:30:45.953368+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T14:30:45.953368+00:00"
   },
   {
     "id": 2083,
