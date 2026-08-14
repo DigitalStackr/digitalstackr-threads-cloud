@@ -8910,7 +8910,7 @@
   {
     "id": 2091,
     "scheduled_time": "2026-08-15T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "$735.29 from 88 people.\nbuilt on a phone, in the gaps between other things.",
     "image_file": "Untitled design(6).png",
     "targets": [
@@ -8921,6 +8921,19 @@
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17996370281808202",
+        "at": "2026-08-14T23:40:37.052232+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088410660380271089",
+        "at": "2026-08-14T23:40:37.052232+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T23:40:37.052232+00:00"
   }
 ]
