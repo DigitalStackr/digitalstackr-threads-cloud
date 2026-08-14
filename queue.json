@@ -8794,7 +8794,7 @@
   {
     "id": 2087,
     "scheduled_time": "2026-08-14T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "text": "somebody paid for two weeks of my time.\ni'm 19. i keep waiting for them to ask for a refund.",
     "targets": [
       {
@@ -8805,7 +8805,20 @@
         "platform": "x"
       }
     ],
-    "image_file": "IMG_3795.PNG"
+    "image_file": "IMG_3795.PNG",
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17932699917364651",
+        "at": "2026-08-14T20:10:39.990168+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2088357838355923003",
+        "at": "2026-08-14T20:10:39.990168+00:00"
+      }
+    },
+    "posted_at": "2026-08-14T20:10:39.990168+00:00"
   },
   {
     "id": 2088,
