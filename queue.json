@@ -6094,12 +6094,20 @@
     "text": "**The Canva part, plainly**\n\nYou do not need design skills.\n\n• Pick a blank doc, 1080x1350\n• One heading font, one body font, that is it\n• Lots of white space. Crowded looks cheap\n• Export as PDF\n\nThe product sells because it solves something, not because it is pretty. Pretty just stops people from asking for a refund.",
     "image_file": null,
     "scheduled_time": "2026-08-15T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "17",
+        "at": "2026-08-15T16:00:11.516464+00:00"
+      }
+    },
+    "posted_at": "2026-08-15T16:00:11.516464+00:00"
   },
   {
     "id": 910,
