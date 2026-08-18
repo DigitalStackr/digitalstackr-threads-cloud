@@ -6114,12 +6114,20 @@
     "text": "**What to do when nothing sells for a week**\n\nDo not rebuild the product. Do not lower the price.\n\nChange the hook. Nine times out of ten the product is fine and the post is what is failing — people never got far enough to see the offer.\n\nWrite five different first lines for the same product. Post one a day. One of them will move.",
     "image_file": null,
     "scheduled_time": "2026-08-18T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "18",
+        "at": "2026-08-18T16:00:54.523123+00:00"
+      }
+    },
+    "posted_at": "2026-08-18T16:00:54.523123+00:00"
   },
   {
     "id": 911,
