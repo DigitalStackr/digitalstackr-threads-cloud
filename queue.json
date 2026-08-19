@@ -8962,7 +8962,7 @@
   },
   {
     "id": 2092,
-    "scheduled_time": "2026-08-19T19:25:34.819521+00:00",
+    "scheduled_time": "2026-08-19T21:21:51.341656+00:00",
     "status": "partial",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "text": "PAY DAY.\n\n$1638.53 deposited.\n\ni read the email four times before i accepted it had my name on it. 🥹",
@@ -8988,7 +8988,7 @@
       }
     },
     "posted_at": "2026-08-19T20:55:28.025812+00:00",
-    "attempts": 4
+    "attempts": 5
   },
   {
     "id": 2093,
@@ -9091,7 +9091,7 @@
         "error": "X post body is 393 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T20:55:28.025812+00:00",
+    "posted_at": "2026-08-19T21:01:51.341656+00:00",
     "attempts": 1
   },
   {
@@ -9143,12 +9143,12 @@
         "error": "X post body is 403 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T20:55:28.025812+00:00"
+    "posted_at": "2026-08-19T21:01:51.341656+00:00"
   },
   {
     "id": 2099,
     "scheduled_time": "2026-08-19T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_3909.PNG",
     "text": "woke up to this.\ni was asleep for every single one of them.",
     "targets": [
@@ -9156,7 +9156,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18107675432140282",
+        "at": "2026-08-19T21:01:51.341656+00:00"
+      }
+    },
+    "posted_at": "2026-08-19T21:01:51.341656+00:00",
+    "thread_id": "18107675432140282"
   },
   {
     "id": 2100,
