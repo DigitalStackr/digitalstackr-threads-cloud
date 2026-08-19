@@ -109,7 +109,14 @@ def money_figures(text: str) -> list:
     # allow any digit count: the earlier \d{1,3}(?:,\d{3})* pattern matched only
     # the first three digits of an un-grouped figure, so "$1638.53" was read as
     # "$163" and then reported as not matching its own screenshot.
-    return re.findall(r"\$\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|\$\d+(?:\.\d{1,2})?", text or "")
+    #
+    # EUR added 2026-08-19: the Stripe screenshots are in euros, and a €-figure
+    # was sailing past this check completely unvalidated. Any currency symbol we
+    # actually post in has to be matched here or the whole figure/image rule has
+    # a hole in it.
+    return re.findall(
+        r"[$€]\d{1,3}(?:,\d{3})+(?:\.\d{1,2})?|[$€]\d+(?:\.\d{1,2})?",
+        text or "")
 
 
 def load_manifest() -> dict:
