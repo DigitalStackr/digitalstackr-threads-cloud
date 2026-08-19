@@ -9039,7 +9039,7 @@
         "error": "X post body is 628 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T21:35:41.253691+00:00",
+    "posted_at": "2026-08-19T23:00:31.841554+00:00",
     "attempts": 4
   },
   {
@@ -9091,7 +9091,7 @@
         "error": "X post body is 393 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T22:55:45.814665+00:00",
+    "posted_at": "2026-08-19T23:00:31.841554+00:00",
     "attempts": 2
   },
   {
@@ -9143,7 +9143,7 @@
         "error": "X post body is 403 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T22:55:45.814665+00:00",
+    "posted_at": "2026-08-19T23:00:31.841554+00:00",
     "attempts": 1
   },
   {
@@ -9170,7 +9170,7 @@
   },
   {
     "id": 2100,
-    "scheduled_time": "2026-08-19T23:30:00+02:00",
+    "scheduled_time": "2026-08-19T23:20:31.841554+00:00",
     "status": "partial",
     "image_file": "Untitled design (13).png",
     "text": "\"you're too young for anyone to take you seriously.\"\n\n$1,202.11 from 52 people who never asked how old i was.",
@@ -9195,7 +9195,8 @@
         "error": "X post body is 523 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T22:55:45.814665+00:00"
+    "posted_at": "2026-08-19T22:55:45.814665+00:00",
+    "attempts": 1
   },
   {
     "id": 2101,
