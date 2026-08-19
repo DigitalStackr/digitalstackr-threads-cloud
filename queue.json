@@ -9039,7 +9039,7 @@
         "error": "X post body is 628 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T23:20:35.555044+00:00",
+    "posted_at": "2026-08-19T23:25:31.079232+00:00",
     "attempts": 4
   },
   {
@@ -9118,7 +9118,7 @@
   },
   {
     "id": 2098,
-    "scheduled_time": "2026-08-19T21:50:47.651104+00:00",
+    "scheduled_time": "2026-08-19T23:45:31.079232+00:00",
     "status": "partial",
     "image_file": "IMG_3909.PNG",
     "text": "they told me to get a job.\n\nthis is my lock screen. the $27 one is a file i wrote in february and never opened again.",
@@ -9144,7 +9144,7 @@
       }
     },
     "posted_at": "2026-08-19T23:20:35.555044+00:00",
-    "attempts": 1
+    "attempts": 2
   },
   {
     "id": 2099,
@@ -9195,7 +9195,7 @@
         "error": "X post body is 523 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T23:20:35.555044+00:00",
+    "posted_at": "2026-08-19T23:25:31.079232+00:00",
     "attempts": 1
   },
   {
