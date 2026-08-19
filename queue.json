@@ -8987,7 +8987,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T17:50:33.691281+00:00",
+    "posted_at": "2026-08-19T17:55:38.060934+00:00",
     "attempts": 3
   },
   {
@@ -9014,7 +9014,7 @@
   },
   {
     "id": 2094,
-    "scheduled_time": "2026-08-19T16:20:54.230181+00:00",
+    "scheduled_time": "2026-08-19T18:15:38.060934+00:00",
     "status": "partial",
     "image_file": "IMG_4395.PNG",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something completely unrelated. it went through anyway.",
@@ -9040,7 +9040,7 @@
       }
     },
     "posted_at": "2026-08-19T17:50:33.691281+00:00",
-    "attempts": 1
+    "attempts": 2
   },
   {
     "id": 2095,
