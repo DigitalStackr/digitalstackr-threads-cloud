@@ -8979,12 +8979,12 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T12:05:31.027677+00:00"
+    "posted_at": "2026-08-19T12:10:38.034276+00:00"
   },
   {
     "id": 2093,
     "scheduled_time": "2026-08-19T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "text": "an email that just opens with \"it's pay day\".\n\n$1638.53. i still have it saved.",
     "targets": [
@@ -8992,7 +8992,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18108974870133673",
+        "at": "2026-08-19T12:10:38.034276+00:00"
+      }
+    },
+    "posted_at": "2026-08-19T12:10:38.034276+00:00",
+    "thread_id": "18108974870133673"
   },
   {
     "id": 2094,
