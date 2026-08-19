@@ -156,10 +156,13 @@
       "kind": "dashboard",
       "tier": "core",
       "numbers": [
-        "$201",
-        "19"
+        "€552.61",
+        "552.61",
+        "16",
+        "12"
       ],
-      "shows": "Dashboard (dark) $201 from 19 sales"
+      "shows": "Stripe dashboard 'DigiStackr' — YESTERDAY: Gross volume €552.61, Payments 16, Customers 12",
+      "note": "REPLACED 2026-08-19. This filename previously held a $201/19-sales Gumroad shot; Shawn overwrote it with a Stripe screenshot. Figures are in EUROS, and the period is 'Yesterday' — cite the amount, never imply a run-rate."
     },
     "Untitled design (10).png": {
       "kind": "dashboard",
@@ -281,6 +284,44 @@
       "numbers": [],
       "shows": "NOT AN IMAGE - file is an MP4 with a .png extension (ftyp header)",
       "blocked_reason": "mislabelled video file; posting it would fail on every platform"
+    },
+    "IMG_2662.PNG": {
+      "kind": "payout",
+      "tier": "rare",
+      "numbers": [
+        "$2954.12",
+        "$2,954.12"
+      ],
+      "shows": "Gmail: 'It's pay day! $2954.12 has been deposited for sales up until March 27 2026' — Done-For-You Digital Business Setup",
+      "note": "Opened and verified 2026-08-19. Large historical payout — frame as a past deposit, never as current earnings."
+    },
+    "IMG_2521.PNG": {
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$98",
+        "$27"
+      ],
+      "shows": "Gumroad notifications stacked: DFY for $98 (7m ago) and Faceless Digital Empire for $27 (12:12 AM)",
+      "note": "Opened 2026-08-19. $98 is the OLD DFY price (now $147) — historical only, never quote as today's price."
+    },
+    "IMG_1747.PNG": {
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$17.16"
+      ],
+      "shows": "Gumroad push: 'New sale of Faceless Digital Empire (PLR) | $5K/mo System for $17.16'",
+      "note": "Opened 2026-08-19. Kept at Shawn's instruction. Product name does not match any current Gumroad listing and $17.16 is not a current price — usable, but a caption should avoid naming the product."
+    },
+    "IMG_3896.PNG": {
+      "kind": "sale_notification",
+      "tier": "blocked",
+      "numbers": [
+        "$27"
+      ],
+      "shows": "Gumroad push: FDE $27, but the dynamic island shows a transit app (green S, '4 stops')",
+      "blocked_reason": "reveals location via the transit widget — breaks the no-location rule visually even if the caption is clean"
     }
   },
   "unverified_do_not_use": [
