@@ -8979,7 +8979,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T14:25:34.385122+00:00",
+    "posted_at": "2026-08-19T14:30:47.651543+00:00",
     "attempts": 1
   },
   {
@@ -9007,7 +9007,7 @@
   {
     "id": 2094,
     "scheduled_time": "2026-08-19T16:30:00+02:00",
-    "status": "pending",
+    "status": "partial",
     "image_file": "IMG_4395.PNG",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something completely unrelated. it went through anyway.",
     "targets": [
@@ -9019,7 +9019,19 @@
         "platform": "x",
         "text": "the reason most people never sell a digital product:\n\nthey ask \"what could i sell\" instead of \"what have i already solved\".\n\nthe first invites you to invent something. inventing is hard and usually wrong.\nthe second asks you to notice something. noticing takes an hour.\n\nsix questions that end the loop:\n\nwhat have people asked me for help with recently\nwhat did i figure out this year that confused me last year\nwhat do i have a folder of\nwhat do i do faster than people around me\nwhat did i pay for that was almost good\nwhat have i explained more than twice\n\nwhatever survives, pick the most boring one. boring means specific.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17915123115243113",
+        "at": "2026-08-19T14:30:47.651543+00:00"
+      },
+      "x": {
+        "status": "failed",
+        "error": "X post body is 628 chars; max 280"
+      }
+    },
+    "posted_at": "2026-08-19T14:30:47.651543+00:00"
   },
   {
     "id": 2095,
