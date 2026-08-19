@@ -8987,7 +8987,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T17:57:02.691657+00:00",
+    "posted_at": "2026-08-19T18:00:57.638965+00:00",
     "attempts": 3
   },
   {
@@ -9067,7 +9067,7 @@
   {
     "id": 2096,
     "scheduled_time": "2026-08-19T20:00:00+02:00",
-    "status": "pending",
+    "status": "partial",
     "image_file": "Untitled design (17).png",
     "text": "€552.61 came through stripe.\n16 payments. 12 people. i was not involved in a single one of them.",
     "targets": [
@@ -9079,7 +9079,19 @@
         "platform": "x",
         "text": "things i believed that cost me months:\n\n\"i need a laptop\" — built the whole thing on a phone\n\"i need an audience\" — most buyers never followed me first\n\"i need to show my face\" — not one buyer has seen it\n\"i need it to be perfect\" — my best seller was nearly binned\n\"i need to be an expert\" — i was one step ahead, that was enough\n\nevery one of those was an excuse wearing a reasonable outfit.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18100733603360427",
+        "at": "2026-08-19T18:00:57.638965+00:00"
+      },
+      "x": {
+        "status": "failed",
+        "error": "X post body is 393 chars; max 280"
+      }
+    },
+    "posted_at": "2026-08-19T18:00:57.638965+00:00"
   },
   {
     "id": 2097,
