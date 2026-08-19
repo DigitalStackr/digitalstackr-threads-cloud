@@ -8987,7 +8987,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T18:05:32.229322+00:00",
+    "posted_at": "2026-08-19T18:10:58.300042+00:00",
     "attempts": 3
   },
   {
@@ -9091,12 +9091,12 @@
         "error": "X post body is 393 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T18:05:32.229322+00:00"
+    "posted_at": "2026-08-19T18:10:58.300042+00:00"
   },
   {
     "id": 2097,
     "scheduled_time": "2026-08-19T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (17).png",
     "text": "16 payments, 12 people, €552.61.\ni found out about all of it afterwards.",
     "targets": [
@@ -9104,7 +9104,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18019154036919426",
+        "at": "2026-08-19T18:10:58.300042+00:00"
+      }
+    },
+    "posted_at": "2026-08-19T18:10:58.300042+00:00",
+    "thread_id": "18019154036919426"
   },
   {
     "id": 2098,
