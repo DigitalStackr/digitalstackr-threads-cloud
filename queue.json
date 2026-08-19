@@ -8987,7 +8987,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T21:35:41.253691+00:00",
+    "posted_at": "2026-08-19T21:40:40.695000+00:00",
     "attempts": 5
   },
   {
@@ -9014,7 +9014,7 @@
   },
   {
     "id": 2094,
-    "scheduled_time": "2026-08-19T20:10:36.970417+00:00",
+    "scheduled_time": "2026-08-19T22:00:40.695000+00:00",
     "status": "partial",
     "image_file": "IMG_4395.PNG",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something completely unrelated. it went through anyway.",
@@ -9040,7 +9040,7 @@
       }
     },
     "posted_at": "2026-08-19T21:35:41.253691+00:00",
-    "attempts": 3
+    "attempts": 4
   },
   {
     "id": 2095,
@@ -9195,12 +9195,12 @@
         "error": "X post body is 523 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T21:35:41.253691+00:00"
+    "posted_at": "2026-08-19T21:40:40.695000+00:00"
   },
   {
     "id": 2101,
     "scheduled_time": "2026-08-19T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (13).png",
     "text": "$1,202.11 from 52 people.\nnot one of them asked my age before paying.",
     "targets": [
@@ -9208,7 +9208,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18141799978565284",
+        "at": "2026-08-19T21:40:40.695000+00:00"
+      }
+    },
+    "posted_at": "2026-08-19T21:40:40.695000+00:00",
+    "thread_id": "18141799978565284"
   },
   {
     "id": 2102,
