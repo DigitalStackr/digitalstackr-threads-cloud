@@ -61,6 +61,15 @@ jobs:
           TELEGRAM_OWNER:     ${{ secrets.TELEGRAM_OWNER }}
         run: python telegram_faq.py
 
+      - name: Content runway + silence check
+        # A green pipeline with an empty queue looks identical to a healthy one.
+        # This is what tells them apart. Never fails the run.
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER:     ${{ secrets.TELEGRAM_OWNER }}
+        run: python runway_check.py
+
       - name: Commit queue changes
         run: |
           git config user.name  "github-actions[bot]"
