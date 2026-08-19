@@ -6134,12 +6134,20 @@
     "text": "**Free things are not lost revenue**\n\nWe give away a free download. It is the single best thing we made.\n\nPeople who take the free thing already trust you a little. That is the hardest part of a sale, and it is done before you have asked for anything.\n\nGive away the thing that shows you know what you are doing. Sell the thing that saves them the time.",
     "image_file": null,
     "scheduled_time": "2026-08-19T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "20",
+        "at": "2026-08-19T16:00:54.230181+00:00"
+      }
+    },
+    "posted_at": "2026-08-19T16:00:54.230181+00:00"
   },
   {
     "id": 912,
@@ -8979,7 +8987,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T15:55:32.144039+00:00",
+    "posted_at": "2026-08-19T16:00:54.230181+00:00",
     "attempts": 2
   },
   {
@@ -9006,7 +9014,7 @@
   },
   {
     "id": 2094,
-    "scheduled_time": "2026-08-19T16:30:00+02:00",
+    "scheduled_time": "2026-08-19T16:20:54.230181+00:00",
     "status": "partial",
     "image_file": "IMG_4395.PNG",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something completely unrelated. it went through anyway.",
@@ -9031,7 +9039,8 @@
         "error": "X post body is 628 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T15:55:32.144039+00:00"
+    "posted_at": "2026-08-19T15:55:32.144039+00:00",
+    "attempts": 1
   },
   {
     "id": 2095,
