@@ -8987,7 +8987,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T19:55:28.409803+00:00",
+    "posted_at": "2026-08-19T20:00:55.850130+00:00",
     "attempts": 4
   },
   {
@@ -9091,7 +9091,7 @@
         "error": "X post body is 393 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T19:55:28.409803+00:00",
+    "posted_at": "2026-08-19T20:00:55.850130+00:00",
     "attempts": 1
   },
   {
@@ -9119,7 +9119,7 @@
   {
     "id": 2098,
     "scheduled_time": "2026-08-19T22:00:00+02:00",
-    "status": "pending",
+    "status": "partial",
     "image_file": "IMG_3909.PNG",
     "text": "they told me to get a job.\n\nthis is my lock screen. the $27 one is a file i wrote in february and never opened again.",
     "targets": [
@@ -9131,7 +9131,19 @@
         "platform": "x",
         "text": "how a digital product actually makes money while you sleep. mechanically:\n\nsomeone reads a post at 3am\ntaps the link in the bio\nlands on a product page that answers one question\npays\ngumroad emails them the file automatically\nyou find out in the morning\n\nno call. no dm. no negotiation. no inventory.\n\nthe entire job is steps one and three. the rest is infrastructure someone\nelse already built for you.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17927636856403397",
+        "at": "2026-08-19T20:00:55.850130+00:00"
+      },
+      "x": {
+        "status": "failed",
+        "error": "X post body is 403 chars; max 280"
+      }
+    },
+    "posted_at": "2026-08-19T20:00:55.850130+00:00"
   },
   {
     "id": 2099,
