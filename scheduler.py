@@ -32,6 +32,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import auto_plug
+from dedupe_guard import already_posted
 from post_text import post_text
 from post_image import post_image
 from post_thread import post_thread, ThreadPartialError
@@ -157,6 +158,18 @@ def dispatch(entry: dict, target: dict, prior: dict = None) -> str:
 
     if platform == "threads":
         account = target["account"]
+        # Ask Threads whether this text is already live before sending. Two
+        # scheduler runs fire ~60s apart and the second can read a stale
+        # queue.json that still says 'pending' - that race put 9 duplicate posts
+        # on the live accounts. Our own state is what goes stale, so the check
+        # has to be against the platform. Skipping returns the EXISTING id, so
+        # the entry records as posted and never retries.
+        probe = parts[0] if parts else text
+        existing = already_posted(account, probe)
+        if existing:
+            log(f"Post {entry['id']}: DEDUPE — {account} already has this text "
+                f"({existing}); skipping publish")
+            return [existing] if parts else existing
         if parts:
             # Long-form thread: root + replies. Resumes from whatever already
             # published, so a mid-thread failure never re-sends part 1.
