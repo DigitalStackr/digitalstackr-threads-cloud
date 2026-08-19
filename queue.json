@@ -9039,7 +9039,7 @@
         "error": "X post body is 628 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T23:10:35.244988+00:00",
+    "posted_at": "2026-08-19T23:15:34.418720+00:00",
     "attempts": 4
   },
   {
@@ -9066,7 +9066,7 @@
   },
   {
     "id": 2096,
-    "scheduled_time": "2026-08-19T21:45:31.631682+00:00",
+    "scheduled_time": "2026-08-19T23:35:34.418720+00:00",
     "status": "partial",
     "image_file": "Untitled design (17).png",
     "text": "€552.61 came through stripe.\n16 payments. 12 people. i was not involved in a single one of them.",
@@ -9092,7 +9092,7 @@
       }
     },
     "posted_at": "2026-08-19T23:10:35.244988+00:00",
-    "attempts": 2
+    "attempts": 3
   },
   {
     "id": 2097,
@@ -9143,7 +9143,7 @@
         "error": "X post body is 403 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T23:10:35.244988+00:00",
+    "posted_at": "2026-08-19T23:15:34.418720+00:00",
     "attempts": 1
   },
   {
