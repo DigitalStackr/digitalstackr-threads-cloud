@@ -8954,7 +8954,7 @@
   },
   {
     "id": 2092,
-    "scheduled_time": "2026-08-19T14:00:00+02:00",
+    "scheduled_time": "2026-08-19T13:50:42.909551+00:00",
     "status": "partial",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "text": "PAY DAY.\n\n$1638.53 deposited.\n\ni read the email four times before i accepted it had my name on it. 🥹",
@@ -8979,7 +8979,8 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T13:25:40.053091+00:00"
+    "posted_at": "2026-08-19T13:25:40.053091+00:00",
+    "attempts": 1
   },
   {
     "id": 2093,
