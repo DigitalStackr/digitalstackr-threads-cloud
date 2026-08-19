@@ -9014,7 +9014,7 @@
   },
   {
     "id": 2094,
-    "scheduled_time": "2026-08-19T22:00:40.695000+00:00",
+    "scheduled_time": "2026-08-19T23:50:44.774136+00:00",
     "status": "partial",
     "image_file": "IMG_4395.PNG",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something completely unrelated. it went through anyway.",
@@ -9040,7 +9040,7 @@
       }
     },
     "posted_at": "2026-08-19T23:25:31.079232+00:00",
-    "attempts": 4
+    "attempts": 5
   },
   {
     "id": 2095,
@@ -9195,7 +9195,7 @@
         "error": "X post body is 523 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T23:25:31.079232+00:00",
+    "posted_at": "2026-08-19T23:30:44.774136+00:00",
     "attempts": 1
   },
   {
@@ -9223,7 +9223,7 @@
   {
     "id": 2102,
     "scheduled_time": "2026-08-20T01:30:00+02:00",
-    "status": "pending",
+    "status": "partial",
     "image_file": "Untitled design (18).png",
     "text": "i can finally say it.\n\n$1,673.63 from 86 people.\n\neight months ago i had a phone, no audience and no clue.",
     "targets": [
@@ -9235,7 +9235,19 @@
         "platform": "x",
         "text": "the boring truth about selling online:\n\nmost people do not have a content problem. they have a finishing problem.\n\ni spent five days choosing what to make and two days making it. the\nchoosing was the hard part, and it was hard because i kept trying to\ninvent a product instead of noticing a problem.\n\nif you are stuck, you are probably not stuck on the work.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18115686821295969",
+        "at": "2026-08-19T23:30:44.774136+00:00"
+      },
+      "x": {
+        "status": "failed",
+        "error": "X post body is 358 chars; max 280"
+      }
+    },
+    "posted_at": "2026-08-19T23:30:44.774136+00:00"
   },
   {
     "id": 2103,
