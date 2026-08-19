@@ -8955,7 +8955,7 @@
   {
     "id": 2092,
     "scheduled_time": "2026-08-19T14:00:00+02:00",
-    "status": "pending",
+    "status": "partial",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "text": "PAY DAY.\n\n$1638.53 deposited.\n\ni read the email four times before i accepted it had my name on it. 🥹",
     "targets": [
@@ -8967,7 +8967,19 @@
         "platform": "x",
         "text": "i sell digital products from my phone. no ads, no face, no team.\n\nhere is the entire setup, in order:\n\n1. pick a problem you have personally solved. not one you researched.\n2. write the steps you took, in a plain doc. no design yet.\n3. put it in canva. one hour, not one week.\n4. upload to gumroad. they take payment and send the file.\n5. post about the problem daily. not the product.\n\nthat is it. i was 19 and had 49 followers when i started.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18103145750173501",
+        "at": "2026-08-19T12:01:03.697153+00:00"
+      },
+      "x": {
+        "status": "failed",
+        "error": "X post body is 444 chars; max 280"
+      }
+    },
+    "posted_at": "2026-08-19T12:01:03.697153+00:00"
   },
   {
     "id": 2093,
