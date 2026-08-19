@@ -36,7 +36,11 @@ PLATFORM_MAX_CHARS = {        # per-platform caps, checked against an entry's ta
     "facebook": 5000,
     "telegram": 4096,         # 1024 when a photo is attached
     "telegram_photo": 1024,
-    "x": 280,
+    # X Premium raises the ceiling from 280 to 25,000. Capped at 4,000 here
+    # because that is the useful limit for a readable long-form post, not the
+    # technical one. Short Threads captions were being recycled onto X, which
+    # is the wrong format for the platform entirely.
+    "x": 4000,
 }
 MAX_EMOJI = 2
 
