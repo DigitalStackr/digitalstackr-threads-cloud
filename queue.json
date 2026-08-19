@@ -8979,7 +8979,7 @@
         "error": "X post body is 444 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T14:35:29.988098+00:00",
+    "posted_at": "2026-08-19T14:40:40.300823+00:00",
     "attempts": 1
   },
   {
@@ -9031,12 +9031,12 @@
         "error": "X post body is 628 chars; max 280"
       }
     },
-    "posted_at": "2026-08-19T14:35:29.988098+00:00"
+    "posted_at": "2026-08-19T14:40:40.300823+00:00"
   },
   {
     "id": 2095,
     "scheduled_time": "2026-08-19T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_4395.PNG",
     "text": "$27, 2:24pm.\ni wasn't even looking at my phone. that's the part i can't get over.",
     "targets": [
@@ -9044,7 +9044,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17980526115070362",
+        "at": "2026-08-19T14:40:40.300823+00:00"
+      }
+    },
+    "posted_at": "2026-08-19T14:40:40.300823+00:00",
+    "thread_id": "17980526115070362"
   },
   {
     "id": 2096,
