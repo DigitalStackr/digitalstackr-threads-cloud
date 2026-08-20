@@ -9371,7 +9371,7 @@
   {
     "id": 2105,
     "scheduled_time": "2026-08-20T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "payout gumroad sales ss.png",
     "text": "$1,109.77 across one payout period.\ni didn't speak to a single one of them.",
     "targets": [
@@ -9385,7 +9385,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18083414939681268",
+        "at": "2026-08-20T12:10:32.868650+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T12:10:32.868650+00:00",
+    "thread_id": "18083414939681268"
   },
   {
     "id": 2106,
