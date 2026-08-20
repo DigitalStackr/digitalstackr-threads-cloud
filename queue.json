@@ -8980,7 +8980,13 @@
       }
     },
     "posted_at": "2026-08-19T22:50:32.462647+00:00",
-    "attempts": 5
+    "attempts": 5,
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2093,
@@ -9002,7 +9008,13 @@
       }
     },
     "posted_at": "2026-08-19T12:10:38.034276+00:00",
-    "thread_id": "18108974870133673"
+    "thread_id": "18108974870133673",
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2094,
@@ -9024,7 +9036,13 @@
       }
     },
     "posted_at": "2026-08-20T01:20:34.654530+00:00",
-    "attempts": 5
+    "attempts": 5,
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2095,
@@ -9046,7 +9064,13 @@
       }
     },
     "posted_at": "2026-08-19T14:40:40.300823+00:00",
-    "thread_id": "17980526115070362"
+    "thread_id": "17980526115070362",
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2096,
@@ -9077,7 +9101,13 @@
       }
     },
     "posted_at": "2026-08-20T02:00:50.887109+00:00",
-    "attempts": 4
+    "attempts": 4,
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2097,
@@ -9099,7 +9129,13 @@
       }
     },
     "posted_at": "2026-08-19T18:10:58.300042+00:00",
-    "thread_id": "18019154036919426"
+    "thread_id": "18019154036919426",
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2098,
@@ -9130,7 +9166,13 @@
       }
     },
     "posted_at": "2026-08-20T02:05:33.147994+00:00",
-    "attempts": 3
+    "attempts": 3,
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2099,
@@ -9152,7 +9194,13 @@
       }
     },
     "posted_at": "2026-08-19T21:01:51.341656+00:00",
-    "thread_id": "18107675432140282"
+    "thread_id": "18107675432140282",
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2100,
@@ -9183,7 +9231,13 @@
       }
     },
     "posted_at": "2026-08-20T02:00:50.887109+00:00",
-    "attempts": 2
+    "attempts": 2,
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2101,
@@ -9205,7 +9259,13 @@
       }
     },
     "posted_at": "2026-08-19T21:40:40.695000+00:00",
-    "thread_id": "18141799978565284"
+    "thread_id": "18141799978565284",
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2102,
@@ -9236,7 +9296,13 @@
       }
     },
     "posted_at": "2026-08-20T02:00:50.887109+00:00",
-    "attempts": 1
+    "attempts": 1,
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2103,
@@ -9258,7 +9324,13 @@
       }
     },
     "posted_at": "2026-08-20T00:50:39.262329+00:00",
-    "thread_id": "18190937275386179"
+    "thread_id": "18190937275386179",
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2104,
@@ -9275,7 +9347,13 @@
         "platform": "x",
         "text": "why your posts get likes and no sales:\n\nyou are posting the product, not the problem. nobody wakes up wanting a pdf.\nyour profile does not say what you do. they tapped your name and left.\nthere is no obvious next step. if they have to hunt for the link they will not.\nyou only post proof. proof convinces people who already believe you.\nyou are talking to everyone, which reaches nobody.\n\nfix the profile before you write another post. it is where every click lands.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2105,
@@ -9288,7 +9366,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2106,
@@ -9305,7 +9389,13 @@
         "platform": "x",
         "text": "everything i used to build and launch a digital product. all free:\n\ngoogle docs — wrote it first, designed it second\ncanva — made the actual product, free plan\ngumroad — takes the payment, sends the file, handles refunds\na link-in-bio page — because bios only get one link\nmy phone's notes app — every hook that half worked\n\nthat is the entire stack. the barrier was never the tools.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2107,
@@ -9318,7 +9408,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2108,
@@ -9335,7 +9431,13 @@
         "platform": "x",
         "text": "what happens after you launch, which nobody writes about:\n\nthere will be a day in the first week where nothing happens. no sales,\nbarely any engagement.\n\nthat is the moment most people change everything. changing everything is\nhow you never find out whether anything worked.\n\npost anyway. reply to every comment. ask the people who bought why they\nbought, and use their words on your page.\n\nchange one thing at a time or you learn nothing.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2109,
@@ -9348,7 +9450,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2110,
@@ -9365,7 +9473,13 @@
         "platform": "x",
         "text": "a digital product you could build this weekend, from most to least obvious:\n\na checklist for something you already do properly\na notion template you built for yourself, cleaned up\na swipe file — 20 examples and why each works\na 30-day plan, one page per day\na spreadsheet that does one annoying calculation\nscripts for the messages people freeze up writing\na beginner guide to what you learned last month\n\nnone of these need a following. i started with 49.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2111,
@@ -9378,7 +9492,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2112,
@@ -9395,7 +9515,13 @@
         "platform": "x",
         "text": "faceless works. mechanically, here is why:\n\npeople are not buying you. they are buying the outcome.\n\nthey need to believe you have actually done the thing, and a screenshot\ndoes that better than a face does. my product page has no photo of me,\nno name, and no voice.\n\nwhat it does have is a specific problem, a specific solution, and proof.\n\nthe anonymity forces the product to carry the argument. that is a feature.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2113,
@@ -9408,7 +9534,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2114,
@@ -9425,7 +9557,13 @@
         "platform": "x",
         "text": "the first sale is not a money event, it is an information event.\n\nbefore it, everything is theory. you are guessing whether the thing you\nmade is worth anything to anyone.\n\nafter it, you know. and everything after that is repetition.\n\nwhich is why pricing low at the start is not weakness. you are buying\ninformation about whether this works, and it is cheap at the price.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2115,
@@ -9438,7 +9576,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2116,
@@ -9455,7 +9599,13 @@
         "platform": "x",
         "text": "i sell digital products from my phone. no ads, no face, no team.\n\nhere is the entire setup, in order:\n\n1. pick a problem you have personally solved. not one you researched.\n2. write the steps you took, in a plain doc. no design yet.\n3. put it in canva. one hour, not one week.\n4. upload to gumroad. they take payment and send the file.\n5. post about the problem daily. not the product.\n\nthat is it. i was 19 and had 49 followers when i started.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2117,
@@ -9468,7 +9618,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2118,
@@ -9485,7 +9641,13 @@
         "platform": "x",
         "text": "the reason most people never sell a digital product:\n\nthey ask \"what could i sell\" instead of \"what have i already solved\".\n\nthe first invites you to invent something. inventing is hard and usually wrong.\nthe second asks you to notice something. noticing takes an hour.\n\nsix questions that end the loop:\n\nwhat have people asked me for help with recently\nwhat did i figure out this year that confused me last year\nwhat do i have a folder of\nwhat do i do faster than people around me\nwhat did i pay for that was almost good\nwhat have i explained more than twice\n\nwhatever survives, pick the most boring one. boring means specific.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2119,
@@ -9498,7 +9660,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2120,
@@ -9515,7 +9683,13 @@
         "platform": "x",
         "text": "things i believed that cost me months:\n\n\"i need a laptop\" — built the whole thing on a phone\n\"i need an audience\" — most buyers never followed me first\n\"i need to show my face\" — not one buyer has seen it\n\"i need it to be perfect\" — my best seller was nearly binned\n\"i need to be an expert\" — i was one step ahead, that was enough\n\nevery one of those was an excuse wearing a reasonable outfit.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2121,
@@ -9528,7 +9702,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2122,
@@ -9545,7 +9725,13 @@
         "platform": "x",
         "text": "how a digital product actually makes money while you sleep. mechanically:\n\nsomeone reads a post at 3am\ntaps the link in the bio\nlands on a product page that answers one question\npays\ngumroad emails them the file automatically\nyou find out in the morning\n\nno call. no dm. no negotiation. no inventory.\n\nthe entire job is steps one and three. the rest is infrastructure someone\nelse already built for you.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2123,
@@ -9558,7 +9744,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2124,
@@ -9575,7 +9767,13 @@
         "platform": "x",
         "text": "pricing a first digital product, honestly:\n\ngo lower than people tell you.\n\na first product's job is your first buyers, not your best margin. a buyer\nis worth far more than a browser, because buyers buy again and browsers\nmostly do not start.\n\nalways anchor. set a higher list price and discount to your real one. a\nflat number has nothing to be judged against.\n\nkeep the anchor near double. four times looks like a fire sale and makes\npeople wonder what is wrong with it.\n\nraise it after 10 sales and 2 pieces of feedback.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2125,
@@ -9588,7 +9786,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2126,
@@ -9605,7 +9809,13 @@
         "platform": "x",
         "text": "the boring truth about selling online:\n\nmost people do not have a content problem. they have a finishing problem.\n\ni spent five days choosing what to make and two days making it. the\nchoosing was the hard part, and it was hard because i kept trying to\ninvent a product instead of noticing a problem.\n\nif you are stuck, you are probably not stuck on the work.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2127,
@@ -9618,7 +9828,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2128,
@@ -9635,7 +9851,13 @@
         "platform": "x",
         "text": "why your posts get likes and no sales:\n\nyou are posting the product, not the problem. nobody wakes up wanting a pdf.\nyour profile does not say what you do. they tapped your name and left.\nthere is no obvious next step. if they have to hunt for the link they will not.\nyou only post proof. proof convinces people who already believe you.\nyou are talking to everyone, which reaches nobody.\n\nfix the profile before you write another post. it is where every click lands.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2129,
@@ -9648,7 +9870,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2130,
@@ -9665,7 +9893,13 @@
         "platform": "x",
         "text": "everything i used to build and launch a digital product. all free:\n\ngoogle docs — wrote it first, designed it second\ncanva — made the actual product, free plan\ngumroad — takes the payment, sends the file, handles refunds\na link-in-bio page — because bios only get one link\nmy phone's notes app — every hook that half worked\n\nthat is the entire stack. the barrier was never the tools.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2131,
@@ -9678,7 +9912,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2132,
@@ -9695,7 +9935,13 @@
         "platform": "x",
         "text": "what happens after you launch, which nobody writes about:\n\nthere will be a day in the first week where nothing happens. no sales,\nbarely any engagement.\n\nthat is the moment most people change everything. changing everything is\nhow you never find out whether anything worked.\n\npost anyway. reply to every comment. ask the people who bought why they\nbought, and use their words on your page.\n\nchange one thing at a time or you learn nothing.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2133,
@@ -9708,7 +9954,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2134,
@@ -9725,7 +9977,13 @@
         "platform": "x",
         "text": "a digital product you could build this weekend, from most to least obvious:\n\na checklist for something you already do properly\na notion template you built for yourself, cleaned up\na swipe file — 20 examples and why each works\na 30-day plan, one page per day\na spreadsheet that does one annoying calculation\nscripts for the messages people freeze up writing\na beginner guide to what you learned last month\n\nnone of these need a following. i started with 49.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2135,
@@ -9738,7 +9996,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2136,
@@ -9755,7 +10019,13 @@
         "platform": "x",
         "text": "faceless works. mechanically, here is why:\n\npeople are not buying you. they are buying the outcome.\n\nthey need to believe you have actually done the thing, and a screenshot\ndoes that better than a face does. my product page has no photo of me,\nno name, and no voice.\n\nwhat it does have is a specific problem, a specific solution, and proof.\n\nthe anonymity forces the product to carry the argument. that is a feature.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2137,
@@ -9768,7 +10038,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2138,
@@ -9785,7 +10061,13 @@
         "platform": "x",
         "text": "the first sale is not a money event, it is an information event.\n\nbefore it, everything is theory. you are guessing whether the thing you\nmade is worth anything to anyone.\n\nafter it, you know. and everything after that is repetition.\n\nwhich is why pricing low at the start is not weakness. you are buying\ninformation about whether this works, and it is cheap at the price.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2139,
@@ -9798,7 +10080,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2140,
@@ -9815,7 +10103,13 @@
         "platform": "x",
         "text": "i sell digital products from my phone. no ads, no face, no team.\n\nhere is the entire setup, in order:\n\n1. pick a problem you have personally solved. not one you researched.\n2. write the steps you took, in a plain doc. no design yet.\n3. put it in canva. one hour, not one week.\n4. upload to gumroad. they take payment and send the file.\n5. post about the problem daily. not the product.\n\nthat is it. i was 19 and had 49 followers when i started.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2141,
@@ -9828,7 +10122,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2142,
@@ -9845,7 +10145,13 @@
         "platform": "x",
         "text": "the reason most people never sell a digital product:\n\nthey ask \"what could i sell\" instead of \"what have i already solved\".\n\nthe first invites you to invent something. inventing is hard and usually wrong.\nthe second asks you to notice something. noticing takes an hour.\n\nsix questions that end the loop:\n\nwhat have people asked me for help with recently\nwhat did i figure out this year that confused me last year\nwhat do i have a folder of\nwhat do i do faster than people around me\nwhat did i pay for that was almost good\nwhat have i explained more than twice\n\nwhatever survives, pick the most boring one. boring means specific.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2143,
@@ -9858,7 +10164,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2144,
@@ -9875,7 +10187,13 @@
         "platform": "x",
         "text": "things i believed that cost me months:\n\n\"i need a laptop\" — built the whole thing on a phone\n\"i need an audience\" — most buyers never followed me first\n\"i need to show my face\" — not one buyer has seen it\n\"i need it to be perfect\" — my best seller was nearly binned\n\"i need to be an expert\" — i was one step ahead, that was enough\n\nevery one of those was an excuse wearing a reasonable outfit.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2145,
@@ -9888,7 +10206,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2146,
@@ -9905,7 +10229,13 @@
         "platform": "x",
         "text": "how a digital product actually makes money while you sleep. mechanically:\n\nsomeone reads a post at 3am\ntaps the link in the bio\nlands on a product page that answers one question\npays\ngumroad emails them the file automatically\nyou find out in the morning\n\nno call. no dm. no negotiation. no inventory.\n\nthe entire job is steps one and three. the rest is infrastructure someone\nelse already built for you.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2147,
@@ -9918,7 +10248,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2148,
@@ -9935,7 +10271,13 @@
         "platform": "x",
         "text": "pricing a first digital product, honestly:\n\ngo lower than people tell you.\n\na first product's job is your first buyers, not your best margin. a buyer\nis worth far more than a browser, because buyers buy again and browsers\nmostly do not start.\n\nalways anchor. set a higher list price and discount to your real one. a\nflat number has nothing to be judged against.\n\nkeep the anchor near double. four times looks like a fire sale and makes\npeople wonder what is wrong with it.\n\nraise it after 10 sales and 2 pieces of feedback.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2149,
@@ -9948,7 +10290,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2150,
@@ -9965,7 +10313,13 @@
         "platform": "x",
         "text": "the boring truth about selling online:\n\nmost people do not have a content problem. they have a finishing problem.\n\ni spent five days choosing what to make and two days making it. the\nchoosing was the hard part, and it was hard because i kept trying to\ninvent a product instead of noticing a problem.\n\nif you are stuck, you are probably not stuck on the work.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2151,
@@ -9978,7 +10332,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2152,
@@ -9995,7 +10355,13 @@
         "platform": "x",
         "text": "why your posts get likes and no sales:\n\nyou are posting the product, not the problem. nobody wakes up wanting a pdf.\nyour profile does not say what you do. they tapped your name and left.\nthere is no obvious next step. if they have to hunt for the link they will not.\nyou only post proof. proof convinces people who already believe you.\nyou are talking to everyone, which reaches nobody.\n\nfix the profile before you write another post. it is where every click lands.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2153,
@@ -10008,7 +10374,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2154,
@@ -10025,7 +10397,13 @@
         "platform": "x",
         "text": "everything i used to build and launch a digital product. all free:\n\ngoogle docs — wrote it first, designed it second\ncanva — made the actual product, free plan\ngumroad — takes the payment, sends the file, handles refunds\na link-in-bio page — because bios only get one link\nmy phone's notes app — every hook that half worked\n\nthat is the entire stack. the barrier was never the tools.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2155,
@@ -10038,7 +10416,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2156,
@@ -10055,7 +10439,13 @@
         "platform": "x",
         "text": "what happens after you launch, which nobody writes about:\n\nthere will be a day in the first week where nothing happens. no sales,\nbarely any engagement.\n\nthat is the moment most people change everything. changing everything is\nhow you never find out whether anything worked.\n\npost anyway. reply to every comment. ask the people who bought why they\nbought, and use their words on your page.\n\nchange one thing at a time or you learn nothing.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2157,
@@ -10068,7 +10458,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2158,
@@ -10085,7 +10481,13 @@
         "platform": "x",
         "text": "a digital product you could build this weekend, from most to least obvious:\n\na checklist for something you already do properly\na notion template you built for yourself, cleaned up\na swipe file — 20 examples and why each works\na 30-day plan, one page per day\na spreadsheet that does one annoying calculation\nscripts for the messages people freeze up writing\na beginner guide to what you learned last month\n\nnone of these need a following. i started with 49.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2159,
@@ -10098,7 +10500,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2160,
@@ -10115,7 +10523,13 @@
         "platform": "x",
         "text": "faceless works. mechanically, here is why:\n\npeople are not buying you. they are buying the outcome.\n\nthey need to believe you have actually done the thing, and a screenshot\ndoes that better than a face does. my product page has no photo of me,\nno name, and no voice.\n\nwhat it does have is a specific problem, a specific solution, and proof.\n\nthe anonymity forces the product to carry the argument. that is a feature.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2161,
@@ -10128,7 +10542,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2162,
@@ -10145,7 +10565,13 @@
         "platform": "x",
         "text": "the first sale is not a money event, it is an information event.\n\nbefore it, everything is theory. you are guessing whether the thing you\nmade is worth anything to anyone.\n\nafter it, you know. and everything after that is repetition.\n\nwhich is why pricing low at the start is not weakness. you are buying\ninformation about whether this works, and it is cheap at the price.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2163,
@@ -10158,7 +10584,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2164,
@@ -10175,7 +10607,13 @@
         "platform": "x",
         "text": "i sell digital products from my phone. no ads, no face, no team.\n\nhere is the entire setup, in order:\n\n1. pick a problem you have personally solved. not one you researched.\n2. write the steps you took, in a plain doc. no design yet.\n3. put it in canva. one hour, not one week.\n4. upload to gumroad. they take payment and send the file.\n5. post about the problem daily. not the product.\n\nthat is it. i was 19 and had 49 followers when i started.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2165,
@@ -10188,7 +10626,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2166,
@@ -10205,7 +10649,13 @@
         "platform": "x",
         "text": "the reason most people never sell a digital product:\n\nthey ask \"what could i sell\" instead of \"what have i already solved\".\n\nthe first invites you to invent something. inventing is hard and usually wrong.\nthe second asks you to notice something. noticing takes an hour.\n\nsix questions that end the loop:\n\nwhat have people asked me for help with recently\nwhat did i figure out this year that confused me last year\nwhat do i have a folder of\nwhat do i do faster than people around me\nwhat did i pay for that was almost good\nwhat have i explained more than twice\n\nwhatever survives, pick the most boring one. boring means specific.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2167,
@@ -10218,7 +10668,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2168,
@@ -10235,7 +10691,13 @@
         "platform": "x",
         "text": "things i believed that cost me months:\n\n\"i need a laptop\" — built the whole thing on a phone\n\"i need an audience\" — most buyers never followed me first\n\"i need to show my face\" — not one buyer has seen it\n\"i need it to be perfect\" — my best seller was nearly binned\n\"i need to be an expert\" — i was one step ahead, that was enough\n\nevery one of those was an excuse wearing a reasonable outfit.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2169,
@@ -10248,7 +10710,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2170,
@@ -10265,7 +10733,13 @@
         "platform": "x",
         "text": "how a digital product actually makes money while you sleep. mechanically:\n\nsomeone reads a post at 3am\ntaps the link in the bio\nlands on a product page that answers one question\npays\ngumroad emails them the file automatically\nyou find out in the morning\n\nno call. no dm. no negotiation. no inventory.\n\nthe entire job is steps one and three. the rest is infrastructure someone\nelse already built for you.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2171,
@@ -10278,7 +10752,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2172,
@@ -10295,7 +10775,13 @@
         "platform": "x",
         "text": "pricing a first digital product, honestly:\n\ngo lower than people tell you.\n\na first product's job is your first buyers, not your best margin. a buyer\nis worth far more than a browser, because buyers buy again and browsers\nmostly do not start.\n\nalways anchor. set a higher list price and discount to your real one. a\nflat number has nothing to be judged against.\n\nkeep the anchor near double. four times looks like a fire sale and makes\npeople wonder what is wrong with it.\n\nraise it after 10 sales and 2 pieces of feedback.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2173,
@@ -10308,7 +10794,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2174,
@@ -10325,7 +10817,13 @@
         "platform": "x",
         "text": "the boring truth about selling online:\n\nmost people do not have a content problem. they have a finishing problem.\n\ni spent five days choosing what to make and two days making it. the\nchoosing was the hard part, and it was hard because i kept trying to\ninvent a product instead of noticing a problem.\n\nif you are stuck, you are probably not stuck on the work.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2175,
@@ -10338,7 +10836,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2176,
@@ -10355,7 +10859,13 @@
         "platform": "x",
         "text": "why your posts get likes and no sales:\n\nyou are posting the product, not the problem. nobody wakes up wanting a pdf.\nyour profile does not say what you do. they tapped your name and left.\nthere is no obvious next step. if they have to hunt for the link they will not.\nyou only post proof. proof convinces people who already believe you.\nyou are talking to everyone, which reaches nobody.\n\nfix the profile before you write another post. it is where every click lands.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2177,
@@ -10368,7 +10878,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2178,
@@ -10385,7 +10901,13 @@
         "platform": "x",
         "text": "everything i used to build and launch a digital product. all free:\n\ngoogle docs — wrote it first, designed it second\ncanva — made the actual product, free plan\ngumroad — takes the payment, sends the file, handles refunds\na link-in-bio page — because bios only get one link\nmy phone's notes app — every hook that half worked\n\nthat is the entire stack. the barrier was never the tools.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2179,
@@ -10398,7 +10920,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2180,
@@ -10415,7 +10943,13 @@
         "platform": "x",
         "text": "what happens after you launch, which nobody writes about:\n\nthere will be a day in the first week where nothing happens. no sales,\nbarely any engagement.\n\nthat is the moment most people change everything. changing everything is\nhow you never find out whether anything worked.\n\npost anyway. reply to every comment. ask the people who bought why they\nbought, and use their words on your page.\n\nchange one thing at a time or you learn nothing.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2181,
@@ -10428,7 +10962,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2182,
@@ -10445,7 +10985,13 @@
         "platform": "x",
         "text": "a digital product you could build this weekend, from most to least obvious:\n\na checklist for something you already do properly\na notion template you built for yourself, cleaned up\na swipe file — 20 examples and why each works\na 30-day plan, one page per day\na spreadsheet that does one annoying calculation\nscripts for the messages people freeze up writing\na beginner guide to what you learned last month\n\nnone of these need a following. i started with 49.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2183,
@@ -10458,7 +11004,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2184,
@@ -10475,7 +11027,13 @@
         "platform": "x",
         "text": "faceless works. mechanically, here is why:\n\npeople are not buying you. they are buying the outcome.\n\nthey need to believe you have actually done the thing, and a screenshot\ndoes that better than a face does. my product page has no photo of me,\nno name, and no voice.\n\nwhat it does have is a specific problem, a specific solution, and proof.\n\nthe anonymity forces the product to carry the argument. that is a feature.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2185,
@@ -10488,7 +11046,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "if you're at zero right now, don't buy anything yet.\n\nstart here instead. fifty product ideas, free. i lost weeks stuck on what to even make.\n\nhttps://digitalstackr.gumroad.com/l/50-product-ideas"
+    }
   },
   {
     "id": 2186,
@@ -10505,7 +11069,13 @@
         "platform": "x",
         "text": "the first sale is not a money event, it is an information event.\n\nbefore it, everything is theory. you are guessing whether the thing you\nmade is worth anything to anyone.\n\nafter it, you know. and everything after that is repetition.\n\nwhich is why pricing low at the start is not weakness. you are buying\ninformation about whether this works, and it is cheap at the price.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2187,
@@ -10518,7 +11088,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2188,
@@ -10535,7 +11111,13 @@
         "platform": "x",
         "text": "i sell digital products from my phone. no ads, no face, no team.\n\nhere is the entire setup, in order:\n\n1. pick a problem you have personally solved. not one you researched.\n2. write the steps you took, in a plain doc. no design yet.\n3. put it in canva. one hour, not one week.\n4. upload to gumroad. they take payment and send the file.\n5. post about the problem daily. not the product.\n\nthat is it. i was 19 and had 49 followers when i started.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2189,
@@ -10548,7 +11130,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2190,
@@ -10565,7 +11153,13 @@
         "platform": "x",
         "text": "the reason most people never sell a digital product:\n\nthey ask \"what could i sell\" instead of \"what have i already solved\".\n\nthe first invites you to invent something. inventing is hard and usually wrong.\nthe second asks you to notice something. noticing takes an hour.\n\nsix questions that end the loop:\n\nwhat have people asked me for help with recently\nwhat did i figure out this year that confused me last year\nwhat do i have a folder of\nwhat do i do faster than people around me\nwhat did i pay for that was almost good\nwhat have i explained more than twice\n\nwhatever survives, pick the most boring one. boring means specific.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2191,
@@ -10578,7 +11172,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2192,
@@ -10595,7 +11195,13 @@
         "platform": "x",
         "text": "things i believed that cost me months:\n\n\"i need a laptop\" — built the whole thing on a phone\n\"i need an audience\" — most buyers never followed me first\n\"i need to show my face\" — not one buyer has seen it\n\"i need it to be perfect\" — my best seller was nearly binned\n\"i need to be an expert\" — i was one step ahead, that was enough\n\nevery one of those was an excuse wearing a reasonable outfit.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2193,
@@ -10608,7 +11214,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2194,
@@ -10625,7 +11237,13 @@
         "platform": "x",
         "text": "how a digital product actually makes money while you sleep. mechanically:\n\nsomeone reads a post at 3am\ntaps the link in the bio\nlands on a product page that answers one question\npays\ngumroad emails them the file automatically\nyou find out in the morning\n\nno call. no dm. no negotiation. no inventory.\n\nthe entire job is steps one and three. the rest is infrastructure someone\nelse already built for you.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2195,
@@ -10638,7 +11256,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2196,
@@ -10655,7 +11279,13 @@
         "platform": "x",
         "text": "pricing a first digital product, honestly:\n\ngo lower than people tell you.\n\na first product's job is your first buyers, not your best margin. a buyer\nis worth far more than a browser, because buyers buy again and browsers\nmostly do not start.\n\nalways anchor. set a higher list price and discount to your real one. a\nflat number has nothing to be judged against.\n\nkeep the anchor near double. four times looks like a fire sale and makes\npeople wonder what is wrong with it.\n\nraise it after 10 sales and 2 pieces of feedback.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2197,
@@ -10668,7 +11298,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2198,
@@ -10685,7 +11321,13 @@
         "platform": "x",
         "text": "the boring truth about selling online:\n\nmost people do not have a content problem. they have a finishing problem.\n\ni spent five days choosing what to make and two days making it. the\nchoosing was the hard part, and it was hard because i kept trying to\ninvent a product instead of noticing a problem.\n\nif you are stuck, you are probably not stuck on the work.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2199,
@@ -10698,7 +11340,13 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2200,
@@ -10715,7 +11363,13 @@
         "platform": "x",
         "text": "why your posts get likes and no sales:\n\nyou are posting the product, not the problem. nobody wakes up wanting a pdf.\nyour profile does not say what you do. they tapped your name and left.\nthere is no obvious next step. if they have to hunt for the link they will not.\nyou only post proof. proof convinces people who already believe you.\nyou are talking to everyone, which reaches nobody.\n\nfix the profile before you write another post. it is where every click lands.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "MAIN",
+      "target_key": "threads:MAIN",
+      "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   },
   {
     "id": 2201,
@@ -10728,6 +11382,12 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "auto_plug": {
+      "status": "pending",
+      "account": "TDS",
+      "target_key": "threads:TDS",
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+    }
   }
 ]
