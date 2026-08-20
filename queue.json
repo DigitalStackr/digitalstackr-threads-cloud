@@ -9635,7 +9635,7 @@
   {
     "id": 2113,
     "scheduled_time": "2026-08-20T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_4397.PNG",
     "text": "104 buyers this month.\nthere was a stretch where i'd have been happy with one.",
     "targets": [
@@ -9649,7 +9649,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17916807489431557",
+        "at": "2026-08-20T21:40:33.849570+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T21:40:33.849570+00:00",
+    "thread_id": "17916807489431557"
   },
   {
     "id": 2114,
