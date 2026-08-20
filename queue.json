@@ -9599,7 +9599,7 @@
   {
     "id": 2112,
     "scheduled_time": "2026-08-20T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_4397.PNG",
     "text": "104 people.\n\ni used to refresh this screen hoping for one.",
     "targets": [
@@ -9617,7 +9617,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18004344212967016",
+        "at": "2026-08-20T21:30:44.441024+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090552318487838771",
+        "at": "2026-08-20T21:30:44.441024+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T21:30:44.441024+00:00"
   },
   {
     "id": 2113,
