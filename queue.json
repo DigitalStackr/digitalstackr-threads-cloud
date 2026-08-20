@@ -9015,7 +9015,7 @@
   {
     "id": 2094,
     "scheduled_time": "2026-08-19T23:50:44.774136+00:00",
-    "status": "partial",
+    "status": "expired",
     "image_file": "IMG_4395.PNG",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something completely unrelated. it went through anyway.",
     "targets": [
@@ -9195,7 +9195,7 @@
         "error": "X post body is 523 chars; max 280"
       }
     },
-    "posted_at": "2026-08-20T01:20:34.654530+00:00",
+    "posted_at": "2026-08-20T01:25:33.106441+00:00",
     "attempts": 2
   },
   {
@@ -9247,7 +9247,7 @@
         "error": "X post body is 358 chars; max 280"
       }
     },
-    "posted_at": "2026-08-20T01:20:34.654530+00:00",
+    "posted_at": "2026-08-20T01:25:33.106441+00:00",
     "attempts": 1
   },
   {
