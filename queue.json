@@ -9571,7 +9571,7 @@
   {
     "id": 2111,
     "scheduled_time": "2026-08-20T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "gumroad more money dahsbaord.png",
     "text": "70 sales in a day.\ni was asleep for a good portion of them and still don't fully believe it.",
     "targets": [
@@ -9585,7 +9585,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18089177036227472",
+        "at": "2026-08-20T20:10:36.608599+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T20:10:36.608599+00:00",
+    "thread_id": "18089177036227472"
   },
   {
     "id": 2112,
