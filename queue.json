@@ -9699,7 +9699,7 @@
   {
     "id": 2115,
     "scheduled_time": "2026-08-21T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_4274.PNG",
     "text": "$147 and a message that said \"do whatever you think is best\".\nthat trust is heavier than the money.",
     "targets": [
@@ -9713,7 +9713,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18140098540598559",
+        "at": "2026-08-20T23:40:35.179166+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T23:40:35.179166+00:00",
+    "thread_id": "18140098540598559"
   },
   {
     "id": 2116,
