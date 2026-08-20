@@ -9535,7 +9535,7 @@
   {
     "id": 2110,
     "scheduled_time": "2026-08-20T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "gumroad more money dahsbaord.png",
     "text": "\"nobody buys digital products anymore.\"\n\n70 people did. $1,183.32. i was asleep for a chunk of it.",
     "targets": [
@@ -9553,7 +9553,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18155039062511811",
+        "at": "2026-08-20T20:00:51.026709+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090529709935517830",
+        "at": "2026-08-20T20:00:51.026709+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T20:00:51.026709+00:00"
   },
   {
     "id": 2111,
