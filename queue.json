@@ -8963,17 +8963,13 @@
   {
     "id": 2092,
     "scheduled_time": "2026-08-19T21:21:51.341656+00:00",
-    "status": "expired",
+    "status": "posted",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "text": "PAY DAY.\n\n$1638.53 deposited.\n\ni read the email four times before i accepted it had my name on it. 🥹",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
-      },
-      {
-        "platform": "x",
-        "text": "i sell digital products from my phone. no ads, no face, no team.\n\nhere is the entire setup, in order:\n\n1. pick a problem you have personally solved. not one you researched.\n2. write the steps you took, in a plain doc. no design yet.\n3. put it in canva. one hour, not one week.\n4. upload to gumroad. they take payment and send the file.\n5. post about the problem daily. not the product.\n\nthat is it. i was 19 and had 49 followers when i started.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
     ],
     "results": {
@@ -8981,10 +8977,6 @@
         "status": "posted",
         "id": "18103145750173501",
         "at": "2026-08-19T12:01:03.697153+00:00"
-      },
-      "x": {
-        "status": "failed",
-        "error": "X post body is 444 chars; max 280"
       }
     },
     "posted_at": "2026-08-19T22:50:32.462647+00:00",
@@ -9015,17 +9007,13 @@
   {
     "id": 2094,
     "scheduled_time": "2026-08-19T23:50:44.774136+00:00",
-    "status": "expired",
+    "status": "posted",
     "image_file": "IMG_4395.PNG",
     "text": "someone bought the $27 guide at 2:24pm.\ni was doing something completely unrelated. it went through anyway.",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
-      },
-      {
-        "platform": "x",
-        "text": "the reason most people never sell a digital product:\n\nthey ask \"what could i sell\" instead of \"what have i already solved\".\n\nthe first invites you to invent something. inventing is hard and usually wrong.\nthe second asks you to notice something. noticing takes an hour.\n\nsix questions that end the loop:\n\nwhat have people asked me for help with recently\nwhat did i figure out this year that confused me last year\nwhat do i have a folder of\nwhat do i do faster than people around me\nwhat did i pay for that was almost good\nwhat have i explained more than twice\n\nwhatever survives, pick the most boring one. boring means specific.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
       }
     ],
     "results": {
@@ -9033,10 +9021,6 @@
         "status": "posted",
         "id": "17915123115243113",
         "at": "2026-08-19T14:30:47.651543+00:00"
-      },
-      "x": {
-        "status": "failed",
-        "error": "X post body is 628 chars; max 280"
       }
     },
     "posted_at": "2026-08-20T01:20:34.654530+00:00",
