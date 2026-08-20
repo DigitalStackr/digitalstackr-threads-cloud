@@ -9051,7 +9051,7 @@
   {
     "id": 2096,
     "scheduled_time": "2026-08-20T01:30:34.615880+00:00",
-    "status": "partial",
+    "status": "posted",
     "image_file": "Untitled design (17).png",
     "text": "€552.61 came through stripe.\n16 payments. 12 people. i was not involved in a single one of them.",
     "targets": [
@@ -9071,11 +9071,12 @@
         "at": "2026-08-19T18:00:57.638965+00:00"
       },
       "x": {
-        "status": "failed",
-        "error": "X post body is 393 chars; max 280"
+        "status": "posted",
+        "id": "2090257740346089778",
+        "at": "2026-08-20T02:00:50.887109+00:00"
       }
     },
-    "posted_at": "2026-08-20T01:55:29.068260+00:00",
+    "posted_at": "2026-08-20T02:00:50.887109+00:00",
     "attempts": 4
   },
   {
@@ -9155,7 +9156,7 @@
   {
     "id": 2100,
     "scheduled_time": "2026-08-20T01:10:39.262329+00:00",
-    "status": "partial",
+    "status": "posted",
     "image_file": "Untitled design (13).png",
     "text": "\"you're too young for anyone to take you seriously.\"\n\n$1,202.11 from 52 people who never asked how old i was.",
     "targets": [
@@ -9175,11 +9176,12 @@
         "at": "2026-08-19T21:30:47.651104+00:00"
       },
       "x": {
-        "status": "failed",
-        "error": "X post body is 523 chars; max 280"
+        "status": "posted",
+        "id": "2090257727440203833",
+        "at": "2026-08-20T02:00:50.887109+00:00"
       }
     },
-    "posted_at": "2026-08-20T01:55:29.068260+00:00",
+    "posted_at": "2026-08-20T02:00:50.887109+00:00",
     "attempts": 2
   },
   {
@@ -9207,7 +9209,7 @@
   {
     "id": 2102,
     "scheduled_time": "2026-08-20T01:20:47.316785+00:00",
-    "status": "partial",
+    "status": "posted",
     "image_file": "Untitled design (18).png",
     "text": "i can finally say it.\n\n$1,673.63 from 86 people.\n\neight months ago i had a phone, no audience and no clue.",
     "targets": [
@@ -9227,11 +9229,12 @@
         "at": "2026-08-19T23:30:44.774136+00:00"
       },
       "x": {
-        "status": "failed",
-        "error": "X post body is 358 chars; max 280"
+        "status": "posted",
+        "id": "2090257733811306733",
+        "at": "2026-08-20T02:00:50.887109+00:00"
       }
     },
-    "posted_at": "2026-08-20T01:55:29.068260+00:00",
+    "posted_at": "2026-08-20T02:00:50.887109+00:00",
     "attempts": 1
   },
   {
