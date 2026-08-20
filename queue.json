@@ -6154,12 +6154,20 @@
     "text": "**Posting times, from our own data**\n\nWe post six times a day and track every one.\n\nThe clear winner is late evening US time. Early morning is the worst slot by a distance — good content, nobody awake to see it.\n\nIf you only post once a day, post when your buyers are on their phone with nothing to do. Not when you happen to be free.",
     "image_file": null,
     "scheduled_time": "2026-08-20T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "21",
+        "at": "2026-08-20T16:00:57.703150+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T16:00:57.703150+00:00"
   },
   {
     "id": 913,
