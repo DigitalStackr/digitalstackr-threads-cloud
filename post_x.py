@@ -26,7 +26,18 @@ import requests
 from requests_oauthlib import OAuth1
 
 API = "https://api.twitter.com/2/tweets"
-MAX_CHARS = 280
+
+# X Premium raises the post limit from 280 to 25,000 characters. This was
+# still 280 on 2026-08-19 when long-form X content shipped, so every X post
+# failed locally before it ever reached the API - "X post body is 444 chars;
+# max 280" - which pushed entries to partial, then through 5 self-heal
+# retries, then expired. The Threads half of those entries had published
+# fine; only X was broken.
+#
+# Set to the Premium ceiling and let the API be the authority on eligibility.
+# If the account ever loses Premium, X returns a clear error rather than us
+# guessing the limit locally.
+MAX_CHARS = 25000
 
 # Matches explicit URLs and bare domains, because X auto-links bare domains too
 # and those bill at the link rate just the same.
