@@ -9104,7 +9104,7 @@
   {
     "id": 2098,
     "scheduled_time": "2026-08-20T01:35:33.855648+00:00",
-    "status": "partial",
+    "status": "posted",
     "image_file": "IMG_3909.PNG",
     "text": "they told me to get a job.\n\nthis is my lock screen. the $27 one is a file i wrote in february and never opened again.",
     "targets": [
@@ -9124,11 +9124,12 @@
         "at": "2026-08-19T20:00:55.850130+00:00"
       },
       "x": {
-        "status": "failed",
-        "error": "X post body is 403 chars; max 280"
+        "status": "posted",
+        "id": "2090258913480659446",
+        "at": "2026-08-20T02:05:33.147994+00:00"
       }
     },
-    "posted_at": "2026-08-20T01:10:34.615880+00:00",
+    "posted_at": "2026-08-20T02:05:33.147994+00:00",
     "attempts": 3
   },
   {
