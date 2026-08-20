@@ -9335,7 +9335,7 @@
   {
     "id": 2104,
     "scheduled_time": "2026-08-20T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "payout gumroad sales ss.png",
     "text": "$1,109.77 in one payout window.\n\nfrom people i have never spoken to, for something i made once.",
     "targets": [
@@ -9353,7 +9353,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17897831922602821",
+        "at": "2026-08-20T12:00:50.906468+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090408899702603917",
+        "at": "2026-08-20T12:00:50.906468+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T12:00:50.906468+00:00"
   },
   {
     "id": 2105,
