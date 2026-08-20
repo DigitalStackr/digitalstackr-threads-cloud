@@ -9507,7 +9507,7 @@
   {
     "id": 2109,
     "scheduled_time": "2026-08-20T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (5).png",
     "text": "this is the whole setup.\nno office, no team, no laptop. one screen.",
     "targets": [
@@ -9521,7 +9521,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18148048906522961",
+        "at": "2026-08-20T18:10:36.488385+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T18:10:36.488385+00:00",
+    "thread_id": "18148048906522961"
   },
   {
     "id": 2110,
