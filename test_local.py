@@ -642,5 +642,74 @@ ap.run(q12d, now=NOW, log=lambda *a: None)
 check("insights outage: no plug, no crash",
       plugged == [] and q12d[0]["auto_plug"]["status"] == "pending")
 
+
+# ---- 13. auto_plug CTA text is validated like any other publish ----
+# A plug is a real post to Threads - a reply under our own post - but it lived in
+# entry["auto_plug"] rather than entry["text"], so every check in
+# validate_content.py skipped it. A plug could carry a dead link, an unbacked
+# figure, or a banned emoji straight to the live account.
+#
+# The URL allowlist matters most: a plug is nothing BUT a link, and two dead
+# links have already shipped to real people (the focusfilesstudio domain after
+# the handle change, and the invented slug "threads-revenue-ladder").
+import validate_content as vcm
+
+FDE_URL = "https://digitalstackr.gumroad.com/l/faceless-digital-empire"
+
+def plug_problems(plug_text):
+    entry = {"id": 9001, "account": "MAIN", "status": "pending",
+             "text": "a plain text post with no figures",
+             "scheduled_time": "2026-12-01T14:00:00+02:00",
+             "targets": [{"platform": "threads", "account": "MAIN"}],
+             "auto_plug": {"status": "pending", "account": "MAIN",
+                           "text": plug_text}}
+    return [p for p in vcm.validate([entry]) if "auto_plug" in p]
+
+check("plug: dead domain is rejected",
+      plug_problems("here it is\n\n"
+                    "https://focusfilesstudio.gumroad.com/l/faceless-digital-empire"))
+check("plug: invented product slug is rejected",
+      plug_problems("here\n\nhttps://digitalstackr.gumroad.com/l/threads-revenue-ladder"))
+check("plug: a CTA with no link is rejected",
+      plug_problems("you should really buy my guide, it is great"))
+check("plug: unbacked figure is rejected (a reply has no screenshot)",
+      plug_problems("i made $1,638.53 doing this\n\n" + FDE_URL))
+check("plug: banned emoji is rejected",
+      plug_problems("here you go \U0001f525\n\n" + FDE_URL))
+check("plug: over the 490 char cap is rejected",
+      plug_problems("x" * 500 + "\n\n" + FDE_URL))
+# The question check must look at the PROSE, not the raw string: a plug always
+# ends with its URL, so a trailing-"?" test on the whole text can never fire.
+check("plug: question before the link is still caught",
+      plug_problems("want the system?\n\n" + FDE_URL))
+check("plug: a legitimate CTA passes clean",
+      plug_problems("getting a lot of dms asking how this works.\n\n"
+                    "easier to put it in one place than answer it fifty "
+                    "times.\n\n" + FDE_URL) == [])
+
+# Every plug attach_plugs.py actually writes must survive the validator, or the
+# next queue commit is blocked.
+import json as _json, pathlib as _pl
+_q = _json.load(open(_pl.Path(__file__).parent / "queue.json", encoding="utf-8"))
+_plugged = [e for e in _q if (e.get("auto_plug") or {}).get("status") == "pending"]
+check(f"plug: all {len(_plugged)} attached CTAs pass the validator",
+      len(_plugged) > 0 and
+      [p for p in vcm.validate(_q) if "auto_plug" in p] == [])
+
+# attach_plugs must never hand a beginner freebie to a post that just showed
+# proof - including proof stated as a headcount rather than a dollar figure.
+import attach_plugs as apl
+check("plug: dollar receipt gets the product CTA",
+      apl.offer_for({"text": "$1,673.63 from 86 people.\n\neight months ago i "
+                             "had a phone and nothing else.",
+                     "image_file": "x.png"}) == "product")
+check("plug: headcount receipt gets the product CTA",
+      apl.offer_for({"text": "225 people bought a PDF from a teenager with no "
+                             "audience.", "image_file": "x.png"}) == "product")
+check("plug: a genuine beginner post gets the freebie CTA",
+      apl.offer_for({"text": "the same little phone keyboard i used at zero is "
+                             "the one i'm typing on now.",
+                     "image_file": "x.png"}) == "freebie")
+
 print(f"\n==== RESULT: {PASS} passed, {FAIL} failed ====")
 sys.exit(1 if FAIL else 0)
