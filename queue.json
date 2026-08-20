@@ -9091,7 +9091,7 @@
         "error": "X post body is 393 chars; max 280"
       }
     },
-    "posted_at": "2026-08-20T00:45:34.970668+00:00",
+    "posted_at": "2026-08-20T00:50:39.262329+00:00",
     "attempts": 3
   },
   {
@@ -9170,7 +9170,7 @@
   },
   {
     "id": 2100,
-    "scheduled_time": "2026-08-19T23:20:31.841554+00:00",
+    "scheduled_time": "2026-08-20T01:10:39.262329+00:00",
     "status": "partial",
     "image_file": "Untitled design (13).png",
     "text": "\"you're too young for anyone to take you seriously.\"\n\n$1,202.11 from 52 people who never asked how old i was.",
@@ -9196,7 +9196,7 @@
       }
     },
     "posted_at": "2026-08-20T00:45:34.970668+00:00",
-    "attempts": 1
+    "attempts": 2
   },
   {
     "id": 2101,
@@ -9247,12 +9247,12 @@
         "error": "X post body is 358 chars; max 280"
       }
     },
-    "posted_at": "2026-08-20T00:45:34.970668+00:00"
+    "posted_at": "2026-08-20T00:50:39.262329+00:00"
   },
   {
     "id": 2103,
     "scheduled_time": "2026-08-20T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (18).png",
     "text": "$1,673.63 from 86 people.\nstarted with nothing but a phone and empty evenings.",
     "targets": [
@@ -9260,7 +9260,16 @@
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18190937275386179",
+        "at": "2026-08-20T00:50:39.262329+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T00:50:39.262329+00:00",
+    "thread_id": "18190937275386179"
   },
   {
     "id": 2104,
