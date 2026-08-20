@@ -84,6 +84,24 @@ ALLOWED_STANDALONE_FIGURES = {"$382", "$27", "$9", "$97", "$147", "$0", "$200"}
 MEDIA_LESS_PLATFORMS = {"instagram"}
 
 
+# Every product URL that is allowed to appear in an auto-plug, pulled from the
+# Gumroad API on 2026-08-20 and confirmed against a live request. This list is a
+# scar: two dead links have already shipped to real people - the whole
+# focusfilesstudio.gumroad.com domain after the handle change, and the invented
+# slug "threads-revenue-ladder" (the real one is threads-hunter-blueprint), which
+# went out inside a paying client's delivery page. A plug is nothing BUT a link,
+# so a wrong one makes the entire reply worthless.
+# Adding a URL here without opening it first defeats the point.
+KNOWN_PRODUCT_URLS = {
+    "https://digitalstackr.gumroad.com/l/faceless-digital-empire",
+    "https://digitalstackr.gumroad.com/l/threads-hunter-blueprint",
+    "https://digitalstackr.gumroad.com/l/mentorship",
+    "https://digitalstackr.gumroad.com/l/doneforyou-business",
+    "https://digitalstackr.gumroad.com/l/threads-algo-boss-kit",
+    "https://digitalstackr.gumroad.com/l/50-product-ideas",
+    "https://digitalstackr.gumroad.com/l/lazyprofittracker",
+}
+
 def _norm(text: str) -> str:
     text = unicodedata.normalize("NFKC", (text or "").lower())
     return re.sub(r"[^a-z0-9$ ]+", " ", text)
@@ -337,6 +355,52 @@ def validate(queue: list) -> list:
             if len(entries) > 2:
                 for e in entries[2:]:
                     flag(e, f"more than 2 'rare' big-number images in {month} — keep them occasional")
+
+    # ---- auto-plug CTAs ----
+    # A plug is a REAL publish to Threads - a reply under our own post - but it
+    # used to bypass every check in this file, because it lives in entry["auto_plug"]
+    # rather than entry["text"]. So a plug could carry a banned emoji, run over the
+    # character cap, quote a figure with no screenshot behind it, or point at a dead
+    # URL, and nothing here would notice. It is held to the same bar as a post.
+    for entry in upcoming:
+        plug = entry.get("auto_plug")
+        if not plug or plug.get("status") != "pending":
+            continue
+        ptext = plug.get("text") or ""
+
+        if not ptext.strip():
+            flag(entry, "auto_plug has no text")
+            continue
+        if len(ptext) > PLATFORM_MAX_CHARS["threads"]:
+            flag(entry, f"auto_plug is {len(ptext)} chars; threads max "
+                        f"{PLATFORM_MAX_CHARS['threads']}")
+
+        urls = re.findall(r"https?://\S+", ptext)
+        if not urls:
+            flag(entry, "auto_plug has no link - a CTA with no destination is noise")
+        for u in urls:
+            if u.rstrip(".,)") not in KNOWN_PRODUCT_URLS:
+                flag(entry, f"auto_plug points at an unrecognised URL {u} - "
+                            f"verify it resolves, then add it to KNOWN_PRODUCT_URLS")
+
+        for emo in BANNED_EMOJI:
+            if emo in ptext:
+                flag(entry, f"auto_plug contains banned emoji {emo}")
+
+        # A plug is a reply. It carries NO image of its own, so any figure in it is
+        # unbacked by definition - same rule as a text-only post.
+        for fig in money_figures(ptext):
+            if fig not in ALLOWED_STANDALONE_FIGURES:
+                flag(entry, f"auto_plug cites unbacked figure {fig} - a reply has no "
+                            f"screenshot attached")
+
+        # Check the PROSE, not the whole string: a plug always ends with its URL,
+        # so testing the raw text for a trailing "?" can never fire. Caught by a
+        # negative test: a plug reading "want the system?" then the URL on the
+        # next line sailed straight through the raw-text version of this check.
+        prose = re.sub(r"https?://\S+", "", ptext).strip()
+        if prose.endswith("?"):
+            flag(entry, "auto_plug ends on a question - measured failure")
 
     return problems
 
