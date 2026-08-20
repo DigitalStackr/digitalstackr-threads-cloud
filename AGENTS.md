@@ -46,9 +46,20 @@ direct            18 paid                 $370.02
 gumroad.com       13 paid                 $366.86   (Gumroad Discover)
 ```
 
-**The most important line in this file:** a link inside a post converts at
-**88%**; the bio link converts at **5%**. Direct CTA links are worth ~15x per
-visitor. Beacons is a freebie funnel; the CTA comment is the sales funnel.
+**Read the referrer table carefully — it is easy to misread, and was misread
+once already.** A Gumroad record exists only for a TRANSACTION (a paid order or a
+free download). Someone who clicks and buys nothing creates no record at all.
+
+So `15 paid of 17 records` on l.threads.com is **the paid share of transactions**,
+NOT a conversion rate. beacons.ai looks weaker only because the free magnets are
+linked from the bio, and every free download creates a record.
+
+What the data does support: **direct product links in posts have produced $467
+from 17 transactions, against $489 from 281 via the bio.** Direct links carry
+paid intent; the bio carries free intent. They do different jobs.
+
+What it does NOT support: any per-visitor conversion claim. **We have no click
+data from any platform** — see §4.
 
 ---
 
@@ -128,6 +139,18 @@ identical to a healthy one** — that is what `runway_check.py` exists for.
 **Long-form threads (Aug 8–11).** Reach halved across *every* format, not just
 threads — likely the burst of 7–11 posts in ~21s, 2–3x/day. Reverted.
 `post_thread.py` still works but is not in use.
+
+**Attribution by redirect — TESTED AND FAILED (2026-08-14).** Two live test
+purchases through a redirect on digitalstackr.com carrying
+`referrer=unsafe-url`. Gumroad recorded `direct` both times — no referrer at all,
+not even the bare origin. Threads and Beacons send origin only
+(`https://l.threads.com/`, `https://beacons.ai/`), stripping path and query, so a
+tracking parameter never survives the hop.
+
+**Consequence: post-level attribution is not achievable.** Do not build UTM or
+campaign-ID schemes that depend on it, and do not plan metrics around "unique
+link clicks" — no platform in this stack reports them. Attribution stops at the
+funnel-path level (which domain), and that is already available for free.
 
 **X capped at 280.** The validator was raised for Premium; `post_x.py` was not.
 Every long post failed at send and cascaded to `expired`.
