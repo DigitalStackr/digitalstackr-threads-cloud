@@ -9435,7 +9435,7 @@
   {
     "id": 2107,
     "scheduled_time": "2026-08-20T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design(5).png",
     "text": "111 people. $1,163.95.\nmy phone was in my pocket for most of that.",
     "targets": [
@@ -9449,7 +9449,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18363399208209703",
+        "at": "2026-08-20T14:40:38.405933+00:00"
+      }
+    },
+    "posted_at": "2026-08-20T14:40:38.405933+00:00",
+    "thread_id": "18363399208209703"
   },
   {
     "id": 2108,
