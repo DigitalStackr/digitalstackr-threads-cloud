@@ -40,10 +40,11 @@ rating                   4.9 from 17 verified reviews
 **By traffic source** *(paid orders only)*
 
 ```
-beacons.ai        14 paid / 281 records   $489.32    $1.74 per visitor
-l.threads.com     15 paid /  17 records   $467.00   $27.47 per visitor  <-- 
-direct            18 paid                 $370.02
-gumroad.com       13 paid                 $366.86   (Gumroad Discover)
+                  paid / total records   revenue     what gets linked there
+beacons.ai        14 / 281               $489.32     bio -> mostly free magnets
+l.threads.com     15 /  17               $467.00     in-post product links
+direct            18 /  94               $370.02     typed / no referrer
+gumroad.com       13 /  70               $366.86     Gumroad Discover
 ```
 
 **Read the referrer table carefully — it is easy to misread, and was misread
