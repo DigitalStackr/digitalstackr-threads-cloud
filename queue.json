@@ -9991,7 +9991,7 @@
   {
     "id": 2124,
     "scheduled_time": "2026-08-21T23:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_3795.PNG",
     "text": "someone paid for two weeks of my attention.\n\ni'm 19. i had to sit down for a second after that one.",
     "targets": [
@@ -10009,7 +10009,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18080464796322646",
+        "at": "2026-08-21T21:30:42.919157+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090914688737661420",
+        "at": "2026-08-21T21:30:42.919157+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T21:30:42.919157+00:00"
   },
   {
     "id": 2125,
