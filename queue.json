@@ -9791,7 +9791,7 @@
   {
     "id": 2118,
     "scheduled_time": "2026-08-21T16:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "3.9k gumroad ss.png",
     "text": "225 people bought a PDF from a teenager with no audience.\n\nnot a genius. not connected. not lucky. just relentless about a boring thing. 😭💸",
     "targets": [
@@ -9809,7 +9809,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17874712971626974",
+        "at": "2026-08-21T14:30:48.398974+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090809009905324052",
+        "at": "2026-08-21T14:30:48.398974+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T14:30:48.398974+00:00"
   },
   {
     "id": 2119,
