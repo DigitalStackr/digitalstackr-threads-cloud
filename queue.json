@@ -9963,7 +9963,7 @@
   {
     "id": 2123,
     "scheduled_time": "2026-08-21T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design(4).png",
     "text": "$856.23 and not one person asked who i was.\nturns out they only care whether it works.",
     "targets": [
@@ -9977,7 +9977,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18150215221521958",
+        "at": "2026-08-21T20:10:34.329167+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T20:10:34.329167+00:00",
+    "thread_id": "18150215221521958"
   },
   {
     "id": 2124,
