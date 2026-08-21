@@ -10055,7 +10055,7 @@
   {
     "id": 2126,
     "scheduled_time": "2026-08-22T01:30:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_3944.PNG",
     "text": "i was queuing for coffee when this came through.\n\ndidn't check my phone for an hour. it had already happened.",
     "targets": [
@@ -10073,7 +10073,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17994486024008292",
+        "at": "2026-08-21T23:30:42.001923+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090944895535940047",
+        "at": "2026-08-21T23:30:42.001923+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T23:30:42.001923+00:00"
   },
   {
     "id": 2127,
