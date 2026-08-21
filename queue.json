@@ -9863,7 +9863,7 @@
   {
     "id": 2120,
     "scheduled_time": "2026-08-21T20:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (10).png",
     "text": "\"this only works if you got in early.\"\n\n32 people bought last week. i started this year.",
     "targets": [
@@ -9881,7 +9881,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18439158556126155",
+        "at": "2026-08-21T18:00:56.437084+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090861899424596265",
+        "at": "2026-08-21T18:00:56.437084+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T18:00:56.437084+00:00"
   },
   {
     "id": 2121,
