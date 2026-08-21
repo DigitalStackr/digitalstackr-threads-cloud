@@ -10027,7 +10027,7 @@
   {
     "id": 2125,
     "scheduled_time": "2026-08-21T23:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_3795.PNG",
     "text": "a stranger bought two weeks of my time.\nstill the single most surreal notification i've had.",
     "targets": [
@@ -10041,7 +10041,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18147655750532756",
+        "at": "2026-08-21T21:40:31.897903+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T21:40:31.897903+00:00",
+    "thread_id": "18147655750532756"
   },
   {
     "id": 2126,
