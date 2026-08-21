@@ -10091,7 +10091,7 @@
   {
     "id": 2127,
     "scheduled_time": "2026-08-22T01:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_3944.PNG",
     "text": "$181.30 while i was stood in a queue doing nothing.\nthat was the moment it clicked for me.",
     "targets": [
@@ -10105,7 +10105,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17986112261861572",
+        "at": "2026-08-21T23:40:33.451829+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T23:40:33.451829+00:00",
+    "thread_id": "17986112261861572"
   },
   {
     "id": 2128,
