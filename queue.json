@@ -9827,7 +9827,7 @@
   {
     "id": 2119,
     "scheduled_time": "2026-08-21T16:40:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "3.9k gumroad ss.png",
     "text": "225 strangers, one file, zero ads.\nthe only unusual thing about me is that i didn't quit in month two.",
     "targets": [
@@ -9841,7 +9841,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18099874067363056",
+        "at": "2026-08-21T14:40:38.585758+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T14:40:38.585758+00:00",
+    "thread_id": "18099874067363056"
   },
   {
     "id": 2120,
