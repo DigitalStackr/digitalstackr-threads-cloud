@@ -6174,12 +6174,20 @@
     "text": "**Nobody is thinking about your post as much as you are**\n\nThe post you agonised over gets scrolled past in half a second.\n\nThat cuts both ways. The embarrassing one nobody remembers either. The cost of posting something imperfect is far lower than you think, and the cost of posting nothing is total.\n\nPublish it. Fix it in version two.",
     "image_file": null,
     "scheduled_time": "2026-08-21T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "23",
+        "at": "2026-08-21T16:00:53.093081+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T16:00:53.093081+00:00"
   },
   {
     "id": 914,
