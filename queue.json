@@ -9727,7 +9727,7 @@
   {
     "id": 2116,
     "scheduled_time": "2026-08-21T14:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "gumroad notification screenshot.PNG",
     "text": "i found out about this one at breakfast.\n\nit happened at 3:33am and the store just handled it.",
     "targets": [
@@ -9745,7 +9745,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18123303073798746",
+        "at": "2026-08-21T12:00:54.166853+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2090771281381642411",
+        "at": "2026-08-21T12:00:54.166853+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T12:00:54.166853+00:00"
   },
   {
     "id": 2117,
