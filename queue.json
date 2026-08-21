@@ -9899,7 +9899,7 @@
   {
     "id": 2121,
     "scheduled_time": "2026-08-21T20:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (10).png",
     "text": "\"you're too late for this.\"\n32 buyers say otherwise, and i started in february.",
     "targets": [
@@ -9913,7 +9913,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18306579463303697",
+        "at": "2026-08-21T18:10:37.535951+00:00"
+      }
+    },
+    "posted_at": "2026-08-21T18:10:37.535951+00:00",
+    "thread_id": "18306579463303697"
   },
   {
     "id": 2122,
