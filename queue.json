@@ -6194,12 +6194,20 @@
     "text": "**One product, priced three ways**\n\nThe same knowledge sold at three levels:\n\n• **$27** — the file. They do it themselves.\n• **$97** — two weeks of your time. You answer their questions.\n• **$147** — you do the whole build for them.\n\nSame expertise, three amounts of your time. Most people only ever build the first one and leave the other two on the table.",
     "image_file": null,
     "scheduled_time": "2026-08-22T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "24",
+        "at": "2026-08-22T16:00:53.898088+00:00"
+      }
+    },
+    "posted_at": "2026-08-22T16:00:53.898088+00:00"
   },
   {
     "id": 2000,
