@@ -71,11 +71,41 @@ def due_now(now):
 
 
 def alert(text):
+    """Send an internal alert to the OWNER privately. Never to the channel.
+
+    THIS PUBLISHED TO THE PUBLIC CHANNEL. TELEGRAM_OWNER was set to the handle
+    "@digitalstackr" - which is the CHANNEL, not a person - so every runway
+    warning went out as a post to real subscribers. They read internal plumbing
+    messages saying the queue was empty.
+
+    The guard below is the actual fix, not just the secret change: an operational
+    alert must be structurally incapable of reaching an audience.
+
+    A numeric chat id is REQUIRED, and that is not an arbitrary restriction -
+    Telegram bots cannot message a user by @username at all, only by numeric id.
+    So anything starting with "@" is by definition a channel or a group, i.e.
+    exactly the thing we must not post to. Get the numeric id by messaging
+    @userinfobot on Telegram, then set TELEGRAM_OWNER to it.
+    """
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    owner = os.environ.get("TELEGRAM_OWNER")
+    owner = (os.environ.get("TELEGRAM_OWNER") or "").strip()
+    channel = (os.environ.get("TELEGRAM_CHANNEL") or "").strip()
+
     if not (token and owner):
         print("runway: telegram not configured — would have alerted", flush=True)
         return False
+
+    unsafe = None
+    if owner.startswith("@"):
+        unsafe = (f"TELEGRAM_OWNER is {owner!r} — a public handle. Internal alerts "
+                  f"must go to a NUMERIC private chat id.")
+    elif channel and owner.lstrip("-") == channel.lstrip("-").lstrip("@"):
+        unsafe = "TELEGRAM_OWNER is the same target as TELEGRAM_CHANNEL."
+    if unsafe:
+        print(f"runway: REFUSING to send - {unsafe}", flush=True)
+        print(f"        Alert content (logged, not published): {text!r}", flush=True)
+        return False
+
     try:
         requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
                       data={"chat_id": owner, "text": text}, timeout=20)
