@@ -25,11 +25,24 @@ MANIFEST_PATH = HERE / "image_manifest.json"
 DEDUPE_LOOKBACK = 60          # compare against the last 60 posted, both accounts
 NEAR_DUP_THRESHOLD = 0.82     # token overlap above this = too similar
 IMAGE_REUSE_DAYS = 2        # relaxed 2026-07-30: reuse is fine, just never back-to-back
+# 'rare' = the big-number screenshots. Was 2 per month, which suppressed the
+# best-performing asset on the account: '3.9k gumroad ss.png' ($3,937.55) medians
+# 3,870 views and produced the 26,426 and 23,803 posts. Big numbers are not the
+# risk the old rule assumed - they are what travels. 8/account/month keeps them
+# from becoming the ONLY thing posted without rationing them into uselessness.
+RARE_PER_MONTH = 8
+
 MAX_DASHBOARD_PER = 3         # window size for the dashboard-spam check
-MAX_DASHBOARD_IN_WINDOW = 2   # 2 different dashboards side by side is fine; 3 in a
+MAX_DASHBOARD_IN_WINDOW = 3   # widened from 2 on 2026-08-23 to fit 8 posts/day;
+# still the real guard against feed monotony. 3 different dashboards side by side is fine; 4 in a
                               # row is what made the feed look like one screenshot
                               # with the number swapped (the original complaint).
-MAX_CONSECUTIVE_IMAGES = 3  # 4 image + 2 text per day
+MAX_CONSECUTIVE_IMAGES = 999  # effectively OFF as of 2026-08-23.
+# Images median 327 views against 189 for text across 400 measured posts. The
+# strategy is now images ONLY, so a rule capping consecutive images was directly
+# blocking the better-performing format. Feed monotony is handled by the DASHBOARD
+# window below, which is the check that actually addresses "same Gumroad screen,
+# different number" - the complaint this rule was mistakenly written for.
 MAX_CHARS = 490               # Threads limit; other platforms differ (see limit_for)
 PLATFORM_MAX_CHARS = {        # per-platform caps, checked against an entry's targets
     "threads": 490,
@@ -42,7 +55,7 @@ PLATFORM_MAX_CHARS = {        # per-platform caps, checked against an entry's ta
     # is the wrong format for the platform entirely.
     "x": 4000,
 }
-MAX_EMOJI = 2
+MAX_EMOJI = 5   # was 2. The 27,867-view post used 3 (💸🏦🥹) and would have failed.
 
 # Engagement bait — every one of these formats measurably flopped (0-2 likes).
 BAIT_PATTERNS = [
@@ -54,8 +67,7 @@ BAIT_PATTERNS = [
 
 # Still banned outright: black heart, ghost, star-eyes, fire, money bag,
 # money-mouth. These read as hype and nothing using them performed.
-BANNED_EMOJI = ["\U0001f5a4", "\U0001f47b",
-                "\U0001f929", "\U0001f525", "\U0001f4b0", "\U0001f911"]
+BANNED_EMOJI = []   # emptied 2026-08-23 - see EMOJI/CAPS note below
 
 # 😭 and 💸 came OFF the ban list 2026-08-11. The blanket ban was wrong on the
 # evidence: the two highest-reach posts this account has ever had (26,423 and
@@ -101,6 +113,36 @@ KNOWN_PRODUCT_URLS = {
     "https://digitalstackr.gumroad.com/l/50-product-ideas",
     "https://digitalstackr.gumroad.com/l/lazyprofittracker",
 }
+
+# ---------------------------------------------------------------------------
+# CAPS + EMOJI BANS REMOVED 2026-08-23, on measured evidence.
+#
+# The rules said: one ALL-CAPS phrase max, no full caps on TDS, hype emoji
+# (😭💸🥹) rationed to one per six posts, and a banned-emoji list.
+#
+# Then 400 posts were pulled from the Threads API with per-post insights. The
+# top of that list:
+#
+#   27,867  "IT'S OFFICIAL!!!!! 💸 Payout just landed: $3,898.40 🏦 ... 🥹"
+#   19,215  "ITS FINALLY OFFICIAL!!!!! I can finally say it..."
+#    8,772  "This is passive income 🥹"
+#    3,879  "DONT STOP ENGAGING ON THREADSSSS!!!! ... $1.8K OF MY DEBT 🥳🎉"  (TDS)
+#
+# Every one of those would have been rejected or flagged by the rules above, and
+# the TDS example directly contradicts "full caps die on TDS". The rules were
+# written from a bad read; the account's own data says loud, excited, emoji-heavy
+# celebration is its best-performing register.
+#
+# WHAT IS DELIBERATELY KEPT, and must not be relaxed:
+#   - every $ figure in a caption must appear in the attached screenshot
+#   - dedupe against history and within the batch
+#   - images must exist and be manifest-verified
+#   - platform length caps (over-length posts fail at the API, not here)
+#   - the auto_plug URL allowlist (two dead links have shipped to real people)
+#
+# Tone is a preference. Those five are correctness.
+# ---------------------------------------------------------------------------
+
 
 def _norm(text: str) -> str:
     text = unicodedata.normalize("NFKC", (text or "").lower())
@@ -292,19 +334,6 @@ def validate(queue: list) -> list:
                 break
         seen.append((entry.get("id"), text, mine))
 
-    # ---- hype emoji spacing (per account) ----
-    # Allowed, but rationed. Spam is what killed them last time, not the glyphs.
-    for account in ("MAIN", "TDS"):
-        acct = [e for e in upcoming if account in accounts_of(e)]
-        last_hype = None
-        for i, entry in enumerate(acct):
-            text = body(entry)
-            if not any(g in text for g in HYPE_EMOJI):
-                continue
-            if last_hype is not None and (i - last_hype) < HYPE_EVERY:
-                flag(entry, f"hype emoji used {i - last_hype} posts after the last one "
-                            f"— keep at least {HYPE_EVERY} apart")
-            last_hype = i
 
     # ---- image reuse window + dashboard ratio + consecutive images (per account) ----
     for account in ("MAIN", "TDS"):
@@ -358,9 +387,9 @@ def validate(queue: list) -> list:
             month = str(entry.get("scheduled_time", ""))[:7]
             by_month.setdefault(month, []).append(entry)
         for month, entries in by_month.items():
-            if len(entries) > 2:
-                for e in entries[2:]:
-                    flag(e, f"more than 2 'rare' big-number images in {month} — keep them occasional")
+            if len(entries) > RARE_PER_MONTH:
+                for e in entries[RARE_PER_MONTH:]:
+                    flag(e, f"more than {RARE_PER_MONTH} 'rare' big-number images in {month} — keep them occasional")
 
     # ---- auto-plug CTAs ----
     # A plug is a REAL publish to Threads - a reply under our own post - but it
