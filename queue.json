@@ -11743,5 +11743,565 @@
       "target_key": "threads:TDS",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
     }
+  },
+  {
+    "id": 2202,
+    "account": "MAIN",
+    "text": "IT'S OFFICIAL!!!!! 💸\n\nPayout just landed: $1,638.53 🏦\n\ni'm never quitting this app fr 🥹",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "scheduled_time": "2026-08-27T08:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2203,
+    "account": "TDS",
+    "text": "PAY DAY 🏦\n\n$1,638.53 deposited.\n\ni read the email four times.",
+    "image_file": "Gumroad Payout Screenshots.PNG",
+    "scheduled_time": "2026-08-27T08:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2204,
+    "account": "MAIN",
+    "text": "\"nobody buys PDFs anymore\"\n\n225 people did. $3,937.55 😭💸",
+    "image_file": "3.9k gumroad ss.png",
+    "scheduled_time": "2026-08-27T14:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2205,
+    "account": "TDS",
+    "text": "\"nobody buys PDFs anymore\"\n\n$3,937.55. 225 people. one file.",
+    "image_file": "3.9k gumroad ss.png",
+    "scheduled_time": "2026-08-27T14:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2206,
+    "account": "MAIN",
+    "text": "ITS FINALLY OFFICIAL!!!!!\n\ni can finally say it…\n\n$1,183.32 IN ONE DAY 🥹",
+    "image_file": "gumroad more money dahsbaord.png",
+    "scheduled_time": "2026-08-27T19:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2207,
+    "account": "TDS",
+    "text": "$1,183.32 in a single day.\n\n70 people. i spoke to none of them.",
+    "image_file": "gumroad more money dahsbaord.png",
+    "scheduled_time": "2026-08-27T19:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2208,
+    "account": "MAIN",
+    "text": "\"get experience first\"\n\ni had zero.\n\n92 strangers still paid me $856.23 😭💸",
+    "image_file": "Untitled design(4).png",
+    "scheduled_time": "2026-08-28T01:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2209,
+    "account": "TDS",
+    "text": "\"get experience first.\"\n\n92 people disagreed. $856.23.",
+    "image_file": "Untitled design(4).png",
+    "scheduled_time": "2026-08-28T01:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2210,
+    "account": "MAIN",
+    "text": "sold while i was asleep.\n\n3:33am. $27. phone face down 🥹",
+    "image_file": "gumroad notification screenshot.PNG",
+    "scheduled_time": "2026-08-28T08:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2211,
+    "account": "TDS",
+    "text": "3:33am. $27.\n\nasleep for all of it.",
+    "image_file": "gumroad notification screenshot.PNG",
+    "scheduled_time": "2026-08-28T08:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2212,
+    "account": "MAIN",
+    "text": "19. no degree. no audience. no face.\n\n$1,673.63 from 86 people who never asked 💸",
+    "image_file": "Untitled design (18).png",
+    "scheduled_time": "2026-08-28T14:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2213,
+    "account": "TDS",
+    "text": "$1,673.63 from 86 people.\n\nnot one asked who i was.",
+    "image_file": "Untitled design (18).png",
+    "scheduled_time": "2026-08-28T14:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2214,
+    "account": "MAIN",
+    "text": "woke up to $640.80 from 32 people.\n\ni was unconscious for every single one 😭",
+    "image_file": "Untitled design (10).png",
+    "scheduled_time": "2026-08-28T19:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2215,
+    "account": "TDS",
+    "text": "$640.80 from 32 people, overnight.\n\ni found out at breakfast.",
+    "image_file": "Untitled design (10).png",
+    "scheduled_time": "2026-08-28T19:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2216,
+    "account": "MAIN",
+    "text": "$1,202.11 from 52 people 💸\n\ni still open the app to check it's real 🥹",
+    "image_file": "Untitled design (13).png",
+    "scheduled_time": "2026-08-29T01:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2217,
+    "account": "TDS",
+    "text": "\"you're too young.\"\n\n52 people. $1,202.11. nobody asked.",
+    "image_file": "Untitled design (13).png",
+    "scheduled_time": "2026-08-29T01:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2218,
+    "account": "MAIN",
+    "text": "PAY DAY!!!! 🥳\n\n$2,954.12 deposited 🏦\n\nfrom files i wrote once and never touched again",
+    "image_file": "IMG_2662.PNG",
+    "scheduled_time": "2026-08-29T08:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2219,
+    "account": "TDS",
+    "text": "$2,954.12 deposited.\n\nwork i finished months ago.",
+    "image_file": "IMG_2662.PNG",
+    "scheduled_time": "2026-08-29T08:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2220,
+    "account": "MAIN",
+    "text": "\"digital products are saturated\"\n\n111 people bought today. $1,163.95 🥹",
+    "image_file": "Untitled design(5).png",
+    "scheduled_time": "2026-08-29T14:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2221,
+    "account": "TDS",
+    "text": "\"saturated.\"\n\n111 buyers today. $1,163.95.",
+    "image_file": "Untitled design(5).png",
+    "scheduled_time": "2026-08-29T14:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2222,
+    "account": "MAIN",
+    "text": "88 people. $735.29. one document.\n\nTHIS IS PASSIVE INCOME 🥹",
+    "image_file": "Untitled design(6).png",
+    "scheduled_time": "2026-08-29T19:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2223,
+    "account": "TDS",
+    "text": "88 people bought the same file. $735.29.",
+    "image_file": "Untitled design(6).png",
+    "scheduled_time": "2026-08-29T19:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2224,
+    "account": "MAIN",
+    "text": "$181.30 landed while i was doing nothing 💸\n\nfirst money i ever made without trading an hour for it",
+    "image_file": "IMG_3944.PNG",
+    "scheduled_time": "2026-08-30T01:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2225,
+    "account": "TDS",
+    "text": "$181.30 arrived on its own.\n\nno hour traded for it.",
+    "image_file": "IMG_3944.PNG",
+    "scheduled_time": "2026-08-30T01:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2226,
+    "account": "MAIN",
+    "text": "\"you need an audience first\"\n\ni had 49 followers.\n\n65 people paid me $739.50 😭",
+    "image_file": "Untitled design (11).png",
+    "scheduled_time": "2026-08-30T08:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2227,
+    "account": "TDS",
+    "text": "65 people. $739.50.\n\ni started at 49 followers.",
+    "image_file": "Untitled design (11).png",
+    "scheduled_time": "2026-08-30T08:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2228,
+    "account": "MAIN",
+    "text": "someone paid me $147 to build their whole business 🥹\n\na stranger. who has never seen my face.",
+    "image_file": "IMG_4274.PNG",
+    "scheduled_time": "2026-08-30T14:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2229,
+    "account": "TDS",
+    "text": "$147 for me to build the entire thing.\n\nstill can't get over it.",
+    "image_file": "IMG_4274.PNG",
+    "scheduled_time": "2026-08-30T14:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2230,
+    "account": "MAIN",
+    "text": "$382 this month. 104 people.\n\nnot life changing. but it's REAL, and it's mine 🥹",
+    "image_file": "IMG_4397.PNG",
+    "scheduled_time": "2026-08-30T19:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2231,
+    "account": "TDS",
+    "text": "$382. 104 people.\n\nsmall. real. mine.",
+    "image_file": "IMG_4397.PNG",
+    "scheduled_time": "2026-08-30T19:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2232,
+    "account": "MAIN",
+    "text": "STRIPE JUST HIT €552.61 🥳\n\n16 payments. i was asleep for most of them 💸",
+    "image_file": "Untitled design (17).png",
+    "scheduled_time": "2026-08-31T01:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2233,
+    "account": "TDS",
+    "text": "€552.61 through stripe.\n\nsixteen separate strangers, one file.",
+    "image_file": "Untitled design (17).png",
+    "scheduled_time": "2026-08-31T01:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2234,
+    "account": "MAIN",
+    "text": "$224.52 from 24 people TODAY 🥹\n\nsome of you are one file away and still overthinking it",
+    "image_file": "Untitled design (8).png",
+    "scheduled_time": "2026-08-31T08:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2235,
+    "account": "TDS",
+    "text": "$224.52 today. 24 people.\n\none file.",
+    "image_file": "Untitled design (8).png",
+    "scheduled_time": "2026-08-31T08:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2236,
+    "account": "MAIN",
+    "text": "IT'S OFFICIAL!!!!! 🥳\n\n$19,079.70 all time. 662 sales 🏦\n\nfrom a phone. no face. no ads. 😭💸",
+    "image_file": "Untitled design (15).png",
+    "scheduled_time": "2026-08-31T14:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2237,
+    "account": "TDS",
+    "text": "$19,079.70 all time. 662 sales.\n\nno face, no ads, no team.",
+    "image_file": "Untitled design (15).png",
+    "scheduled_time": "2026-08-31T14:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2238,
+    "account": "MAIN",
+    "text": "\"$27 is too cheap to matter\"\n\nit sold at 2:24pm while i was doing something else 💸",
+    "image_file": "IMG_4395.PNG",
+    "scheduled_time": "2026-08-31T19:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2239,
+    "account": "TDS",
+    "text": "a $27 sale at 2:24 in the afternoon.\n\na completely ordinary tuesday.",
+    "image_file": "IMG_4395.PNG",
+    "scheduled_time": "2026-08-31T19:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2240,
+    "account": "MAIN",
+    "text": "i didn't have a macbook.\ni didn't have fast wifi.\n\ni had a $200 laptop and a link.\n\n$3,937.55 😭",
+    "image_file": "3.9k gumroad ss.png",
+    "scheduled_time": "2026-09-01T01:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2241,
+    "account": "TDS",
+    "text": "no macbook. no fast wifi.\n\na $200 laptop and a link. $3,937.55.",
+    "image_file": "3.9k gumroad ss.png",
+    "scheduled_time": "2026-09-01T01:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
   }
 ]
