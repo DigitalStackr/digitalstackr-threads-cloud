@@ -10296,7 +10296,7 @@
   {
     "id": 2134,
     "scheduled_time": "2026-08-23T19:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (10).png",
     "text": "this is officially getting ridiculous 😭💸\n\n$640.80.\n\nfrom a faceless account that started with zero followers and a phone.\n\ni really almost talked myself out of starting this.",
     "targets": [
@@ -10314,7 +10314,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18065113232772422",
+        "at": "2026-08-23T17:00:49.255039+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2091571549208031323",
+        "at": "2026-08-23T17:00:49.255039+00:00"
+      }
+    },
+    "posted_at": "2026-08-23T17:00:49.255039+00:00"
   },
   {
     "id": 2135,
