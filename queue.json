@@ -11617,7 +11617,7 @@
   {
     "id": 2193,
     "scheduled_time": "2026-08-23T19:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "gumroad sales notifications.PNG",
     "text": "\"nobody buys from someone they can't see\"\n\ni read things like that when i started.\n\nthen i open a faceless checkout receipt for $27.\n\nsome advice ages badly.",
     "targets": [
@@ -11631,7 +11631,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18110616920014199",
+        "at": "2026-08-23T17:10:35.197619+00:00"
+      }
+    },
+    "posted_at": "2026-08-23T17:10:35.197619+00:00",
+    "thread_id": "18110616920014199"
   },
   {
     "id": 2194,
