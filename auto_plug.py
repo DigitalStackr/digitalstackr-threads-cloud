@@ -32,8 +32,19 @@ from post_text import post_text
 
 GRAPH = "https://graph.threads.net/v1.0"
 
-MIN_VIEWS = 1500
-MIN_LIKES = 20
+# RECALIBRATED 2026-08-22. These were 1500 views / 20 likes, set when MAIN was
+# medianing 685 views. Measured that day across the last 25 posts: median 119,
+# max 293 - so ZERO posts could clear the old bar and all 119 attached CTAs were
+# dead on arrival. A threshold set against historical reach silently disables the
+# whole layer; it must track what the account actually does now.
+#
+# 250 / 6 puts the bar near the top decile of current posts. MAX_PLUGS_PER_DAY is
+# the real guard anyway - the intent was always "the best post each day earns a
+# CTA", not "a fixed view count".
+#
+# RE-MEASURE THIS whenever reach shifts materially, in either direction.
+MIN_VIEWS = 250
+MIN_LIKES = 6
 MAX_PLUGS_PER_DAY = 1
 
 
