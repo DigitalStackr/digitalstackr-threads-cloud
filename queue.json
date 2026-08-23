@@ -11377,7 +11377,7 @@
   {
     "id": 2183,
     "scheduled_time": "2026-08-23T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (10).png",
     "text": "the oldest drafts in my folder were written for basically nobody.\n\ni posted them anyway.\n\nnow there's $640.80 on the other side of that decision.",
     "targets": [
@@ -11391,7 +11391,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18084080861674898",
+        "at": "2026-08-23T12:10:32.466414+00:00"
+      }
+    },
+    "posted_at": "2026-08-23T12:10:32.466414+00:00",
+    "thread_id": "18084080861674898"
   },
   {
     "id": 2184,
