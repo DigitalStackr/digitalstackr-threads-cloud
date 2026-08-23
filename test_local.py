@@ -682,8 +682,16 @@ check("plug: a CTA with no link is rejected",
       plug_problems("you should really buy my guide, it is great"))
 check("plug: unbacked figure is rejected (a reply has no screenshot)",
       plug_problems("i made $1,638.53 doing this\n\n" + FDE_URL))
-check("plug: banned emoji is rejected",
+# BANNED_EMOJI is intentionally EMPTY as of 2026-08-23 - the account's own top
+# posts are emoji-heavy and the ban was costing reach. The MECHANISM stays under
+# test so re-populating the list works if that judgement ever reverses.
+_saved_banned = vcm.BANNED_EMOJI
+vcm.BANNED_EMOJI = ["\U0001f525"]
+check("plug: banned-emoji mechanism fires when the list is populated",
       plug_problems("here you go \U0001f525\n\n" + FDE_URL))
+vcm.BANNED_EMOJI = _saved_banned
+check("plug: with the list empty, emoji pass freely",
+      plug_problems("here you go \U0001f525\U0001f4b8\n\n" + FDE_URL) == [])
 check("plug: over the 490 char cap is rejected",
       plug_problems("x" * 500 + "\n\n" + FDE_URL))
 # The question check must look at the PROSE, not the raw string: a plug always
