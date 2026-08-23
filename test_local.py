@@ -591,12 +591,20 @@ def plug_entry(eid, root, text="cta"):
                                          "thread_ids": [root, root + "b"]}},
             "auto_plug": {"status": "pending", "account": "MAIN", "text": text}}
 
-check("threshold: 1499 views does not qualify", not ap.qualifies({"views": 1499, "likes": 0}))
-check("threshold: 1500 views qualifies", ap.qualifies({"views": 1500, "likes": 0}))
-check("threshold: 20 likes qualifies on its own", ap.qualifies({"views": 10, "likes": 20}))
+# Asserted against the CONSTANTS, not literals. These were hardcoded to 1499/1500
+# and broke the moment the threshold was recalibrated on 2026-08-22 - and a test
+# that has to be edited every time reach shifts is a test nobody trusts.
+check("threshold: one below MIN_VIEWS does not qualify",
+      not ap.qualifies({"views": ap.MIN_VIEWS - 1, "likes": 0}))
+check("threshold: MIN_VIEWS qualifies",
+      ap.qualifies({"views": ap.MIN_VIEWS, "likes": 0}))
+check("threshold: MIN_LIKES qualifies on its own",
+      ap.qualifies({"views": 10, "likes": ap.MIN_LIKES}))
 
 plugged.clear()
-stats_by_id = {"r1": {"views": 300, "likes": 2}}
+# A real flop at current reach. 300 views used to be a flop against a 1,500 bar;
+# after recalibration it CLEARS the bar, which is what broke this test.
+stats_by_id = {"r1": {"views": max(1, ap.MIN_VIEWS // 3), "likes": ap.MIN_LIKES - 1}}
 q12 = [plug_entry(300, "r1")]
 ap.run(q12, now=NOW, log=lambda *a: None)
 check("flop gets NO cta", plugged == [] and q12[0]["auto_plug"]["status"] == "pending")
