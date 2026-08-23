@@ -11681,7 +11681,7 @@
   {
     "id": 2195,
     "scheduled_time": "2026-08-24T01:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (11).png",
     "text": "\"grow first. sell later.\"\n\nglad i ignored that.\n\na stranger went from one post to the bio to a $739.50 purchase.\n\nthe follower count wasn't part of the receipt.",
     "targets": [
@@ -11695,7 +11695,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17922152337422185",
+        "at": "2026-08-23T23:10:35.737136+00:00"
+      }
+    },
+    "posted_at": "2026-08-23T23:10:35.737136+00:00",
+    "thread_id": "17922152337422185"
   },
   {
     "id": 2196,
