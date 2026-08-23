@@ -10141,7 +10141,7 @@
   {
     "id": 2128,
     "scheduled_time": "2026-08-23T08:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_3944.PNG",
     "text": "ITS OFFICIAL!!!!!\n$181.30 landed and my phone was still plugged into the wall.\n\nbuilt this faceless. built it from a phone. started with nobody watching.\n\nstill weird seeing it become real 🤍",
     "targets": [
@@ -10159,7 +10159,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18099116681110407",
+        "at": "2026-08-23T06:00:50.943493+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2091405459421085735",
+        "at": "2026-08-23T06:00:50.943493+00:00"
+      }
+    },
+    "posted_at": "2026-08-23T06:00:50.943493+00:00"
   },
   {
     "id": 2129,
