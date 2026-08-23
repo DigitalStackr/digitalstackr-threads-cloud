@@ -10528,7 +10528,7 @@
   {
     "id": 2144,
     "scheduled_time": "2026-08-24T01:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_4395.PNG",
     "text": "okay. officially proud of this.\n\n$27.\n\nno face on the sales page.\n\nno voice in the product.\n\njust something useful and someone trusting it.",
     "targets": [
@@ -10546,7 +10546,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18097424603309500",
+        "at": "2026-08-23T23:00:53.075081+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2091662158719570031",
+        "at": "2026-08-23T23:00:53.075081+00:00"
+      }
+    },
+    "posted_at": "2026-08-23T23:00:53.075081+00:00"
   },
   {
     "id": 2145,
