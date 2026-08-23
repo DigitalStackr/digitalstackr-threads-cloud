@@ -157,7 +157,13 @@ def validate(queue: list) -> list:
     posted.sort(key=lambda e: e.get("scheduled_time", ""))
     recent_posted = posted[-DEDUPE_LOOKBACK:]
 
-    upcoming = [e for e in queue if e.get("status") in ("pending", "held")]
+    # "held" is EXCLUDED on purpose. scheduler.py only fires "pending", so a held
+    # entry never publishes - counting it in the spacing/dedupe checks lets content
+    # that will never go out constrain content that will. Found 2026-08-23 after 52
+    # plain receipts were held: the single hype-emoji post left in the queue was
+    # flagged for sitting too close to a held one nobody would ever see.
+    # A revived entry goes back to "pending" and is validated then.
+    upcoming = [e for e in queue if e.get("status") == "pending"]
     upcoming.sort(key=lambda e: e.get("scheduled_time", ""))
 
     def flag(entry, msg):
