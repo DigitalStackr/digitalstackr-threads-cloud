@@ -6633,9 +6633,16 @@
       }
     ],
     "auto_plug": {
-      "status": "pending",
+      "status": "posted",
       "account": "MAIN",
-      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+      "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. it's the whole thing - what to sell, how to build it, how to set the store up so it runs on its own.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire",
+      "id": "18110058842084544",
+      "at": "2026-08-23T03:55:29.950523+00:00",
+      "stats_at_fire": {
+        "views": 354,
+        "likes": 4,
+        "replies": 9
+      }
     },
     "results": {
       "threads:MAIN": {
@@ -9090,10 +9097,17 @@
     "posted_at": "2026-08-19T14:40:40.300823+00:00",
     "thread_id": "17980526115070362",
     "auto_plug": {
-      "status": "pending",
+      "status": "posted",
       "account": "TDS",
       "target_key": "threads:TDS",
-      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire",
+      "id": "18153271099503869",
+      "at": "2026-08-23T03:55:29.950523+00:00",
+      "stats_at_fire": {
+        "views": 366,
+        "likes": 2,
+        "replies": 0
+      }
     }
   },
   {
