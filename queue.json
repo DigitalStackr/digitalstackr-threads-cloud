@@ -11759,7 +11759,7 @@
   {
     "id": 2197,
     "scheduled_time": "2026-08-24T08:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "Untitled design (8).png",
     "text": "\"doing it from your phone isn't serious\"\n\nthen a payment notification for $224.52 lands on the exact phone i built it from.",
     "targets": [
@@ -11773,7 +11773,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18466603579119784",
+        "at": "2026-08-24T06:10:36.368955+00:00"
+      }
+    },
+    "posted_at": "2026-08-24T06:10:36.368955+00:00",
+    "thread_id": "18466603579119784"
   },
   {
     "id": 2198,
