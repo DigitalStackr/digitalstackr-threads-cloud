@@ -11823,7 +11823,7 @@
   {
     "id": 2199,
     "scheduled_time": "2026-08-24T14:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_3795.PNG",
     "text": "\"that market is saturated\"\n\ni used to let sentences like that sit in my head.\n\nthen another receipt appears beside my product name.\n\n$50.",
     "targets": [
@@ -11837,7 +11837,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17959698795189253",
+        "at": "2026-08-24T12:10:35.191033+00:00"
+      }
+    },
+    "posted_at": "2026-08-24T12:10:35.191033+00:00",
+    "thread_id": "17959698795189253"
   },
   {
     "id": 2200,
