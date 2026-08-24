@@ -10204,7 +10204,7 @@
   {
     "id": 2130,
     "scheduled_time": "2026-08-25T01:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_4397.PNG",
     "text": "okay this one got me.\n\n$382.\n\nand the gumroad dashboard still looks like the same little page i opened when nobody was buying.\n\nvery very grateful for this.",
     "targets": [
@@ -10222,7 +10222,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "the system behind this isn't a secret, it's just long.\n\nso i wrote the whole thing down. no audience, no budget, no face — what to sell and how to get it in front of people.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18084617102677134",
+        "at": "2026-08-24T23:00:55.797910+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2092024555237790136",
+        "at": "2026-08-24T23:00:55.797910+00:00"
+      }
+    },
+    "posted_at": "2026-08-24T23:00:55.797910+00:00"
   },
   {
     "id": 2131,
