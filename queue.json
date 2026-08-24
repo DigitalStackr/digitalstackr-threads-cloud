@@ -10317,10 +10317,17 @@
       }
     ],
     "auto_plug": {
-      "status": "pending",
+      "status": "posted",
       "account": "MAIN",
       "target_key": "threads:MAIN",
-      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+      "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire",
+      "id": "17866900863637328",
+      "at": "2026-08-24T01:00:51.812743+00:00",
+      "stats_at_fire": {
+        "views": 88,
+        "likes": 6,
+        "replies": 2
+      }
     },
     "results": {
       "threads:MAIN": {
