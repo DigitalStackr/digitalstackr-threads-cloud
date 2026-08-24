@@ -24,7 +24,25 @@ import requests
 QUEUE = Path(__file__).parent / "queue.json"
 
 RUNWAY_WARN_HOURS = 48     # shout when under two days of Threads content remain
-SILENCE_ALERT_HOURS = 8    # shout if nothing has published in this long
+SILENCE_ALERT_HOURS = 10   # shout if nothing has published in this long.
+# Was 8, set when the grid ran 6 slots/day. The grid is now 4/day (08:00, 14:00,
+# 19:00, 01:00 Berlin), so the legitimate overnight gap is 19:10 -> 01:00 and
+# 01:10 -> 08:00, i.e. ~7h. At 8h this fired most nights on a perfectly healthy
+# queue, and an alert that cries wolf nightly is one nobody reads - which is the
+# same way the Aug 14 outage went unnoticed for 94 hours.
+# Re-derive this if the slot grid changes again: it must exceed the largest
+# INTENDED gap, with margin.
+
+# GAP DETECTION - added 2026-08-23.
+# RUNWAY_WARN_HOURS only looks at the LAST scheduled post, so a queue holding 74
+# entries stretching to Aug 28 reports as perfectly healthy even with a 36-hour
+# hole in the middle of it. That is exactly what happened on Aug 22: three posts
+# went out all day, every scheduler run was green, nothing warned.
+#
+# Total runway and continuity are different properties. This checks continuity.
+NEXT_POST_ALERT_HOURS = 12   # nothing scheduled within this many hours = page me
+MAX_GAP_HOURS = 18           # a hole this big inside the queue = page me
+GAP_LOOKAHEAD_HOURS = 96     # how far forward to inspect for holes
 
 
 def threads_pending(queue, now):
@@ -132,6 +150,26 @@ def main() -> int:
           f"{silent:.0f}h since last publish", flush=True)
 
     problems = []
+
+    # --- continuity, not just total runway ---
+    if pending:
+        to_next = (pending[0] - now).total_seconds() / 3600
+        if to_next > NEXT_POST_ALERT_HOURS:
+            problems.append(
+                f"NOTHING SCHEDULED FOR {to_next:.0f}h. Next post is "
+                f"{pending[0].isoformat()[:16]}. The queue is not empty, but there "
+                f"is a hole at the front of it.")
+        horizon = now + timedelta(hours=GAP_LOOKAHEAD_HOURS)
+        window = [p for p in pending if p <= horizon]
+        for a, b in zip(window, window[1:]):
+            gap = (b - a).total_seconds() / 3600
+            if gap > MAX_GAP_HOURS:
+                problems.append(
+                    f"{gap:.0f}h GAP inside the queue: {a.isoformat()[:16]} -> "
+                    f"{b.isoformat()[:16]}. Total runway looks fine; continuity "
+                    f"does not.")
+                break
+
     if hours_left < RUNWAY_WARN_HOURS:
         problems.append(f"Content runway low: {len(pending)} Threads posts left, "
                         f"about {hours_left:.0f}h. Refill before it empties.")
