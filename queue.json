@@ -10642,7 +10642,7 @@
   {
     "id": 2148,
     "scheduled_time": "2026-08-24T08:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_4274.PNG",
     "text": "someone paid $147 for something i built without ever knowing my name.\n\nthat's the part i keep thinking about.\n\nthe checkout page did all the introducing for me.",
     "targets": [
@@ -10660,7 +10660,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17929821012147973",
+        "at": "2026-08-24T06:00:54.814108+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2091767861282762792",
+        "at": "2026-08-24T06:00:54.814108+00:00"
+      }
+    },
+    "posted_at": "2026-08-24T06:00:54.814108+00:00"
   },
   {
     "id": 2149,
