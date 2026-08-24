@@ -10798,7 +10798,7 @@
   {
     "id": 2154,
     "scheduled_time": "2026-08-24T19:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_1747.PNG",
     "text": "someone paid $17.16 and immediately got the product without waiting for me.\n\nthat little delivery email is doing more work than people realise.",
     "targets": [
@@ -10816,7 +10816,20 @@
       "account": "MAIN",
       "target_key": "threads:MAIN",
       "text": "for everyone asking how — it's all written down.\n\npicking the product, building the thing, setting the store up, and what to actually post so people find it.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18110877374016036",
+        "at": "2026-08-24T17:00:53.169572+00:00"
+      },
+      "x": {
+        "status": "posted",
+        "id": "2091933942362382473",
+        "at": "2026-08-24T17:00:53.169572+00:00"
+      }
+    },
+    "posted_at": "2026-08-24T17:00:53.169572+00:00"
   },
   {
     "id": 2155,
