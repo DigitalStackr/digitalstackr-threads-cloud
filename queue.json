@@ -11887,7 +11887,7 @@
   {
     "id": 2201,
     "scheduled_time": "2026-08-24T19:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "image_file": "IMG_2521.PNG",
     "text": "\"you're always on this app\"\n\nyeah.\n\nbecause a tiny post can turn into a checkout receipt for $27 while it's still sitting in my recent tabs.",
     "targets": [
@@ -11901,7 +11901,16 @@
       "account": "TDS",
       "target_key": "threads:TDS",
       "text": "getting a lot of dms asking how this works.\n\neasier to put it in one place than answer it fifty times. what to sell, how to build it, how to set the store up so it keeps running when you're not there.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
-    }
+    },
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18064314815734712",
+        "at": "2026-08-24T17:10:40.028944+00:00"
+      }
+    },
+    "posted_at": "2026-08-24T17:10:40.028944+00:00",
+    "thread_id": "18064314815734712"
   },
   {
     "id": 2202,
