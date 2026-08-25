@@ -12603,13 +12603,22 @@
     "text": "ITS FINALLY OFFICIAL!!!!!\n\nI can finally say it…\n\nI made $382 just this month 🥹✨\n\nForever grateful.",
     "image_file": "IMG_4397.PNG",
     "scheduled_time": "2026-08-25T13:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18109939106583188",
+        "at": "2026-08-25T11:10:40.318593+00:00"
+      }
+    },
+    "posted_at": "2026-08-25T11:10:40.318593+00:00",
+    "thread_id": "18109939106583188"
   },
   {
     "id": 2246,
