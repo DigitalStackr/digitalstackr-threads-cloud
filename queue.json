@@ -12649,13 +12649,22 @@
     "text": "\"get experience first.\"\ni had zero. 65 strangers still paid me $1,109.77.\nexperience is the receipt you get AFTER you start — not the ticket in. 💸",
     "image_file": "payout gumroad sales ss.png",
     "scheduled_time": "2026-08-25T16:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17950379115256514",
+        "at": "2026-08-25T14:10:35.675175+00:00"
+      }
+    },
+    "posted_at": "2026-08-25T14:10:35.675175+00:00",
+    "thread_id": "17950379115256514"
   },
   {
     "id": 2248,
