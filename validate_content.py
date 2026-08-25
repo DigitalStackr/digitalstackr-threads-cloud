@@ -30,7 +30,14 @@ IMAGE_REUSE_DAYS = 2        # relaxed 2026-07-30: reuse is fine, just never back
 # 3,870 views and produced the 26,426 and 23,803 posts. Big numbers are not the
 # risk the old rule assumed - they are what travels. 8/account/month keeps them
 # from becoming the ONLY thing posted without rationing them into uselessness.
-RARE_PER_MONTH = 8
+# Raised again 8 -> 24 on 2026-08-25. The 400-post pull is unambiguous: TWO OF
+# THE TOP THREE POSTS EVER use $3,937, and the winners run $3,937 / $3,898 /
+# $1,183 / $1,109 / $856 against $382 / $17.16 / $50 for the flops. Big numbers
+# are not the credibility risk the original rule assumed - they are the format.
+# What still protects the feed is the image REUSE window below, which stops the
+# same screenshot appearing twice in a week. That is the real anti-monotony rule;
+# this one was a proxy for it and was throttling the strategy.
+RARE_PER_MONTH = 24
 
 MAX_DASHBOARD_PER = 3         # window size for the dashboard-spam check
 MAX_DASHBOARD_IN_WINDOW = 3   # widened from 2 on 2026-08-23 to fit 8 posts/day;
