@@ -12695,13 +12695,22 @@
     "text": "my product sold while i was asleep.\n70 times today. $1,183.32.\n\nthis business is genuinely insane and i mean that. 😭💸",
     "image_file": "gumroad more money dahsbaord.png",
     "scheduled_time": "2026-08-25T19:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18108525775984466",
+        "at": "2026-08-25T17:10:43.446721+00:00"
+      }
+    },
+    "posted_at": "2026-08-25T17:10:43.446721+00:00",
+    "thread_id": "18108525775984466"
   },
   {
     "id": 2250,
