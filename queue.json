@@ -12764,13 +12764,22 @@
     "text": "$856.23 from 92 people.\nnot one of them has seen my face or knows my name.",
     "image_file": "Untitled design(4).png",
     "scheduled_time": "2026-08-26T01:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18099881255578470",
+        "at": "2026-08-25T23:00:52.816463+00:00"
+      }
+    },
+    "posted_at": "2026-08-25T23:00:52.816463+00:00",
+    "thread_id": "18099881255578470"
   },
   {
     "id": 2253,
