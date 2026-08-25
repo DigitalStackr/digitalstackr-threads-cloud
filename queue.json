@@ -11757,10 +11757,17 @@
       }
     ],
     "auto_plug": {
-      "status": "pending",
+      "status": "posted",
       "account": "TDS",
       "target_key": "threads:TDS",
-      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+      "text": "too many dms to answer one by one, so here's the honest version.\n\nnone of it was luck. it's one repeatable setup, start to finish, and it's the same one i still use every week.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire",
+      "id": "17944055391270821",
+      "at": "2026-08-25T00:00:51.186426+00:00",
+      "stats_at_fire": {
+        "views": 392,
+        "likes": 11,
+        "replies": 0
+      }
     },
     "results": {
       "threads:TDS": {
