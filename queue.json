@@ -12978,13 +12978,22 @@
     "text": "I am never deleting this app. 😭💸",
     "image_file": "Untitled design(6).png",
     "scheduled_time": "2026-08-26T19:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18114005741072503",
+        "at": "2026-08-26T17:10:47.813343+00:00"
+      }
+    },
+    "posted_at": "2026-08-26T17:10:47.813343+00:00",
+    "thread_id": "18114005741072503"
   },
   {
     "id": 2262,
