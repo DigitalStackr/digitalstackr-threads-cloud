@@ -12817,13 +12817,22 @@
     "text": "This is passive income 🥹",
     "image_file": "Untitled design (11).png",
     "scheduled_time": "2026-08-26T08:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18120827345487853",
+        "at": "2026-08-26T06:00:53.394215+00:00"
+      }
+    },
+    "posted_at": "2026-08-26T06:00:53.394215+00:00",
+    "thread_id": "18120827345487853"
   },
   {
     "id": 2255,
