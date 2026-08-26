@@ -13024,13 +13024,22 @@
     "text": "$181.30 landed while i was doing absolutely nothing.\nfirst time i properly understood what people mean by passive. ☕",
     "image_file": "IMG_3944.PNG",
     "scheduled_time": "2026-08-26T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18025729169884737",
+        "at": "2026-08-26T20:10:36.918431+00:00"
+      }
+    },
+    "posted_at": "2026-08-26T20:10:36.918431+00:00",
+    "thread_id": "18025729169884737"
   },
   {
     "id": 2264,
