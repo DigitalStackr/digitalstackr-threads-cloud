@@ -13070,13 +13070,22 @@
     "text": "DONT STOP POSTING!!!!\n\n$1,673.63 FROM 86 PEOPLE 🥳🎉",
     "image_file": "Untitled design (18).png",
     "scheduled_time": "2026-08-27T01:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18113301524022410",
+        "at": "2026-08-26T23:10:35.225797+00:00"
+      }
+    },
+    "posted_at": "2026-08-26T23:10:35.225797+00:00",
+    "thread_id": "18113301524022410"
   },
   {
     "id": 2266,
