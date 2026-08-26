@@ -12886,13 +12886,22 @@
     "text": "Normalize making money from a phone 🥹",
     "image_file": "Untitled design (10).png",
     "scheduled_time": "2026-08-26T13:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18109166812965941",
+        "at": "2026-08-26T11:10:33.771123+00:00"
+      }
+    },
+    "posted_at": "2026-08-26T11:10:33.771123+00:00",
+    "thread_id": "18109166812965941"
   },
   {
     "id": 2258,
