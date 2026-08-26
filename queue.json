@@ -12932,13 +12932,22 @@
     "text": "\"you need a fast wifi and a good laptop for this\"\n\n$19,079.70 all time. on a $200 chromebook.\nthe excuse was never the equipment. 😭💸",
     "image_file": "Untitled design (15).png",
     "scheduled_time": "2026-08-26T16:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18134263468624971",
+        "at": "2026-08-26T14:10:38.437636+00:00"
+      }
+    },
+    "posted_at": "2026-08-26T14:10:38.437636+00:00",
+    "thread_id": "18134263468624971"
   },
   {
     "id": 2260,
