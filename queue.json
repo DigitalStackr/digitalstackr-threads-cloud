@@ -12863,13 +12863,22 @@
     "text": "Normalize making money from a phone 🥹",
     "image_file": "Untitled design (10).png",
     "scheduled_time": "2026-08-26T13:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18124617445697377",
+        "at": "2026-08-26T11:00:51.603884+00:00"
+      }
+    },
+    "posted_at": "2026-08-26T11:00:51.603884+00:00",
+    "thread_id": "18124617445697377"
   },
   {
     "id": 2257,
