@@ -13205,5 +13205,341 @@
         "account": "TDS"
       }
     ]
+  },
+  {
+    "id": 2274,
+    "account": "MAIN",
+    "text": "ITS OFFICIAL!!!!! 🥳\n\n$2,013.39 THIS MONTH 🏦\n\n81 people. one file. 😭💸",
+    "image_file": "gumroad dashbaord ss 2k.png",
+    "scheduled_time": "2026-08-28T08:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2275,
+    "account": "TDS",
+    "text": "ITS OFFICIAL!!!!! 🥳\n\n$2,013.39 THIS MONTH 🏦\n\n81 people. one file. 😭💸",
+    "image_file": "gumroad dashbaord ss 2k.png",
+    "scheduled_time": "2026-08-28T08:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2276,
+    "account": "MAIN",
+    "text": "PAY DAY 🏦\n\n$1,380.13 just landed.\n\nfrom something i wrote once 🥹",
+    "image_file": "paypal notification ss 1.3k.png",
+    "scheduled_time": "2026-08-28T13:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2277,
+    "account": "TDS",
+    "text": "PAY DAY 🏦\n\n$1,380.13 just landed.\n\nfrom something i wrote once 🥹",
+    "image_file": "paypal notification ss 1.3k.png",
+    "scheduled_time": "2026-08-28T13:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2278,
+    "account": "MAIN",
+    "text": "$964.80 TODAY. 64 people.\n\ni keep checking to make sure it's real 😭💸",
+    "image_file": "dashbaord ss 964tdy.png",
+    "scheduled_time": "2026-08-28T16:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2279,
+    "account": "TDS",
+    "text": "$964.80 TODAY. 64 people.\n\ni keep checking to make sure it's real 😭💸",
+    "image_file": "dashbaord ss 964tdy.png",
+    "scheduled_time": "2026-08-28T16:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2280,
+    "account": "MAIN",
+    "text": "$612 in a single day.\n26 people.\n\nnobody asked who i was 🥹",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "scheduled_time": "2026-08-28T19:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2281,
+    "account": "TDS",
+    "text": "$612 in a single day.\n26 people.\n\nnobody asked who i was 🥹",
+    "image_file": "612 a day gumroad dahsbaord ss.png",
+    "scheduled_time": "2026-08-28T19:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2282,
+    "account": "MAIN",
+    "text": "$1,109.77 THIS MONTH 🥳\n\n66 people.\n\ni was asleep for most of it 😭💸",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "scheduled_time": "2026-08-28T22:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2283,
+    "account": "TDS",
+    "text": "$1,109.77 THIS MONTH 🥳\n\n66 people.\n\ni was asleep for most of it 😭💸",
+    "image_file": "gum dashbrd ss 1kmon.png",
+    "scheduled_time": "2026-08-28T22:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2284,
+    "account": "MAIN",
+    "text": "$556.26 from 32 people today 🥹\n\none document. that's the whole business.",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "scheduled_time": "2026-08-29T01:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2285,
+    "account": "TDS",
+    "text": "$556.26 from 32 people today 🥹\n\none document. that's the whole business.",
+    "image_file": "gumroad dahsbaord ss 556.png",
+    "scheduled_time": "2026-08-29T01:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2286,
+    "account": "MAIN",
+    "text": "$460.80. 18 people. today.\n\nnot life changing. but it's REAL 🥹",
+    "image_file": "digistackr sales proof.png",
+    "scheduled_time": "2026-08-29T08:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2287,
+    "account": "TDS",
+    "text": "$460.80. 18 people. today.\n\nnot life changing. but it's REAL 🥹",
+    "image_file": "digistackr sales proof.png",
+    "scheduled_time": "2026-08-29T08:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2288,
+    "account": "MAIN",
+    "text": "37 people bought today. $453.92 💸\n\ni have never met a single one of them.",
+    "image_file": "sales proof.png",
+    "scheduled_time": "2026-08-29T13:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2289,
+    "account": "TDS",
+    "text": "37 people bought today. $453.92 💸\n\ni have never met a single one of them.",
+    "image_file": "sales proof.png",
+    "scheduled_time": "2026-08-29T13:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2290,
+    "account": "MAIN",
+    "text": "$125 today from 24 people.\n\nsmall numbers still land while you sleep 🥹",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "scheduled_time": "2026-08-29T16:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2291,
+    "account": "TDS",
+    "text": "$125 today from 24 people.\n\nsmall numbers still land while you sleep 🥹",
+    "image_file": "125 tdy gumroad dahsbaord.png",
+    "scheduled_time": "2026-08-29T16:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2292,
+    "account": "MAIN",
+    "text": "$112.70. 17 people.\n\nEVERYONE starts here. i did 😭💸",
+    "image_file": "gumroad 112day.png",
+    "scheduled_time": "2026-08-29T19:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2293,
+    "account": "TDS",
+    "text": "$112.70. 17 people.\n\nEVERYONE starts here. i did 😭💸",
+    "image_file": "gumroad 112day.png",
+    "scheduled_time": "2026-08-29T19:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2294,
+    "account": "MAIN",
+    "text": "$1,963.86 THIS WEEK 🥳\n\nthreads. a doc. gumroad.\nthat is the entire stack 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "scheduled_time": "2026-08-29T22:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2295,
+    "account": "TDS",
+    "text": "$1,963.86 THIS WEEK 🥳\n\nthreads. a doc. gumroad.\nthat is the entire stack 💸",
+    "image_file": "gum iphone dashabord w apps.png",
+    "scheduled_time": "2026-08-29T22:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
+  },
+  {
+    "id": 2296,
+    "account": "MAIN",
+    "text": "92 SALES IN ONE DAY 🥳\n\n$856.23 💸\n\ni still don't fully believe it 🥹",
+    "image_file": "gumrd dashbrd ss 856.png",
+    "scheduled_time": "2026-08-30T01:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "MAIN"
+      }
+    ]
+  },
+  {
+    "id": 2297,
+    "account": "TDS",
+    "text": "92 SALES IN ONE DAY 🥳\n\n$856.23 💸\n\ni still don't fully believe it 🥹",
+    "image_file": "gumrd dashbrd ss 856.png",
+    "scheduled_time": "2026-08-30T01:10:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "threads",
+        "account": "TDS"
+      }
+    ]
   }
 ]
