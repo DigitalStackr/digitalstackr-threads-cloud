@@ -13169,13 +13169,22 @@
     "text": "$1,163.95. 111 people. ONE FILE.\n\ni'm not okay 😭💸",
     "image_file": "Untitled design(5).png",
     "scheduled_time": "2026-08-27T13:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18190695511400253",
+        "at": "2026-08-27T11:10:44.805854+00:00"
+      }
+    },
+    "posted_at": "2026-08-27T11:10:44.805854+00:00",
+    "thread_id": "18190695511400253"
   },
   {
     "id": 2270,
