@@ -13238,13 +13238,22 @@
     "text": "IT'S OFFICIAL 🥳\n\n$2,954.12 deposited 🏦\n\ni'm 19. this is genuinely insane 😭💸",
     "image_file": "IMG_2662.PNG",
     "scheduled_time": "2026-08-27T19:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18131252992637808",
+        "at": "2026-08-27T17:01:02.468482+00:00"
+      }
+    },
+    "posted_at": "2026-08-27T17:01:02.468482+00:00",
+    "thread_id": "18131252992637808"
   },
   {
     "id": 2273,
