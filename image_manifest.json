@@ -322,21 +322,150 @@
       ],
       "shows": "Gumroad push: FDE $27, but the dynamic island shows a transit app (green S, '4 stops')",
       "blocked_reason": "reveals location via the transit widget — breaks the no-location rule visually even if the caption is clean"
+    },
+    "paypal notification ss 1.3k.png": {
+      "kind": "payout",
+      "tier": "rare",
+      "numbers": [
+        "$1380.13",
+        "$1,380.13"
+      ],
+      "shows": "PayPal push: You received $1380.13 USD from Gumroad Inc",
+      "note": "Opened and verified 2026-08-26. Clean single-figure payout, no other numbers in shot."
+    },
+    "gumroad dashbaord ss 2k.png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$2,013.39",
+        "$2013.39",
+        "81"
+      ],
+      "shows": "Gumroad Dashboard: $2,013.39 from 81 sales, MONTH tab selected",
+      "note": "Opened and verified 2026-08-26. MONTH tab - frame as a month, never a day."
+    },
+    "612 a day gumroad dahsbaord ss.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$612",
+        "612",
+        "26"
+      ],
+      "shows": "Gumroad Dashboard: $612 from 26 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26."
+    },
+    "gum dashbrd ss 1kmon.png": {
+      "kind": "dashboard",
+      "tier": "rare",
+      "numbers": [
+        "$1,109.77",
+        "$1109.77",
+        "$1,109",
+        "66"
+      ],
+      "shows": "Gumroad Dashboard: $1,109.77 from 66 sales, MONTH tab selected",
+      "note": "Opened and verified 2026-08-26. SAME FIGURE as 'payout gumroad sales ss.png' but this one shows the sales count (66) - use this when the caption says 66. Do not schedule both close together."
+    },
+    "digistackr sales proof.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$460.80",
+        "460.80",
+        "18"
+      ],
+      "shows": "Gumroad Dashboard: $460.80 from 18 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26."
+    },
+    "gumroad 112day.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$112.70",
+        "112.70",
+        "17"
+      ],
+      "shows": "Gumroad Dashboard: $112.70 from 17 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26. Small figure - good for 'small real numbers' posts."
+    },
+    "125 tdy gumroad dahsbaord.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$125",
+        "125",
+        "24"
+      ],
+      "shows": "Gumroad Dashboard (DARK theme): $125 from 24 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26. Only dark-theme dashboard in the set - useful for breaking up a run of light ones."
+    },
+    "dashbaord ss 964tdy.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$964.80",
+        "964.80",
+        "64"
+      ],
+      "shows": "Gumroad Dashboard: $964.80 from 64 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26."
+    },
+    "gumrd dashbrd ss 856.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$856.23",
+        "856.23",
+        "92"
+      ],
+      "shows": "Gumroad Dashboard: $856.23 from 92 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26. SAME FIGURES as 'Untitled design(4).png' - different crop of the same day. Never schedule both in one week."
+    },
+    "gumroad dahsbaord ss 556.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$556.26",
+        "556.26",
+        "32"
+      ],
+      "shows": "Gumroad Dashboard: $556.26 from 32 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26."
+    },
+    "sales proof.png": {
+      "kind": "dashboard",
+      "tier": "core",
+      "numbers": [
+        "$453.92",
+        "453.92",
+        "37"
+      ],
+      "shows": "Gumroad Dashboard: $453.92 from 37 sales, TODAY tab selected",
+      "note": "Opened and verified 2026-08-26."
+    },
+    "gum iphone dashabord w apps.png": {
+      "kind": "phone_notifications",
+      "tier": "rare",
+      "numbers": [
+        "$186.62",
+        "$1,963.86",
+        "$5,612.56",
+        "$41,639.36"
+      ],
+      "shows": "iPhone home screen with Threads/ChatGPT/Gumroad/Notion icons and a Gumroad Totals widget: Today $186.62, Week $1,963.86, Month $5,612.56, Year $41,639.36",
+      "note": "Opened and verified 2026-08-26. FOUR figures visible - a caption may only quote one and must label its period. The YEAR figure ($41,639) historically flopped at 60-90 views; quote Today or Week instead."
+    },
+    "Gumroad Sales Screenshots.PNG": {
+      "kind": "sale_notification",
+      "tier": "core",
+      "numbers": [
+        "$12.65",
+        "$31.05"
+      ],
+      "shows": "Gumroad notifications stacked: Threads Revenue Ladder $12.65 and Faceless Digital Empire $31.05, both 2m ago",
+      "note": "Opened and verified 2026-08-26. TRL at $12.65 and FDE at $31.05 are BOTH old prices (now $9 and $27) - historical proof only, never as today's price."
     }
   },
-  "unverified_do_not_use": [
-    "125 tdy gumroad dahsbaord.png",
-    "612 a day gumroad dahsbaord ss.png",
-    "Gumroad Sales Screenshots.PNG",
-    "dashbaord ss 964tdy.png",
-    "digistackr sales proof.png",
-    "gum dashbrd ss 1kmon.png",
-    "gum iphone dashabord w apps.png",
-    "gumrd dashbrd ss 856.png",
-    "gumroad 112day.png",
-    "gumroad dahsbaord ss 556.png",
-    "gumroad dashbaord ss 2k.png",
-    "paypal notification ss 1.3k.png",
-    "sales proof.png"
-  ]
+  "unverified_do_not_use": []
 }
