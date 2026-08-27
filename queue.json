@@ -10683,10 +10683,17 @@
       }
     ],
     "auto_plug": {
-      "status": "pending",
+      "status": "posted",
       "account": "MAIN",
       "target_key": "threads:MAIN",
-      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire"
+      "text": "people keep asking what i'd do if i started from scratch tomorrow.\n\nthis is that, written out. what to sell, how to make it, how to set it up so it can sell while you're asleep.\n\nhttps://digitalstackr.gumroad.com/l/faceless-digital-empire",
+      "id": "18351307201173467",
+      "at": "2026-08-27T00:00:52.872993+00:00",
+      "stats_at_fire": {
+        "views": 118,
+        "likes": 6,
+        "replies": 0
+      }
     },
     "results": {
       "threads:MAIN": {
