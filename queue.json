@@ -12566,13 +12566,22 @@
     "text": "IT'S OFFICIAL!!!!! 💸\n\nPayout just landed: $3,937.55 🏦\n\nI'm never quitting this app fr. 🥹🥹🥹",
     "image_file": "3.9k gumroad ss.png",
     "scheduled_time": "2026-08-27T22:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "18136451611610539",
+        "at": "2026-08-27T20:00:55.064468+00:00"
+      }
+    },
+    "posted_at": "2026-08-27T20:00:55.064468+00:00",
+    "thread_id": "18136451611610539"
   },
   {
     "id": 2243,
