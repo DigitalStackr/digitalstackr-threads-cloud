@@ -13146,13 +13146,22 @@
     "text": "$1,163.95. 111 people. ONE FILE.\n\ni'm not okay 😭💸",
     "image_file": "Untitled design(5).png",
     "scheduled_time": "2026-08-27T13:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "MAIN"
       }
-    ]
+    ],
+    "results": {
+      "threads:MAIN": {
+        "status": "posted",
+        "id": "17898554451579352",
+        "at": "2026-08-27T11:00:51.719097+00:00"
+      }
+    },
+    "posted_at": "2026-08-27T11:00:51.719097+00:00",
+    "thread_id": "17898554451579352"
   },
   {
     "id": 2269,
