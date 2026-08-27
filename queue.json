@@ -13215,13 +13215,22 @@
     "text": "PAY DAY 🏦🥳\n\n$1,638.53 deposited.\n\nfrom something i wrote once and never touched again 🥹",
     "image_file": "Gumroad Payout Screenshots.PNG",
     "scheduled_time": "2026-08-27T16:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17921508474422542",
+        "at": "2026-08-27T14:10:37.938034+00:00"
+      }
+    },
+    "posted_at": "2026-08-27T14:10:37.938034+00:00",
+    "thread_id": "17921508474422542"
   },
   {
     "id": 2272,
