@@ -13123,13 +13123,22 @@
     "text": "okay WHAT 🥹\n\n$1,202.11 from 52 people.\n\ni keep refreshing to check it's real 😭💸",
     "image_file": "Untitled design (13).png",
     "scheduled_time": "2026-08-27T08:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18366488593300715",
+        "at": "2026-08-27T06:10:38.145530+00:00"
+      }
+    },
+    "posted_at": "2026-08-27T06:10:38.145530+00:00",
+    "thread_id": "18366488593300715"
   },
   {
     "id": 2268,
