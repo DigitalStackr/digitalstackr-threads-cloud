@@ -13393,13 +13393,22 @@
     "text": "$964.80 TODAY. 64 people.\n\ni keep checking to make sure it's real 😭💸",
     "image_file": "dashbaord ss 964tdy.png",
     "scheduled_time": "2026-08-28T16:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18104200802224495",
+        "at": "2026-08-28T14:10:41.014462+00:00"
+      }
+    },
+    "posted_at": "2026-08-28T14:10:41.014462+00:00",
+    "thread_id": "18104200802224495"
   },
   {
     "id": 2280,
