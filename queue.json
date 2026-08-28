@@ -13317,13 +13317,22 @@
     "text": "ITS OFFICIAL!!!!! 🥳\n\n$2,013.39 THIS MONTH 🏦\n\n81 people. one file. 😭💸",
     "image_file": "gumroad dashbaord ss 2k.png",
     "scheduled_time": "2026-08-28T08:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17906121684305062",
+        "at": "2026-08-28T06:10:32.898135+00:00"
+      }
+    },
+    "posted_at": "2026-08-28T06:10:32.898135+00:00",
+    "thread_id": "17906121684305062"
   },
   {
     "id": 2276,
