@@ -13355,13 +13355,22 @@
     "text": "PAY DAY 🏦\n\n$1,380.13 just landed.\n\nfrom something i wrote once 🥹",
     "image_file": "paypal notification ss 1.3k.png",
     "scheduled_time": "2026-08-28T13:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17906337225533312",
+        "at": "2026-08-28T11:10:39.028066+00:00"
+      }
+    },
+    "posted_at": "2026-08-28T11:10:39.028066+00:00",
+    "thread_id": "17906337225533312"
   },
   {
     "id": 2278,
