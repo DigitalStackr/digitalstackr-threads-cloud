@@ -13652,5 +13652,185 @@
         "account": "TDS"
       }
     ]
+  },
+  {
+    "id": 2298,
+    "text": "**Your best post and your worst post can be identical**\n\nWe reposted our own top performers word for word this month. Same text, same screenshots, same accounts.\n\nThe posts that did 27,000 views in July did 246.\n\nThat was worth knowing. It means the writing was never the problem — something about the account's distribution had changed, and no amount of better captions was going to touch it. Three weeks of rewriting proved it the expensive way.\n\nIf your content stopped working overnight, test whether it is the content before you spend a month rewriting.",
+    "image_file": null,
+    "scheduled_time": "2026-08-28T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2299,
+    "text": "**A green dashboard is not the same as a working system**\n\nOur posting system ran perfectly for 94 hours and published nothing.\n\nEvery check passed. Every run succeeded. The queue was simply empty, and nothing anywhere said so.\n\nFour days passed before anyone noticed.\n\nWhatever you automate, the alert you actually need is not \"did it run\". It is \"did anything come out the other end\".",
+    "image_file": null,
+    "scheduled_time": "2026-08-31T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2300,
+    "text": "**Count the right thing**\n\nWe believed one of our channels converted at 88% and another at 5%.\n\nIt was a counting error. The platform only creates a record when somebody actually buys or downloads — people who look and leave are invisible. So we were comparing purchases to purchases and calling it a conversion rate.\n\nThe real rate was nothing like it.\n\nBefore you act on a percentage, ask what is on the bottom of the fraction. Ours was measuring nothing.",
+    "image_file": null,
+    "scheduled_time": "2026-09-01T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2301,
+    "text": "**Seven seconds**\n\nWe downloaded nine of the best-performing reels in our niche and measured them.\n\nEvery single one: between 6 and 9 seconds.\n\nNot 30. Not 60. Under ten.\n\nShort enough that people watch it twice without deciding to. The replay is the point — it is watch time you did not have to earn twice.",
+    "image_file": null,
+    "scheduled_time": "2026-09-02T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2302,
+    "text": "**The text does not move**\n\nSame nine reels. We expected animated captions appearing line by line.\n\nNot one of them does it. The full block of text is on screen from the first frame to the last, completely still. The only thing moving is the camera drifting slowly across a desk.\n\nWe had built the opposite: animated text over a static shot.\n\nWhen you copy a format, measure it. Do not infer it from a screenshot.",
+    "image_file": null,
+    "scheduled_time": "2026-09-03T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2303,
+    "text": "**Name what they are doing right now**\n\nThe single biggest reel we studied — 40% bigger than anything else — opens by describing what the viewer is doing at that exact second: scrolling.\n\nThen it offers a swap. Do this instead, tonight.\n\nIt beat every angry \"here is what everyone gets wrong\" opener by more than four times.\n\nAttacking a thing gets attention. Naming the thing they are already doing gets more.",
+    "image_file": null,
+    "scheduled_time": "2026-09-04T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2304,
+    "text": "**Do the multiplication**\n\nWe published four posts saying that selling something a hundred times at twenty-seven dollars makes four thousand a month.\n\nIt makes two thousand seven hundred.\n\nAnyone with a calculator catches that in three seconds, and in a space where people are already braced to be lied to, one wrong sum costs far more than the claim ever gained.\n\nIf your maths is doing the persuading, check your maths.",
+    "image_file": null,
+    "scheduled_time": "2026-09-07T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2305,
+    "text": "**Free things are not lost revenue, part two**\n\nWe looked properly at what happens to people who take the free download.\n\nA small number of them come back later and pay. Not most. Not even close to most. But enough that it accounts for roughly a fifth of everything the business has ever earned.\n\nAnd that happened with **zero follow-up**. Nobody was ever emailed.\n\nThe free thing works better than we thought and we were doing the laziest possible version of it.",
+    "image_file": null,
+    "scheduled_time": "2026-09-08T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2306,
+    "text": "**One variable**\n\nWhen something stops working the temptation is to change everything at once.\n\nWe changed the writing, the posting times, the volume, the images and the rules, all in the same fortnight. Then reach moved.\n\nWe had no idea which one did it. Possibly none of them.\n\nChange one thing. Wait longer than feels comfortable. Keep something unchanged to compare against, or you are not running a test, you are just busy.",
+    "image_file": null,
+    "scheduled_time": "2026-09-09T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2307,
+    "text": "**Comments, not likes**\n\nOn short video, a like is close to worthless as a signal.\n\nWhat actually moves reach is somebody sending it to a friend, and somebody bothering to type a reply. Those are the expensive actions, so they are the ones that count.\n\nWhich changes what you make. \"Who would somebody send this to\" is a better question than \"will people like this\".",
+    "image_file": null,
+    "scheduled_time": "2026-09-10T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2308,
+    "text": "**The message they never see**\n\nWe set up an automation to reply privately when somebody comments.\n\nMost of them never saw it. On Instagram, a message from an account you do not follow lands in a requests folder people rarely open.\n\nThe fix is not a cleverer message. It is a public reply under their comment telling them where to look.\n\nDelivery is a feature. Writing something good and having it land somewhere unread is the same as not writing it.",
+    "image_file": null,
+    "scheduled_time": "2026-09-11T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2309,
+    "text": "**Two accounts, one mistake**\n\nWe posted the same video to two of our own accounts on the same day.\n\nShort video platforms match on the audio, and posting identical audio across accounts you own can get a profile filed as a duplicate.\n\nOne of ours does ten times the views of the other on the same phone with the same content.\n\nIf you run more than one account, they need genuinely different uploads, not the same file twice.",
+    "image_file": null,
+    "scheduled_time": "2026-09-14T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2310,
+    "text": "**Open the file**\n\nWe had a folder of screenshots nobody was allowed to use, because nobody had checked what was in them.\n\nThirteen of them. Sitting unusable for months because opening them was a job nobody did.\n\nWe opened them in twenty minutes. Rotation went from thin to wide, and the repetitive feed problem solved itself.\n\nSome bottlenecks are not hard. They are just boring, so they never get done.",
+    "image_file": null,
+    "scheduled_time": "2026-09-15T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2311,
+    "text": "**Match the screenshot, not your memory**\n\nA caption of ours said 65 people. The screenshot behind it showed no count at all, and a different screenshot of the same day showed 66.\n\nNobody would have caught it. That is not the point.\n\nIf you are showing proof, the number in your words has to be the number in the picture. Every time. The moment those drift apart, the proof is doing the opposite of its job.",
+    "image_file": null,
+    "scheduled_time": "2026-09-16T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
+  },
+  {
+    "id": 2312,
+    "text": "**Nobody is coming to tell you it broke**\n\nEverything quietly degrades. Queues empty. Tokens expire. Links rot — we shipped two dead ones to real people this year, one of them inside something a customer had paid for.\n\nNone of it announced itself.\n\nWhichever part of your setup would be most embarrassing to find broken in a month, go and look at it today. It is probably already broken.",
+    "image_file": null,
+    "scheduled_time": "2026-09-17T18:00:00+02:00",
+    "status": "pending",
+    "targets": [
+      {
+        "platform": "telegram"
+      }
+    ]
   }
 ]
