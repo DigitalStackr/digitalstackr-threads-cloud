@@ -13430,14 +13430,22 @@
     "account": "TDS",
     "text": "$612 in a single day.\n26 people.\n\nnobody asked who i was 🥹",
     "image_file": "612 a day gumroad dahsbaord ss.png",
-    "scheduled_time": "2026-08-28T19:10:00+02:00",
+    "scheduled_time": "2026-08-28T17:30:40.015654+00:00",
     "status": "pending",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "failed",
+        "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
+      }
+    },
+    "posted_at": "2026-08-28T17:10:40.015654+00:00",
+    "attempts": 1
   },
   {
     "id": 2282,
