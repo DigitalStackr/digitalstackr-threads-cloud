@@ -13431,7 +13431,7 @@
     "text": "$612 in a single day.\n26 people.\n\nnobody asked who i was 🥹",
     "image_file": "612 a day gumroad dahsbaord ss.png",
     "scheduled_time": "2026-08-28T18:50:45.384329+00:00",
-    "status": "pending",
+    "status": "failed",
     "targets": [
       {
         "platform": "threads",
@@ -13444,7 +13444,7 @@
         "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
       }
     },
-    "posted_at": "2026-08-28T18:30:45.384329+00:00",
+    "posted_at": "2026-08-28T18:50:36.994026+00:00",
     "attempts": 5
   },
   {
