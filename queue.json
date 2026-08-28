@@ -13676,12 +13676,20 @@
     "text": "**Your best post and your worst post can be identical**\n\nWe reposted our own top performers word for word this month. Same text, same screenshots, same accounts.\n\nThe posts that did 27,000 views in July did 246.\n\nThat was worth knowing. It means the writing was never the problem — something about the account's distribution had changed, and no amount of better captions was going to touch it. Three weeks of rewriting proved it the expensive way.\n\nIf your content stopped working overnight, test whether it is the content before you spend a month rewriting.",
     "image_file": null,
     "scheduled_time": "2026-08-28T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "25",
+        "at": "2026-08-28T16:00:55.759406+00:00"
+      }
+    },
+    "posted_at": "2026-08-28T16:00:55.759406+00:00"
   },
   {
     "id": 2299,
