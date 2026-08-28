@@ -13467,7 +13467,7 @@
     "account": "TDS",
     "text": "$1,109.77 THIS MONTH 🥳\n\n66 people.\n\ni was asleep for most of it 😭💸",
     "image_file": "gum dashbrd ss 1kmon.png",
-    "scheduled_time": "2026-08-28T20:30:36.452493+00:00",
+    "scheduled_time": "2026-08-28T20:50:45.320511+00:00",
     "status": "pending",
     "targets": [
       {
@@ -13481,8 +13481,8 @@
         "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
       }
     },
-    "posted_at": "2026-08-28T20:10:36.452493+00:00",
-    "attempts": 1
+    "posted_at": "2026-08-28T20:30:45.320511+00:00",
+    "attempts": 2
   },
   {
     "id": 2284,
