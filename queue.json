@@ -13504,14 +13504,22 @@
     "account": "TDS",
     "text": "$556.26 from 32 people today 🥹\n\none document. that's the whole business.",
     "image_file": "gumroad dahsbaord ss 556.png",
-    "scheduled_time": "2026-08-29T01:10:00+02:00",
+    "scheduled_time": "2026-08-28T23:30:35.611541+00:00",
     "status": "pending",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "failed",
+        "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
+      }
+    },
+    "posted_at": "2026-08-28T23:10:35.611541+00:00",
+    "attempts": 1
   },
   {
     "id": 2286,
