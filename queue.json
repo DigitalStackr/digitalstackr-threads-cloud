@@ -13555,13 +13555,22 @@
     "text": "37 people bought today. $453.92 💸\n\ni have never met a single one of them.",
     "image_file": "sales proof.png",
     "scheduled_time": "2026-08-29T13:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17887319061611490",
+        "at": "2026-08-29T11:10:32.768890+00:00"
+      }
+    },
+    "posted_at": "2026-08-29T11:10:32.768890+00:00",
+    "thread_id": "17887319061611490"
   },
   {
     "id": 2290,
