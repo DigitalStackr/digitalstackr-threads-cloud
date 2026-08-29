@@ -13541,7 +13541,7 @@
     "account": "TDS",
     "text": "$460.80. 18 people. today.\n\nnot life changing. but it's REAL 🥹",
     "image_file": "digistackr sales proof.png",
-    "scheduled_time": "2026-08-29T06:30:35.653122+00:00",
+    "scheduled_time": "2026-08-29T06:50:48.143458+00:00",
     "status": "pending",
     "targets": [
       {
@@ -13555,8 +13555,8 @@
         "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
       }
     },
-    "posted_at": "2026-08-29T06:10:35.653122+00:00",
-    "attempts": 1
+    "posted_at": "2026-08-29T06:30:48.143458+00:00",
+    "attempts": 2
   },
   {
     "id": 2288,
