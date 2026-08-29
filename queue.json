@@ -13593,13 +13593,22 @@
     "text": "$125 today from 24 people.\n\nsmall numbers still land while you sleep 🥹",
     "image_file": "125 tdy gumroad dahsbaord.png",
     "scheduled_time": "2026-08-29T16:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17982901083074320",
+        "at": "2026-08-29T14:10:38.859236+00:00"
+      }
+    },
+    "posted_at": "2026-08-29T14:10:38.859236+00:00",
+    "thread_id": "17982901083074320"
   },
   {
     "id": 2292,
