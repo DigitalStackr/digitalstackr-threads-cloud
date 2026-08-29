@@ -13542,7 +13542,7 @@
     "text": "$460.80. 18 people. today.\n\nnot life changing. but it's REAL 🥹",
     "image_file": "digistackr sales proof.png",
     "scheduled_time": "2026-08-29T07:50:43.005209+00:00",
-    "status": "pending",
+    "status": "failed",
     "targets": [
       {
         "platform": "threads",
@@ -13555,7 +13555,7 @@
         "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
       }
     },
-    "posted_at": "2026-08-29T07:30:43.005209+00:00",
+    "posted_at": "2026-08-29T07:50:32.708040+00:00",
     "attempts": 5
   },
   {
