@@ -13707,13 +13707,22 @@
     "text": "92 SALES IN ONE DAY 🥳\n\n$856.23 💸\n\ni still don't fully believe it 🥹",
     "image_file": "gumrd dashbrd ss 856.png",
     "scheduled_time": "2026-08-30T01:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17859855858692744",
+        "at": "2026-08-29T23:10:35.899644+00:00"
+      }
+    },
+    "posted_at": "2026-08-29T23:10:35.899644+00:00",
+    "thread_id": "17859855858692744"
   },
   {
     "id": 2298,
