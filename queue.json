@@ -13631,13 +13631,22 @@
     "text": "$112.70. 17 people.\n\nEVERYONE starts here. i did 😭💸",
     "image_file": "gumroad 112day.png",
     "scheduled_time": "2026-08-29T19:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17903842332480595",
+        "at": "2026-08-29T17:10:38.423783+00:00"
+      }
+    },
+    "posted_at": "2026-08-29T17:10:38.423783+00:00",
+    "thread_id": "17903842332480595"
   },
   {
     "id": 2294,
