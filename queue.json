@@ -13430,22 +13430,16 @@
     "account": "TDS",
     "text": "$612 in a single day.\n26 people.\n\nnobody asked who i was 🥹",
     "image_file": "612 a day gumroad dahsbaord ss.png",
-    "scheduled_time": "2026-08-28T18:50:45.384329+00:00",
-    "status": "failed",
+    "scheduled_time": "2026-08-30T08:10:00+02:00",
+    "status": "pending",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "results": {
-      "threads:TDS": {
-        "status": "failed",
-        "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
-      }
-    },
     "posted_at": "2026-08-28T18:50:36.994026+00:00",
-    "attempts": 5
+    "attempts": 0
   },
   {
     "id": 2282,
@@ -13467,22 +13461,16 @@
     "account": "TDS",
     "text": "$1,109.77 THIS MONTH 🥳\n\n66 people.\n\ni was asleep for most of it 😭💸",
     "image_file": "gum dashbrd ss 1kmon.png",
-    "scheduled_time": "2026-08-28T21:50:49.137711+00:00",
-    "status": "failed",
+    "scheduled_time": "2026-08-30T13:10:00+02:00",
+    "status": "pending",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "results": {
-      "threads:TDS": {
-        "status": "failed",
-        "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
-      }
-    },
     "posted_at": "2026-08-28T21:50:34.429251+00:00",
-    "attempts": 5
+    "attempts": 0
   },
   {
     "id": 2284,
@@ -13504,22 +13492,16 @@
     "account": "TDS",
     "text": "$556.26 from 32 people today 🥹\n\none document. that's the whole business.",
     "image_file": "gumroad dahsbaord ss 556.png",
-    "scheduled_time": "2026-08-29T00:50:40.598444+00:00",
-    "status": "failed",
+    "scheduled_time": "2026-08-30T16:10:00+02:00",
+    "status": "pending",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "results": {
-      "threads:TDS": {
-        "status": "failed",
-        "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
-      }
-    },
     "posted_at": "2026-08-29T00:50:34.187343+00:00",
-    "attempts": 5
+    "attempts": 0
   },
   {
     "id": 2286,
@@ -13541,22 +13523,16 @@
     "account": "TDS",
     "text": "$460.80. 18 people. today.\n\nnot life changing. but it's REAL 🥹",
     "image_file": "digistackr sales proof.png",
-    "scheduled_time": "2026-08-29T07:50:43.005209+00:00",
-    "status": "failed",
+    "scheduled_time": "2026-08-30T19:10:00+02:00",
+    "status": "pending",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "results": {
-      "threads:TDS": {
-        "status": "failed",
-        "error": "400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/me/threads"
-      }
-    },
     "posted_at": "2026-08-29T07:50:32.708040+00:00",
-    "attempts": 5
+    "attempts": 0
   },
   {
     "id": 2288,
