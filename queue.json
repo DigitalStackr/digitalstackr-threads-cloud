@@ -13669,13 +13669,22 @@
     "text": "$1,963.86 THIS WEEK 🥳\n\nthreads. a doc. gumroad.\nthat is the entire stack 💸",
     "image_file": "gum iphone dashabord w apps.png",
     "scheduled_time": "2026-08-29T22:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
-    ]
+    ],
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18129020452708302",
+        "at": "2026-08-29T20:10:31.634776+00:00"
+      }
+    },
+    "posted_at": "2026-08-29T20:10:31.634776+00:00",
+    "thread_id": "18129020452708302"
   },
   {
     "id": 2296,
