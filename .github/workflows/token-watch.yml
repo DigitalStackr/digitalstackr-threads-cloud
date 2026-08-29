@@ -1,0 +1,42 @@
+name: token-watch
+
+# Runs ONCE A DAY and is allowed to FAIL. That is the entire design.
+#
+# On 2026-08-28 both Threads tokens expired. TDS then failed four posts, each
+# burning all five self-heal retries, while every scheduler run reported SUCCESS -
+# because per-target isolation means a dead platform never fails the tick. That
+# isolation is correct for publishing and useless as an alarm.
+#
+# So this is deliberately NOT a step inside scheduler.yml. It is separate, daily,
+# and when a token is dead or nearly dead it exits non-zero, which makes GitHub
+# email the repo owner. That email is currently the only alerting path that
+# reliably reaches a human - runway_check's Telegram alerts are still blocked
+# because TELEGRAM_OWNER is set to the public channel handle.
+#
+# Once a day, on a real "you must act" condition, is not the noisy failure-email
+# class that was fixed in July. Nothing here can delay or break a post.
+
+on:
+  schedule:
+    - cron: '0 9 * * *'      # 09:00 UTC daily
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install requests pynacl
+
+      - name: Check and refresh Threads tokens
+        env:
+          MAIN_TOKEN: ${{ secrets.THREADS_MAIN_TOKEN }}
+          TDS_TOKEN:  ${{ secrets.THREADS_TDS_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+        run: python refresh_threads_tokens.py
