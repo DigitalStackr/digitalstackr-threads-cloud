@@ -13431,15 +13431,23 @@
     "text": "$612 in a single day.\n26 people.\n\nnobody asked who i was 🥹",
     "image_file": "612 a day gumroad dahsbaord ss.png",
     "scheduled_time": "2026-08-30T08:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "posted_at": "2026-08-28T18:50:36.994026+00:00",
-    "attempts": 0
+    "posted_at": "2026-08-30T06:10:37.863202+00:00",
+    "attempts": 0,
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18102315242206187",
+        "at": "2026-08-30T06:10:37.863202+00:00"
+      }
+    },
+    "thread_id": "18102315242206187"
   },
   {
     "id": 2282,
