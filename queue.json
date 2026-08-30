@@ -13548,15 +13548,23 @@
     "text": "$460.80. 18 people. today.\n\nnot life changing. but it's REAL 🥹",
     "image_file": "digistackr sales proof.png",
     "scheduled_time": "2026-08-30T19:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "posted_at": "2026-08-29T07:50:32.708040+00:00",
-    "attempts": 0
+    "posted_at": "2026-08-30T17:10:37.390557+00:00",
+    "attempts": 0,
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17874191865566337",
+        "at": "2026-08-30T17:10:37.390557+00:00"
+      }
+    },
+    "thread_id": "17874191865566337"
   },
   {
     "id": 2288,
