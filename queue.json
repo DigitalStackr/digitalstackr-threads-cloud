@@ -13509,15 +13509,23 @@
     "text": "$556.26 from 32 people today 🥹\n\none document. that's the whole business.",
     "image_file": "gumroad dahsbaord ss 556.png",
     "scheduled_time": "2026-08-30T16:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "posted_at": "2026-08-29T00:50:34.187343+00:00",
-    "attempts": 0
+    "posted_at": "2026-08-30T14:10:33.234949+00:00",
+    "attempts": 0,
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "17899802307579185",
+        "at": "2026-08-30T14:10:33.234949+00:00"
+      }
+    },
+    "thread_id": "17899802307579185"
   },
   {
     "id": 2286,
