@@ -13470,15 +13470,23 @@
     "text": "$1,109.77 THIS MONTH 🥳\n\n66 people.\n\ni was asleep for most of it 😭💸",
     "image_file": "gum dashbrd ss 1kmon.png",
     "scheduled_time": "2026-08-30T13:10:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "threads",
         "account": "TDS"
       }
     ],
-    "posted_at": "2026-08-28T21:50:34.429251+00:00",
-    "attempts": 0
+    "posted_at": "2026-08-30T11:10:33.869322+00:00",
+    "attempts": 0,
+    "results": {
+      "threads:TDS": {
+        "status": "posted",
+        "id": "18095140685436511",
+        "at": "2026-08-30T11:10:33.869322+00:00"
+      }
+    },
+    "thread_id": "18095140685436511"
   },
   {
     "id": 2284,
