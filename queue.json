@@ -13977,12 +13977,20 @@
     "text": "they told me to get a job.\nmy pdf is my job.",
     "image_file": null,
     "scheduled_time": "2026-08-31T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2094530912130134129",
+        "at": "2026-08-31T21:00:58.407646+00:00"
+      }
+    },
+    "posted_at": "2026-08-31T21:00:58.407646+00:00"
   },
   {
     "id": 2315,
