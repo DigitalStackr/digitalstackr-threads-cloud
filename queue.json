@@ -13949,12 +13949,20 @@
     "text": "19. no degree. no audience. no face.\ni just didn't stop posting when it was embarrassing.",
     "image_file": null,
     "scheduled_time": "2026-08-31T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2094410102308565108",
+        "at": "2026-08-31T13:00:55.145070+00:00"
+      }
+    },
+    "posted_at": "2026-08-31T13:00:55.145070+00:00"
   },
   {
     "id": 2314,
