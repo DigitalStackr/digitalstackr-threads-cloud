@@ -13781,12 +13781,20 @@
     "text": "**A green dashboard is not the same as a working system**\n\nOur posting system ran perfectly for 94 hours and published nothing.\n\nEvery check passed. Every run succeeded. The queue was simply empty, and nothing anywhere said so.\n\nFour days passed before anyone noticed.\n\nWhatever you automate, the alert you actually need is not \"did it run\". It is \"did anything come out the other end\".",
     "image_file": null,
     "scheduled_time": "2026-08-31T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "26",
+        "at": "2026-08-31T16:00:51.559560+00:00"
+      }
+    },
+    "posted_at": "2026-08-31T16:00:51.559560+00:00"
   },
   {
     "id": 2300,
