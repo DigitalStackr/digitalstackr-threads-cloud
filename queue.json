@@ -13801,12 +13801,20 @@
     "text": "**Count the right thing**\n\nWe believed one of our channels converted at 88% and another at 5%.\n\nIt was a counting error. The platform only creates a record when somebody actually buys or downloads — people who look and leave are invisible. So we were comparing purchases to purchases and calling it a conversion rate.\n\nThe real rate was nothing like it.\n\nBefore you act on a percentage, ask what is on the bottom of the fraction. Ours was measuring nothing.",
     "image_file": null,
     "scheduled_time": "2026-09-01T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "27",
+        "at": "2026-09-01T16:00:57.196882+00:00"
+      }
+    },
+    "posted_at": "2026-09-01T16:00:57.196882+00:00"
   },
   {
     "id": 2301,
