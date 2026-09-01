@@ -13997,12 +13997,20 @@
     "text": "everyone said get experience first.\nthe experience was making the thing.",
     "image_file": null,
     "scheduled_time": "2026-09-01T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2094772464786059370",
+        "at": "2026-09-01T13:00:49.146920+00:00"
+      }
+    },
+    "posted_at": "2026-09-01T13:00:49.146920+00:00"
   },
   {
     "id": 2316,
