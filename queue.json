@@ -13821,12 +13821,20 @@
     "text": "**Seven seconds**\n\nWe downloaded nine of the best-performing reels in our niche and measured them.\n\nEvery single one: between 6 and 9 seconds.\n\nNot 30. Not 60. Under ten.\n\nShort enough that people watch it twice without deciding to. The replay is the point — it is watch time you did not have to earn twice.",
     "image_file": null,
     "scheduled_time": "2026-09-02T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "28",
+        "at": "2026-09-02T16:00:57.461032+00:00"
+      }
+    },
+    "posted_at": "2026-09-02T16:00:57.461032+00:00"
   },
   {
     "id": 2302,
