@@ -14073,12 +14073,20 @@
     "text": "i don't have a laptop.\nthat stopped being a reason about six months ago.",
     "image_file": null,
     "scheduled_time": "2026-09-02T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2095255658958332028",
+        "at": "2026-09-02T21:00:51.505741+00:00"
+      }
+    },
+    "posted_at": "2026-09-02T21:00:51.505741+00:00"
   },
   {
     "id": 2319,
