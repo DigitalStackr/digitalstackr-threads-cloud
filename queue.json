@@ -14045,12 +14045,20 @@
     "text": "\"you're too young for this.\"\nnobody who bought it asked my age.",
     "image_file": null,
     "scheduled_time": "2026-09-02T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2095134879365447983",
+        "at": "2026-09-02T13:00:55.512912+00:00"
+      }
+    },
+    "posted_at": "2026-09-02T13:00:55.512912+00:00"
   },
   {
     "id": 2318,
