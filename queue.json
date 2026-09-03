@@ -14121,12 +14121,20 @@
     "text": "the plan was never to look impressive.\nit was to still be here in a year.",
     "image_file": null,
     "scheduled_time": "2026-09-03T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2095618052499091508",
+        "at": "2026-09-03T21:00:52.970349+00:00"
+      }
+    },
+    "posted_at": "2026-09-03T21:00:52.970349+00:00"
   },
   {
     "id": 2321,
