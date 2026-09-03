@@ -13841,12 +13841,20 @@
     "text": "**The text does not move**\n\nSame nine reels. We expected animated captions appearing line by line.\n\nNot one of them does it. The full block of text is on screen from the first frame to the last, completely still. The only thing moving is the camera drifting slowly across a desk.\n\nWe had built the opposite: animated text over a static shot.\n\nWhen you copy a format, measure it. Do not infer it from a screenshot.",
     "image_file": null,
     "scheduled_time": "2026-09-03T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "29",
+        "at": "2026-09-03T16:00:54.364850+00:00"
+      }
+    },
+    "posted_at": "2026-09-03T16:00:54.364850+00:00"
   },
   {
     "id": 2303,
