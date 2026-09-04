@@ -13868,12 +13868,20 @@
     "text": "**Name what they are doing right now**\n\nThe single biggest reel we studied — 40% bigger than anything else — opens by describing what the viewer is doing at that exact second: scrolling.\n\nThen it offers a swap. Do this instead, tonight.\n\nIt beat every angry \"here is what everyone gets wrong\" opener by more than four times.\n\nAttacking a thing gets attention. Naming the thing they are already doing gets more.",
     "image_file": null,
     "scheduled_time": "2026-09-04T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "30",
+        "at": "2026-09-04T16:00:51.655634+00:00"
+      }
+    },
+    "posted_at": "2026-09-04T16:00:51.655634+00:00"
   },
   {
     "id": 2304,
