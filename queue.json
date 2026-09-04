@@ -14176,12 +14176,20 @@
     "text": "built the whole thing on a phone in the gaps between other things.",
     "image_file": null,
     "scheduled_time": "2026-09-04T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2095980428217721107",
+        "at": "2026-09-04T21:00:50.058117+00:00"
+      }
+    },
+    "posted_at": "2026-09-04T21:00:50.058117+00:00"
   },
   {
     "id": 2323,
