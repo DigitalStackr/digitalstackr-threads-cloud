@@ -14148,12 +14148,20 @@
     "text": "you don't need a camera.\nyou don't need a studio.\nyou need one file worth paying for.",
     "image_file": null,
     "scheduled_time": "2026-09-04T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2095859660876300507",
+        "at": "2026-09-04T13:00:56.864780+00:00"
+      }
+    },
+    "posted_at": "2026-09-04T13:00:56.864780+00:00"
   },
   {
     "id": 2322,
