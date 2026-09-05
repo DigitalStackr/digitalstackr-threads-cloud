@@ -14196,12 +14196,20 @@
     "text": "people wait for the right setup.\nthe right setup is the one you already own.",
     "image_file": null,
     "scheduled_time": "2026-09-05T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2096222020128137245",
+        "at": "2026-09-05T13:00:49.865812+00:00"
+      }
+    },
+    "posted_at": "2026-09-05T13:00:49.865812+00:00"
   },
   {
     "id": 2324,
