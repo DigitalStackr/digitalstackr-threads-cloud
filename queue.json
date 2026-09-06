@@ -14236,12 +14236,20 @@
     "text": "the equipment was never the bottleneck.\nfinishing was.",
     "image_file": null,
     "scheduled_time": "2026-09-06T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2096584419356151940",
+        "at": "2026-09-06T13:00:52.647930+00:00"
+      }
+    },
+    "posted_at": "2026-09-06T13:00:52.647930+00:00"
   },
   {
     "id": 2326,
