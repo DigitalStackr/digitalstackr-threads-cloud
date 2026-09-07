@@ -14304,12 +14304,20 @@
     "text": "you're not the product. the outcome is.",
     "image_file": null,
     "scheduled_time": "2026-09-07T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2097067629647167639",
+        "at": "2026-09-07T21:00:58.958879+00:00"
+      }
+    },
+    "posted_at": "2026-09-07T21:00:58.958879+00:00"
   },
   {
     "id": 2329,
