@@ -13888,12 +13888,20 @@
     "text": "**Do the multiplication**\n\nWe published four posts saying that selling something a hundred times at twenty-seven dollars makes four thousand a month.\n\nIt makes two thousand seven hundred.\n\nAnyone with a calculator catches that in three seconds, and in a space where people are already braced to be lied to, one wrong sum costs far more than the claim ever gained.\n\nIf your maths is doing the persuading, check your maths.",
     "image_file": null,
     "scheduled_time": "2026-09-07T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "31",
+        "at": "2026-09-07T16:00:59.484453+00:00"
+      }
+    },
+    "posted_at": "2026-09-07T16:00:59.484453+00:00"
   },
   {
     "id": 2305,
