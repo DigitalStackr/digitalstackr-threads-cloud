@@ -14352,12 +14352,20 @@
     "text": "the first sale isn't a money event.\nit's an information event.\nbefore it, everything is theory.",
     "image_file": null,
     "scheduled_time": "2026-09-08T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2097429984176460136",
+        "at": "2026-09-08T21:00:51.149533+00:00"
+      }
+    },
+    "posted_at": "2026-09-08T21:00:51.149533+00:00"
   },
   {
     "id": 2331,
