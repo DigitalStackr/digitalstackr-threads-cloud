@@ -14324,12 +14324,20 @@
     "text": "i've never been on camera once.\nnot a single buyer has asked.",
     "image_file": null,
     "scheduled_time": "2026-09-08T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2097309222039904682",
+        "at": "2026-09-08T13:00:59.132679+00:00"
+      }
+    },
+    "posted_at": "2026-09-08T13:00:59.132679+00:00"
   },
   {
     "id": 2330,
