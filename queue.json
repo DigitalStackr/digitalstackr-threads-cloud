@@ -13908,12 +13908,20 @@
     "text": "**Free things are not lost revenue, part two**\n\nWe looked properly at what happens to people who take the free download.\n\nA small number of them come back later and pay. Not most. Not even close to most. But enough that it accounts for roughly a fifth of everything the business has ever earned.\n\nAnd that happened with **zero follow-up**. Nobody was ever emailed.\n\nThe free thing works better than we thought and we were doing the laziest possible version of it.",
     "image_file": null,
     "scheduled_time": "2026-09-08T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "32",
+        "at": "2026-09-08T16:00:52.828083+00:00"
+      }
+    },
+    "posted_at": "2026-09-08T16:00:52.828083+00:00"
   },
   {
     "id": 2306,
