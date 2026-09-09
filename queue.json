@@ -14372,12 +14372,20 @@
     "text": "someone i've never met paid me while i was asleep.\nstill haven't got used to it.",
     "image_file": null,
     "scheduled_time": "2026-09-09T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2097671597914001620",
+        "at": "2026-09-09T13:00:56.099855+00:00"
+      }
+    },
+    "posted_at": "2026-09-09T13:00:56.099855+00:00"
   },
   {
     "id": 2332,
