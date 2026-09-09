@@ -13928,12 +13928,20 @@
     "text": "**One variable**\n\nWhen something stops working the temptation is to change everything at once.\n\nWe changed the writing, the posting times, the volume, the images and the rules, all in the same fortnight. Then reach moved.\n\nWe had no idea which one did it. Possibly none of them.\n\nChange one thing. Wait longer than feels comfortable. Keep something unchanged to compare against, or you are not running a test, you are just busy.",
     "image_file": null,
     "scheduled_time": "2026-09-09T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "33",
+        "at": "2026-09-09T16:00:54.093251+00:00"
+      }
+    },
+    "posted_at": "2026-09-09T16:00:54.093251+00:00"
   },
   {
     "id": 2307,
