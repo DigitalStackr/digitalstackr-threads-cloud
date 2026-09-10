@@ -14448,12 +14448,20 @@
     "text": "screenshotted the first sale like it was a lottery ticket. still have it.",
     "image_file": null,
     "scheduled_time": "2026-09-10T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2098154768925343780",
+        "at": "2026-09-10T21:00:53.053392+00:00"
+      }
+    },
+    "posted_at": "2026-09-10T21:00:53.053392+00:00"
   },
   {
     "id": 2335,
