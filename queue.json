@@ -14420,12 +14420,20 @@
     "text": "the notification came in during a lecture.\ni couldn't even look at it.",
     "image_file": null,
     "scheduled_time": "2026-09-10T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2098033986752630867",
+        "at": "2026-09-10T13:00:56.505453+00:00"
+      }
+    },
+    "posted_at": "2026-09-10T13:00:56.505453+00:00"
   },
   {
     "id": 2334,
