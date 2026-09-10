@@ -13948,12 +13948,20 @@
     "text": "**Comments, not likes**\n\nOn short video, a like is close to worthless as a signal.\n\nWhat actually moves reach is somebody sending it to a friend, and somebody bothering to type a reply. Those are the expensive actions, so they are the ones that count.\n\nWhich changes what you make. \"Who would somebody send this to\" is a better question than \"will people like this\".",
     "image_file": null,
     "scheduled_time": "2026-09-10T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "34",
+        "at": "2026-09-10T16:00:51.974019+00:00"
+      }
+    },
+    "posted_at": "2026-09-10T16:00:51.974019+00:00"
   },
   {
     "id": 2308,
