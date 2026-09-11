@@ -14468,12 +14468,20 @@
     "text": "\"nobody buys PDFs anymore.\"\npeople bought mine this week.",
     "image_file": null,
     "scheduled_time": "2026-09-11T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2098396378166935660",
+        "at": "2026-09-11T13:00:57.383514+00:00"
+      }
+    },
+    "posted_at": "2026-09-11T13:00:57.383514+00:00"
   },
   {
     "id": 2336,
