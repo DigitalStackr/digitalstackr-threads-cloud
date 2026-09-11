@@ -14496,12 +14496,20 @@
     "text": "\"digital products are saturated.\"\nso is coffee. people still open cafes.",
     "image_file": null,
     "scheduled_time": "2026-09-11T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2098517149283242148",
+        "at": "2026-09-11T21:00:51.403926+00:00"
+      }
+    },
+    "posted_at": "2026-09-11T21:00:51.403926+00:00"
   },
   {
     "id": 2337,
