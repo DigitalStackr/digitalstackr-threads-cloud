@@ -14536,12 +14536,20 @@
     "text": "\"threads doesn't work for selling.\"\nit's the only place i've ever sold anything.",
     "image_file": null,
     "scheduled_time": "2026-09-12T23:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2098879555952116172",
+        "at": "2026-09-12T21:00:55.993871+00:00"
+      }
+    },
+    "posted_at": "2026-09-12T21:00:55.993871+00:00"
   },
   {
     "id": 2339,
