@@ -14516,12 +14516,20 @@
     "text": "\"you need a big following.\"\nmost of my buyers never followed me.",
     "image_file": null,
     "scheduled_time": "2026-09-12T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2098758761997373865",
+        "at": "2026-09-12T13:00:56.430366+00:00"
+      }
+    },
+    "posted_at": "2026-09-12T13:00:56.430366+00:00"
   },
   {
     "id": 2338,
