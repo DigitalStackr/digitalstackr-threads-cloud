@@ -14556,12 +14556,20 @@
     "text": "\"doing it from your phone isn't serious.\"\nthe payment notification lands on that phone.",
     "image_file": null,
     "scheduled_time": "2026-09-13T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2099121131445793107",
+        "at": "2026-09-13T13:00:52.045119+00:00"
+      }
+    },
+    "posted_at": "2026-09-13T13:00:52.045119+00:00"
   },
   {
     "id": 2340,
