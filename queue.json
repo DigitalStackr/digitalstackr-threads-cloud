@@ -13988,12 +13988,20 @@
     "text": "**Two accounts, one mistake**\n\nWe posted the same video to two of our own accounts on the same day.\n\nShort video platforms match on the audio, and posting identical audio across accounts you own can get a profile filed as a duplicate.\n\nOne of ours does ten times the views of the other on the same phone with the same content.\n\nIf you run more than one account, they need genuinely different uploads, not the same file twice.",
     "image_file": null,
     "scheduled_time": "2026-09-14T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "36",
+        "at": "2026-09-14T16:00:53.318346+00:00"
+      }
+    },
+    "posted_at": "2026-09-14T16:00:53.318346+00:00"
   },
   {
     "id": 2310,
