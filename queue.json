@@ -14596,12 +14596,20 @@
     "text": "month one: nothing.\nmonth two: nothing.\nmonth three: one sale.\nthat's the real timeline.",
     "image_file": null,
     "scheduled_time": "2026-09-14T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2099483538970083565",
+        "at": "2026-09-14T13:00:56.744734+00:00"
+      }
+    },
+    "posted_at": "2026-09-14T13:00:56.744734+00:00"
   },
   {
     "id": 2342,
