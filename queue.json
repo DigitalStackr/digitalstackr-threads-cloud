@@ -14008,12 +14008,20 @@
     "text": "**Open the file**\n\nWe had a folder of screenshots nobody was allowed to use, because nobody had checked what was in them.\n\nThirteen of them. Sitting unusable for months because opening them was a job nobody did.\n\nWe opened them in twenty minutes. Rotation went from thin to wide, and the repetitive feed problem solved itself.\n\nSome bottlenecks are not hard. They are just boring, so they never get done.",
     "image_file": null,
     "scheduled_time": "2026-09-15T18:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "telegram"
       }
-    ]
+    ],
+    "results": {
+      "telegram": {
+        "status": "posted",
+        "id": "37",
+        "at": "2026-09-15T16:00:57.145485+00:00"
+      }
+    },
+    "posted_at": "2026-09-15T16:00:57.145485+00:00"
   },
   {
     "id": 2311,
