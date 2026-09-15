@@ -14644,12 +14644,20 @@
     "text": "i posted for weeks with nobody replying.\nthat part is not in anyone's highlight reel.",
     "image_file": null,
     "scheduled_time": "2026-09-15T15:00:00+02:00",
-    "status": "pending",
+    "status": "posted",
     "targets": [
       {
         "platform": "x"
       }
-    ]
+    ],
+    "results": {
+      "x": {
+        "status": "posted",
+        "id": "2099845926537818503",
+        "at": "2026-09-15T13:00:56.602544+00:00"
+      }
+    },
+    "posted_at": "2026-09-15T13:00:56.602544+00:00"
   },
   {
     "id": 2344,
